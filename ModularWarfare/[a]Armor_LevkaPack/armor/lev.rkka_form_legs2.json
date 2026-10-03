@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.rkka_form_legs2",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "legs": 
+        {
+            "displayName": "rkka_form_legs2"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.rkka_form_2",
+        "displayName": "rkka_form_2"
+      }
+    ]
+}

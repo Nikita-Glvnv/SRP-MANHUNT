@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.rkka_form",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "chest": 
+        {
+            "displayName": "rkka_form_chest"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.rkka_form",
+        "displayName": "rkka_form"
+      }
+    ]
+}

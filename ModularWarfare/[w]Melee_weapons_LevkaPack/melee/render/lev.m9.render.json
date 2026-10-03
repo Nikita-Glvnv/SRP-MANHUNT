@@ -1,0 +1,129 @@
+{
+  "modelFileName": "lev.m9.glb",
+  "meleeAnimations": {
+    "default": [
+      {
+        "startTime": 0,
+        "endTime": 0,
+        "speed": 0.01
+      }
+    ],
+    "draw": [
+      {
+        "startTime": 6,
+        "endTime": 30,
+        "speed": 0.03
+      }
+    ],
+    "inspect": [
+      {
+        "startTime": 100,
+        "endTime": 199,
+        "speed": 0.03
+      }
+    ],
+    "preattack": [
+      {
+        "startTime": 30,
+        "endTime": 36,
+        "speed": 0.045
+      }
+    ],
+    "attack": [
+      {
+        "startTime": 36,
+        "endTime": 40,
+        "speed": 0.08
+      }
+    ],
+    "attacksecond": [
+      {
+        "startTime": 40,
+        "endTime": 47,
+        "speed": 0.045
+      }
+    ],
+    "postattack": [
+      {
+        "startTime": 47,
+        "endTime": 57,
+        "speed": 0.045
+      }
+    ],
+    "attackbounced": [
+      {
+        "startTime": 36,
+        "endTime": 57,
+        "speed": 0.045
+      }
+    ],
+    "preheavyattack": [
+      {
+        "startTime": 60,
+        "endTime": 67,
+        "speed": 0.03
+      }
+    ],
+    "heavyattack": [
+      {
+        "startTime": 67,
+        "endTime": 67,
+        "speed": 1.04
+      }
+    ],
+    "heavyattacksecond": [
+      {
+        "startTime": 67,
+        "endTime": 87,
+        "speed": 0.05
+      }
+    ],
+    "postheavyattack": [
+      {
+        "startTime": 87,
+        "endTime": 97,
+        "speed": 0.02
+      }
+    ],
+    "heavyattackbounced": [
+      {
+        "startTime": 67,
+        "endTime": 97,
+        "speed": 0.045
+      }
+    ]
+  },
+  "global": {
+    "globalTranslate": {
+      "x": -2.0,
+      "y": -0.2,
+      "z": 7.0
+    },
+    "globalScale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "globalRotate": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "showHandArmorType": "static",
+  "extra": {
+    "thirdPersonRender3D": false,
+    "thirdPersonRotation": {
+      "x": 70,
+      "y": 0,
+      "z": 30
+    },
+    "thirdPersonOffset": {
+      "x": -8.5,
+      "y": 11.0,
+      "z": -2.0
+    },
+	"thirdPersonScale": 1.4,
+    "bobbingFactor": 0.2
+  }
+}

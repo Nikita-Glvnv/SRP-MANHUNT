@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock MP-133 Wood",
+  "internalName": "lev.mp133stock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mp133stock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.82,
+    "recoilYawFactor": 0.62,
+	"aimSpeedFactor": 1.2
+  }
+}

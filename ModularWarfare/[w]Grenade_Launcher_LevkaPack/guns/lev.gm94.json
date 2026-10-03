@@ -1,0 +1,139 @@
+{
+    "internalName": "lev.gm94",
+    "displayName": "GM-94",
+    "weaponType": "launcher",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.rgm.flash",
+	
+	"numBullets": 1,
+    "internalAmmoStorage": 4,
+    "gunDamage": 10,
+    "gunDamageHeadshotBonus": 3,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 60,
+	"gunHoldLength": 1.0,
+	
+    "bulletSpread": 4,
+
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	"viewKickPitchScale": 0.30,
+	"viewKickYawScale": 0.15,
+    "recoilPitch": 20.0,
+    "recoilYaw": 300.0,
+
+    "accuracySneakFactor": 1.0,
+    "accuracyCrawlFactor": 1.0,
+    "accuracyAimFactor": 0.05,
+    "recoilCrawlYawFactor": 0.9,
+    "recoilCrawlPitchFactor": 0.6,
+	"allowSprintFiring": false,
+	"allowReloadFiring": true,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.95,
+	
+    "fireModes": [
+        "semi"
+    ],
+    "acceptedBullets": [
+        "lev.vgm93100",
+        "lev.vgm93900"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.gm94shoot",
+                "soundNameDistant": "lev.gm94shootfar",
+                "soundRange": 10,
+                "soundMaxRange": 80,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponDraw": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.gm94unload"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.pistoldry"
+            }
+        ],
+		"inspect": [
+            {
+                "soundEvent": "inspect",
+                "soundName": "lev.inspect"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.gm94prerel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.gm94load"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.gm94postrel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.gm94prerelempty"
+			}
+		]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "lev.gm94",
+            "skinAsset": "lev.gm94",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

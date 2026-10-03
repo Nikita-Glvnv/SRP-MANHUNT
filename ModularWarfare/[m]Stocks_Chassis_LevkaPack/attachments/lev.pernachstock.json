@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock OTs-33",
+  "internalName": "lev.pernachstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pernachstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.90,
+    "recoilYawFactor": 0.85,
+	"aimSpeedFactor": 1.2
+  }
+}

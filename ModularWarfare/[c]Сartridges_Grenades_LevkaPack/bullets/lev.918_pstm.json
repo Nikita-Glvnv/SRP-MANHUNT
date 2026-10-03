@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.918_pstm",
+  "maxStackSize": 60,
+  "bulletDamageFactor": 4.3,
+  "bulletAccuracyFactor": 0.8,
+  "displayName": "9x18 PMM PstM",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail1.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.918_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "unluck",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor PB 9x18",
+  "internalName": "lev.pbsup",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pbsup",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.95,
+    "accuracyFactor": 0.87
+  }
+}

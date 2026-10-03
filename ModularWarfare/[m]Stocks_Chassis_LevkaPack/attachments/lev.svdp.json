@@ -1,0 +1,17 @@
+{
+  "displayName": "SVD Plastic",
+  "internalName": "lev.svdp",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.svdp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.98,
+    "recoilYawFactor": 0.97,
+	"aimSpeedFactor": 0.8
+  }
+}

@@ -1,0 +1,26 @@
+{
+  "internalName": "lev.79257",
+  "maxStackSize": 50,
+  "bulletDamageFactor": 7.7,
+  "bulletPenetrateFactor": 1.5,
+  "bulletBlockPenetrateFactor": 3,
+  "displayName": "7.92x57 s.S",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail1.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.79257_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "unluck",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

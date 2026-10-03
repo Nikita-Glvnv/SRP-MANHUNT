@@ -1,0 +1,21 @@
+{
+  "modelFileName": "lev.binlen.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoomMin": 3.0,
+    "fovZoomMax": 10.0,
+    "mouseSensitivityFactor": 0.33,
+	"rectileScale": 3.0,
+	
+	"maskTexture": "lev.bin",
+	"maskSize": 3.0,
+	"uniformMaskRange": 0.3,
+	"uniformDrawRange": 3.353125,
+	"uniformStrength": 2.0,
+	"uniformScaleRangeY": 2.0,
+	"uniformScaleStrengthY": 2.0,
+	"uniformVerticality": 0.0
+  }
+}

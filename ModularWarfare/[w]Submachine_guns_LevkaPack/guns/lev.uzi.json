@@ -1,0 +1,180 @@
+{
+    "internalName": "lev.uzi",
+    "displayName": "IMI UZI",
+    "weaponType": "carbine",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+    "gunDamage": 1.0,
+    "gunDamageHeadshotBonus": 0.6,
+	"gunPenetrateSize": 1.0,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 600,
+	"gunHoldLength": 1.0,
+	
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	
+    "recoilPitch": 2.4,
+    "recoilYaw": 175,
+    "randomRecoilPitch": 0.02,
+    "randomRecoilYaw": 0.03,
+    "antiRecoilFactor": 10.0,
+    "antiRecoilStartTime": 30,
+    "bulletSpread": 2.0,
+    "accuracySneakFactor": 0.9,
+	"accuracyAimFactor": 0.3,
+    "weaponMaxRange": 120,
+    "weaponEffectiveRange": 45,
+	"allowSprintFiring": true,
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 1,
+	
+    "fireModes": [
+        "full",
+		"semi"
+    ],
+    "acceptedAmmo": [
+        "lev.uzimag32"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.mp5shoot",
+                "soundNameDistant": "lev.glockshootfar",
+                "soundRange": 40,
+                "soundMaxRange": 90,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.glockshootsup",
+                "soundRange": 20,
+                "soundMaxRange": 35,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponDraw": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.uziunload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.uziload"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.pistoldry"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"inspect": [
+            {
+                "soundEvent": "inspect",
+                "soundName": "lev.uziinspect"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.uziprerel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.uziprerel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.uzifullrel"
+			}
+		]
+    },
+    "acceptedAttachments": {
+        "barrel": [
+		"lev.uzisup",
+		"lev.ospreysup",
+		"lev.lwdfh"
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "lev.uzi",
+            "skinAsset": "lev.uzi",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.ryst",
+    "defense": "0.47",
+    "durability": 600,
+    "armorTypes": 
+    {
+        "head": 
+        {
+            "displayName": "Rys-T"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.ryst",
+        "displayName": "Rys-T"
+      }
+    ]
+}

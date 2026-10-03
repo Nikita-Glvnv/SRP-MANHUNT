@@ -1,0 +1,9 @@
+{
+  "modelFileName": "lev.rpk16comp.obj",
+  "extra": {
+    "modelScale": 1
+  },
+  "barrel": {
+    "hideMuzzleFlash": true
+  }
+}

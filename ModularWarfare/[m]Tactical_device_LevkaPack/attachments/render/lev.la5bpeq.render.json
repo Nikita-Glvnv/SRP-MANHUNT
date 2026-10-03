@@ -1,0 +1,12 @@
+{
+  "modelFileName": "lev.la5bpeq.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "laser": {
+    "laserColor": [2.0, 0.0, 0.0],
+    "laserAlhpa": 1.0,
+    "maxDistance": 70.0,
+    "dotSize": 6.0
+  }
+}

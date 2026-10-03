@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock Zenit PT-1 AK",
+  "internalName": "lev.pt1stock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pt1stock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.78,
+    "recoilYawFactor": 0.59,
+	"aimSpeedFactor": 1.3
+  }
+}

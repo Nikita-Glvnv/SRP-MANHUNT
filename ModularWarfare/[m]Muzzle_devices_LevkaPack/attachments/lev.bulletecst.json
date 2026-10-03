@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake Bulletec ST-6012 5.45/5.56",
+  "internalName": "lev.bulletecst",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.bulletecst",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.81,
+    "recoilYawFactor": 0.90,
+    "accuracyFactor": 0.94
+  }
+}

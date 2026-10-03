@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake Lantac Dragon 5.56x45/7.62x39/7.62x51",
+  "internalName": "lev.lantacdragon",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.lantacbmd",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.81,
+    "recoilYawFactor": 0.90,
+    "accuracyFactor": 0.94
+  }
+}

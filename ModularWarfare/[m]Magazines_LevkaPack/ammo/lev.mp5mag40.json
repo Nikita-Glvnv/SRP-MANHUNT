@@ -1,0 +1,18 @@
+{
+    "internalName": "lev.mp5mag40",
+    "displayName": "9x19 AC-UNITY 40rd.",
+    "ammoCapacity": 40,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.919",
+        "lev.919_gt",
+        "lev.919_pst",
+        "lev.919_ap",
+        "lev.919_rip"
+    ],
+	  "maxStackSize": 3,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

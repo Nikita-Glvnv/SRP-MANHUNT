@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope Monstrum Tactical Compact Prism Scope 2x32",
+  "internalName": "lev.mtprism",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mtprism",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.94
+  }
+}

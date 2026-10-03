@@ -1,0 +1,15 @@
+{
+  "displayName": "Grip HK Sturmgriff",
+  "internalName": "lev.sturmgriff",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sturmgriff",
+      "displayName": "Default"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.71
+  }
+}

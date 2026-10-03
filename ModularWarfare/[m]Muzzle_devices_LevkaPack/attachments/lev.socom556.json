@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor SureFire SOCOM556-MONSTER 5.56x45",
+  "internalName": "lev.socom556",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.socom556",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.97,
+    "accuracyFactor": 0.86
+  }
+}

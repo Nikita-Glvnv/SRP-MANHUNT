@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock Zenit PT-2 Classic PK",
+  "internalName": "lev.pt2classicstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pt2classicstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.78,
+    "recoilYawFactor": 0.59,
+	"aimSpeedFactor": 1.3
+  }
+}

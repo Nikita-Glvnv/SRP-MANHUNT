@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope DEDAL-NV DS 3-12x50MCT",
+  "internalName": "lev.dedal3x12",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.dedal3x12",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.90
+  }
+}

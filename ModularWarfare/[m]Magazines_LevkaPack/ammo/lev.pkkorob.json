@@ -1,0 +1,16 @@
+{
+    "internalName": "lev.pkkorob",
+    "displayName": "7.62x54R PK box 100rd.",
+    "ammoCapacity": 100,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.76254",
+        "lev.76254_t46m",
+        "lev.76254_ps",
+        "lev.76254_b32",
+        "lev.76254_bt",
+        "lev.76254_snb"
+    ],
+	  "maxStackSize": 1,
+    "allowEmptyMagazines": true
+}

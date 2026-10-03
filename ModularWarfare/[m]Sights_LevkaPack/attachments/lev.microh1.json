@@ -1,0 +1,17 @@
+{
+  "displayName": "Reflex sight Aimpoint Micro H-1",
+  "internalName": "lev.microh1",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.microh1",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 1.0
+  }
+}

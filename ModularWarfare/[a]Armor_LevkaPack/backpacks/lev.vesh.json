@@ -1,0 +1,9 @@
+{
+  "displayName": "vesh",
+  "internalName": "lev.vesh",
+  "skinName": "lev.vesh",
+  "size": 8,
+
+  "allowSmallerBackpackStorage": false,
+  "maxWeaponStorage": 3
+}

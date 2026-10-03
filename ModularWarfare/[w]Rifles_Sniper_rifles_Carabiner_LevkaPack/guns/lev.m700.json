@@ -1,0 +1,221 @@
+{
+    "internalName": "lev.m700",
+    "displayName": "M700",
+    "weaponType": "boltsniper",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+    "gunDamage": 1.5,
+    "gunDamageHeadshotBonus": 0.5,
+    "gunPenetrateSize": 1.0,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 50,
+	"gunHoldLength": 1.5,
+
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	"viewKickPitchScale": 0.1,
+	"viewKickYawScale": 0.1,
+	
+    "recoilPitch": 14.0,
+    "recoilYaw": 370,
+    "randomRecoilPitch": 0.02,
+    "randomRecoilYaw": 0.04,
+    "bulletSpread": 4.3,
+    "accuracySneakFactor": 0.5,
+	"accuracyAimFactor": 0.05,
+	"recoilCrawlYawFactor": 0.8,
+    "recoilCrawlPitchFactor": 0.3,
+    "weaponMaxRange": 560,
+    "weaponEffectiveRange": 460,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.93,
+	
+    "fireModes": [
+		"semi"
+    ],
+    "acceptedAmmo": [
+        "lev.m700mag5",
+        "lev.m700mag10"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": 0,
+        "y": -20,
+        "z": -20
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+     "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.m700fire",
+                "soundNameDistant": "lev.sv98firefar",
+                "soundRange": 90,
+                "soundMaxRange": 180,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.m700supshoot",
+                "soundRange": 100,
+                "soundMaxRange": 100,
+                "soundFadeMultiplier": 1
+                 }
+		 ],
+    "weaponBolt": [
+      {
+        "soundEvent": "weaponBolt",
+        "soundName": "lev.m700bolt"
+      }
+    ],
+
+		"weaponDraw": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.m700unload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+],
+		"inspect": [
+			{
+				"soundEvent": "inspect",
+				"soundName": "lev.inspect"
+			}
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.m700load"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.dryfire"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.m700prerel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.m700fullrel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.m700bolt2"
+			}
+		]
+    },
+    "acceptedAttachments": {
+        "barrel": [
+		"lev.supkac76251",
+		"lev.ak308comp",
+		"lev.lantacdragon",
+		"lev.sa583p",
+		"lev.lantacbmd",
+		"lev.hk417comp",
+		"lev.scarhcomp",
+		"lev.kacfsar10",
+		"lev.falfh",
+		"lev.svbrake"
+        ],
+        "sight": [
+	     "lev.barska",
+		 "lev.deltapoint",
+	     "lev.okp",
+	     "lev.microh1",
+	     "lev.microh2",
+	     "lev.eotech",
+		 "lev.trijiconrmr",
+		 "lev.mtprism",
+		 "lev.valday",
+	     "lev.elcan",
+		 "lev.elcanb",
+		 "lev.vudu",
+		 "lev.nightforce",
+		 "lev.sbrpm",
+		 "lev.sbrpm_fde",
+		 "lev.dedal3x12"
+        ],
+        "stock": [
+		"lev.m700ataics",
+		"lev.m700promagarch",
+		"lev.m700promagarchfde"
+        ]
+    },
+  "defaultAttachments": {
+  },
+    "modelSkins": [
+        {
+            "internalName": "lev.m700",
+            "skinAsset": "lev.m700",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

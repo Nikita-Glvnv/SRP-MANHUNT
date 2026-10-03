@@ -1,0 +1,26 @@
+{
+  "internalName": "lev.12g_flechette",
+  "maxStackSize": 40,
+  "bulletDamageFactor": 1.3,
+  "bulletAccuracyFactor": 1.3,
+  "displayName": "12/70 Flechette",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail1.obj",
+  "trailGlow": true,
+  "shellSound": "casing_gauge",
+  "shellModelFileName": "lev.12g_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "wither",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

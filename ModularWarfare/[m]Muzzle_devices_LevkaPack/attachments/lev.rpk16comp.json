@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake RPK-16 5.45x39",
+  "internalName": "lev.rpk16comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.rpk16comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.86,
+    "accuracyFactor": 0.90
+  }
+}

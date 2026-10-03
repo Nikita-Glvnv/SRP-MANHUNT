@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.pg7vr",
+  "maxStackSize": 1,
+  "displayName": "55/105mm PG-7VR",
+  "renderBulletModel": true,
+  "projectileVelocity": 5,
+  "impactDamage": 52,
+  "explosionDamage": 45,
+  "explosionRange": 22,
+  "gravity": -0.017,
+  "explosionThroughWalls": true,
+  "isSmoke": true,
+  "isExplosion": true,
+  "damageWorld": false,
+  "isDynamicBullet": true,
+  "sameTextureAsGun": false,
+  "modelSkins": [
+        {
+            "internalName": "lev.pg7vr",
+            "skinAsset": "lev.pg7vr",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "displayName": "DTK Kosoy",
+  "internalName": "lev.kos",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.kos",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.86,
+    "recoilYawFactor": 0.95,
+    "accuracyFactor": 0.97
+  }
+}

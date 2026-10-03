@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock CMMG RipStock",
+  "internalName": "lev.ripstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ripstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.88,
+    "recoilYawFactor": 0.70,
+	"aimSpeedFactor": 1.6
+  }
+}

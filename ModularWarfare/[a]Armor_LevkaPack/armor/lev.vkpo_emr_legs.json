@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.vkpo_emr_legs",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "legs": 
+        {
+            "displayName": "vkpo_emr_legs"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.vkpo_emr",
+        "displayName": "vkpo_emr"
+      }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "displayName": "Flashhider KAC QDC Flash Supressor Kit 7.62x51",
+  "internalName": "lev.kacfsar10",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.kacfsar10",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.82,
+    "accuracyFactor": 0.93
+  }
+}

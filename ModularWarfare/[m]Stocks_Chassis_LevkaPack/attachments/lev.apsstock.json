@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock-Holster APS",
+  "internalName": "lev.apsstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.apsstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.90,
+    "recoilYawFactor": 0.85,
+	"aimSpeedFactor": 1.1
+  }
+}

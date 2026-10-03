@@ -1,0 +1,15 @@
+{
+    "internalName": "lev.uzimag32",
+    "displayName": "9x19 UZI 32rd.",
+    "ammoCapacity": 32,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.919",
+        "lev.919_gt",
+        "lev.919_pst",
+        "lev.919_ap",
+        "lev.919_rip"
+    ],
+	  "maxStackSize": 4,
+    "allowEmptyMagazines": true
+}

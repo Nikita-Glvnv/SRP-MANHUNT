@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle device SV-98 7.62x54R",
+  "internalName": "lev.sv98comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sv98comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.86,
+    "accuracyFactor": 0.90
+  }
+}

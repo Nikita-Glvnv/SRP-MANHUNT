@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock RPK-74",
+  "internalName": "lev.rpk74stock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.rpk74stock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.60,
+	"aimSpeedFactor": 1.3
+  }
+}

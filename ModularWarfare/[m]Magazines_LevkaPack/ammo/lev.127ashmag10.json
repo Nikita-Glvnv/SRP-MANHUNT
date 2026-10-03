@@ -1,0 +1,13 @@
+{
+    "internalName": "lev.127ashmag10",
+    "displayName": "12.7x55 ASh-12 10rd.",
+    "ammoCapacity": 10,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.12755",
+		"lev.12755_a",
+		"lev.12755_b"
+    ],
+	  "maxStackSize": 2,
+    "allowEmptyMagazines": true
+}

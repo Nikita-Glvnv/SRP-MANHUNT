@@ -29,7 +29,6 @@ srpextra:stung
 srpextra:confused
 tetra:bleeding
 tetra:earthbound
-modularwarfare:stun
 bettercombat:aetherealized
 bettercombat:precision
 bettercombat:brutality
@@ -62,9 +61,18 @@ srpcotesia:unkindling
 srpcotesia:phasing
 srpcotesia:yielding
 srpcotesia:clotting
+modularwarfare:stun
 srparasites:renaissance
 srparasites:sunken
 srpmixins:hunting
+levkaeffects:bleeding
+levkaeffects:hit
+levkaeffects:fracture
+levkaeffects:heavybleeding
+levkaeffects:freshwound
+levkaeffects:hitstrong
+levkaeffects:treatment
+levkaeffects:fracture_treatment
 xaeroworldmap:no_world_map
 xaeroworldmap:no_world_map_harmful
 xaeroworldmap:no_cave_maps

@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock FN SCAR Black",
+  "internalName": "lev.scarstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.scarstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.60,
+	"aimSpeedFactor": 1.3
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "internalName": "lev.sr2mag",
+    "displayName": "9x21 SR2 30rd.",
+    "ammoCapacity": 30,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.921",
+        "lev.921_ps",
+        "lev.921_7n42"
+    ],
+	  "maxStackSize": 4,
+    "allowEmptyMagazines": true
+}

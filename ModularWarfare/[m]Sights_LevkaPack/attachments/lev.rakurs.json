@@ -1,0 +1,17 @@
+{
+  "displayName": "Reflex sight Rakurs-A1",
+  "internalName": "lev.rakurs",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.rakurs",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.94
+  }
+}

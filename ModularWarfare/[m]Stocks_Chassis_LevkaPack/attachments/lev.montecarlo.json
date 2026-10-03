@@ -1,0 +1,17 @@
+{
+  "displayName": "Chassis ATI Monte Carlo Mosin",
+  "internalName": "lev.montecarlo",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.montecarlo",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.98,
+    "recoilYawFactor": 0.97,
+	"aimSpeedFactor": 0.83
+  }
+}

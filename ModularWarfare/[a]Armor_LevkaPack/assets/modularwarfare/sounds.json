@@ -1,0 +1,2212 @@
+{
+  "lev.pistoldry": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.all/pistoldry1",
+	  "modularwarfare:lev.all/pistoldry3",
+	  "modularwarfare:lev.all/pistoldry2",
+	  "modularwarfare:lev.all/pistoldry4",
+	  "modularwarfare:lev.all/pistoldry5"
+    ]
+  },
+  "lev.pin": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pin"
+    ]
+  },
+  "lev.throw": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.throw"
+    ]
+  },
+  "lev.hlop": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.hlop"
+    ]
+  },
+  "lev.draw_g": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.draw_g"
+    ]
+  },
+  "lev.m4a1shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m4a1/shoot1",
+      "modularwarfare:lev.m4a1/shoot2"
+    ]
+  },
+  "lev.m4a1shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m4a1/shootfar"
+    ]
+  },
+  "lev.m4a1shootsup": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m4a1/supshoot1"
+    ]
+ },
+  "lev.m4a1tacrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m4a1/tacrel"
+    ]
+ },
+  "lev.m4a1fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m4a1/fullrel"
+    ]
+ },
+  "lev.m4a1load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m4a1/load"
+    ]
+ },
+  "lev.m4a1unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m4a1/unload"
+    ]
+ },
+  "lev.fnf2000prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.fnf2000/prerel"
+    ]
+ },
+  "lev.fnf2000fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.fnf2000/fullrel"
+    ]
+ },
+  "lev.fnf2000load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.fnf2000/load"
+    ]
+ },
+  "lev.fnf2000unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.fnf2000/unload"
+    ]
+ },
+  "lev.fnf2000inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.fnf2000/inspect"
+    ]
+ },
+   "lev.sa58shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sa58/shoot1",
+      "modularwarfare:lev.sa58/shoot2"
+    ]
+  },
+   "lev.sa58shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sa58/shootfar"
+    ]
+  },
+  "lev.sa58supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sa58/supshoot1",
+      "modularwarfare:lev.sa58/supshoot2"
+    ]
+ },
+  "lev.sa58tacrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sa58/tacrel"
+    ]
+ },
+  "lev.sa58fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sa58/fullrel"
+    ]
+ },
+  "lev.sa58load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sa58/load"
+    ]
+ },
+  "lev.sa58unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sa58/unload"
+    ]
+ },
+  "lev.ak12inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12/inspect"
+    ]
+},
+  "lev.ak12fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12/fullrel"
+    ]
+},
+  "lev.ak12load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12/load"
+    ]
+},
+  "lev.ak12prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12/tacrel"
+    ]
+},
+  "lev.ak12unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12/unload"
+    ]
+},
+  "lev.ak12mfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12m/fullrel"
+    ]
+},
+  "lev.ak12mload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12m/load"
+    ]
+},
+  "lev.ak12mprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12m/tacrel"
+    ]
+},
+  "lev.ak12munload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12m/unload"
+    ]
+},
+  "lev.ak12shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12/shoot2",
+      "modularwarfare:lev.ak12/shoot2"
+    ]
+},
+  "lev.ak12shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12/shootfar"
+    ]
+},
+  "lev.ak12supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak12/supshoot1",
+      "modularwarfare:lev.ak12/supshoot2"
+    ]
+},
+  "lev.sr1shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr1/fire_1",
+      "modularwarfare:lev.sr1/fire_2"
+    ]
+},
+  "lev.sr1shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr1/firefar"
+    ]
+},
+  "lev.sr1supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr1/firesup_1",
+      "modularwarfare:lev.sr1/firesup_2"
+    ]
+},
+  "lev.sr1draw": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr1/darw"
+    ]
+},
+  "lev.sr1prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr1/prereload"
+    ]
+},
+  "lev.sr1fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr1/fullrel"
+    ]
+},  
+    "lev.sr1load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr1/load"
+    ]
+}, 
+    "lev.sr1unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr1/unload"
+    ]
+},
+  "lev.sr2shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/shoot1",
+      "modularwarfare:lev.sr2/shoot2"
+    ]
+},
+  "lev.sr2supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/supshoot1",
+      "modularwarfare:lev.sr2/supshoot2"
+    ]
+},
+  "lev.sr2draw": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/draw"
+    ]
+},
+  "lev.sr2takedown": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/takedown"
+    ]
+},
+  "lev.sr2prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/prereload"
+    ]
+},
+  "lev.sr2fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/fullrel"
+    ]
+},  
+    "lev.sr2load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/load"
+    ]
+}, 
+    "lev.sr2unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/unload"
+    ]
+},
+    "lev.sr2inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr2/inspect"
+    ]
+},
+    "lev.rgm40load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rgm40/load"
+    ]
+},
+    "lev.rgm40unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rgm40/unload"
+    ]
+},
+    "lev.rgm40shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rgm40/shoot"
+    ]
+},
+    "lev.rgm40draw": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rgm40/draw"
+    ]
+},
+    "lev.rgm40takedown": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rgm40/takedown"
+    ]
+},
+    "lev.m79load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m79/load"
+    ]
+},
+    "lev.m79unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m79/unload"
+    ]
+},
+    "lev.m79shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m79/shoot"
+    ]
+},
+    "lev.m79takedown": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m79/takedown"
+    ]
+},
+    "lev.gm94shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.gm94/shoot"
+    ]
+},
+    "lev.gm94shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.gm94/shootfar"
+    ]
+},
+    "lev.gm94prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.gm94/prerel"
+    ]
+},
+    "lev.gm94prerelempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.gm94/prerelempty"
+    ]
+},
+    "lev.gm94load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.gm94/load"
+    ]
+},
+    "lev.gm94postrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.gm94/postrel"
+    ]
+},
+    "lev.gm94unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.gm94/unload"
+    ]
+},
+  "lev.pmshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pm/fire1",
+      "modularwarfare:lev.pm/fire2"
+    ]
+},
+  "lev.pmshootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pm/firefar"
+    ]
+},
+    "lev.pmprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pm/prerel"
+    ]
+},
+    "lev.pmfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pm/fullrel"
+    ]
+},
+    "lev.pmload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pm/load"
+    ]
+},
+    "lev.pmunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pm/unload"
+    ]
+},
+    "lev.kedrprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.kedr/prerel"
+    ]
+},    
+    "lev.kedrfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.kedr/fullrel"
+    ]
+},
+    "lev.kedrload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.kedr/load"
+    ]
+},
+    "lev.kedrunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.kedr/unload"
+    ]
+},
+    "lev.kedrinspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.kedr/inspect"
+    ]
+},
+  "lev.nothing": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.nothing"
+    ]
+},
+    "lev.ak15shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak15/shoot1",
+      "modularwarfare:lev.ak15/shoot2"
+    ]
+},
+  "lev.ak15supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak15/supshoot1",
+      "modularwarfare:lev.ak15/supshoot2"
+    ]
+},
+    "lev.ak308shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak308/shoot1",
+      "modularwarfare:lev.ak308/shoot2"
+    ]
+},
+  "lev.ak308supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ak308/supshoot1",
+      "modularwarfare:lev.ak308/supshoot2"
+    ]
+},
+  "lev.sv98fire": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/fire"
+    ]
+},
+  "lev.sv98supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/supshoot"
+    ]
+},
+  "lev.sv98firefar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/firefar"
+    ]
+},
+  "lev.sv98bolt": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/bolt"
+    ]
+},
+  "lev.sv98prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/prerel"
+    ]
+},
+  "lev.sv98fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/fullrel"
+    ]
+},
+  "lev.sv98load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/load"
+    ]
+},
+  "lev.sv98unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/unload"
+    ]
+},
+  "lev.sv98bolt2": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sv98/bolt2"
+    ]
+},
+    "lev.glockshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.glock/shoot"
+    ]
+},
+    "lev.glockshootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.glock/shootfar"
+    ]
+},
+    "lev.glockshootsup": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.glock/shootsup"
+    ]
+},
+    "lev.glockprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.glock/prerel"
+    ]
+},
+    "lev.glockfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.glock/fullrel"
+    ]
+},
+    "lev.glockload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.glock/load"
+    ]
+},
+    "lev.glockunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.glock/unload"
+    ]
+},
+    "lev.pkpshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/shoot1",
+      "modularwarfare:lev.pkp/shoot2"
+    ]
+},
+    "lev.pkpshootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/firefar"
+    ]
+},
+    "lev.pkpsupshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/supshoot1",
+      "modularwarfare:lev.pkp/supshoot2"
+    ]
+},
+    "lev.pkpprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/prerel"
+    ]
+},
+    "lev.pkpfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/fullrel"
+    ]
+},
+    "lev.pkpload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/load"
+    ]
+},
+    "lev.pkpunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/unload"
+    ]
+},
+    "lev.pkpdraw": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/draw"
+    ]
+},
+    "lev.pkptakedown": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/takedown"
+    ]
+},
+    "lev.pkpdrawempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/drawempty"
+    ]
+},
+    "lev.pkpinspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/inspect"
+    ]
+},
+    "lev.pkpinspectempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/inspectempty"
+    ]
+},
+    "lev.pkpprerel2": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/prerel2"
+    ]
+},
+    "lev.pkpfullrel2": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/fullrel2"
+    ]
+},
+    "lev.pkpload2": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/load2"
+    ]
+},
+    "lev.pkpunload2": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pkp/unload2"
+    ]
+},
+    "lev.mp5shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp5/shoot1",
+      "modularwarfare:lev.mp5/shoot2"
+    ]
+},
+    "lev.mp5prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp5/prerel"
+    ]
+},
+    "lev.mp5fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp5/fullrel"
+    ]
+},
+    "lev.mp5load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp5/load"
+    ]
+},
+    "lev.mp5unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp5/unload"
+    ]
+},
+    "lev.mp5inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp5/inspect"
+    ]
+},
+    "lev.mosinload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/load1",
+      "modularwarfare:lev.mosin/load2"
+    ]
+},
+    "lev.mosinprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/prerel2"
+    ]
+},
+    "lev.mosinprerelempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/prerel"
+    ]
+},
+    "lev.mosinpostrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/postrel"
+    ]
+},
+    "lev.mosinbolt": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/bolt"
+    ]
+},
+    "lev.mosinprerelclip": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/prerelclip"
+    ]
+},
+    "lev.mosinfullrelclip": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/fullrelclip"
+    ]
+},
+    "lev.mosinunloadclip": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/unloadclip"
+    ]
+},
+    "lev.mosinprerelpromag": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/prerelpromag"
+    ]
+},
+    "lev.mosinfullrelpromag": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/fullrelpromag"
+    ]
+},
+    "lev.mosinloadpromag": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/loadpromag"
+    ]
+},
+    "lev.mosinunloadpromag": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mosin/unloadpromag"
+    ]
+},
+    "lev.uziprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.uzi/prerel"
+    ]
+},
+    "lev.uzifullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.uzi/fullrel"
+    ]
+},
+    "lev.uziunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.uzi/unload"
+    ]
+},
+    "lev.uziload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.uzi/load"
+    ]
+},
+    "lev.uziinspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.uzi/inspect"
+    ]
+},
+    "lev.vssfire": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vss/shoot1",
+      "modularwarfare:lev.vss/shoot2"
+    ]
+},
+    "lev.vssprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vss/prerel"
+    ]
+},
+    "lev.vssfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vss/fullrel"
+    ]
+},
+    "lev.vssunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vss/unload"
+    ]
+},
+    "lev.vssload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vss/load"
+    ]
+},
+  "lev.m1911shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1911/shoot"
+    ]
+},
+  "lev.m1911shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1911/firefar"
+    ]
+},
+  "lev.m1911prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1911/prereload"
+    ]
+},
+  "lev.m1911fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1911/fullreload"
+    ]
+},
+  "lev.m1911load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1911/load"
+    ]
+},
+  "lev.m1911unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1911/unload"
+    ]
+},
+    "lev.tommyshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tommy/shoot1",
+      "modularwarfare:lev.tommy/shoot2"
+    ]
+},
+  "lev.tommyprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tommy/prerel"
+    ]
+},
+  "lev.tommyfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tommy/fullrel"
+    ]
+},
+  "lev.tommyload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tommy/load"
+    ]
+},
+  "lev.tommyunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tommy/unload"
+    ]
+},
+    "lev.ppshshootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ppsh/shootfar"
+    ]
+},
+    "lev.ppshshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ppsh/shoot1",
+      "modularwarfare:lev.ppsh/shoot2"
+    ]
+},
+  "lev.ppshprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ppsh/prerel"
+    ]
+},
+  "lev.ppshfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ppsh/fullrel"
+    ]
+},
+  "lev.ppshload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ppsh/load"
+    ]
+},
+  "lev.ppshunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ppsh/unload"
+    ]
+},
+  "lev.pps43prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pps43/prerel"
+    ]
+},
+  "lev.pps43fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pps43/fullrel"
+    ]
+},
+  "lev.pps43load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pps43/load"
+    ]
+},
+  "lev.pps43unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pps43/unload"
+    ]
+},
+    "lev.mp133shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp133/shoot"
+    ]
+},
+    "lev.mp133supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp133/supshoot"
+    ]
+},
+    "lev.mp133shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp133/firefar"
+    ]
+},
+    "lev.mp133load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp133/load1",
+      "modularwarfare:lev.mp133/load2"
+    ]
+},
+    "lev.mp133prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp133/prerel2"
+    ]
+},
+    "lev.mp133prerelempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp133/prerel"
+    ]
+},
+    "lev.mp133postrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp133/postrel"
+    ]
+},
+    "lev.mp133bolt": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp133/bolt"
+    ]
+},
+  "lev.apsprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aps/prerel"
+    ]
+},
+  "lev.apsfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aps/fullrel"
+    ]
+},
+  "lev.apsload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aps/load"
+    ]
+},
+  "lev.apsunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aps/unload"
+    ]
+},
+  "lev.pernachprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pernach/prerel"
+    ]
+},
+  "lev.pernachfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pernach/fullrel"
+    ]
+},
+  "lev.pernachload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pernach/load"
+    ]
+},
+  "lev.pernachunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.pernach/unload"
+    ]
+},
+    "lev.svdshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.svd/shoot1",
+      "modularwarfare:lev.svd/shoot2"
+    ]
+},
+    "lev.svdshootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.svd/firefar"
+    ]
+},
+    "lev.svdsupshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.svd/supshoot1",
+      "modularwarfare:lev.svd/supshoot2"
+    ]
+},
+  "lev.svdprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.svd/prerel"
+    ]
+},
+  "lev.svdfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.svd/fullrel"
+    ]
+},
+  "lev.svdload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.svd/load"
+    ]
+},
+  "lev.svdunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.svd/unload"
+    ]
+},
+   "lev.apssupshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aps/supshoot1",
+      "modularwarfare:lev.aps/supshoot2"
+    ]
+  },
+   "lev.grozashoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/shoot1",
+      "modularwarfare:lev.groza/shoot2"
+    ]
+  },
+   "lev.grozashootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/shootfar"
+    ]
+  },
+   "lev.grozaprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/prerel"
+    ]
+  },
+   "lev.grozafullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/fullrel"
+    ]
+  },
+   "lev.grozaload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/load"
+    ]
+  },
+   "lev.grozaunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/unload"
+    ]
+  },
+   "lev.grozainspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/inspect"
+    ]
+  },
+   "lev.grozagp25on": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/gp25on"
+    ]
+  },
+   "lev.grozagp25off": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.groza/gp25off"
+    ]
+  },
+  "lev.tozprerelempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.toz/prerelempty"
+    ]
+},
+  "lev.tozprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.toz/prerel"
+    ]
+},
+  "lev.tozpostrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.toz/postrel"
+    ]
+},
+  "lev.tozunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.toz/unload"
+    ]
+},
+  "lev.g3prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.g3/prerel"
+    ]
+},
+  "lev.g3fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.g3/fullrel"
+    ]
+},
+  "lev.g3load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.g3/load"
+    ]
+},
+  "lev.g3unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.g3/unload"
+    ]
+},
+  "lev.mp7prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp7/prerel"
+    ]
+},
+  "lev.mp7fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp7/fullrel"
+    ]
+},
+  "lev.mp7load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp7/load"
+    ]
+},
+  "lev.mp7unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp7/unload"
+    ]
+},
+  "lev.mp7inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp7/inspect"
+    ]
+},
+   "lev.mp7shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp7/shoot1",
+      "modularwarfare:lev.mp7/shoot2"
+    ]
+  },
+   "lev.mp7supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp7/supshoot1",
+      "modularwarfare:lev.mp7/supshoot2"
+    ]
+  },
+  "lev.auto5unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.auto5/unload"
+    ]
+},
+  "lev.auto5prerelempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.auto5/prerel"
+    ]
+},
+  "lev.auto5prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.auto5/prerel2"
+    ]
+},
+  "lev.m700fire": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m700/fire"
+    ]
+},
+  "lev.m700supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m700/supshoot"
+    ]
+},
+  "lev.m700firefar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m700/firefar"
+    ]
+},
+  "lev.m700bolt": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m700/bolt"
+    ]
+},
+  "lev.m700prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m700/prerel"
+    ]
+},
+  "lev.m700fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m700/fullrel"
+    ]
+},
+  "lev.m700load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m700/load"
+    ]
+},
+  "lev.m700unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m700/unload"
+    ]
+},
+  "lev.rpg7shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rpg7/shoot"
+    ]
+},
+  "lev.rpg7reload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rpg7/reload"
+    ]
+},
+  "lev.rpg7unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rpg7/unload"
+    ]
+},
+  "lev.rpg7inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rpg7/inspect"
+    ]
+},
+  "lev.sr3mload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr3m/load"
+    ]
+},
+  "lev.sr3mprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr3m/prerel"
+    ]
+},
+  "lev.sr3munload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr3m/unload"
+    ]
+},
+  "lev.sr3mfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sr3m/fullrel"
+    ]
+},
+  "lev.rsh12shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/shoot"
+    ]
+},
+  "lev.rsh12shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/shootfar"
+    ]
+},
+  "lev.rsh12prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/prerel"
+    ]
+},
+  "lev.rsh12rel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/rel"
+    ]
+},
+  "lev.rsh12postrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/postrel"
+    ]
+},
+  "lev.rsh12preunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/preunload"
+    ]
+},
+  "lev.rsh12unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/unload"
+    ]
+},
+  "lev.rsh12inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/inspect"
+    ]
+},
+  "lev.rsh12dry": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/dry"
+    ]
+},
+  "lev.rsh12preunload2": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/preunload2"
+    ]
+},
+  "lev.rsh12prerel2": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/prerel2"
+    ]
+},
+  "lev.rsh12load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/load"
+    ]
+},
+  "lev.rsh12fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.rsh12/fullrel"
+    ]
+},
+  "lev.scarprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.scar/prerel"
+    ]
+},
+  "lev.scarfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.scar/fullrel"
+    ]
+},
+  "lev.scarload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.scar/load"
+    ]
+},
+  "lev.scarunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.scar/unload"
+    ]
+},
+  "lev.m82shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m82/shoot"
+    ]
+},
+  "lev.m82shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m82/shootfar"
+    ]
+},
+  "lev.m82prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m82/prerel"
+    ]
+},
+  "lev.m82fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m82/fullrel"
+    ]
+},
+  "lev.m82load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m82/load"
+    ]
+},
+  "lev.m82unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m82/unload"
+    ]
+},
+  "lev.ttshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tt/shoot"
+    ]
+},
+  "lev.ttshootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tt/firefar"
+    ]
+},
+  "lev.ttprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tt/prereload"
+    ]
+},
+  "lev.ttfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tt/fullreload"
+    ]
+},
+  "lev.ttload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tt/load"
+    ]
+},
+  "lev.ttunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.tt/unload"
+    ]
+},
+   "lev.ash12shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ash12/shoot1",
+      "modularwarfare:lev.ash12/shoot2"
+    ]
+  },
+   "lev.ash12supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ash12/supshoot"
+    ]
+  },
+   "lev.ash12shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ash12/shootfar"
+    ]
+  },
+   "lev.ash12prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ash12/prerel"
+    ]
+  },
+   "lev.ash12fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ash12/fullrel"
+    ]
+  },
+   "lev.ash12load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ash12/load"
+    ]
+  },
+   "lev.ash12unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ash12/unload"
+    ]
+  },
+  "lev.p08shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.p08/shoot"
+    ]
+},
+  "lev.p08shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.p08/firefar"
+    ]
+},
+  "lev.p08prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.p08/prereload"
+    ]
+},
+  "lev.p08fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.p08/fullreload"
+    ]
+},
+  "lev.p08load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.p08/load"
+    ]
+},
+  "lev.p08unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.p08/unload"
+    ]
+},
+    "lev.m1897prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1897/prerel2"
+    ]
+},
+    "lev.m1897prerelempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1897/prerel"
+    ]
+},
+    "lev.m1897bolt": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m1897/bolt"
+    ]
+},
+  "lev.mp155postunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp155/postunload"
+    ]
+},
+  "lev.mp155prerelempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mp155/prerel"
+    ]
+},
+   "lev.aa12shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aa12/shoot1",
+      "modularwarfare:lev.aa12/shoot2"
+    ]
+  },
+    "lev.aa12supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aa12/supshoot"
+    ]
+  },
+    "lev.aa12shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aa12/shootfar"
+    ]
+  },
+    "lev.aa12postfirempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aa12/postfirempty"
+    ]
+  },
+    "lev.aa12prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aa12/prerel"
+    ]
+  },
+    "lev.aa12fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aa12/fullrel"
+    ]
+  },
+    "lev.aa12load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aa12/load"
+    ]
+  },
+    "lev.aa12unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.aa12/unload"
+    ]
+  },
+    "lev.m72lawshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m72law/shoot"
+    ]
+},
+    "lev.m72lawshootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m72law/shootfar"
+    ]
+},
+    "lev.m72lawdraw": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m72law/draw"
+    ]
+},
+    "lev.m72lawtakedown": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.m72law/takedown"
+    ]
+},
+    "lev.mg42shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/shoot1",
+      "modularwarfare:lev.mg42/shoot2"
+    ]
+},
+    "lev.mg3shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/shoot31",
+      "modularwarfare:lev.mg42/shoot32"
+    ]
+},
+    "lev.mg42shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/firefar"
+    ]
+},
+    "lev.mp42prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/prerel"
+    ]
+},
+    "lev.mg42fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/fullrel"
+    ]
+},
+    "lev.mg42load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/load"
+    ]
+},
+    "lev.mg42unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/unload"
+    ]
+},
+    "lev.mg42draw": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/draw"
+    ]
+},
+    "lev.mg42takedown": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/takedown"
+    ]
+},
+    "lev.mg42drawempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/drawempty"
+    ]
+},
+    "lev.mg42inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/inspect"
+    ]
+},
+    "lev.mg42inspectempty": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/inspectempty"
+    ]
+},
+    "lev.mp34prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/prerel2"
+    ]
+},
+    "lev.mg34fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/fullrel2"
+    ]
+},
+    "lev.mg34load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/load2"
+    ]
+},
+    "lev.mg34unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mg42/unload2"
+    ]
+},
+    "lev.nl545shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.nl545/shoot1",
+      "modularwarfare:lev.nl545/shoot2"
+    ]
+},
+    "lev.nl545supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.nl545/supshoot1",
+      "modularwarfare:lev.nl545/supshoot2"
+    ]
+},
+    "lev.nl545shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.nl545/shootfar"
+    ]
+},
+    "lev.mk47shoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mk47/shoot1",
+      "modularwarfare:lev.mk47/shoot2"
+    ]
+},
+    "lev.mk47supshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mk47/supshoot1",
+      "modularwarfare:lev.mk47/supshoot2"
+    ]
+},
+    "lev.mk47shootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mk47/shootfar"
+    ]
+},
+    "lev.mk47prerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mk47/prerel"
+    ]
+},
+    "lev.mk47fullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mk47/fullrel"
+    ]
+},
+    "lev.mk47unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mk47/unload"
+    ]
+},
+    "lev.mk47load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.mk47/load"
+    ]
+},
+    "lev.vsskshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vssk/shoot"
+    ]
+},
+    "lev.vssksupshoot": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vssk/supshoot"
+    ]
+},
+    "lev.vsskshootfar": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vssk/shootfar"
+    ]
+},
+    "lev.vsskprerel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vssk/prerel"
+    ]
+},
+    "lev.vsskfullrel": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vssk/fullrel"
+    ]
+},
+    "lev.vsskunload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vssk/unload"
+    ]
+},
+    "lev.vsskload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vssk/load"
+    ]
+},
+    "lev.vsskbolt": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.vssk/bolt"
+    ]
+},
+  "lev.binins": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.binins"
+    ]
+},
+  "lev.sirena": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sirena/sirena"
+    ]
+},
+  "lev.drawsirena": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sirena/draw"
+    ]
+},
+  "lev.takedownsirena": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.sirena/takedown"
+    ]
+},
+  "lev.casset_on": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.cassette_tape/0",
+      "modularwarfare:lev.cassette_tape/1",
+	  "modularwarfare:lev.cassette_tape/2",
+	  "modularwarfare:lev.cassette_tape/3",
+	  "modularwarfare:lev.cassette_tape/4",
+	  "modularwarfare:lev.cassette_tape/5",
+	  "modularwarfare:lev.cassette_tape/6",
+	  "modularwarfare:lev.cassette_tape/7",
+	  "modularwarfare:lev.cassette_tape/8",
+	  "modularwarfare:lev.cassette_tape/9",
+	  "modularwarfare:lev.cassette_tape/10",
+	  "modularwarfare:lev.cassette_tape/11",
+	  "modularwarfare:lev.cassette_tape/12",
+	  "modularwarfare:lev.cassette_tape/13",
+	  "modularwarfare:lev.cassette_tape/14",
+	  "modularwarfare:lev.cassette_tape/15",
+	  "modularwarfare:lev.cassette_tape/16",
+	  "modularwarfare:lev.cassette_tape/17",
+	  "modularwarfare:lev.cassette_tape/18",
+	  "modularwarfare:lev.cassette_tape/19",
+	  "modularwarfare:lev.cassette_tape/20"
+    ]
+},
+  "lev.casset_load": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.cassette_tape/load"
+    ]
+},
+  "lev.casset_unload": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.cassette_tape/unload"
+    ]
+},
+  "lev.drawmelee": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.melee/draw"
+    ]
+},
+  "lev.attackmelee": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.melee/attack1",
+	  "modularwarfare:lev.melee/attack2"
+    ]
+},
+  "lev.hitmelee": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.melee/hit1",
+	  "modularwarfare:lev.melee/hit2"
+    ]
+},
+  "lev.hitheavymelee": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.melee/hitheavy"
+    ]
+},
+  "lev.attackheavymelee": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.melee/attackheavy"
+    ]
+},
+  "lev.draw": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.draw"
+    ]
+},
+  "lev.draw_p": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.draw_p"
+    ]
+},
+  "lev.draw_s": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.draw_s"
+    ]
+},
+  "lev.takedown": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.takedown"
+    ]
+},
+  "lev.takedown_p": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.takedown_p"
+    ]
+},
+  "lev.takedown_s": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.takedown_s"
+    ]
+},
+  "lev.inspect": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.inspect"
+    ]
+},
+  "lev.inspect_p": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.inspect_p"
+    ]
+},
+  "lev.jam": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.jam"
+    ]
+},
+    "lev.dryfire": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.dryfire"
+    ]
+  },
+  "lev.ammopackuse1": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.ammopack/use1"
+    ]
+ },
+  "lev.ai2use": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/ai2use"
+    ]
+},
+  "lev.promedoluse": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/promedoluse"
+    ]
+},
+  "lev.sulfadimethoxineuse": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/sulfadimethoxineuse"
+    ]
+},
+  "lev.immobilizingsplintuse": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/immobilizingsplintuse"
+    ]
+},
+  "lev.ifakuse": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/ifakuse"
+    ]
+},
+  "lev.esmarchtourniquetuse": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/esmarchtourniquetuse"
+    ]
+},
+  "lev.bandageuse": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/bandageuse"
+    ]
+},
+  "lev.aluminumsplintuse": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/aluminumsplintuse"
+    ]
+},
+  "lev.ai3use": {
+    "category": "player",
+    "sounds": [
+      "modularwarfare:lev.med/ai3use"
+    ]
+}
+}

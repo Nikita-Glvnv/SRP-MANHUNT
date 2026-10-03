@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake CMMG SV Brake 7.62x51",
+  "internalName": "lev.svbrake",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.svbrake",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.90,
+    "recoilYawFactor": 0.95,
+    "accuracyFactor": 0.90
+  }
+}

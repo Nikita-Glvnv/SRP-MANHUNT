@@ -1,0 +1,146 @@
+{
+  "internalName": "lev.m9",
+  "displayName": "lev.m9",
+  
+  "resetAttackOnClick": false,
+  "resetPostOnClick": true,
+
+  "attackspeed": 0.05,
+  
+  "attack": [
+    {
+      "damage": 6,
+      "range": 2.2,
+      "yawAngle": 10,
+      "pitchAngle": 16,
+      "yawStart": 70,
+      "pitchStart": 75,
+      "yawStep": 20,
+      "pitchStep": 15,
+	  "attackPenetration": false,
+      "canBounced": false,
+      "checkBounced": {
+        "range": 1.2,
+        "yawAngle": 10,
+        "pitchAngle": 10,
+        "yawStart": 70,
+        "pitchStart": 75
+      }
+    }
+  ],
+
+  "attackHeavy": [
+    {
+      "damage": 8,
+      "range": 2.2,
+      "yawAngle": 10,
+      "pitchAngle": 30,
+      "yawStart": 82,
+      "pitchStart": 75,
+      "yawStep": 8,
+      "pitchStep": 15,
+	  "attackPenetration": false,
+      "canBounced": false,
+      "checkBounced": {
+        "range": 2.2,
+        "yawAngle": 10,
+        "pitchAngle": 30,
+        "yawStart": 82,
+        "pitchStart": 75
+      }
+    }
+  ],
+    "moveSpeedModifier": 1.05,
+  
+  "weaponSoundMap": {
+    "meleeDraw": [
+      {
+        "soundEvent": "meleeDraw",
+        "soundName": "lev.drawmelee"
+      }
+    ],
+    "inspect": [
+      {
+        "soundEvent": "meleeInspect",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "meleePreAttack": [
+      {
+        "soundEvent": "meleePreAttack",
+        "soundName": "lev.attackmelee"
+      }
+    ],
+    "meleeAttack": [
+      {
+        "soundEvent": "meleeAttack",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "meleeAttackSecond": [
+      {
+        "soundEvent": "meleeAttackSecond",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "meleePostAttack": [
+      {
+        "soundEvent": "meleePostAttack",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "meleeBounced": [
+      {
+        "soundEvent": "meleeBounced",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "meleePreAttackHeavy": [
+      {
+        "soundEvent": "meleePreAttackHeavy",
+        "soundName": "lev.attackheavymelee"
+      }
+    ],
+	  "meleeAttackHeavy": [
+      {
+        "soundEvent": "meleeAttackHeavy",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "meleeAttackHeavySecond": [
+      {
+        "soundEvent": "meleeAttackHeavySecond",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "meleePostAttackHeavy": [
+      {
+        "soundEvent": "meleePostAttackHeavy",
+        "soundName": "lev.nothing"
+      }
+    ],
+	  "meleeBouncedHeavy": [
+      {
+        "soundEvent": "meleeBouncedHeavy",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "meleeHit": [
+      {
+        "soundEvent": "meleeHit",
+        "soundName": "lev.hitmelee"
+      }
+    ]
+  },
+  
+  "modelSkins": [
+    {
+      "internalName": "lev.m9",
+      "skinAsset": "lev.m9",
+      "displayName": "Default",
+      "textures": [
+        "basic"
+      ]
+    }
+  ]
+}

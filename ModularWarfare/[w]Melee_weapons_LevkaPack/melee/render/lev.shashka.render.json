@@ -1,0 +1,149 @@
+{
+  "modelFileName": "lev.shashka.glb",
+  "meleeAnimations": {
+    "default": [
+      {
+        "startTime": 0,
+        "endTime": 0,
+        "speed": 0.01
+      }
+    ],
+    "draw": [
+      {
+        "startTime": 401,
+        "endTime": 453,
+        "speed": 0.025
+      }
+    ],
+    "sprint": [
+      {
+		"startTime": 330,
+		"endTime": 350,
+		"speed": 0.02
+      }
+    ],
+    "inspect": [
+      {
+        "startTime": 100,
+        "endTime": 301,
+        "speed": 0.02
+      }
+    ],
+    "preattack": [
+      {
+        "startTime": 35,
+        "endTime": 42,
+        "speed": 0.03
+      }
+    ],
+    "attack": [
+      {
+        "startTime": 42,
+        "endTime": 47,
+        "speed": 0.035
+      }
+    ],
+    "attacksecond": [
+      {
+        "startTime": 47,
+        "endTime": 52,
+        "speed": 0.035
+      }
+    ],
+    "postattack": [
+      {
+        "startTime": 52,
+        "endTime": 61,
+        "speed": 0.02
+      }
+    ],
+    "attackbounced": [
+      {
+        "startTime": 36,
+        "endTime": 57,
+        "speed": 0.02
+      }
+    ],
+    "preheavyattack": [
+      {
+        "startTime": 65,
+        "endTime": 75,
+        "speed": 0.025
+      }
+    ],
+    "heavyattack": [
+      {
+        "startTime": 75,
+        "endTime": 81,
+        "speed": 0.04
+      }
+    ],
+    "heavyattacksecond": [
+      {
+        "startTime": 81,
+        "endTime": 92,
+        "speed": 0.02
+      }
+    ],
+    "postheavyattack": [
+      {
+        "startTime": 92,
+        "endTime": 100,
+        "speed": 0.02
+      }
+    ],
+    "heavyattackbounced": [
+      {
+        "startTime": 67,
+        "endTime": 97,
+        "speed": 0.02
+      }
+    ]
+  },
+	"sprint": {
+		"basicSprint": false,
+		"sprintRotate": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		},
+		"sprintTranslate": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		}
+	},
+  "global": {
+    "globalTranslate": {
+      "x": -1.5,
+      "y": -0.2,
+      "z": 8.0
+    },
+    "globalScale": {
+      "x": 0.5,
+      "y": 0.5,
+      "z": 0.5
+    },
+    "globalRotate": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  "showHandArmorType": "static",
+  "extra": {
+    "thirdPersonRender3D": false,
+    "thirdPersonRotation": {
+      "x": 70,
+      "y": 0,
+      "z": 30
+    },
+    "thirdPersonOffset": {
+      "x": -8.5,
+      "y": 11.0,
+      "z": -2.0
+    },
+	"thirdPersonScale": 1.4,
+    "bobbingFactor": 0.2
+  }
+}

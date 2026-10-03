@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock AK12 Gen 1",
+  "internalName": "lev.ak12stock1",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ak12stock1",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.60,
+	"aimSpeedFactor": 1.3
+  }
+}

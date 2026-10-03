@@ -1,0 +1,19 @@
+{
+  "displayName": "Flashhider HK Prolonged 7.62x51",
+  "internalName": "lev.hk417comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.hk417comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.82,
+    "accuracyFactor": 0.93
+  }
+}

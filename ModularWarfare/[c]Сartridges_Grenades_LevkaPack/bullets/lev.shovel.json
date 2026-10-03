@@ -1,0 +1,28 @@
+{
+  "internalName": "lev.shovel",
+  "maxStackSize": 1,
+  "displayName": "Shovel",
+  "renderBulletModel": true,
+  "projectileVelocity": 3,
+  "impactDamage": 8,
+  "explosionStrength": 0.0,
+  "gravity": -0.1,
+  "isSmoke": false,
+  "isExplosion": false,
+  "damageWorld": false,
+  "isDynamicBullet": true,
+  "sameTextureAsGun": false,
+  "bulletProperties": {
+    "All": {
+      "fireLevel": 2
+    }
+  },
+  "modelSkins": [
+        {
+            "internalName": "lev.shovel",
+            "skinAsset": "lev.shovel",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+  "displayName": "Chassis ProMag Archangel Mosin",
+  "internalName": "lev.mosinpromag",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mosinpromag",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 1.0,
+    "recoilYawFactor": 1.0,
+	"aimSpeedFactor": 1.0
+  }
+}

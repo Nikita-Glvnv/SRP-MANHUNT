@@ -1,0 +1,15 @@
+{
+  "displayName": "Grip Viking Tactics UVG",
+  "internalName": "lev.uvg",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.uvg",
+      "displayName": "uvg"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.92
+  }
+}

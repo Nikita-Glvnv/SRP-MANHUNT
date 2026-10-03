@@ -1,0 +1,17 @@
+{
+  "displayName": "Holographic sight EOTech",
+  "internalName": "lev.eotech",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.eotech",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "normal",
+	"aimSpeedFactor": 0.96
+  }
+}

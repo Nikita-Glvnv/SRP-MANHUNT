@@ -1,0 +1,18 @@
+{
+    "internalName": "lev.556pmag40",
+    "displayName": "5.56 PMAG GEN 3 40rd. Black",
+    "ammoCapacity": 40,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.556",
+		"lev.556_fmj",
+		"lev.556_856",
+		"lev.556_856a1",
+		"lev.556_995"
+    ],
+	  "maxStackSize": 2,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

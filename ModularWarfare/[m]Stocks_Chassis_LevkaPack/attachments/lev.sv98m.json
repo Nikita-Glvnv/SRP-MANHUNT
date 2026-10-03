@@ -1,0 +1,17 @@
+{
+  "displayName": "Chassis SV-98M",
+  "internalName": "lev.sv98m",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sv98m",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.92,
+    "recoilYawFactor": 0.93,
+	"aimSpeedFactor": 1.2
+  }
+}

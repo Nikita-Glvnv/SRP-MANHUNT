@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.pasgt_m88",
+    "defense": "0.25",
+    "durability": 700,
+    "armorTypes": 
+    {
+        "head": 
+        {
+            "displayName": "pasgt_m88"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.pasgt_m88",
+        "displayName": "pasgt_m88"
+      }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "internalName": "lev.gorka",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "chest": 
+        {
+            "displayName": "gorka_chest"
+        },
+        "legs": 
+        {
+            "displayName": "gorka_legs"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.gorka",
+        "displayName": "gorka"
+      }
+    ]
+}

@@ -1,0 +1,19 @@
+{
+  "displayName": "Grip OTs-14",
+  "internalName": "lev.grozagrip",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.grozagrip",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.79,
+    "recoilYawFactor": 0.80,
+    "accuracyFactor": 0.90
+  }
+}

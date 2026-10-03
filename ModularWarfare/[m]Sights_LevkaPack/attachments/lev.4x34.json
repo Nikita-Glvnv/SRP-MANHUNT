@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope PO 4x34",
+  "internalName": "lev.4x34",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.4x34",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.90
+  }
+}

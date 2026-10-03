@@ -1,0 +1,14 @@
+{
+  "internalName": "lev.m381",
+  "maxStackSize": 3,
+  "displayName": "40x46 M381 HE",
+  "renderBulletModel": true,
+  "projectileVelocity": 5,
+  "impactDamage": 30,
+  "explosionDamage": 34,
+  "explosionRange": 13,
+  "gravity": -0.05,
+  "isSmoke": false,
+  "isExplosion": true,
+  "damageWorld": false
+}

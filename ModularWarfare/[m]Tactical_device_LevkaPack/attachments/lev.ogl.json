@@ -1,0 +1,18 @@
+{
+  "displayName": "Tactical device EOTech OGL",
+  "internalName": "lev.ogl",
+  "attachmentType": "laser",
+  "laser": {
+    "accuracyFactor": 0.96,
+    "aimSpeedFactor": 0.9,
+    "recoilPitchFactor": 1.0,
+    "recoilYawFactor": 1.0
+  },
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ogl",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ]
+}

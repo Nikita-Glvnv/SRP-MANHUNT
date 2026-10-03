@@ -1,0 +1,27 @@
+{
+  "internalName": "lev.76254_b32",
+  "maxStackSize": 40,
+  "bulletDamageFactor": 9.2,
+  "bulletPenetrateFactor": 1.5,
+  "bulletBlockPenetrateFactor": 3,
+  "displayName": "7.62x54R B-32",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail3.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.76254_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "fireLevel": 2,
+      "potionEffects": [
+        {
+          "potionEffect": "unluck",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

@@ -1,0 +1,13 @@
+{
+    "internalName": "lev.m82mag10",
+    "displayName": ".50 BMG Barrett 10rd.",
+    "ammoCapacity": 10,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.50bmg",
+        "lev.50bmg_m21",
+        "lev.50bmg_m903"
+    ],
+	  "maxStackSize": 1,
+    "allowEmptyMagazines": true
+}

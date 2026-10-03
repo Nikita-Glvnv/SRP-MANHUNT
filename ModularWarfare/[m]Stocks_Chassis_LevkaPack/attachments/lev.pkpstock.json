@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock PKP Plastic",
+  "internalName": "lev.pkpstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pkpstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.60,
+	"aimSpeedFactor": 1.3
+  }
+}

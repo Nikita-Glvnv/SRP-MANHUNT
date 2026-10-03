@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock Glock FAB Defense GLR-17",
+  "internalName": "lev.glr17",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.glr17",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.83,
+	"aimSpeedFactor": 1.3
+  }
+}

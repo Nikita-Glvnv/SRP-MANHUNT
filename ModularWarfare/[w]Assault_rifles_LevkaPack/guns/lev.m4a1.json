@@ -1,0 +1,274 @@
+{
+    "internalName": "lev.m4a1",
+    "displayName": "M4A1 SOPMOD Block II",
+    "weaponType": "carbine",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+	  "transformations": {
+    "0": "lev.m4a1",
+    "1": "lev.m4a1_m203",
+    "2": "lev.m4a1_m203a1"
+  },
+
+  "transformAmmoOptions": {
+    "1": { "ammoRatio": false, "sameAmmo": false },
+	"2": { "ammoRatio": false, "sameAmmo": false }
+  },
+  "transformationRequirements": {
+    "1": {
+      "grip": "lev.m203"
+    },
+    "2": {
+      "grip": "lev.m203a1"
+    }
+  },
+  "customWheelTexture": "lev.m4a1icon",
+ 
+    "gunDamage": 1.0,
+    "gunDamageHeadshotBonus": 0.5,
+	"gunPenetrateSize": 1.0,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 800,
+	"gunHoldLength": 1.5,
+	
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+
+	
+    "recoilPitch": 6.1,
+    "recoilYaw": 130,
+    "randomRecoilPitch": 0.01,
+    "randomRecoilYaw": 0.02,
+    "antiRecoilFactor": 10.0,
+    "antiRecoilStartTime": 50,
+    "bulletSpread": 2.7,
+    "accuracySneakFactor": 0.9,
+	"accuracyAimFactor": 0.1,
+    "weaponMaxRange": 180,
+    "weaponEffectiveRange": 140,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.97,
+	
+    "fireModes": [
+        "full",
+		"semi"
+    ],
+    "acceptedAmmo": [
+        "lev.556mag20",
+        "lev.556mag",
+        "lev.556hkmag30",
+        "lev.556fnmag30",
+		"lev.556pmag30b",
+		"lev.556mag40",
+		"lev.556mag60",
+		"lev.556pmag40",
+		"lev.556pmag40h",
+		"lev.556pmag60",
+        "lev.556cmag100",		
+		"lev.556cmag100h"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": 0,
+        "y": -20,
+        "z": -20
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+     "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.m4a1shoot",
+                "soundNameDistant": "lev.m4a1shootfar",
+                "soundRange": 60,
+                "soundMaxRange": 120,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.m4a1shootsup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+                 }
+		 ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.m4a1unload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+],
+		"inspect": [
+			{
+				"soundEvent": "inspect",
+				"soundName": "lev.inspect"
+			}
+        ],
+		"weaponDraw": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.m4a1load"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.dryfire"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.m4a1tacrel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.m4a1tacrel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.m4a1fullrel"
+			}
+		]
+    },
+    "acceptedAttachments": {
+        "barrel": [
+		"lev.supkac556",
+		"lev.socom556",
+		"lev.f2000comp",
+		"lev.bulletecst",
+		"lev.m4comp",
+		"lev.scarlcomp"
+        ],
+        "sight": [
+	     "lev.barska",
+		 "lev.deltapoint",
+	     "lev.okp",
+	     "lev.microh1",
+	     "lev.microh2",
+	     "lev.eotech",
+		 "lev.trijiconrmr",
+		 "lev.mtprism",
+		 "lev.valday",
+	     "lev.elcan",
+		 "lev.elcanb",
+		 "lev.vudu",
+		 "lev.nightforce",
+		 "lev.sbrpm",
+		 "lev.sbrpm_fde",
+		 "lev.dedal3x12"
+        ],
+        "grip": [
+            "lev.m203a1",
+            "lev.m203",
+            "lev.afg",
+            "lev.afg_fde",
+            "lev.fortis_shift",
+			"lev.uvg",
+			"lev.se5",
+            "lev.rk0",
+            "lev.rk2",
+            "lev.rk6",
+			"lev.sturmgriff",
+			"lev.sturmgriff_fde"
+        ],
+        "stock": [
+		    "lev.m16stock",
+            "lev.ak12stock1",
+			"lev.m4stock",
+			"lev.m4sopmodstock",
+			"lev.hk416stock",
+			"lev.hk416stockh",
+			"lev.prs3stock",
+			"lev.prs3stockfde",
+			"lev.krissstock",
+			"lev.moestock",
+			"lev.moestockfde",
+			"lev.ripstock"
+        ],
+        "laser": [
+            "lev.perst3",
+            "lev.anpeq",
+            "lev.la5bpeq",
+            "lev.ogl",
+			"lev.klesh",
+			"lev.gtl21",
+			"lev.ncstarbluelaser"
+        ]
+    },
+  "defaultAttachments": {
+    "stock": "lev.m4sopmodstock",
+	"barrel": "lev.m4comp"
+  },
+    "modelSkins": [
+        {
+            "internalName": "lev.coltm4",
+            "skinAsset": "lev.coltm4",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

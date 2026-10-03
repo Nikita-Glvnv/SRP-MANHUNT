@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope PSO-1 x4",
+  "internalName": "lev.pso",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pso",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.93
+  }
+}

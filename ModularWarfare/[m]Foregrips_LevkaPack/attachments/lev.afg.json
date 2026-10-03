@@ -1,0 +1,16 @@
+{
+  "displayName": "Grip AFG",
+  "internalName": "lev.afg",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.afg",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "afg"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.95,
+    "recoilYawFactor": 0.62
+  }
+}

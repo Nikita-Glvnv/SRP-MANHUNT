@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.acu_ocp_legs",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "legs": 
+        {
+            "displayName": "acu_ocp_legs"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.acu_ocp",
+        "displayName": "acu_ocp"
+      }
+    ]
+}

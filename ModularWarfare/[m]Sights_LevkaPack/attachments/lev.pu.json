@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope PU x3.5",
+  "internalName": "lev.pu",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pu",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.92
+  }
+}

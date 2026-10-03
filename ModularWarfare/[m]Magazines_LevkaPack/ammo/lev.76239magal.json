@@ -1,0 +1,17 @@
+{
+    "internalName": "lev.76239magal",
+    "displayName": "7.62x39 AK Aluminum 30rd.",
+    "ammoCapacity": 30,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.76239",
+        "lev.76239_t45m1",
+        "lev.76239_pp",
+        "lev.76239_bp"
+    ],
+	  "maxStackSize": 2,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

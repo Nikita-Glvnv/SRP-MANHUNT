@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake MTs-558 12.7x55 STs-130",
+  "internalName": "lev.mts558comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mts558comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.83,
+    "recoilYawFactor": 0.92,
+    "accuracyFactor": 0.95
+  }
+}

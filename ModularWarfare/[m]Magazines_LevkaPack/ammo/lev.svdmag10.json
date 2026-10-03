@@ -1,0 +1,16 @@
+{
+    "internalName": "lev.svdmag10",
+    "displayName": "7.62x54R SVD 10rd.",
+    "ammoCapacity": 10,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.76254",
+        "lev.76254_t46m",
+        "lev.76254_ps",
+        "lev.76254_b32",
+        "lev.76254_bt",
+        "lev.76254_snb"
+    ],
+	  "maxStackSize": 2,
+    "allowEmptyMagazines": true
+}

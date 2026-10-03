@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor 6P69 7.62x54R",
+  "internalName": "lev.6p69sup",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.6p69sup",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.95,
+    "accuracyFactor": 0.87
+  }
+}

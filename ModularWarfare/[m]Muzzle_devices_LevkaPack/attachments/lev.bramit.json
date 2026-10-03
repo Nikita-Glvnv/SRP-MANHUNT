@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor Bramit for Mosin 7.62x54R",
+  "internalName": "lev.bramit",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.bramit",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.93,
+    "recoilYawFactor": 0.95,
+    "accuracyFactor": 1.04
+  }
+}

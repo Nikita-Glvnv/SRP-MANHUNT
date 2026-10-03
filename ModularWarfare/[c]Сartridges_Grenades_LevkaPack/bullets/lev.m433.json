@@ -1,0 +1,14 @@
+{
+  "internalName": "lev.m433",
+  "maxStackSize": 3,
+  "displayName": "40x46 M433 HEDP",
+  "renderBulletModel": true,
+  "projectileVelocity": 5,
+  "impactDamage": 37,
+  "explosionDamage": 34,
+  "explosionRange": 11,
+  "gravity": -0.05,
+  "isSmoke": false,
+  "isExplosion": true,
+  "damageWorld": false
+}

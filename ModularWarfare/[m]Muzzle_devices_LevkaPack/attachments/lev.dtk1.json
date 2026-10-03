@@ -1,0 +1,19 @@
+{
+  "displayName": "DTK-1 Zenit 5.45x39/7.62x39/7.62x54R",
+  "internalName": "lev.dtk1",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.dtk1",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.83,
+    "recoilYawFactor": 0.84,
+    "accuracyFactor": 0.88
+  }
+}

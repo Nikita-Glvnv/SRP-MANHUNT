@@ -1,0 +1,16 @@
+{
+  "displayName": "Grip Stark SE-5",
+  "internalName": "lev.se5",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.se5",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "se5"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.90,
+    "recoilYawFactor": 0.66
+  }
+}

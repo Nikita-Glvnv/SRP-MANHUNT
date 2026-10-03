@@ -1,0 +1,16 @@
+{
+    "internalName": "lev.9x39mag10",
+    "displayName": "9x39 VSS/Val 10rd.",
+    "ammoCapacity": 10,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.939",
+		"lev.939_sp6",
+		"lev.939_pab9"
+    ],
+	  "maxStackSize": 3,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

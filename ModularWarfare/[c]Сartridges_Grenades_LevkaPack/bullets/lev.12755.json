@@ -1,0 +1,24 @@
+{
+  "internalName": "lev.12755",
+  "maxStackSize": 40,
+  "bulletDamageFactor": 11.5,
+  "displayName": "12.7x55 PS12",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail1.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.12755_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "wither",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

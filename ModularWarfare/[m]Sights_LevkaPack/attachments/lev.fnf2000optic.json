@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope F2000 x1.6",
+  "internalName": "lev.fnf2000optic",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.fnf2000optic",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.94
+  }
+}

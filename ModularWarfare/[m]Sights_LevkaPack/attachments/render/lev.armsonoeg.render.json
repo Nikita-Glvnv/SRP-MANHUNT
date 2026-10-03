@@ -1,0 +1,11 @@
+{
+  "modelFileName": "lev.armsonoeg.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoom": 0.8,
+    "mouseSensitivityFactor": 1.0,
+	"rectileScale": 1.0
+  }
+}

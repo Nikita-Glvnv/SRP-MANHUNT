@@ -1,0 +1,18 @@
+{
+  "displayName": "Laser Zenith Klesch-2P",
+  "internalName": "lev.klesh",
+  "attachmentType": "laser",
+  "laser": {
+    "accuracyFactor": 0.96,
+    "aimSpeedFactor": 0.92,
+    "recoilPitchFactor": 1.0,
+    "recoilYawFactor": 1.0
+  },
+  "modelSkins": [
+    {
+      "skinAsset": "lev.klesh",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ]
+}

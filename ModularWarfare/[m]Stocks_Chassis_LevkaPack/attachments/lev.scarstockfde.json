@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock FN SCAR FDE",
+  "internalName": "lev.scarstockfde",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.scarstockfde",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.60,
+	"aimSpeedFactor": 1.3
+  }
+}

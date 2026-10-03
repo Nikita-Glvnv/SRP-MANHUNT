@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor APS 9x18",
+  "internalName": "lev.apb",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.apb",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.95,
+    "accuracyFactor": 0.87
+  }
+}

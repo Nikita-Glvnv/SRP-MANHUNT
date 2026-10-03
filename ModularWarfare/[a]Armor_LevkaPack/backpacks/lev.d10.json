@@ -1,0 +1,20 @@
+{
+  "displayName": "D-10",
+  "internalName": "lev.d10",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.d10",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+    ],
+      "displayName": "D-10"
+    }
+  ],
+  "size": 0,
+  "allowSmallerBackpackStorage": false,
+  "maxWeaponStorage": 0,
+  "isElytra": true,
+  "elytraStoppable": false
+}

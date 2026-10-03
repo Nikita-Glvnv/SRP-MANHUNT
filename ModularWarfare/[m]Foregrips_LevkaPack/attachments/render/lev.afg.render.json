@@ -1,0 +1,13 @@
+{
+  "modelFileName": "lev.afg.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "grip": {
+    "leftArmOffset": {
+      "x": 0.0,
+      "y": -10.0,
+      "z": 0.0
+    }
+  }
+}

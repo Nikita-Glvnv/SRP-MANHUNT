@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake AK 7.62x39",
+  "internalName": "lev.ak762comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ak762comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.83,
+    "recoilYawFactor": 0.92,
+    "accuracyFactor": 0.95
+  }
+}

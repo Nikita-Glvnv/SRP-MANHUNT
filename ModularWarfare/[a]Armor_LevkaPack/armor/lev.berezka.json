@@ -1,0 +1,23 @@
+{
+    "internalName": "lev.berezka",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "chest": 
+        {
+            "displayName": "berezka_chest"
+        },
+        "legs": 
+        {
+            "displayName": "berezka_legs"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.berezka",
+        "displayName": "berezka"
+      }
+    ]
+}

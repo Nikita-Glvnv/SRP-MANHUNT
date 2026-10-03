@@ -1,0 +1,17 @@
+{
+  "displayName": "Reflex sight DeltaPoint",
+  "internalName": "lev.deltapoint",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.deltapoint",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "normal",
+	"aimSpeedFactor": 1.0
+  }
+}

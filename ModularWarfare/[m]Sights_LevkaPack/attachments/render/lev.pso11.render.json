@@ -1,0 +1,22 @@
+{
+  "modelFileName": "lev.pso.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoom": 4.0,
+    "mouseSensitivityFactor": 0.33,
+	"rectileScale": 1.5,
+	
+	"recoilOverlayFactor": 10,
+	
+	"maskTexture": "lev.pso11",
+	"maskSize": 3.1,
+	"uniformMaskRange": 0.3,
+	"uniformDrawRange": 3.353125,
+	"uniformStrength": 2.0,
+	"uniformScaleRangeY": 2.0,
+	"uniformScaleStrengthY": 2.0,
+	"uniformVerticality": 0.0
+  }
+}

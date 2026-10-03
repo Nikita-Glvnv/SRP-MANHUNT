@@ -1,0 +1,11 @@
+{
+  "modelFileName": "lev.afganka.obj",
+  "extra": {
+    "modelScale": 1.0,
+	"slimSupported": false,
+	"isSuit": false,
+	"hidePlayerModel": false,
+	"hideAllPlayerWearModel": false,
+    "enhancedArmModel": "lev.gorka_arm.glb"
+  }
+}

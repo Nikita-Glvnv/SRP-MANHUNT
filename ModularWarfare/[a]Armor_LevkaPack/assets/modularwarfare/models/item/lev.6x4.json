@@ -1,0 +1,19 @@
+{
+	"credit": "Made by levnemcev",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "modularwarfare:items/melee/lev.6x4"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 2.75, 0.5],
+			"scale": [0.7, 0.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [0, 90, -55],
+			"translation": [0, 3, 0.75],
+			"scale": [0, 0, 0]
+		}
+	}
+}

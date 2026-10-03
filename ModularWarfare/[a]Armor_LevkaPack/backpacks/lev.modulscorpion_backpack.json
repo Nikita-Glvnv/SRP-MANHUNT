@@ -1,0 +1,9 @@
+{
+  "displayName": "Modul Scorpion Backpack",
+  "internalName": "lev.modulscorpion_backpack",
+  "skinName": "lev.modulscorpion_backpack",
+  "size": 14,
+
+  "allowSmallerBackpackStorage": false,
+  "maxWeaponStorage": 0
+}

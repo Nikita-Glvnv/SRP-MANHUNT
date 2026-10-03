@@ -1,0 +1,17 @@
+{
+  "displayName": "Reflex sight SR-2M",
+  "internalName": "lev.sr2msing",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sr2msing",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "normal",
+	"aimSpeedFactor": 0.97
+  }
+}

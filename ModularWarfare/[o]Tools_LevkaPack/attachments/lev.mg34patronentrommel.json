@@ -1,0 +1,12 @@
+{
+  "displayName": "MG34 Patronentrommel cover",
+  "internalName": "lev.mg34patronentrommel",
+  "attachmentType": "charm",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mg34patronentrommel",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "mg34patronentrommel"
+    }
+  ]
+}

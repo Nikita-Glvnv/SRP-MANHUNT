@@ -1,0 +1,179 @@
+{
+    "internalName": "lev.sirena",
+	"extraLore": "Inspect to turn on",
+    "displayName": "Sirena",
+    "weaponType": "carbine,",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+    "gunDamage": 0.1,
+    "gunDamageHeadshotBonus": 0.2,
+    "gunPenetrateSize": 1.0,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 3,
+	"gunHoldLength": 0.3,
+	
+    "internalAmmoStorage": 200,
+	
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	
+    "recoilPitch": 0.1,
+    "recoilYaw": 0.1,
+    "bulletSpread": 0.1,
+    "accuracySneakFactor": 1.0,
+	"accuracyAimFactor": 1.0,
+    "weaponMaxRange": 1.0,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": false,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.0,
+	
+    "fireModes": [
+        "full"
+    ],
+    "acceptedBullets": [
+	"lev.sirena_sound"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": false,
+    "shellEjectOffsetNormal": {
+        "x": 0,
+        "y": -20,
+        "z": -20
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+     "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.sirena",
+                "soundRange": 200,
+                "soundFadeMultiplier": 3
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.nothing",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+                 }
+		 ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+],
+		"inspect": [
+			{
+				"soundEvent": "inspect",
+				"soundName": "lev.nothing"
+			}
+        ],
+		"inspectEmpty": [
+			{
+				"soundEvent": "inspectEmpty",
+				"soundName": "lev.nothing"
+			}
+        ],
+		"weaponDraw": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.drawsirena"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedownsirena"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponInspect": [
+            {
+                "soundEvent": "weaponInspect",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.nothing"
+			}
+		]
+    },
+    "acceptedAttachments": {
+    },
+  "defaultBullet": "lev.sirena_sound",
+  "defaultAttachments": {
+  },
+    "modelSkins": [
+        {
+            "internalName": "lev.sirena",
+            "skinAsset": "lev.sirena",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

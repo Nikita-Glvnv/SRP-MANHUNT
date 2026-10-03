@@ -1,0 +1,17 @@
+{
+  "displayName": " Stock DS Arms SA-58 BRS",
+  "internalName": "lev.sa58brsstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sa58brsstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.76,
+    "recoilYawFactor": 0.58,
+	"aimSpeedFactor": 1.3
+  }
+}

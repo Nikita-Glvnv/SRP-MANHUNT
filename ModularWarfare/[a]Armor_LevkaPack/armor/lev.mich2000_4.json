@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.mich2000_4",
+    "defense": "0.30",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "head": 
+        {
+            "displayName": "mich2000_4"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.mich2000_4",
+        "displayName": "mich2000_4"
+      }
+    ]
+}

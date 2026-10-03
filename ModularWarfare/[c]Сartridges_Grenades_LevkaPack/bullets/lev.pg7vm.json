@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.pg7vm",
+  "maxStackSize": 1,
+  "displayName": "70mm PG-7VM",
+  "renderBulletModel": true,
+  "projectileVelocity": 8,
+  "impactDamage": 42,
+  "explosionDamage": 33,
+  "explosionRange": 15,
+  "gravity": -0.007,
+  "explosionThroughWalls": true,
+  "isSmoke": true,
+  "isExplosion": true,
+  "damageWorld": false,
+  "isDynamicBullet": true,
+  "sameTextureAsGun": false,
+  "modelSkins": [
+        {
+            "internalName": "lev.pg7vm",
+            "skinAsset": "lev.pg7vm",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

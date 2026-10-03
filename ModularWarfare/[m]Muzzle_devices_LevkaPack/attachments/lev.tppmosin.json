@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake Texas Precision Products for Mosin 7.62x54R",
+  "internalName": "lev.tppmosin",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.tppmosin",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.78,
+    "recoilYawFactor": 0.87,
+    "accuracyFactor": 0.92
+  }
+}

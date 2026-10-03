@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor AK-12 5.45x39",
+  "internalName": "lev.ak12sup",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ak12sup",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.95,
+    "accuracyFactor": 0.87
+  }
+}

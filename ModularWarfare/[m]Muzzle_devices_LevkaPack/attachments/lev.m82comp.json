@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake Barret M82 .50 BMG",
+  "internalName": "lev.m82comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.m82comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.83,
+    "recoilYawFactor": 0.92,
+    "accuracyFactor": 0.95
+  }
+}

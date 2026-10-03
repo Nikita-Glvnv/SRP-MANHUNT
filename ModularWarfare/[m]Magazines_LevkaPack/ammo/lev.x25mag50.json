@@ -1,0 +1,17 @@
+{
+    "internalName": "lev.x25mag50",
+    "displayName": "7.62x51 X-25 AR-10 50rd.",
+    "ammoCapacity": 50,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.76251",
+        "lev.76251_m80",
+        "lev.76251_m82",
+        "lev.76251_m993"
+    ],
+	  "maxStackSize": 1,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 2.0,
+    "allowEmptyMagazines": true
+}

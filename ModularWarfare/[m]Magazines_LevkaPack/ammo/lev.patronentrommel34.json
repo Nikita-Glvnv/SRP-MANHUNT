@@ -1,0 +1,15 @@
+{
+    "internalName": "lev.patronentrommel34",
+    "displayName": "7.92x57 patronentrommel 34 75rd.",
+    "ammoCapacity": 75,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.79257",
+        "lev.79257_smk",
+        "lev.79257_smkl",
+        "lev.79257_smkh",
+        "lev.79257_pmk"
+    ],
+	  "maxStackSize": 1,
+    "allowEmptyMagazines": true
+}

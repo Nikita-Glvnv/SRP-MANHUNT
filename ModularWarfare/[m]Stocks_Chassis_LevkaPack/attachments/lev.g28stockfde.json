@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock HK G28 FDE",
+  "internalName": "lev.g28stockfde",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.g28stockfde",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.78,
+    "recoilYawFactor": 0.55,
+	"aimSpeedFactor": 1.25
+  }
+}

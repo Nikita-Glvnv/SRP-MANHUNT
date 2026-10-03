@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.bdu_woodland_legs",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "legs": 
+        {
+            "displayName": "bdu_woodland_legs"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.bdu_woodland",
+        "displayName": "bdu_woodland"
+      }
+    ]
+}

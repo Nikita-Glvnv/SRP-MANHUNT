@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.918_sp7",
+  "maxStackSize": 60,
+  "bulletDamageFactor": 2.9,
+  "bulletAccuracyFactor": 1.3,
+  "displayName": "9x18 PM SP7",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail1.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.918_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "wither",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

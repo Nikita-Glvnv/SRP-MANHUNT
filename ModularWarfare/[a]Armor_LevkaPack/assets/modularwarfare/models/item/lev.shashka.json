@@ -1,0 +1,41 @@
+{
+	"credit": "Made by levnemcev",
+	"parent": "item/generated",
+	"textures": {
+		"layer0": "modularwarfare:items/melee/lev.shashka"
+	},
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [0, -90, 55],
+			"translation": [0, 4.25, 0.75],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [-124.25, -90, 0],
+			"translation": [-1.75, -6.25, -0.75],
+			"scale": [1.7, 1.7, 0.85]
+		},
+		"firstperson_righthand": {
+			"rotation": [0, -90, 25],
+			"translation": [-0.12, 3.7, 1.88],
+			"scale": [1.38, 1.38, 0.68]
+		},
+		"firstperson_lefthand": {
+			"rotation": [109.75, 90, 0],
+			"translation": [1.13, -1.3, 3.13],
+			"scale": [1.38, 1.38, 0.68]
+		},
+		"ground": {
+			"scale": [2, 2, 1]
+		},
+		"gui": {
+			"translation": [1, 2, 0],
+			"scale": [2, 2, 2]
+		},
+		"fixed": {
+			"rotation": [0, 180, 0],
+			"translation": [4.25, -2, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

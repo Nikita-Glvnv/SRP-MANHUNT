@@ -1,0 +1,12 @@
+{
+  "modelFileName": "lev.perst3.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "laser": {
+    "laserColor": [0.0, 2.0, 0.0],
+    "laserAlhpa": 0.6,
+    "maxDistance": 55.0,
+    "dotSize": 4.0
+  }
+}

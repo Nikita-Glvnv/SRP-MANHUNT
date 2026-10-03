@@ -1,0 +1,16 @@
+{
+  "displayName": "M203A1 LMT Rail mounted",
+  "internalName": "lev.m203",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.m203",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "lev.m203"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.75,
+    "recoilYawFactor": 1.0
+  }
+}

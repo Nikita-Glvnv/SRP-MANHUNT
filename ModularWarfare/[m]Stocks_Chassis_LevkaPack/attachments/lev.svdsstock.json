@@ -1,0 +1,17 @@
+{
+  "displayName": "Folding stock SVDS",
+  "internalName": "lev.svdsstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.svdstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.70,
+	"aimSpeedFactor": 1.4
+  }
+}

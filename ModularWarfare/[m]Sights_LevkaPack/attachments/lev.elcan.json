@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope Elcan x1-x4 FDE",
+  "internalName": "lev.elcan",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.elcan",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.94
+  }
+}

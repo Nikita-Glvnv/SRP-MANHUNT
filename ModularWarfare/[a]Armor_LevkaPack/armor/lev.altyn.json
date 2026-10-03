@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.altyn",
+    "defense": "0.45",
+    "durability": 520,
+    "armorTypes": 
+    {
+        "head": 
+        {
+            "displayName": "Altyn"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.altyn",
+        "displayName": "Altyn"
+      }
+    ]
+}

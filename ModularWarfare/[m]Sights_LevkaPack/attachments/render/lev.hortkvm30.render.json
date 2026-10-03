@@ -1,0 +1,23 @@
+{
+  "modelFileName": "lev.hortkvm30.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoomMin": 1.0,
+    "fovZoomMax": 8.0,
+    "mouseSensitivityFactor": 0.33,
+	"rectileScale": 1.5,
+	
+	"recoilOverlayFactor": 4,
+	
+	"maskTexture": "lev.hortkvm30",
+	"maskSize": 2.4,
+	"uniformMaskRange": 0.3,
+	"uniformDrawRange": 3.353125,
+	"uniformStrength": 2.0,
+	"uniformScaleRangeY": 2.0,
+	"uniformScaleStrengthY": 2.0,
+	"uniformVerticality": 0.0
+  }
+}

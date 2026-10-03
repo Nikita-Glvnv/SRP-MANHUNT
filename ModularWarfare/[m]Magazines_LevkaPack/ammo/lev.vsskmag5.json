@@ -1,0 +1,13 @@
+{
+    "internalName": "lev.vsskmag5",
+    "displayName": "12.7x55 STs-130 VSSK 5rd.",
+    "ammoCapacity": 5,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.12755_130",
+		"lev.12755_1302",
+		"lev.12755_130vps"
+    ],
+	  "maxStackSize": 2,
+    "allowEmptyMagazines": true
+}

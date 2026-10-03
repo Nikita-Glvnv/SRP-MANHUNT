@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.vkpo_emr",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "chest": 
+        {
+            "displayName": "vkpo_emr_chest"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.vkpo_emr",
+        "displayName": "vkpo_emr"
+      }
+    ]
+}

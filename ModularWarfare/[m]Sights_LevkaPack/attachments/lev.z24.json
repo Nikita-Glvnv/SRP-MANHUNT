@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope Hensoldt Fero Z24 4×24",
+  "internalName": "lev.z24",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.z24",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.92
+  }
+}

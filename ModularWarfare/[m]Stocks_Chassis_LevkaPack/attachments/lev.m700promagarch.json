@@ -1,0 +1,17 @@
+{
+  "displayName": "Chassis ProMag Archangel M700",
+  "internalName": "lev.m700promagarch",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.m700promagarch",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.97,
+    "recoilYawFactor": 0.95,
+	"aimSpeedFactor": 1.35
+  }
+}

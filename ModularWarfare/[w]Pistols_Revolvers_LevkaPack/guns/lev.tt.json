@@ -1,0 +1,189 @@
+{
+    "internalName": "lev.tt",
+    "displayName": "TT-33",
+    "weaponType": "carbine",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+    "gunDamage": 1.0,
+    "gunDamageHeadshotBonus": 0.6,
+	"gunPenetrateSize": 1.0,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 550,
+	"gunHoldLength": 0.5,
+	
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+
+    "recoilPitch": 11.0,
+    "recoilYaw": 240,
+    "randomRecoilPitch": 0.02,
+    "randomRecoilYaw": 0.04,
+    "bulletSpread": 2.4,
+    "accuracySneakFactor": 0.9,
+	"accuracyAimFactor": 0.4,
+    "weaponMaxRange": 100,
+    "weaponEffectiveRange": 45,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 1,
+    "allowSprintFiring": true,
+	
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+    "fireModes": [
+        "semi"
+    ],
+    "acceptedAmmo": [
+        "lev.ttmag"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": 0,
+        "y": -20,
+        "z": -20
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.ttshoot",
+                "soundNameDistant": "lev.ttshootfar",
+                "soundRange": 45,
+                "soundMaxRange": 100,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.sr1supshoot",
+                "soundRange": 20,
+                "soundMaxRange": 35,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponDraw": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.draw_p"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown_p"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponPreUnload",
+                "soundName": "lev.ttunload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.ttload"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.pistoldry"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"inspect": [
+            {
+                "soundEvent": "inspect",
+                "soundName": "lev.inspect_p"
+            }
+        ],
+		"inspectEmpty": [
+			{
+				"soundEvent": "inspectEmpty",
+				"soundName": "lev.inspect_p"
+			}
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.ttprerel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.ttfullrel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.nothing"
+			}
+		]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "lev.tt",
+            "skinAsset": "lev.tt",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        },
+        {
+            "internalName": "lev.gold",
+            "skinAsset": "lev.ttg",
+            "displayName": "Default",
+            "textures": [
+                "basic",
+                "specular",
+                "normal"
+            ]
+        }
+    ]
+}

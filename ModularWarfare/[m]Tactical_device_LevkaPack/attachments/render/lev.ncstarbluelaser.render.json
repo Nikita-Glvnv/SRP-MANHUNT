@@ -1,0 +1,12 @@
+{
+  "modelFileName": "lev.ncstarbluelaser.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "laser": {
+    "laserColor": [0.0, 0.1, 70.0],
+    "laserAlhpa": 0.7,
+    "maxDistance": 45.0,
+    "dotSize": 5.0
+  }
+}

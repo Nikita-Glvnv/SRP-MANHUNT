@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.pg7v",
+  "maxStackSize": 1,
+  "displayName": "85mm PG-7V",
+  "renderBulletModel": true,
+  "projectileVelocity": 8,
+  "impactDamage": 40,
+  "explosionDamage": 30,
+  "explosionRange": 13,
+  "gravity": -0.007,
+  "explosionThroughWalls": true,
+  "isSmoke": true,
+  "isExplosion": true,
+  "damageWorld": false,
+  "isDynamicBullet": true,
+  "sameTextureAsGun": false,
+  "modelSkins": [
+        {
+            "internalName": "lev.pg7v",
+            "skinAsset": "lev.pg7v",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

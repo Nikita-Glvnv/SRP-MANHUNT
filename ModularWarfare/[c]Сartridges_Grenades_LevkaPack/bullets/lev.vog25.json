@@ -1,0 +1,15 @@
+{
+  "internalName": "lev.vog25",
+  "maxStackSize": 3,
+  "displayName": "40mm VOG-25",
+  "renderBulletModel": true,
+  "projectileVelocity": 5,
+  "impactDamage": 33,
+  "explosionDamage": 32,
+  "explosionRange": 12,
+  "gravity": -0.05,
+  "explosionThroughWalls": false,
+  "isSmoke": false,
+  "isExplosion": true,
+  "damageWorld": false
+}

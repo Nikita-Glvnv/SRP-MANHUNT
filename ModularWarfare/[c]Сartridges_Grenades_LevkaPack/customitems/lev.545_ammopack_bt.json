@@ -1,0 +1,44 @@
+{
+  "internalName": "lev.545_ammopack_bt",
+  "displayName": "AmmoPack 5.45x39 BT",
+  
+  "itemType": "consumable",
+  "animationType": "enhanced",
+  "moveSpeedModifier": 1.0,
+  "maxStackSize": 5,
+  "usable": true,
+  "useCooldown": 0,
+  "consumableConfig": {
+    "useCommand": [
+      "[console]give %player% modularwarfare:lev.545_bt 30"
+    ],
+    "consumeOnUse": true
+  },
+  
+  "weaponSoundMap": {
+    "customItemAttack": [
+      {
+        "soundEvent": "customItemAttack",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "customItemUse": [
+      {
+        "soundEvent": "customItemUse",
+        "soundName": "lev.ammopackuse1"
+      }
+    ]
+  },
+  
+  "modelSkins": [
+    {
+      "internalName": "lev.545_ammopack_bt",
+      "skinAsset": "lev.545_ammopack_bt",
+      "displayName": "Default",
+      "textures": [
+        "basic"
+      ]
+    }
+  ]
+}
+

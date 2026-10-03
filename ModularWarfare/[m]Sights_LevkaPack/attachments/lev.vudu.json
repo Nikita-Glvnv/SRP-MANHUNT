@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope EOTech Vudu x1-x6",
+  "internalName": "lev.vudu",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.vudu",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.92
+  }
+}

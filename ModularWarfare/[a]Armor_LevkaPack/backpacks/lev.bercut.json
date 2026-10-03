@@ -1,0 +1,9 @@
+{
+  "displayName": "bercut",
+  "internalName": "lev.bercut",
+  "skinName": "lev.bercut",
+  "size": 16,
+
+  "allowSmallerBackpackStorage": false,
+  "maxWeaponStorage": 5
+}

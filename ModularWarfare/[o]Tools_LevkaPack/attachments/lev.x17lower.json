@@ -1,0 +1,12 @@
+{
+  "displayName": "X17 Lower",
+  "internalName": "lev.x17lower",
+  "attachmentType": "charm",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.x17lower",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "x17lower"
+    }
+  ]
+}

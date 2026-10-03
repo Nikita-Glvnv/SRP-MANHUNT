@@ -1,0 +1,12 @@
+{
+  "modelFileName": "lev.ogl.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "laser": {
+    "laserColor": [0.0, 2.0, 0.0],
+    "laserAlhpa": 0.4,
+    "maxDistance": 65.0,
+    "dotSize": 3.0
+  }
+}

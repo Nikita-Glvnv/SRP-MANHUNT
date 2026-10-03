@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope Elcan x1-x4 Black",
+  "internalName": "lev.elcanb",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.elcanb",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.94
+  }
+}

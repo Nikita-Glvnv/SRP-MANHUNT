@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake ASh-12 12.7x55",
+  "internalName": "lev.ashcomp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ashcomp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.86,
+    "accuracyFactor": 0.90
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "modelFileName": "lev.nightforce.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "sight": {
+    "fovZoomMin": 7.0,
+    "fovZoomMax": 35.0,
+    "mouseSensitivityFactor": 0.16,
+	"rectileScale": 7.0,
+	
+	"recoilOverlayFactor": 12,
+	
+	"maskTexture": "lev.nightforce",
+	"maskSize": 2.4,
+	"uniformMaskRange": 0.3,
+	"uniformDrawRange": 3.353125,
+	"uniformStrength": 2.0,
+	"uniformScaleRangeY": 2.0,
+	"uniformScaleStrengthY": 2.0,
+	"uniformVerticality": 0.0
+  }
+}

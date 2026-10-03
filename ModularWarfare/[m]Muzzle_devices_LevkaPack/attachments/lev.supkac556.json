@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor KAC QDC 5.56x45",
+  "internalName": "lev.supkac556",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.supkac556",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.95,
+    "accuracyFactor": 0.87
+  }
+}

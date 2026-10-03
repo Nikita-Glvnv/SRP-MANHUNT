@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor SR-1",
+  "internalName": "lev.sr1_sup",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sr1_sup",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.75,
+    "recoilYawFactor": 0.9,
+    "accuracyFactor": 0.87
+  }
+}

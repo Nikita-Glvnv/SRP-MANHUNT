@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock PPS-43",
+  "internalName": "lev.pps43stock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pps43stock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.92,
+    "recoilYawFactor": 0.90,
+	"aimSpeedFactor": 1.3
+  }
+}

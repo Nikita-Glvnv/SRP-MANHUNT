@@ -1,0 +1,18 @@
+{
+    "internalName": "lev.6sh72",
+    "displayName": "6Sh72 RPG grenades bag",
+    "ammoCapacity": 6,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.pg7v",
+        "lev.pg7vm",
+        "lev.pg7vs",
+        "lev.pg7vl",
+        "lev.pg7vr",
+		"lev.og7v",
+        "lev.tgb7v",
+		"lev.shovel"
+    ],
+	  "maxStackSize": 1,
+    "allowEmptyMagazines": true
+}

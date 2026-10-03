@@ -1,0 +1,17 @@
+{
+  "displayName": "Folding stock SA-58",
+  "internalName": "lev.sa58lstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sa58lstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.65,
+	"aimSpeedFactor": 1.4
+  }
+}

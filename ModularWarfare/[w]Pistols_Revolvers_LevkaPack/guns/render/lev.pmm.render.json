@@ -1,0 +1,621 @@
+{
+  "modelFileName": "lev.pm.glb",
+  "animations": {
+    "default": {
+      "startTime": 0,
+	  "endTime": 0,
+	  "speed": 0.02
+    },
+    "defaultEmpty": {
+      "startTime": 76,
+	  "endTime": 76,
+	  "speed": 0.015
+    },
+    "draw": {
+      "startTime": 15,
+      "endTime": 36,
+	  "speed": 0.017
+    },
+    "takedown": {
+      "startTime": 1400,
+      "endTime": 1410,
+	  "speed": 0.019
+    },
+    "drawEmpty": {
+      "startTime": 55,
+      "endTime": 76,
+	  "speed": 0.017
+    },
+    "takedownEmpty": {
+      "startTime": 1420,
+      "endTime": 1430,
+	  "speed": 0.019
+    },
+	"sprint": {
+      "startTime": 315,
+      "endTime": 342,
+	  "speed": 0.024
+    },
+    "aim": {
+	  "speed": 0.004
+  },
+	"prefire": {
+      "startTime": 80, 
+      "endTime": 81,
+	  "speed": 2.1
+    },
+	"fire": {
+      "startTime": 81, 
+      "endTime": 90,
+	  "speed": 0.05
+    },
+	"fireLast": {
+      "startTime": 101, 
+      "endTime": 110,
+	  "speed": 0.050
+    },
+	"postfire": {
+      "startTime": 90, 
+      "endTime": 100,
+	  "speed": 0.025
+     },
+	"postfireEmpty": {
+      "startTime": 110, 
+      "endTime": 120,
+	  "speed": 0.025
+     },
+	"prereload": {
+      "startTime": 540,
+      "endTime": 625,
+	  "speed": 0.0215
+    },
+	"reloadSecond": {
+      "startTime": 625,
+      "endTime": 666,
+	  "speed": 0.0215
+    },
+	"postreload": {
+      "startTime": 666,
+      "endTime": 692,
+	  "speed": 0.0215
+ },
+ 	"prereloadEmpty": {
+      "startTime": 700,
+      "endTime": 785,
+	  "speed": 0.0215
+    },
+	"reloadSecondEmpty": {
+      "startTime": 785,
+      "endTime": 853,
+	  "speed": 0.0215
+    },
+	"postreloadEmpty": {
+      "startTime": 853,
+      "endTime": 873,
+	  "speed": 0.0215
+    },
+	"load": {
+      "startTime": 1080,
+      "endTime": 1185,
+	  "speed": 0.0215
+    },
+	"preunload": {
+      "startTime": 880,
+      "endTime": 916,
+	  "speed": 0.0215
+    },
+	"unload": {
+      "startTime": 916,
+      "endTime": 1065,
+	  "speed": 0.0215
+    },
+    "inspect": {
+      "startTime": 160,
+      "endTime": 307,
+	  "speed": 0.015
+    },
+    "inspectEmpty": {
+      "startTime": 360,
+      "endTime": 507,
+	  "speed": 0.015
+    }
+  },
+  "sprint": {
+    "basicSprint": false,
+    "sprintRotate": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "sprintTranslate": {
+      "x": 2.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+	"thirdPerson": {
+		"renderElements": {
+			"player": {
+				"pos": {
+					"x": -0.02,
+					"y": 0.4,
+					"z": -0.3
+				},
+				"rot": {
+					"x": 0.0,
+					"y": 90.0,
+					"z": -90.0
+				},
+				"size": {
+					"x": 0.65,
+					"y": 0.65,
+					"z": 0.65
+				}
+			},
+			"itemloot": {
+				"randomYaw": true,
+				"pos": {
+					"x": -0.2,
+					"y": -0.47,
+					"z": -0.2
+				},
+				"rot": {
+					"x": 90.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"size": {
+					"x": 0.7,
+					"y": 0.7,
+					"z": 0.7
+				}
+			},
+			"itemframe": {
+				"pos": {
+					"x": -0.23,
+					"y": 0.2,
+					"z": 0.0
+				},
+				"rot": {
+					"x": 0.0,
+					"y": 0.0,
+					"z": 0.0
+				},
+				"size": {
+					"x": 0.6,
+					"y": 0.6,
+					"z": 0.6
+				}
+			}
+		}
+	},
+  "aim": {
+    "rotateHipPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "translateHipPosition": {
+      "x": 5.0,
+      "y": -1.0,
+      "z": 3.0
+    },
+    "rotateAimPosition": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "translateAimPosition": {
+      "x": 1.0,
+      "y": 2.3,
+      "z": -3.23
+    }
+  },
+  "attachmentGroup": {
+    "barrel": {
+	  "hidePart": [
+	    "defaultBarrelModel"
+	  ],
+	   "translate": {
+	    "x": 6.8,
+	    "y": -2.0,
+	    "z": 0.2
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 90.0,
+	    "z": 0.0
+	  }
+	},
+     "sight": {
+	  "translate": {
+	    "x": 2.0,
+	    "y": -1.1,
+	    "z": 0.0
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+	  }
+	},
+	"grip": {
+	  "translate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": -8.0
+	  },
+	  "scale": {
+	    "x": 12.0,
+	    "y": 12.0,
+	    "z": 12.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 90.0,
+	    "z": 0.0
+	  }
+	},
+	"flashlight": {
+	  "translate": {
+	    "x": 0.1,
+	    "y": -0.8,
+	    "z": -0.5
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": -90.0,
+	    "y": 0.0,
+	    "z": -90.0
+	  }
+	},
+	"laser": {
+		"translate": {
+	    "x": 6.0,
+	    "y": -2.8,
+	    "z": 0.2
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+		}
+	},
+	"charm": {
+	  "translate": {
+	    "x": -2.2,
+	    "y": -1.2,
+	    "z": -0.42
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 90.0,
+	    "y": -90.0,
+	    "z": 0.0
+	  }
+	},
+	"ammo": {
+	  "translate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 90.0,
+	    "z": 0.0
+	  }
+	},
+	"bullet": {
+	  "translate": {
+	    "x": -0.7,
+	    "y": 0.0,
+	    "z": 0.0
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+	  }
+	},
+	"skin": {
+		"translate": {
+			"x": 3,
+			"y": -3,
+			"z": 0.2
+		},
+		"scale": {
+			"x": 1.0,
+			"y": 1.0,
+			"z": 1.0
+		},
+		"rotate": {
+			"x": 0.0,
+			"y": 0.0,
+			"z": 0.0
+		}
+	},
+	"stock": {
+	  "translate": {
+	    "x": 0.5,
+	    "y": -5.2,
+	    "z": 0.2
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+	  }
+	}
+  },
+  "attachment": {
+    "lev.ospreysup": {
+	     "binding": "barrel",
+	  "hidePart": [],
+	  "translate": { 
+	    "x": 2.08,
+	    "y": 2.35,
+	    "z": -6.8
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+      },
+	  "attachmentGuiOffset": {
+	    "x": 6.8,
+	    "y": -2.0,
+	    "z": 0.2
+      }
+    },
+	    "lev.lwdfh": {
+	 "binding": "barrel",
+	  "flashModelOffset": {
+    "x": 1.0,
+    "y": 0.0,
+    "z": 0.0
+	  },
+	  "translate": { 
+	    "x": 1.93,
+	    "y": 2.35,
+	    "z": -6.8
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+      },
+	  "attachmentGuiOffset": {
+	    "x": 6.8,
+	    "y": -2.0,
+	    "z": 0.2
+      }
+    },
+    "lev.glr17": {
+	     "binding": "gunModel",
+	  "hidePart": [],
+	  "translate": { 
+	    "x": -0.5,
+	    "y": 1.9,
+	    "z": 2.4
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+      }
+    },
+    "lev.klesh": {
+	     "binding": "gunModel",
+	  "hidePart": [],
+	  "translate": { 
+	    "x": -6.0,
+	    "y": 2.416,
+	    "z": -2.3
+	  },
+	  "scale": {
+	    "x": 1.0,
+	    "y": 1.0,
+	    "z": 1.0
+	  },
+	  "rotate": {
+	    "x": 90.0,
+	    "y": 90.0,
+	    "z": 0.0
+      }
+    },
+	"lev.deltapoint": {
+  	     "binding": "slide",
+		 	  "hidePart": ["mos"],
+      "sightAimPosOffset": {
+	    "x": 0.0,
+	    "y": -0.5,
+	    "z": 0.0
+	  },
+      "sightAimRotOffset": {
+	    "x": 0.0,
+	    "y": 0.0,
+	    "z": 0.0
+	  },
+	  "translate": { 
+	    "x": -2.0,
+	    "y": 0.90,
+	    "z": -0.0
+	  },
+	  "scale": {
+	    "x": 1,
+	    "y": 1,
+	    "z": 1
+	  },
+	  "rotate": {
+	    "x": 0.0,
+	    "y": 90.0,
+	    "z": 0.0
+      },
+	  "attachmentGuiOffset": {
+	    "x": 2.0,
+	    "y": -1.1,
+	    "z": 0.0
+      }
+    }
+  },
+  "specialEffect": {
+  "oldFlashModel": true,
+  "postSmokeFactor": 1,
+  "flashModelGroups": [
+    {
+      "name": "muzzle_point_6"
+    }
+  ],
+  "postSmokeGroups": [
+    {
+      "name": "muzzle_point_6"
+    }
+  ],
+  "ejectionGroups": [
+    {
+      "name": "ejection_point_6",
+      "throwShellFrame": 82,
+      "throwShellMaxForce": {
+        "x": 0,
+        "y": 1.4,
+        "z": 2.0
+      },
+      "ejectSmoke": true,
+      "ejectSmokeForce": {
+        "x": 0,
+        "y": 1.4,
+        "z": 2.0
+      }
+	},
+	{
+      "name": "ejection_point_6",
+      "throwShellFrame": 102,
+      "throwShellMaxForce": {
+        "x": 0,
+        "y": 1.4,
+        "z": 2.0
+      },
+      "ejectSmoke": true,
+      "ejectSmokeForce": {
+        "x": 0,
+        "y": 1.4,
+        "z": 2.0
+      }
+    }
+  ],
+  "firstPersonShellEjectPos": {
+    "x": 0,
+    "y": 0,
+    "z": -0.2
+  },
+  "thirdPersonShellEjectPos": {
+    "x": 0,
+    "y": 0,
+    "z": 0
+  }
+},
+  "defaultHidePart": [
+    "pbslide",
+	"pb",
+	"pbsup",
+	"pm"
+  ],
+  "attachments": {},
+  "global": {
+    "globalTranslate": {
+      "x": 0.0,
+	  "y": 0.0,
+	  "z": 0.0
+    },
+    "globalScale": {
+      "x": 1.0,
+	  "y": 1.0,
+	  "z": 1.0
+    },
+    "globalRotate": {
+      "x": 0.0,
+	  "y": 0.0,
+  	  "z": 0.0
+    }
+  },
+  "fpTrailOriginCorrection": true,
+  	"showHandArmorType": "static",
+  "extra": {
+    "translateAll": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+       },
+		"modelScale": 0.3,
+		"modelGuiScale": 0.7,
+		"modelGuiRotateCenter": {
+			"x": -4.0,
+			"y": 1.5
+		},
+    "modelScale": 1.2,
+    "gunOffsetScoping": 0.0,
+    "crouchZoom": -0.035,
+    "adsSpeed": 0.08,
+	"bobbingFactor": 0.001,
+    "modelRecoilBackwards": 0.7,
+    "modelRecoilUpwards": 0.6,
+    "modelRecoilShake": 0.2,
+	"modelRecoilBackwardsADSFactor": 2,
+	"modelRecoilUpwardsADSFactor": 3,
+	"modelRecoilShakeADSFactor": 1.5
+  }
+}

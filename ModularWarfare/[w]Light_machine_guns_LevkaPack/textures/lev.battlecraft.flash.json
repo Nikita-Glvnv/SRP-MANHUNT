@@ -1,0 +1,11 @@
+{
+  "internalName": "lev.battlecraft.flash",
+  "textureType": "flash",
+  "imageLocation":
+  [
+    "lev.battlecraft.flash1.png",
+    "lev.battlecraft.flash2.png",
+    "lev.battlecraft.flash3.png",
+    "lev.battlecraft.flash4.png"
+  ]
+}

@@ -1,0 +1,198 @@
+{
+    "internalName": "lev.sa58_m203",
+    "displayName": "SA-58 IBR",
+    "weaponType": "launcher",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+	  "transformations": {
+    "0": "lev.sa58",
+    "1": "lev.sa58_m203"
+  },
+
+  "transformAmmoOptions": {
+    "0": { "ammoRatio": false, "sameAmmo": false }
+  },
+  "transformationRequirements": {
+    "0": {
+      "grip": "lev.m203"
+    }
+  },
+  "customWheelTexture": "lev.m4a1icon",
+ 
+	"numBullets": 1,
+    "internalAmmoStorage": 1,
+    "gunDamage": 10,
+    "gunDamageHeadshotBonus": 3,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 200,
+	"gunHoldLength": 1.5,
+	
+    "bulletSpread": 4,
+
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	"viewKickPitchScale": 0.30,
+	"viewKickYawScale": 0.15,
+    "recoilPitch": 20.0,
+    "recoilYaw": 300.0,
+
+    "accuracySneakFactor": 1.0,
+    "accuracyCrawlFactor": 1.0,
+    "accuracyAimFactor": 0.05,
+    "recoilCrawlYawFactor": 0.9,
+    "recoilCrawlPitchFactor": 0.6,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.95,
+	
+    "fireModes": [
+		"semi"
+    ],
+    "acceptedBullets": [
+        "lev.m381",
+        "lev.m441",
+        "lev.m433"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": 0,
+        "y": -20,
+        "z": -20
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+     "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.m79shoot",
+                "soundNameDistant": "lev.nothing",
+                "soundRange": 80,
+                "soundMaxRange": 80,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.m79shoot",
+                "soundNameDistant": "lev.nothing",
+                "soundRange": 80,
+                "soundMaxRange": 80,
+                "soundFadeMultiplier": 1
+                 }
+		 ],
+		"weaponDraw": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponPreUnload",
+                "soundName": "lev.sa58unload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+],
+		"inspect": [
+			{
+				"soundEvent": "inspect",
+				"soundName": "lev.inspect"
+			}
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.sa58load"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.dryfire"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.sa58tacrel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.sa58tacrel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.sa58fullrel"
+			}
+		]
+    },
+    "acceptedAttachments": {
+    },
+  "defaultAttachments": {
+    "stock": "lev.sa58brsstock",
+	"barrel": "lev.sa583p",
+	"grip": "lev.m203"
+  },
+    "modelSkins": [
+        {
+            "internalName": "lev.sa58",
+            "skinAsset": "lev.sa58",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "lev.binlen",
+  "internalName": "lev.binlen",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.binlen",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "normal"
+  }
+}

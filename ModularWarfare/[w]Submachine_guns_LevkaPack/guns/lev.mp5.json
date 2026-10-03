@@ -1,0 +1,203 @@
+{
+    "internalName": "lev.mp5",
+    "displayName": "MP5",
+    "weaponType": "carbine",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+    "gunDamage": 1.0,
+    "gunDamageHeadshotBonus": 0.6,
+	"gunPenetrateSize": 1.0,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 800,
+	"gunHoldLength": 1.0,
+	
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	
+    "recoilPitch": 2.8,
+    "recoilYaw": 220,
+    "randomRecoilPitch": 0.02,
+    "randomRecoilYaw": 0.03,
+    "antiRecoilFactor": 10.0,
+    "antiRecoilStartTime": 30,
+    "bulletSpread": 1.8,
+    "accuracySneakFactor": 0.9,
+	"accuracyAimFactor": 0.3,
+    "weaponMaxRange": 120,
+    "weaponEffectiveRange": 40,
+	"allowSprintFiring": true,
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 1,
+	
+    "fireModes": [
+        "full",
+		"semi"
+    ],
+    "acceptedAmmo": [
+		"lev.mp5mag15",
+        "lev.mp5mag30",
+        "lev.mp5mag40",
+		"lev.mp5mag50"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": -1,
+        "y": 0,
+        "z": 1
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.mp5shoot",
+                "soundNameDistant": "lev.glockshootfar",
+                "soundRange": 40,
+                "soundMaxRange": 90,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.glockshootsup",
+                "soundRange": 20,
+                "soundMaxRange": 35,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponDraw": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.mp5unload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.mp5load"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.pistoldry"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"inspect": [
+            {
+                "soundEvent": "inspect",
+                "soundName": "lev.kedrinspect"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.mp5prerel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.mp5fullrel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.nothing"
+			}
+		]
+    },
+    "acceptedAttachments": {
+        "barrel": [
+		"lev.ospreysup",
+		"lev.lwdfh"
+        ],
+        "sight": [
+	     "lev.barska",
+		 "lev.deltapoint",
+	     "lev.okp",
+	     "lev.microh1",
+	     "lev.microh2",
+	     "lev.eotech",
+	     "lev.elcan",
+		 "lev.elcanb",
+		 "lev.valday",
+		 "lev.mtprism",
+		 "lev.trijiconrmr"
+        ],
+        "stock": [
+            "lev.mp5stock",
+            "lev.mp5lstock",
+            "lev.mp5f5stock"
+        ]
+    },
+  "defaultAttachments": {
+    "stock": "lev.mp5stock"
+  },
+    "modelSkins": [
+        {
+            "internalName": "lev.mp5",
+            "skinAsset": "lev.mp5",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

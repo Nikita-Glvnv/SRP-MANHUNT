@@ -1,0 +1,12 @@
+{
+  "modelFileName": "lev.gtl21.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "laser": {
+    "laserColor": [70.0, 0.0, 0.0],
+    "laserAlhpa": 0.5,
+    "maxDistance": 33.0,
+    "dotSize": 3.5
+  }
+}

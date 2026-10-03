@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock Magpul MOE Carbine FDE",
+  "internalName": "lev.moestockfde",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.moestockfde",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.82,
+    "recoilYawFactor": 0.64,
+	"aimSpeedFactor": 1.45
+  }
+}

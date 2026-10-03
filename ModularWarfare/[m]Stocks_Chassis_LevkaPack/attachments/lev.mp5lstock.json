@@ -1,0 +1,17 @@
+{
+  "displayName": "Folding stock MP5",
+  "internalName": "lev.mp5lstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mp5",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.65,
+	"aimSpeedFactor": 1.5
+  }
+}

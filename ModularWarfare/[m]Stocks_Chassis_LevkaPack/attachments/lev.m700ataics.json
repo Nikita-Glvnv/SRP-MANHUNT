@@ -1,0 +1,17 @@
+{
+  "displayName": "Chassis AI AT AICS M700",
+  "internalName": "lev.m700ataics",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.m700ataics",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.92,
+    "recoilYawFactor": 0.93,
+	"aimSpeedFactor": 1.2
+  }
+}

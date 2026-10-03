@@ -1,0 +1,16 @@
+{
+  "displayName": "M203A1",
+  "internalName": "lev.m203a1",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.m203a1",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "lev.m203a1"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.75,
+    "recoilYawFactor": 1.0
+  }
+}

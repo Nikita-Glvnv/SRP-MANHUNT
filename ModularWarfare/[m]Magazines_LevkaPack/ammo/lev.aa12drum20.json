@@ -1,0 +1,20 @@
+{
+    "internalName": "lev.aa12drum20",
+    "displayName": "12ga AA-12 Drum 20rd.",
+    "ammoCapacity": 20,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.12g",
+		"lev.12g_65mm",
+		"lev.12g_flechette",
+		"lev.12g_dragon",
+		"lev.12gslug",
+		"lev.12g_ap",
+		"lev.12g_rip",
+		"lev.12g76_62mm",
+		"lev.12g76_brenneke",
+		"lev.12g76_poleva6"
+    ],
+	  "maxStackSize": 1,
+    "allowEmptyMagazines": true
+}

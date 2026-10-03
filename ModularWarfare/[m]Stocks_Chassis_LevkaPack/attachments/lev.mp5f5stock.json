@@ -1,0 +1,17 @@
+{
+  "displayName": "MP5 F5-ACR Stock",
+  "internalName": "lev.mp5f5stock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mp5f5stock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.75,
+    "recoilYawFactor": 0.55,
+	"aimSpeedFactor": 1.4
+  }
+}

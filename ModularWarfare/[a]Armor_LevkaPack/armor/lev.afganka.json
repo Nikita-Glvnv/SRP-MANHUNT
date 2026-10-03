@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.afganka",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "chest": 
+        {
+            "displayName": "afganka_chest"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.afganka",
+        "displayName": "afganka"
+      }
+    ]
+}

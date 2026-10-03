@@ -373,7 +373,7 @@ srparasites:darkwood_boat
 srparasites:darkwood_chest_boat
 srparasites:liveroot_boat
 srparasites:liveroot_chest_boat
-modularwarfare:bullethole
+modularui:modular_screen
 modularwarfare:shell
 modularwarfare:itemloot
 modularwarfare:grenade
@@ -383,7 +383,6 @@ modularwarfare:gas_grenade
 modularwarfare:explosive_projectile
 modularwarfare:thrower_projectile
 modularwarfare:custom_fire
-modularui:modular_screen
 nocubessrparmory:entitybullettwistedbow
 nocubessrparmory:entitybulletpestilentshuriken
 nocubessrparmory:entitybulletpestilentmiasm

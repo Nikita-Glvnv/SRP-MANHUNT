@@ -1,0 +1,165 @@
+{
+    "internalName": "lev.m72law",
+    "displayName": "M72 LAW",
+    "weaponType": "launcher",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+	"numBullets": 1,
+    "internalAmmoStorage": 1,
+    "gunDamage": 20,
+    "gunDamageHeadshotBonus": 3,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 200,
+	"gunHoldLength": 1.2,
+	
+    "bulletSpread": 2,
+
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	"viewKickPitchScale": 0.1,
+	"viewKickYawScale": 0.1,
+	
+    "recoilPitch": 4.1,
+    "recoilYaw": 50,
+    "randomRecoilPitch": 0.1,
+    "randomRecoilYaw": 0.5,
+    "accuracySneakFactor": 0.8,
+    "accuracyCrawlFactor": 0.6,
+    "accuracyAimFactor": 0.05,
+    "recoilCrawlYawFactor": 0.9,
+    "recoilCrawlPitchFactor": 0.6,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": false,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.90,
+	
+    "fireModes": [
+        "semi"
+    ],
+    "acceptedBullets": [
+        "lev.m7266mm"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": false,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.m72lawshoot",
+                "soundNameDistant": "lev.m72lawshootfar",
+                "soundRange": 50,
+                "soundMaxRange": 80,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponDraw": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.m72lawdraw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponTakedown",
+                "soundName": "lev.m72lawtakedown"
+            }
+        ],
+        "weaponDrawEmpty": [
+            {
+                "soundEvent": "weaponDrawEmpty",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedownEmpty": [
+            {
+                "soundEvent": "weaponDrawEmpty",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.jam"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.pistoldry"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"inspect": [
+            {
+                "soundEvent": "inspect",
+                "soundName": "lev.rpg7inspect"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.nothing"
+			}
+		]
+    },
+    "acceptedAttachments": {
+    },
+  "defaultBullet": "lev.m7266mm",
+    "modelSkins": [
+        {
+            "internalName": "lev.m72law",
+            "skinAsset": "lev.m72law",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal","glow"]
+        }
+    ]
+}

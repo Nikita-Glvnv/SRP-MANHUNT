@@ -1,0 +1,17 @@
+{
+    "internalName": "lev.pmmmag",
+    "displayName": "9x18 PMM 12rd.",
+    "ammoCapacity": 12,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.918",
+		"lev.918_pst",
+		"lev.918_pstm",
+		"lev.918_sp7"
+    ],
+	  "maxStackSize": 4,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

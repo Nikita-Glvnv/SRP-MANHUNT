@@ -1,0 +1,17 @@
+{
+    "internalName": "lev.545mag45",
+    "displayName": "5.45x39 RPK 45rd.",
+    "ammoCapacity": 45,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.545",
+        "lev.545_pp",
+        "lev.545_bt",
+        "lev.545_7n40"	
+    ],
+	  "maxStackSize": 2,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

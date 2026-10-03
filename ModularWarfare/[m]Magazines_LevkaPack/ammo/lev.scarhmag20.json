@@ -1,0 +1,14 @@
+{
+    "internalName": "lev.scarhmag20",
+    "displayName": "7.62x51 FN SCAR-H 20rd.",
+    "ammoCapacity": 20,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.76251",
+        "lev.76251_m80",
+        "lev.76251_m82",
+        "lev.76251_m993"
+    ],
+	  "maxStackSize": 2,
+    "allowEmptyMagazines": true
+}

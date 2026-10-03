@@ -1,0 +1,221 @@
+{
+    "internalName": "lev.mp153",
+    "displayName": "MP-155",
+    "weaponType": "shotgun",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+    "gunDamage": 1.0,
+    "gunDamageHeadshotBonus": 0.6,
+    "gunPenetrateSize": 1.0,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 340,
+	"gunHoldLength": 1.8,
+		
+	"numBullets": 8,
+    "internalAmmoStorage": 5,
+	
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	"viewKickPitchScale": 0.15,
+	"viewKickYawScale": 0.1,
+	
+    "recoilPitch": 14.3,
+    "recoilYaw": 265,
+    "randomRecoilPitch": 0.1,
+    "randomRecoilYaw": 0.5,
+    "bulletSpread": 2.2,
+    "accuracySneakFactor": 0.9,
+	"accuracyAimFactor": 0.9,
+    "weaponMaxRange": 120,
+    "weaponEffectiveRange": 30,
+	"allowSprintFiring": false,
+	"allowReloadFiring": true,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.96,
+
+    "fireModes": [
+		"semi"
+    ],
+    "acceptedBullets": [
+        "lev.12g",
+		"lev.12g_65mm",
+		"lev.12g_flechette",
+		"lev.12g_dragon",
+		"lev.12gslug",
+		"lev.12g_ap",
+		"lev.12g_rip",
+		"lev.12g76_62mm",
+		"lev.12g76_brenneke",
+		"lev.12g76_poleva6"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": 0,
+        "y": -20,
+        "z": -20
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+     "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.mp133shoot",
+                "soundNameDistant": "lev.mp133shootfar",
+                "soundRange": 90,
+                "soundMaxRange": 180,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.mp133supshoot",
+                "soundRange": 50,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+                 }
+		 ],
+		"weaponDraw": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.auto5unload"
+            }
+],
+		"weaponPostUnload": [
+            {
+                "soundEvent": "weaponPostUnload",
+                "soundName": "lev.mp155postunload"
+            }
+],
+		"inspect": [
+			{
+				"soundEvent": "inspect",
+				"soundName": "lev.inspect"
+			}
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.dryfire"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.auto5prerel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.mp155prerelempty"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.mp133load"
+			}
+		],
+		"weaponReloadSecondEmpty": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.mp133load"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.mp133postrel"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.mp133postrel"
+			}
+		]
+    },
+    "acceptedAttachments": {
+        "barrel": [
+		"lev.salvo12"
+        ],
+        "sight": [
+	     "lev.targetring",
+	     "lev.barska",
+		 "lev.deltapoint",
+	     "lev.okp",
+	     "lev.microh1",
+	     "lev.microh2",
+	     "lev.eotech",
+		 "lev.trijiconrmr",
+		 "lev.mtprism",
+		 "lev.valday",
+	     "lev.elcan",
+		 "lev.elcanb",
+		 "lev.vudu",
+		 "lev.nightforce",
+		 "lev.sbrpm",
+		 "lev.sbrpm_fde",
+		 "lev.dedal3x12"
+        ],
+        "stock": [
+            "lev.mp133stock",
+            "lev.mp153stock"
+        ]
+    },
+  "defaultAttachments": {
+    "stock": "lev.mp153stock"
+  },
+    "modelSkins": [
+        {
+            "internalName": "lev.mp153",
+            "skinAsset": "lev.mp153",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

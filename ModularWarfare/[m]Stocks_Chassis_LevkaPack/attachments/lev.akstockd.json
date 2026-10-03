@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock AK Wood",
+  "internalName": "lev.akstockd",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.akstockd",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.82,
+    "recoilYawFactor": 0.62,
+	"aimSpeedFactor": 1.2
+  }
+}

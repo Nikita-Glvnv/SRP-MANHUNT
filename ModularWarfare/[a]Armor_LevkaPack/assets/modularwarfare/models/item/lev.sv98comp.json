@@ -1,0 +1,54 @@
+{
+	"credit": "Made by levnemcev",
+	"texture_size": [8, 8],
+	"textures": {
+		"1": "modularwarfare:items/attachments/lev.sv98comp"
+	},
+	"elements": [
+		{
+			"from": [7.5, -0.5, 6],
+			"to": [8.5, 0.5, 8],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, 0, 8]},
+			"faces": {
+				"north": {"uv": [2, 4, 4, 6], "texture": "#1"},
+				"east": {"uv": [0, 0, 4, 2], "texture": "#1"},
+				"south": {"uv": [4, 4, 6, 6], "texture": "#1"},
+				"west": {"uv": [0, 2, 4, 4], "texture": "#1"},
+				"up": {"uv": [2, 8, 0, 4], "texture": "#1"},
+				"down": {"uv": [6, 0, 4, 4], "texture": "#1"}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -1.5, 8.75]
+		},
+		"thirdperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [0, -1.5, 8.75]
+		},
+		"firstperson_righthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-3.5, 2, 12]
+		},
+		"firstperson_lefthand": {
+			"rotation": [90, 0, 0],
+			"translation": [-3.5, 2, 12]
+		},
+		"ground": {
+			"rotation": [0, 0, 90],
+			"translation": [-7, -2.25, 0]
+		},
+		"gui": {
+			"rotation": [163.51, 54.02, -137.72],
+			"translation": [15.75, 26.25, 0],
+			"scale": [4, 4, 4]
+		},
+		"fixed": {
+			"rotation": [0, -90, 0],
+			"translation": [-3.25, 14.75, 0],
+			"scale": [2, 2, 2]
+		}
+	}
+}

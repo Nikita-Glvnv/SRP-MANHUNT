@@ -85,27 +85,23 @@ Refresh Animations
 
 ModularMovements
 Crawling
+Dodge
 Left Probe
 Right Probe
 Sit/Sliding
 
 ModularWarfare
 Attachment Mode
-Debug Mode
-Down (Attach mode)
 Fire Mode
 Flashlight
 Gun Transform
 Inspect
 Jetpack fire
 Laser Toggle
-Left (Attach mode)
 Quick View Toggle
 Reload Client
 Reload Gun
-Right (Attach mode)
 Unload Key
-Up (Attach mode)
 
 key.categories.musictriggers
 key.musictriggers.gui

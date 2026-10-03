@@ -1,0 +1,9 @@
+{
+  "modelFileName": "lev.ashcomp.obj",
+  "extra": {
+    "modelScale": 1
+  },
+  "barrel": {
+    "hideMuzzleFlash": true
+  }
+}

@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.pasgt_body",
+    "defense": "0.30",
+    "durability": 300,
+    "armorTypes": 
+    {
+        "vest":
+        {
+            "displayName": "pasgt_body"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.pasgt_body",
+        "displayName": "pasgt_body"
+      }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "internalName": "lev.m7266mm",
+  "maxStackSize": 1,
+  "displayName": "66mm M72 Rocket HEAT",
+  "renderBulletModel": true,
+  "projectileVelocity": 6,
+  "impactDamage": 48,
+  "explosionDamage": 40,
+  "explosionRange": 18,
+  "gravity": -0.0087,
+  "explosionThroughWalls": true,
+  "isSmoke": true,
+  "isExplosion": true,
+  "damageWorld": false
+}

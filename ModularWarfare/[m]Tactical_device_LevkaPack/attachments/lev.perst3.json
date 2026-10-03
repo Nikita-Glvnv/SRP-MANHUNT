@@ -1,0 +1,18 @@
+{
+  "displayName": "Tactical device Zenith Perst-3",
+  "internalName": "lev.perst3",
+  "attachmentType": "laser",
+  "laser": {
+    "accuracyFactor": 0.96,
+    "aimSpeedFactor": 0.88,
+    "recoilPitchFactor": 1.0,
+    "recoilYawFactor": 1.0
+  },
+  "modelSkins": [
+    {
+      "skinAsset": "lev.perst3",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ]
+}

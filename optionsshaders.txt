@@ -1,5 +1,5 @@
-#Fri Oct 02 23:37:06 MSK 2026
-shaderPack=complementaryshaders_v4.4_MWF_HandFix_v2.zip
+#Sat Oct 03 13:43:38 MSK 2026
+shaderPack=OFF
 antialiasingLevel=0
 normalMapEnabled=true
 specularMapEnabled=true

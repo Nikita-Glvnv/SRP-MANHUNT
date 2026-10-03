@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake PK 7.62x54R",
+  "internalName": "lev.pkcomp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pkcomp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.83,
+    "recoilYawFactor": 0.92,
+    "accuracyFactor": 0.95
+  }
+}

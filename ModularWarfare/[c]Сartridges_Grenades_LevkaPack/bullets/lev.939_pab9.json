@@ -1,0 +1,27 @@
+{
+  "internalName": "lev.939_pab9",
+  "maxStackSize": 50,
+  "bulletDamageFactor": 8.5,
+  "bulletAccuracyFactor": 1.4,
+  "bulletPenetrateFactor": 1.5,
+  "bulletBlockPenetrateFactor": 2,
+  "displayName": "9x39 PAB-9",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail1.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.939_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "unluck",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

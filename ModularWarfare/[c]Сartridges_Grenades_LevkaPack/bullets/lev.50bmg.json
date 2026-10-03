@@ -1,0 +1,24 @@
+{
+  "internalName": "lev.50bmg",
+  "maxStackSize": 30,
+  "bulletDamageFactor": 17.0,
+  "displayName": "50 BMG M33",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail2.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.50bmg_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "wither",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

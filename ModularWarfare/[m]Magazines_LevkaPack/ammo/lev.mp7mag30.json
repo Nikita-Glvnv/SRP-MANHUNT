@@ -1,0 +1,16 @@
+{
+    "internalName": "lev.mp7mag30",
+    "displayName": "4.6x30 MP7 30rd.",
+    "ammoCapacity": 30,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.4630",
+        "lev.4630_fmj",
+        "lev.4630_ap"
+    ],
+	  "maxStackSize": 4,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

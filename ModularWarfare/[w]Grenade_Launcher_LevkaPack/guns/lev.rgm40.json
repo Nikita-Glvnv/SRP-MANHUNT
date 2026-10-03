@@ -1,0 +1,152 @@
+{
+    "internalName": "lev.rgm40",
+    "displayName": "rgm40",
+    "weaponType": "launcher",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.rgm.flash",
+	
+	"numBullets": 1,
+    "internalAmmoStorage": 1,
+    "gunDamage": 10,
+    "gunDamageHeadshotBonus": 3,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 200,
+	"gunHoldLength": 1.0,
+	
+    "bulletSpread": 4,
+
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	"viewKickPitchScale": 0.30,
+	"viewKickYawScale": 0.15,
+    "recoilPitch": 20.0,
+    "recoilYaw": 300.0,
+
+    "accuracySneakFactor": 1.0,
+    "accuracyCrawlFactor": 1.0,
+    "accuracyAimFactor": 0.05,
+    "recoilCrawlYawFactor": 0.9,
+    "recoilCrawlPitchFactor": 0.6,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.95,
+	
+    "fireModes": [
+        "semi"
+    ],
+    "acceptedBullets": [
+        "lev.vog25",
+        "lev.vog25m",
+        "lev.vfg25"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": false,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.rgm40shoot",
+                "soundNameDistant": "lev.nothing",
+                "soundRange": 80,
+                "soundMaxRange": 80,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponDraw": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.rgm40draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.rgm40takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.rgm40unload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.rgm40load"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.pistoldry"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"inspect": [
+            {
+                "soundEvent": "inspect",
+                "soundName": "lev.inspect"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.rgm40load"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.nothing"
+			}
+		]
+    },
+    "acceptedAttachments": {
+    },
+    "modelSkins": [
+        {
+            "internalName": "lev.rgm40",
+            "skinAsset": "lev.rgm40",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

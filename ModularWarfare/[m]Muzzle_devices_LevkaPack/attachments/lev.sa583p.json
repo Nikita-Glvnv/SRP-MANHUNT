@@ -1,0 +1,19 @@
+{
+  "displayName": "Flashhider SA-58 3-Prong 7.62x51",
+  "internalName": "lev.sa583p",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sa583p",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.82,
+    "accuracyFactor": 0.93
+  }
+}

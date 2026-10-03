@@ -1,0 +1,9 @@
+{
+  "modelFileName": "lev.bulletecst.obj",
+  "extra": {
+    "modelScale": 1
+  },
+  "barrel": {
+    "hideMuzzleFlash": true
+  }
+}

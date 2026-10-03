@@ -1,0 +1,15 @@
+{
+  "displayName": "Grip Fortis Shift",
+  "internalName": "lev.fortis_shift",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.fortis_shift",
+      "displayName": "fortis_shift"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.71
+  }
+}

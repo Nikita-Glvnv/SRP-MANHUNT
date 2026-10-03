@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake F2000 5.56x45",
+  "internalName": "lev.f2000comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.f2000comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.83,
+    "recoilYawFactor": 0.92,
+    "accuracyFactor": 0.95
+  }
+}

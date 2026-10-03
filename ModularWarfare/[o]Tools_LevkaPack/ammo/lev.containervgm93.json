@@ -1,0 +1,12 @@
+{
+    "internalName": "lev.containervgm93",
+    "displayName": "Container for VGM-93",
+    "ammoCapacity": 24,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.vgm93100",
+        "lev.vgm93900"
+    ],
+	  "maxStackSize": 1,
+    "allowEmptyMagazines": true
+}

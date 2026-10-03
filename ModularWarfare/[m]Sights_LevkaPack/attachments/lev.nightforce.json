@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope Nightforce ATACR x7-x35",
+  "internalName": "lev.nightforce",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.nightforce",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.90
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope Schmidt & Bender PM II 3-20x50",
+  "internalName": "lev.sbrpm",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sbrpm",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.90
+  }
+}

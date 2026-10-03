@@ -1,0 +1,18 @@
+{
+  "displayName": "Tactical device L3Harris AN/PEQ-15",
+  "internalName": "lev.anpeq",
+  "attachmentType": "laser",
+  "laser": {
+    "accuracyFactor": 0.96,
+    "aimSpeedFactor": 0.88,
+    "recoilPitchFactor": 1.0,
+    "recoilYawFactor": 1.0
+  },
+  "modelSkins": [
+    {
+      "skinAsset": "lev.anpeq",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ]
+}

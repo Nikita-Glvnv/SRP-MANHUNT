@@ -1,0 +1,156 @@
+{
+    "internalName": "lev.rpg7",
+    "displayName": "RPG-7",
+    "weaponType": "launcher",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.rgm.flash",
+	
+	"numBullets": 1,
+    "internalAmmoStorage": 1,
+    "gunDamage": 20,
+    "gunDamageHeadshotBonus": 3,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 200,
+	"gunHoldLength": 1.2,
+	
+    "bulletSpread": 2,
+
+	"viewKickPitchScale": 0.3,
+    "recoilPitch": 0.05,
+    "recoilYaw": 0.05,
+    "accuracySneakFactor": 0.8,
+    "accuracyCrawlFactor": 0.6,
+    "accuracyAimFactor": 0.05,
+    "recoilCrawlYawFactor": 0.9,
+    "recoilCrawlPitchFactor": 0.6,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": false,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.90,
+	
+    "fireModes": [
+        "semi"
+    ],
+    "acceptedBullets": [
+        "lev.pg7v",
+        "lev.pg7vm",
+        "lev.pg7vs",
+        "lev.pg7vl",
+        "lev.pg7vr",
+		"lev.og7v",
+        "lev.tgb7v",
+		"lev.shovel"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": false,
+    "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.rpg7shoot",
+                "soundNameDistant": "lev.nothing",
+                "soundRange": 80,
+                "soundMaxRange": 80,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponDraw": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.rpg7unload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.rpg7reload"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.pistoldry"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"inspect": [
+            {
+                "soundEvent": "inspect",
+                "soundName": "lev.rpg7inspect"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.rpg7reload"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.nothing"
+			}
+		]
+    },
+    "acceptedAttachments": {
+        "sight": [
+	     "lev.pgo7v"
+        ]
+    },
+    "modelSkins": [
+        {
+            "internalName": "lev.rpg7",
+            "skinAsset": "lev.rpg7",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

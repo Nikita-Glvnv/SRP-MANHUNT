@@ -1,0 +1,82 @@
+{
+  "displayName": "F1",
+  "internalName": "lev.f1",
+  "modelSkins": [
+    {
+      "internalName": "lev.f1",
+      "skinAsset": "lev.f1",
+      "displayName": "Default",
+      "textures": ["basic", "specular", "normal"]
+    }
+  ],
+  "grenadeType": "frag",
+  "fuseTime": 4,
+  "damageWorld": false,
+  "explosionDamage": 33,
+  "explosionRange": 20,
+  "throwStrength": 1.2,
+  "throwerVulnerable": true,
+  "animationType": "enhanced",
+  "showIndicator": true,
+  "showTrajectory": false,
+  "showTimerBar": false,
+  "instantExplode": false,
+  "isSticky": false,
+  "weaponSoundMap": {
+    "grenadePreThrow": [
+      {
+        "soundEvent": "grenadePreThrow",
+        "soundName": "lev.pin",
+        "soundNameDistant": "lev.pin"
+      }
+    ],
+    "grenadeThrowFirst": [
+      {
+        "soundEvent": "grenadeThrowFirst",
+        "soundName": "lev.nothing",
+        "soundNameDistant": "lev.nothing"
+      }
+    ],
+    "grenadeThrowSecond": [
+      {
+        "soundEvent": "grenadeThrowSecond",
+        "soundName": "lev.throw",
+        "soundNameDistant": "lev.throw"
+      }
+    ],
+    "grenadePostThrow": [
+      {
+        "soundEvent": "grenadePostThrow",
+        "soundName": "lev.nothing",
+        "soundNameDistant": "lev.nothing"
+      }
+    ],
+    "grenadeTimerStart": [
+      {
+        "soundEvent": "grenadeTimerStart",
+        "soundName": "lev.nothing",
+        "soundNameDistant": "lev.nothing",
+        "soundRange": 20,
+        "soundMaxRange": 45,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "grenadeThrow": [
+      {
+        "soundEvent": "grenadeThrow",
+        "soundName": "lev.hlop",
+        "soundNameDistant": "lev.hlop",
+        "soundRange": 20,
+        "soundMaxRange": 45,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "grenadeDraw": [
+      {
+        "soundEvent": "grenadeDraw",
+        "soundName": "lev.draw_g",
+        "soundNameDistant": "lev.draw_g"
+      }
+    ]
+  }
+}

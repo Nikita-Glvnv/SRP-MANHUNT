@@ -1,0 +1,17 @@
+{
+  "displayName": "Reflex sight OKP-7 Dovetail",
+  "internalName": "lev.okplh",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.okp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "normal",
+	"aimSpeedFactor": 0.95
+  }
+}

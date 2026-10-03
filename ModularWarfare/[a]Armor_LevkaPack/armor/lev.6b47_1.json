@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.6b47_1",
+    "defense": "0.30",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "head": 
+        {
+            "displayName": "6B47_1"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.6b47_4",
+        "displayName": "6b47"
+      }
+    ]
+}

@@ -1,0 +1,11 @@
+{
+  "modelFileName": "lev.scarstock.obj",
+  "extra": {
+    "modelScale": 1.0
+  },
+  "stock": {
+    "modelRecoilBackwardsFactor": 1.0,
+	"modelRecoilUpwardsFactor": 1.0,
+	"modelRecoilShakeFactor": 1.0
+  }
+}

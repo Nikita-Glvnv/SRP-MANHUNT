@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake SCAR-H 7.62x51",
+  "internalName": "lev.scarhcomp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.scarhcomp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.90,
+    "recoilYawFactor": 0.78,
+    "accuracyFactor": 0.91
+  }
+}

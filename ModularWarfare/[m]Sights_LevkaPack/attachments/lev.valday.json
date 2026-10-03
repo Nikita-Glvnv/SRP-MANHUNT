@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope Valday PS-320 x1-x6",
+  "internalName": "lev.valday",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.valday",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.94
+  }
+}

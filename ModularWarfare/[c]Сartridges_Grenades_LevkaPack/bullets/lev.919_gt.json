@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.919_gt",
+  "maxStackSize": 60,
+  "bulletDamageFactor": 3.5,
+  "bulletAccuracyFactor": 1.1,
+  "displayName": "9x19 Green Tracer",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail3.png",
+  "trailModel": "lev.trail3.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.919_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "unluck",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

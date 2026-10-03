@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle brake AK-308 7.62x51",
+  "internalName": "lev.ak308comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ak308comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.86,
+    "accuracyFactor": 0.90
+  }
+}

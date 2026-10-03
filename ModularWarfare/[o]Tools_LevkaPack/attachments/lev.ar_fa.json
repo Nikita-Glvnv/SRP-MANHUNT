@@ -1,0 +1,12 @@
+{
+  "displayName": "AR FA",
+  "internalName": "lev.ar_fa",
+  "attachmentType": "charm",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ar_fa",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "ar_fa"
+    }
+  ]
+}

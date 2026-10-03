@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock HK Slim Line FDE",
+  "internalName": "lev.hk416stockh",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.hk416stockh",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.60,
+	"aimSpeedFactor": 1.3
+  }
+}

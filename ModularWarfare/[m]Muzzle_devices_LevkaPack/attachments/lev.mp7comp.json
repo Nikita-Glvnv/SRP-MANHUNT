@@ -1,0 +1,19 @@
+{
+  "displayName": "Flashhider HK MP7 4.6x30",
+  "internalName": "lev.mp7comp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mp7comp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.82,
+    "accuracyFactor": 0.93
+  }
+}

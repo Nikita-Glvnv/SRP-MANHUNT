@@ -1,0 +1,10 @@
+{
+  "modelFileName": "lev.afganka_legs.obj",
+  "extra": {
+    "modelScale": 1.0,
+	"slimSupported": false,
+	"isSuit": true,
+	"hidePlayerModel": false,
+	"hideAllPlayerWearModel": false
+  }
+}

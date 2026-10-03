@@ -1,0 +1,19 @@
+{
+  "displayName": "Flashhider Lantac BMD 7.62",
+  "internalName": "lev.lantacbmd",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.lantacbmd",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.81,
+    "accuracyFactor": 0.90
+  }
+}

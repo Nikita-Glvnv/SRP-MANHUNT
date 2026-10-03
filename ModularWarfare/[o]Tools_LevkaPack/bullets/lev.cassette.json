@@ -1,0 +1,8 @@
+{
+  "internalName": "lev.cassette",
+  "maxStackSize": 1,
+  "displayName": "Cassette",
+  "renderBulletModel": false,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false
+}

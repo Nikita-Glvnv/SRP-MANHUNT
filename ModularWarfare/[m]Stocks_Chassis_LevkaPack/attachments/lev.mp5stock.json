@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock MP5",
+  "internalName": "lev.mp5stock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mp5",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.8,
+    "recoilYawFactor": 0.6,
+	"aimSpeedFactor": 1.2
+  }
+}

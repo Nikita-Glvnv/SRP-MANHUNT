@@ -1,0 +1,17 @@
+{
+  "displayName": "Reflex sight Barska 1x22x33",
+  "internalName": "lev.barska",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.barska",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "normal",
+	"aimSpeedFactor": 0.96
+  }
+}

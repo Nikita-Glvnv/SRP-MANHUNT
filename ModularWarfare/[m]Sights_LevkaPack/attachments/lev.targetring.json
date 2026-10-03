@@ -1,0 +1,17 @@
+{
+  "displayName": "Reflex sight VOMZ TargetRing",
+  "internalName": "lev.targetring",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.targetring",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "normal",
+	"aimSpeedFactor": 0.96
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "displayName": "Armson OEG sight",
+  "internalName": "lev.armsonoeg",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.armsonoeg",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.armsonoeg",
+	"modeType": "normal",
+	"aimSpeedFactor": 0.92
+  }
+}

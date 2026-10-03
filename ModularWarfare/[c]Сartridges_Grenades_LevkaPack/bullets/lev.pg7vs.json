@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.pg7vs",
+  "maxStackSize": 1,
+  "displayName": "72mm PG-7VS",
+  "renderBulletModel": true,
+  "projectileVelocity": 8,
+  "impactDamage": 45,
+  "explosionDamage": 35,
+  "explosionRange": 16,
+  "gravity": -0.007,
+  "explosionThroughWalls": true,
+  "isSmoke": true,
+  "isExplosion": true,
+  "damageWorld": false,
+  "isDynamicBullet": true,
+  "sameTextureAsGun": false,
+  "modelSkins": [
+        {
+            "internalName": "lev.pg7vs",
+            "skinAsset": "lev.pg7vs",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

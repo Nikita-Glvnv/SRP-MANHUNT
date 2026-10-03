@@ -1,0 +1,19 @@
+{
+  "displayName": "Muzzle device SVD-M 7.62x54R",
+  "internalName": "lev.svdmcomp",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.svdcomp",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.86,
+    "accuracyFactor": 0.90
+  }
+}

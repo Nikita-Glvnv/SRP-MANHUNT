@@ -1,0 +1,19 @@
+{
+  "displayName": "Flashhider FN FAL Long Browning Style 7.62x51",
+  "internalName": "lev.falfh",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.falfh",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.90,
+    "recoilYawFactor": 0.83,
+    "accuracyFactor": 0.95
+  }
+}

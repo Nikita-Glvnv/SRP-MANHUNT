@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock PKM Wood",
+  "internalName": "lev.pkmstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pkmstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.82,
+    "recoilYawFactor": 0.62,
+	"aimSpeedFactor": 1.2
+  }
+}

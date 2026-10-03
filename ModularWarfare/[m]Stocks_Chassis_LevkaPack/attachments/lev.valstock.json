@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock AS VAL",
+  "internalName": "lev.valstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.valstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.70,
+	"aimSpeedFactor": 1.4
+  }
+}

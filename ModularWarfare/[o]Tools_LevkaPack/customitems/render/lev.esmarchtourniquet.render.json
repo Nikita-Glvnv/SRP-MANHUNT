@@ -1,0 +1,149 @@
+{
+  "modelFileName": "lev.esmarchtourniquet.glb",
+  "showHandArmorType": "skin",
+  
+  "useExecutePercent": 0.85,
+  
+  "customAnimations": {
+    "default": {
+      "startTime": 18,
+      "endTime": 18,
+      "speed": 0.0024
+    },
+    "thirdDefault": {
+      "startTime": 18,
+      "endTime": 18,
+      "speed": 0.015
+    },
+    "draw": {
+      "startTime": 1,
+      "endTime": 18,
+      "speed": 0.018
+    },
+    "attack": {
+      "startTime": 240,
+      "endTime": 260,
+      "speed": 0.03
+    },
+    "use": {
+      "startTime": 60,
+      "endTime": 211,
+      "speed": 0.018
+    },
+    "inspect": {
+      "startTime": 300,
+      "endTime": 400,
+      "speed": 0.018
+    }
+  },
+  
+  "objectControl": {
+    "mainModel": {
+      "translate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      },
+      "scale": {
+        "x": 1,
+        "y": 1,
+        "z": 1
+      },
+      "rotate": {
+        "x": 0,
+        "y": 0,
+        "z": 0
+      }
+    }
+  },
+  
+  "sprint": {
+    "sprintRotate": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    },
+    "sprintTranslate": {
+      "x": 0.0,
+      "y": 0.0,
+      "z": 0.0
+    }
+  },
+  
+  "global": {
+    "globalTranslate": {
+      "x": 0,
+      "y": -1.0,
+      "z": 8.0
+	  
+    },
+    "globalScale": {
+      "x": 1,
+      "y": 1,
+      "z": 1
+    },
+    "globalRotate": {
+      "x": 0,
+      "y": 0,
+      "z": 0
+    }
+  },
+  
+  "thirdPerson": {
+    "renderElements": {
+      "player": {
+        "pos": {
+          "x": 0.0,
+          "y": 0.6,
+          "z": -0.1
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 90.0,
+          "z": -90.0
+        },
+        "size": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      },
+      "itemloot": {
+        "randomYaw": true,
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 1.0,
+          "y": 1.0,
+          "z": 1.0
+        }
+      },
+      "itemframe": {
+        "pos": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "rot": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        },
+        "size": {
+          "x": 0.0,
+          "y": 0.0,
+          "z": 0.0
+        }
+      }
+    }
+  }
+}
+

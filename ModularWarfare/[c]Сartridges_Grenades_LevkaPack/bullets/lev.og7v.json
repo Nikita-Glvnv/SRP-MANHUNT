@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.og7v",
+  "maxStackSize": 1,
+  "displayName": "40mm OG-7V",
+  "renderBulletModel": true,
+  "projectileVelocity": 8,
+  "impactDamage": 50,
+  "explosionDamage": 40,
+  "explosionRange": 20,
+  "gravity": -0.007,
+  "explosionThroughWalls": false,
+  "isSmoke": true,
+  "isExplosion": true,
+  "damageWorld": false,
+  "isDynamicBullet": true,
+  "sameTextureAsGun": false,
+  "modelSkins": [
+        {
+            "internalName": "lev.og7v",
+            "skinAsset": "lev.og7v",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

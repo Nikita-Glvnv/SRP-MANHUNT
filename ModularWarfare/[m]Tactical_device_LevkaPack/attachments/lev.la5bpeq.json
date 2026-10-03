@@ -1,0 +1,18 @@
+{
+  "displayName": "Tactical device L3Harris LA-5B/PEQ",
+  "internalName": "lev.la5bpeq",
+  "attachmentType": "laser",
+  "laser": {
+    "accuracyFactor": 0.96,
+    "aimSpeedFactor": 0.85,
+    "recoilPitchFactor": 1.0,
+    "recoilYawFactor": 1.0
+  },
+  "modelSkins": [
+    {
+      "skinAsset": "lev.la5bpeq",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ]
+}

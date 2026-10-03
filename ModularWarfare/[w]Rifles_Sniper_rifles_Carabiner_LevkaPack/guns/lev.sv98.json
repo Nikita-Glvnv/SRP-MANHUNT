@@ -1,0 +1,212 @@
+{
+    "internalName": "lev.sv98",
+    "displayName": "SV-98",
+    "weaponType": "boltsniper",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+    "gunDamage": 1.5,
+    "gunDamageHeadshotBonus": 0.5,
+    "gunPenetrateSize": 1.0,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 50,
+	"gunHoldLength": 1.8,
+
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	"viewKickPitchScale": 0.1,
+	"viewKickYawScale": 0.1,
+	
+    "recoilPitch": 16.0,
+    "recoilYaw": 400,
+    "randomRecoilPitch": 0.02,
+    "randomRecoilYaw": 0.04,
+    "bulletSpread": 4.7,
+    "accuracySneakFactor": 0.5,
+	"accuracyAimFactor": 0.05,
+	"recoilCrawlYawFactor": 0.8,
+    "recoilCrawlPitchFactor": 0.3,
+    "weaponMaxRange": 600,
+	"weaponEffectiveRange": 500,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+	"modifyUnloadBullets": 0,
+	
+    "moveSpeedModifier": 0.93,
+	
+    "fireModes": [
+		"semi"
+    ],
+    "acceptedAmmo": [
+        "lev.sv98mag"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": 0,
+        "y": -20,
+        "z": -20
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+     "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.sv98fire",
+                "soundNameDistant": "lev.sv98firefar",
+                "soundRange": 90,
+                "soundMaxRange": 180,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.sv98supshoot",
+                "soundRange": 100,
+                "soundMaxRange": 100,
+                "soundFadeMultiplier": 1
+                 }
+		 ],
+    "weaponBolt": [
+      {
+        "soundEvent": "weaponBolt",
+        "soundName": "lev.sv98bolt"
+      }
+    ],
+
+		"weaponDraw": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.sv98unload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+],
+		"inspect": [
+			{
+				"soundEvent": "inspect",
+				"soundName": "lev.inspect"
+			}
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.sv98load"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.dryfire"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.sv98prerel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.sv98fullrel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.sv98bolt2"
+			}
+		]
+    },
+    "acceptedAttachments": {
+        "barrel": [
+		"lev.brtsup",
+		"lev.svdmcomp",
+		"lev.sv98comp"
+        ],
+        "sight": [
+	     "lev.barska",
+		 "lev.deltapoint",
+	     "lev.okp",
+	     "lev.microh1",
+	     "lev.microh2",
+	     "lev.eotech",
+		 "lev.trijiconrmr",
+		 "lev.mtprism",
+		 "lev.valday",
+	     "lev.elcan",
+		 "lev.elcanb",
+		 "lev.vudu",
+		 "lev.nightforce",
+		 "lev.sbrpm",
+		 "lev.sbrpm_fde",
+		 "lev.dedal3x12"
+        ],
+        "stock": [
+            "lev.sv98m"
+        ]
+    },
+  "defaultAttachments": {
+	"barrel": "lev.sv98comp"
+  },
+    "modelSkins": [
+        {
+            "internalName": "lev.sv98",
+            "skinAsset": "lev.sv98",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

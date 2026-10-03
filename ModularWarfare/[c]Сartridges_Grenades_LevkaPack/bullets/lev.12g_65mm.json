@@ -1,0 +1,26 @@
+{
+  "internalName": "lev.12g_65mm",
+  "maxStackSize": 40,
+  "bulletDamageFactor": 1.5,
+  "bulletAccuracyFactor": 0.95,
+  "displayName": "12/70 Buckshot 6.5mm",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail1.png",
+  "trailModel": "lev.trail1.obj",
+  "trailGlow": true,
+  "shellSound": "casing_gauge",
+  "shellModelFileName": "lev.12g_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "unluck",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

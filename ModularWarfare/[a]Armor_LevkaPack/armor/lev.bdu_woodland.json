@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.bdu_woodland",
+    "defense": "0.02",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "chest": 
+        {
+            "displayName": "bdu_woodland_chest"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.bdu_woodland",
+        "displayName": "bdu_woodland"
+      }
+    ]
+}

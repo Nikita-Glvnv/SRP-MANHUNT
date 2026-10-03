@@ -1,0 +1,9 @@
+{
+  "modelFileName": "lev.m82comp.obj",
+  "extra": {
+    "modelScale": 1
+  },
+  "barrel": {
+    "hideMuzzleFlash": true
+  }
+}

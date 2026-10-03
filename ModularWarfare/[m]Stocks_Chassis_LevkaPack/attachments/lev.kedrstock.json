@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock PP-91 Kedr",
+  "internalName": "lev.kedrstock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.kedrstock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.92,
+    "recoilYawFactor": 0.90,
+	"aimSpeedFactor": 1.3
+  }
+}

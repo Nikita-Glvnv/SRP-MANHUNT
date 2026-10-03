@@ -1,0 +1,11 @@
+{
+  "internalName": "lev.sirena_sound",
+  "maxStackSize": 1,
+  "bulletDamageFactor": 1.0,
+  "bulletAccuracyFactor": 1.0,
+  "displayName": "Sound",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailGlow": false
+}

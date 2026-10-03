@@ -1,0 +1,15 @@
+{
+  "displayName": "Grip RK-2",
+  "internalName": "lev.rk2",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.rk2",
+      "displayName": "rk2"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.76,
+    "recoilYawFactor": 1.0
+  }
+}

@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock AK-EVO",
+  "internalName": "lev.ak12stock3",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.ak12stock3",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.60,
+	"aimSpeedFactor": 1.4
+  }
+}

@@ -1,0 +1,16 @@
+{
+  "displayName": "Grip Tompson",
+  "internalName": "lev.tommy_grip",
+  "attachmentType": "grip",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.tommy_grip",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Grip Tompson"
+    }
+  ],
+  "grip": {
+    "recoilPitchFactor": 0.95,
+    "recoilYawFactor": 0.62
+  }
+}

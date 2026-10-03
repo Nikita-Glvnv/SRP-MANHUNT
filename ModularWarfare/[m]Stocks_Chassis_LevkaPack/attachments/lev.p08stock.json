@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock-Holster P08",
+  "internalName": "lev.p08stock",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.p08stock",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.90,
+    "recoilYawFactor": 0.85,
+	"aimSpeedFactor": 1.1
+  }
+}

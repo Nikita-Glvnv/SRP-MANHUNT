@@ -1,0 +1,19 @@
+{
+  "displayName": "Flashhider LONE WOLF LWD 9x19",
+  "internalName": "lev.lwdfh",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.lwdfh",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.87,
+    "recoilYawFactor": 0.82,
+    "accuracyFactor": 0.93
+  }
+}

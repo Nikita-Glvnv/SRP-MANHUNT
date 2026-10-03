@@ -1,0 +1,44 @@
+{
+  "internalName": "lev.immobilizingsplint",
+  "displayName": "Immobilizing splint",
+  
+  "itemType": "consumable",
+  "animationType": "enhanced",
+  "moveSpeedModifier": 1.0,
+  "maxStackSize": 3,
+  "usable": true,
+  "useCooldown": 0,
+  "consumableConfig": {
+    "useCommand": [
+      "[console]effect %player% levkaeffects:fracture 0"
+    ],
+    "consumeOnUse": true
+  },
+  
+  "weaponSoundMap": {
+    "customItemAttack": [
+      {
+        "soundEvent": "customItemAttack",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "customItemUse": [
+      {
+        "soundEvent": "customItemUse",
+        "soundName": "lev.immobilizingsplintuse"
+      }
+    ]
+  },
+  
+  "modelSkins": [
+    {
+      "internalName": "lev.immobilizingsplint",
+      "skinAsset": "lev.immobilizingsplint",
+      "displayName": "Default",
+      "textures": [
+        "basic"
+      ]
+    }
+  ]
+}
+

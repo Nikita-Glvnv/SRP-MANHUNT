@@ -1,0 +1,13 @@
+{
+    "internalName": "lev.ttmag",
+    "displayName": "7.62x25 TT-33 8rd.",
+    "ammoCapacity": 8,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.76225",
+        "lev.76225_pt",
+        "lev.76225_pst"
+    ],
+	  "maxStackSize": 4,
+    "allowEmptyMagazines": true
+}

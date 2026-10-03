@@ -1,0 +1,17 @@
+{
+    "internalName": "lev.pmdrum",
+    "displayName": "9x18 PM Drum 84rd.",
+    "ammoCapacity": 84,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.918",
+		"lev.918_pst",
+		"lev.918_pstm",
+		"lev.918_sp7"
+    ],
+	  "maxStackSize": 1,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

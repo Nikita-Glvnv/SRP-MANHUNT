@@ -1,0 +1,197 @@
+{
+    "internalName": "lev.m4a1_m203",
+    "displayName": "M4A1 SOPMOD Block II",
+    "weaponType": "launcher",
+	"animationType": "enhanced",
+    "customFlashTexture": "lev.battlecraft.flash",
+	
+	  "transformations": {
+    "0": "lev.m4a1",
+    "1": "lev.m4a1_m203"
+  },
+
+  "transformAmmoOptions": {
+    "0": { "ammoRatio": false, "sameAmmo": false },
+	"2": { "ammoRatio": false, "sameAmmo": false }
+  },
+  "transformationRequirements": {
+    "0": {
+      "grip": "lev.m203"
+    },
+    "2": {
+      "grip": "lev.m203a1"
+    }
+  },
+  "customWheelTexture": "lev.m4a1icon",
+ 
+	"numBullets": 1,
+    "internalAmmoStorage": 1,
+    "gunDamage": 10,
+    "gunDamageHeadshotBonus": 3,
+    "gunPenetrationDamageFalloff": true,
+    "gunMaxPenetrateBlockResistance": 0.5,
+    "gunPenetrateBlocksResistance": 1.0,
+    "roundsPerMin": 200,
+	"gunHoldLength": 1.5,
+	
+    "bulletSpread": 4,
+
+	"useNewRecoilSystem": true,
+	"useEnhancedAiming": true,
+	"viewKickPitchScale": 0.30,
+	"viewKickYawScale": 0.15,
+    "recoilPitch": 20.0,
+    "recoilYaw": 300.0,
+
+    "accuracySneakFactor": 1.0,
+    "accuracyCrawlFactor": 1.0,
+    "accuracyAimFactor": 0.05,
+    "recoilCrawlYawFactor": 0.9,
+    "recoilCrawlPitchFactor": 0.6,
+	"allowSprintFiring": false,
+	"allowReloadFiring": false,
+	"allowReloadSprint": true,
+	"allowAimingSprint": false,
+	
+    "fireModes": [
+		"semi"
+    ],
+    "acceptedBullets": [
+        "lev.m381",
+        "lev.m441",
+        "lev.m433"
+    ],
+	"allowEmptyMagazines": true,
+	
+    "dropBulletCasing": true,
+    "shellEjectOffsetNormal": {
+        "x": 0,
+        "y": -20,
+        "z": -20
+    },
+    "shellEjectOffsetAiming": {
+        "x": -0.2,
+        "y": 0.12,
+        "z": 0.5
+    },
+     "weaponSoundMap": {
+        "weaponFire": [
+            {
+                "soundEvent": "weaponFire",
+                "soundName": "lev.m79shoot",
+                "soundNameDistant": "lev.nothing",
+                "soundRange": 80,
+                "soundMaxRange": 80,
+                "soundFadeMultiplier": 1
+            }
+        ],
+        "weaponFireSuppressed": [
+            {
+                "soundEvent": "weaponFireSuppressed",
+                "soundName": "lev.m4a1shootsup",
+                "soundRange": 30,
+                "soundMaxRange": 50,
+                "soundFadeMultiplier": 1
+                 }
+		 ],
+		"weaponPreUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.m4a1unload"
+            }
+        ],
+		"weaponUnload": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.nothing"
+            }
+],
+		"inspect": [
+			{
+				"soundEvent": "inspect",
+				"soundName": "lev.inspect"
+			}
+        ],
+		"weaponDraw": [
+            {
+                "soundEvent": "weaponUnload",
+                "soundName": "lev.draw"
+            }
+        ],
+		"weaponTakedown": [
+            {
+                "soundEvent": "weaponDraw",
+                "soundName": "lev.takedown"
+            }
+        ],
+        "weaponPreLoad": [
+            {
+                "soundEvent": "weaponPreLoad",
+                "soundName": "lev.m4a1load"
+            }
+        ],
+		"weaponDryFire": [
+            {
+                "soundEvent": "weaponDryFire",
+                "soundName": "lev.dryfire"
+            }
+        ],
+		"weaponLoad": [
+            {
+                "soundEvent": "weaponLoad",
+                "soundName": "lev.nothing"
+            }
+        ],
+		"weaponPreReload": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.m4a1tacrel"
+			}
+		],
+		"weaponPreReloadEmpty": [
+			{
+				"soundEvent": "weaponPreReload",
+				"soundName": "lev.m4a1tacrel"
+			}
+		],
+		"weaponReload": [
+			{
+				"soundEvent": "weaponReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponReloadSecond": [
+			{
+				"soundEvent": "weaponReloadSecond",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReload": [
+			{
+				"soundEvent": "weaponPostReload",
+				"soundName": "lev.nothing"
+			}
+		],
+		"weaponPostReloadEmpty": [
+			{
+				"soundEvent": "weaponPostReloadEmpty",
+				"soundName": "lev.m4a1fullrel"
+			}
+		]
+    },
+    "acceptedAttachments": {
+    },
+  "defaultAttachments": {
+    "stock": "lev.m4sopmodstock",
+	"barrel": "lev.m4comp",
+	"grip": "lev.m203"
+  },
+    "modelSkins": [
+        {
+            "internalName": "lev.coltm4",
+            "skinAsset": "lev.coltm4",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

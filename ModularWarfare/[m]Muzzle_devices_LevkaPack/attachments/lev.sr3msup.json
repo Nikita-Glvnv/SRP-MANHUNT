@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor SR-3M 9x39",
+  "internalName": "lev.sr3msup",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.sr3msup",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.86,
+    "recoilYawFactor": 1.1,
+    "accuracyFactor": 0.80
+  }
+}

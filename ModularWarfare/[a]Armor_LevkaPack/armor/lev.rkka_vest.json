@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.rkka_vest",
+    "defense": "0.03",
+    "durability": 650,
+    "armorTypes": 
+    {
+        "vest":
+        {
+            "displayName": "rkka_vest"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.rkka_vest",
+        "displayName": "rkka_vest"
+      }
+    ]
+}

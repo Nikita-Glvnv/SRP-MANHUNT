@@ -1,0 +1,17 @@
+{
+    "internalName": "lev.545mag96",
+    "displayName": "5.45x39 RPK-16 Drum 96rd.",
+    "ammoCapacity": 96,
+    "magazineCount": 1,
+    "subAmmo": [
+        "lev.545",
+        "lev.545_pp",
+        "lev.545_bt",
+        "lev.545_7n40"	
+    ],
+	  "maxStackSize": 1,
+    "isDynamicAmmo": true,
+    "sameTextureAsGun": false,
+	"reloadTimeFactor": 1.0,
+    "allowEmptyMagazines": true
+}

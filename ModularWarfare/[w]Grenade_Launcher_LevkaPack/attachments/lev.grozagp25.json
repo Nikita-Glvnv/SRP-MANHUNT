@@ -1,0 +1,19 @@
+{
+  "displayName": "GP-25 for OTs-14",
+  "internalName": "lev.grozagp25",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.grozagp25",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": false,
+	"hideFlash": false,
+	"recoilPitchFactor": 0.75,
+    "recoilYawFactor": 0.78,
+    "accuracyFactor": 0.95
+  }
+}

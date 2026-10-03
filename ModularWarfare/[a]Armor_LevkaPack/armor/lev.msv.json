@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.msv",
+    "defense": "0.40",
+    "durability": 250,
+    "armorTypes": 
+    {
+        "vest":
+        {
+            "displayName": "msv"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.msv",
+        "displayName": "msv"
+      }
+    ]
+}

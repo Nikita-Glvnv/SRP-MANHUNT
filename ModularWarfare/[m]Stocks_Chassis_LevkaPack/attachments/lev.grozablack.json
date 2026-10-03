@@ -1,0 +1,17 @@
+{
+  "displayName": "SVD Dark wood",
+  "internalName": "lev.grozablack",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.grozablack",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 1,
+    "recoilYawFactor": 1,
+	"aimSpeedFactor": 1.05
+  }
+}

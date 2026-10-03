@@ -1,0 +1,19 @@
+{
+    "internalName": "lev.ssh68",
+    "defense": "0.20",
+    "durability": 500,
+    "armorTypes": 
+    {
+        "head": 
+        {
+            "displayName": "SSh-68"
+        }
+    },
+    "modelSkins":
+    [
+      {
+        "skinAsset": "lev.ssh68",
+        "displayName": "ssh68"
+      }
+    ]
+}

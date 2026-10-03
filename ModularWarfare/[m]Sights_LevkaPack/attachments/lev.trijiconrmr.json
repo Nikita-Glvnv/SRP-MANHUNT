@@ -1,0 +1,17 @@
+{
+  "displayName": "Reflex sight Trijicon RMR on NcSTAR MPR45",
+  "internalName": "lev.trijiconrmr",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.trijiconrmr",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "normal",
+	"aimSpeedFactor": 1.0
+  }
+}

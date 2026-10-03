@@ -1,0 +1,19 @@
+{
+  "displayName": "Suppressor HK MP7 B&T Rotex 2 4.6x30",
+  "internalName": "lev.mp7sup",
+  "attachmentType": "barrel",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.mp7sup",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "barrel": {
+    "isSuppressor": true,
+	"hideFlash": true,
+	"recoilPitchFactor": 0.80,
+    "recoilYawFactor": 0.9,
+    "accuracyFactor": 0.87
+  }
+}

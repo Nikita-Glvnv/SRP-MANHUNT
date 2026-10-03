@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock APS",
+  "internalName": "lev.apsstockl",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.apsstockl",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.92,
+    "recoilYawFactor": 0.90,
+	"aimSpeedFactor": 1.2
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "internalName": "lev.tgb7v",
+  "maxStackSize": 1,
+  "displayName": "105mm TBG-7V",
+  "renderBulletModel": true,
+  "projectileVelocity": 5,
+  "impactDamage": 40,
+  "explosionDamage": 30,
+  "explosionRange": 6,
+  "gravity": -0.017,
+  "explosionThroughWalls": false,
+  "isSmoke": true,
+  "isExplosion": true,
+  "damageWorld": false,
+  "causesFire": true,
+  "fireLifeTime": 4,
+  "fireDuration": 5,
+  "fireDamage": 3,
+  "explosionFireLevel": 3,
+  "isDynamicBullet": true,
+  "sameTextureAsGun": false,
+  "modelSkins": [
+        {
+            "internalName": "lev.tgb7v",
+            "skinAsset": "lev.tgb7v",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

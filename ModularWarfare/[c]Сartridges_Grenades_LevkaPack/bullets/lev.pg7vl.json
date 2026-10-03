@@ -1,0 +1,25 @@
+{
+  "internalName": "lev.pg7vl",
+  "maxStackSize": 1,
+  "displayName": "93mm PG-7VL",
+  "renderBulletModel": true,
+  "projectileVelocity": 6,
+  "impactDamage": 48,
+  "explosionDamage": 40,
+  "explosionRange": 18,
+  "gravity": -0.0087,
+  "explosionThroughWalls": true,
+  "isSmoke": true,
+  "isExplosion": true,
+  "damageWorld": false,
+  "isDynamicBullet": true,
+  "sameTextureAsGun": false,
+  "modelSkins": [
+        {
+            "internalName": "lev.pg7vl",
+            "skinAsset": "lev.pg7vl",
+            "displayName": "Default",
+            "textures": ["basic","specular","normal"]
+        }
+    ]
+}

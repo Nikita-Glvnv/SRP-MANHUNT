@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope PGO-7V x2.7",
+  "internalName": "lev.pgo7v",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.pgo7v",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.92
+  }
+}

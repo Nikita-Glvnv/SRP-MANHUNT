@@ -1,0 +1,17 @@
+{
+  "displayName": "Scope VOMZ Pilad HORT Ohotnik PV 1-8x25 on KVM-30",
+  "internalName": "lev.hortkvm30",
+  "attachmentType": "sight",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.hortkvm30",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "sight": {
+	"customOverlayTexture": "lev.nothingg",
+	"modeType": "pip",
+	"aimSpeedFactor": 0.92
+  }
+}

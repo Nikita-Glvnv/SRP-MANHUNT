@@ -1,0 +1,17 @@
+{
+  "displayName": "Folding stock AK",
+  "internalName": "lev.akstockl",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.akstockl",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.85,
+    "recoilYawFactor": 0.65,
+	"aimSpeedFactor": 1.4
+  }
+}

@@ -18,7 +18,7 @@
     "hideSecondSkinWhenDressed": true,
     "enableBloodParticle": true,
     "gunSmokeCorrectForBSL": true,
-    "gunSmokeCorrectForIterationT": false,
+    "gunSmokeCorrectForIterationT": true,
     "gunFlashEffect": true,
     "shellEffectCapacity": 64
   },
@@ -31,7 +31,7 @@
     "acceptAttachmentDrag": true
   },
   "drops": {
-    "advanced_drops_models": false,
+    "advanced_drops_models": true,
     "drops_despawn_time": 300,
     "advanced_drops_models_everything": false
   },
@@ -50,10 +50,14 @@
       "y": 0.125,
       "z": 0.125
     },
-    "eraseScopeDepth": 1.0,
+    "eraseScopeDepth": 0.0,
     "shadersColorTexID": 0,
     "alwaysRenderPIPWorld": false,
-    "autoSwitchToFirstView": true
+    "autoSwitchToFirstView": true,
+    "forceRestoreBlendState": true,
+    "crosshair_recoil_spread": true,
+    "useSingleRenderGlobalPIP": true,
+    "pipUpdateInterval": 1
   },
   "walks_sounds": {
     "walk_sounds": true,
@@ -72,8 +76,51 @@
       "\u0026a{killer} \u0026fshot \u0026c{victim}"
     ]
   },
+  "sprintBlendNodes": {
+    "blendableNodes": [
+      "leftarm_mwf_blender",
+      "forearm.L",
+      "hand.L",
+      "rightarm_mwf_blender",
+      "forearm.R",
+      "hand.R",
+      "leftarm_mwf_blender_f",
+      "forearm.L_f",
+      "hand.L_f",
+      "rightarm_mwf_blender_f",
+      "forearm.R_f",
+      "hand.R_f"
+    ]
+  },
+  "gunStats": {
+    "maxDamageReference": 20.0,
+    "maxHeadshotBonusReference": 10.0
+  },
+  "customChestGui": {
+    "enable": false,
+    "filterMode": "whitelist",
+    "filters": [
+      {
+        "guiName": "allChest"
+      }
+    ]
+  },
   "model_optimization": false,
   "debug_hits_message": false,
-  "dev_mode": true,
+  "dev_mode": false,
+  "gltf": {
+    "lazyLoad": true,
+    "cpuWorkers": 2,
+    "uploadPartSize": 65536,
+    "uploadPartWeight": 32,
+    "uploadFrameBudget": 512,
+    "proxyEnabled": true,
+    "prefetchHotbar": false,
+    "hotbarSoftPinMs": 15000,
+    "idleUnloadSeconds": 90,
+    "keepAnimAfterUnload": false,
+    "skinAnimOpt": false,
+    "renderSchedulingOpt": false
+  },
   "version": "2023.2.4.4f"
 }

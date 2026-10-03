@@ -1,0 +1,27 @@
+{
+  "internalName": "lev.50bmg_m903",
+  "maxStackSize": 30,
+  "bulletDamageFactor": 21.0,
+  "bulletPenetrateFactor": 1.5,
+  "bulletBlockPenetrateFactor": 3,
+  "bulletAccuracyFactor": 1.15,
+  "displayName": "50 BMG M903 SLAP",
+  "renderBulletModel": true,
+  "isDynamicBullet": false,
+  "sameTextureAsGun": false,
+  "trailTex": "lev.trail2.png",
+  "trailModel": "lev.trail2.obj",
+  "trailGlow": true,
+  "shellModelFileName": "lev.50bmg_shell.obj",
+  "bulletProperties": {
+    "All": {
+      "potionEffects": [
+        {
+          "potionEffect": "wither",
+          "duration": 5,
+          "level": 0
+        }
+      ]
+    }
+  }
+}

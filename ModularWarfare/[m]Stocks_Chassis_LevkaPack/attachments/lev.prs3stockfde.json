@@ -1,0 +1,17 @@
+{
+  "displayName": "Stock Magpul PRS GEN3 FDE",
+  "internalName": "lev.prs3stockfde",
+  "attachmentType": "stock",
+  "modelSkins": [
+    {
+      "skinAsset": "lev.prs3stockfde",
+	  "textures": ["basic","specular","normal"],
+      "displayName": "Default"
+    }
+  ],
+  "stock": {
+    "recoilPitchFactor": 0.75,
+    "recoilYawFactor": 0.50,
+	"aimSpeedFactor": 1.0
+  }
+}
