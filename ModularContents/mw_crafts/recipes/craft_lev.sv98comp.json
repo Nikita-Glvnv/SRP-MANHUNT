@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.sv98comp",
+  "category": "Attachments - Muzzle Devices",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.sv98comp",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 324
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

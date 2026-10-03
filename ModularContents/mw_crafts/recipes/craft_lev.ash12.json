@@ -1,0 +1,37 @@
+{
+  "id": "craft_lev.ash12",
+  "category": "Weapons - Battle Rifles",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.ash12",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:storage",
+      "count": 1,
+      "meta": 8
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 133
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 262
+    },
+    {
+      "item": "thermalfoundation:storage_alloy",
+      "count": 2,
+      "meta": 2
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 161
+    }
+  ]
+}

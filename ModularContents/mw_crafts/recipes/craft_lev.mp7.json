@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.mp7",
+  "category": "Weapons - SMGs",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.mp7",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 352
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 26
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 132
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 32
+    }
+  ]
+}

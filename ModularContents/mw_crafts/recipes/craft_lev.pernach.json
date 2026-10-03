@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.pernach",
+  "category": "Weapons - Pistols",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.pernach",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 24
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 131
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 32
+    }
+  ]
+}

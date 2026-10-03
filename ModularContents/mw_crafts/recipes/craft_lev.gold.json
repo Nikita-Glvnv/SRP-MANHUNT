@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.gold",
+  "category": "Equipment - Paints",
+  "craftingTime": 67,
+  "output": {
+    "item": "modularwarfare:lev.gold",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:dye",
+      "count": 1,
+      "meta": 11
+    }
+  ]
+}

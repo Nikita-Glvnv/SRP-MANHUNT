@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.mp7mag40",
+  "category": "Magazines - SMGs",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.mp7mag40",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 293
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 353
+    }
+  ]
+}

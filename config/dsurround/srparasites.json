@@ -1,0 +1,149 @@
+{
+	"biomes": [
+		{
+			"conditions": "biome.name == 'Parasite Biome'",
+			"_comment": "makes it go noise haha funny",
+			"soundReset": true,
+			"sounds": [
+				{
+					"sound": "dsurround:dimension.nether",
+                    "volume": 1.5,
+                    "soundType": "background",
+                    "pitch": 0.01
+				},
+				{
+					"sound": "minecraft:ambient.cave",
+                    "soundType": "spot",
+                    "volume": 0.1,
+                    "weight": 100,
+                    "pitch": 0.01
+				},
+				{
+					"sound": "srparasites:small.step",
+					"soundType": "spot",
+                    "volume": 0.1,
+                    "weight": 100
+				}
+			]
+		}
+	],
+        "blocks":[
+        ],
+        "items": {
+    "SWORD": [
+            "srparasites:weapon_sword",
+            "srparasites:weapon_sword_sentient",
+            "srparasites:weapon_cleaver",
+            "srparasites:weapon_cleaver_sentient",
+            "srparasites:infectious_blade_fragment"
+        ],
+     "AXE": [
+            "srparasites:weapon_axe",
+            "srparasites:weapon_axe_sentient"
+        ],
+     "TOOL": [
+            "srparasites:weapon_scythe",
+            "srparasites:weapon_scythe_sentient",
+            "srparasites:biomepurifier",
+            "srparasites:evolutionlure",
+            "srparasites:evclock",
+            "srparasites:nodecompass",
+            "srparasites:hardened_bone_handle",
+            "srparasites:itemevolve",
+            "srparasites:itemdevolve",
+            "srparasites:itemvariant",
+            "srparasites:itemassimilate"
+        ],
+      "CRYSTAL": [
+            "srparasites:ada_summoner_drop",
+            "srparasites:ada_manducater_drop",
+            "srparasites:living_core"
+        ],
+      "LEATHER": [
+            "srparasites:lurecomponent1",
+            "srparasites:lurecomponent2",
+            "srparasites:lurecomponent3",
+            "srparasites:lurecomponent4",
+            "srparasites:lurecomponent5",
+            "srparasites:assimilated_flesh",
+            "srparasites:beckon_drop",
+            "srparasites:dispatcher_drop",
+            "srparasites:ada_bolster_drop",
+            "srparasites:ada_devourer_drop",
+            "srparasites:dried_tendons",
+            "srparasites:armor_helm",
+            "srparasites:armor_chest",
+            "srparasites:armor_pants",
+            "srparasites:armor_boots",
+            "srparasites:itemthrow"
+        ],
+      "CHAIN": [
+            "srparasites:lurecomponent6"
+        ],
+      "PLATE": [
+            "srparasites:ada_reeker_drop",
+            "srparasites:ada_longarms_drop",
+            "srparasites:ada_arachnida_drop",
+            "srparasites:ada_yelloweye_drop",
+            "srparasites:armor_helm_sentient",
+            "srparasites:armor_chest_sentient",
+            "srparasites:armor_pants_sentient",
+            "srparasites:armor_boots_sentient",
+            "srparasites:bone",
+            "srparasites:vile_shell"
+        ],
+      "FOOD": [
+            "srparasites:parasitecanister",
+            "srparasites:canisteractive"
+        ]
+        },
+        "dimensions":[
+        ],
+        "acoustics": {
+        },
+        "primitiveAcoustics": {
+        },
+        "footsteps":{
+"srparasites:infestedstain": "mud,dirt",
+"srparasites:parasitestain[variant=mud]": "waterfine,mud",
+"srparasites:parasitestain[variant=dirt]": "mud",
+"srparasites:parasitestain[variant=flesh]": "wood_sticky,marble,mud",
+"srparasites:parasitemouth": "composite,mud",
+"srparasites:parasitetrunk[variant=ball]": "log,marble",
+"srparasites:parasiterubbledense[variant=biome]": "equipment",
+"srparasites:parasiterubble[variant=stone]": "ore,obsidian",
+"srparasites:parasiterubble[variant=bricks]": "stoneutility",
+"srparasites:parasiterubble[variant=obsidian]": "obsidian",
+"srparasites:parasiterubble[variant=stonedebris]": "brickstone",
+"srparasites:parasitethin": "squeakywood,wood_sticky",
+"srparasites:parasiterubble[variant=flesh]": "mud,log",
+"srparasites:parasitestain[variant=feeler]": "wood_sticky",
+"srparasites:parasiterubble[variant=wood]": "wood_sticky,bluntwood",
+"srparasites:parasitestain_fleshstairs": "wood_sticky,marble,mud",
+"srparasites:parasiterubble[variant=bone]": "composite,snow,marble,obsidian,brickstone,glowstone",
+"srparasites:bloodyice": "glowstone,waterfine,glowstone,glowstone,ice",
+"srparasites:parasiterubble_slabhalf[variant=default]": "composite,snow,marble,obsidian,brickstone,glowstone",
+"srparasites:parasiterubble_bonestairs": "composite,snow,marble,obsidian,brickstone,glowstone",
+"srparasites:parasitetrunk[variant=plant]": "log,marble,mud",
+"srparasites:parasitetrunk[variant=tree]": "log,marble",
+"srparasites:parasiterubble[variant=metal]": "metalcompressed,metalbar,obsidian,hardmetal,ladder",
+"srparasites:parasiterubble[variant=fungus]": "organic,equipment",
+"srparasites:parasiterubbledense[variant=colony]": "marble,obsidian,glowstone",
+"srparasites:parasiterubbledense[variant=wall]": "obsidian,glowstone",
+"srparasites:evolutionlure[variant=one]": "mud,dirt",
+"srparasites:evolutionlure[variant=two]": "mud,dirt",
+"srparasites:evolutionlure[variant=three]": "mud,dirt",
+"srparasites:evolutionlure[variant=four]": "mud,dirt",
+"srparasites:evolutionlure[variant=five]": "mud,dirt",
+"srparasites:evolutionlure[variant=six]": "mud,dirt",
+"srparasites:evolutionlure[variant=seven]": "mud,dirt,metalcompressed",
+"srparasites:evolutionlure[variant=eight]": "mud,dirt,metalcompressed",
+"srparasites:biomepurifier": "equipment,composite"
+        },
+        "forgeMappings":[
+        ],
+        "variators": {
+        },
+        "entities": {
+        }
+}

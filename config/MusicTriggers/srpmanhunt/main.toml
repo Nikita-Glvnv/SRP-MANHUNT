@@ -1,0 +1,488 @@
+# Optimized SRP Manhunt configuration for Music Triggers 1.12.2
+# Duplicate and invalid triggers removed; expensive mob scan boxes reduced.
+
+# Patched mod: all due mob triggers share one scan. Exact IDs use =, prefixes use *, exclusions use !.
+[triggers]
+	[triggers.command]
+		max_tracks = "0"
+		persistence = "40"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "3"
+		passive_persistence = true
+		identifier = "parasite_overlay"
+
+	[[triggers.mob]]
+		detection_range = "28"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "27"
+		server_check_interval = "10"
+		identifier = "parasitic"
+		resource_name = [ "=srparasites:grunt" "=srparasites:bomber_light" "=srparasites:marauder" "=srparasites:monarch" "=srparasites:overseer" "=srparasites:vigilante" "=srparasites:warden" "=srparasites:succor" ]
+
+	[[triggers.mob]]
+		detection_range = "40"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "20"
+		server_check_interval = "10"
+		identifier = "dispatchercombat"
+		resource_name = [ "=srparasites:dispatcher" ]
+
+	[triggers.lowhp]
+		priority = "10"
+		fade_in = "5"
+		fade_out = "0"
+		level = "6"
+
+	[[triggers.structure]]
+		priority = "5"
+		fade_in = "50"
+		fade_out = "50"
+		server_check_interval = "20"
+		identifier = "Village"
+		resource_name = [ "Village" ]
+
+	[[triggers.mob]]
+		detection_range = "64"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "31"
+		server_check_interval = "5"
+		identifier = "Bossdragon"
+		resource_name = [ "=minecraft:ender_dragon" ]
+
+	[[triggers.mob]]
+		detection_range = "48"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "30"
+		server_check_interval = "5"
+		identifier = "bosswither1"
+		resource_name = [ "=minecraft:wither" ]
+
+	[[triggers.structure]]
+		priority = "6"
+		fade_in = "50"
+		fade_out = "50"
+		server_check_interval = "20"
+		identifier = "Netherfortress"
+		resource_name = [ "Fortress" ]
+
+	[[triggers.dimension]]
+		priority = "7"
+		fade_in = "100"
+		fade_out = "100"
+		identifier = "end"
+		resource_name = [ "1" ]
+
+	[[triggers.mob]]
+		detection_range = "64"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "28"
+		server_check_interval = "5"
+		identifier = "simdragon1"
+		resource_name = [ "=srparasites:sim_dragone" ]
+
+	[[triggers.mob]]
+		detection_range = "40"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "19"
+		server_check_interval = "10"
+		identifier = "beckoncombat"
+		resource_name = [ "=srparasites:beckon" ]
+
+	[[triggers.mob]]
+		detection_range = "48"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "29"
+		server_check_interval = "5"
+		identifier = "parasiteboss"
+		resource_name = [ "srparasites:anc*" "=srparasites:beckon_siv" "=srparasites:dispatcher_siv" "=srparasites:bogle" "=srparasites:carrier_colony" "=srparasites:haunter" "=srparasites:bomber_heavy" "=srparasites:wraith" ]
+
+	[[triggers.mob]]
+		detection_range = "28"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "16"
+		server_check_interval = "10"
+		identifier = "adaptedcombat"
+		resource_name = [ "srparasites:ada*" "srparasites:crux*" "srparasites:heed*" ]
+
+	[[triggers.mob]]
+		detection_range = "24"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "12"
+		server_check_interval = "10"
+		identifier = "generalcombat"
+		resource_name = [ "=srparasites:rupter" "=srparasites:mangler" "=srparasites:gnat" "=srparasites:lice" "=srparasites:carrier_flying" "=srparasites:carrier_heavy" "=srparasites:carrier_light" "=srparasites:worker" ]
+
+	[[triggers.mob]]
+		detection_range = "24"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "14"
+		server_check_interval = "10"
+		identifier = "assimilatedcombat"
+		resource_name = [ "srparasites:sim*" "!=srparasites:sim_dragone" ]
+
+	[[triggers.mob]]
+		detection_range = "24"
+		detection_y_ratio = "0.5"
+		fade_in = "50"
+		fade_out = "50"
+		priority = "15"
+		server_check_interval = "10"
+		identifier = "primitivecombat"
+		resource_name = [ "srparasites:pri*" ]
+
+	# Kept only for Nether/End combat combinations. A small radius avoids a costly generic hostile scan.
+	[[triggers.dimension]]
+		priority = "7"
+		fade_in = "100"
+		fade_out = "100"
+		identifier = "nether"
+		resource_name = [ "-1" ]
+
+	# One biome trigger is shared by all parasite-biome time tracks.
+	# The original config repeated the same biome check seven times every client query.
+	[[triggers.biome]]
+		priority = "8"
+		identifier = "parasite"
+		resource_name = [ "srparasites:biome_parasite" ]
+
+	[[triggers.time]]
+		priority = "9"
+		start_hour = "22"
+		end_hour = "23.5"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "parasitedawnbreaker"
+
+	[[triggers.time]]
+		priority = "9"
+		start_hour = "13"
+		end_hour = "15"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "parasitenightfall"
+
+	[[triggers.time]]
+		priority = "9"
+		start_hour = "9.5"
+		end_hour = "13"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "parasiteevening"
+
+	[[triggers.time]]
+		priority = "9"
+		start_hour = "15"
+		end_hour = "17.8"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "parasiteearlynight"
+
+	[[triggers.time]]
+		priority = "9"
+		start_hour = "23.5"
+		end_hour = "3.5"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "parasitemorning"
+
+	[[triggers.time]]
+		priority = "9"
+		start_hour = "3.5"
+		end_hour = "9.5"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "parasiteday"
+
+	[[triggers.time]]
+		priority = "9"
+		start_hour = "17.8"
+		end_hour = "22"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "parasitemidnight"
+
+	[triggers.pvp]
+		priority = "11"
+		fade_in = "5"
+		fade_out = "5"
+		identifier = "pvp"
+
+	[[triggers.time]]
+		priority = "1"
+		start_hour = "1.5"
+		end_hour = "9"
+		fade_in = "100"
+		fade_out = "100"
+		identifier = "day"
+
+	[[triggers.height]]
+		level = "100"
+		priority = "2"
+		fade_in = "50"
+		fade_out = "100"
+		check_above_level = true
+		identifier = "mountains"
+
+	[[triggers.height]]
+		level = "55"
+		priority = "4"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "underground"
+
+	[[triggers.time]]
+		priority = "1"
+		start_hour = "23.18"
+		end_hour = "1.5"
+		fade_in = "100"
+		fade_out = "100"
+		identifier = "newdawn"
+
+	# Ends where newdawn begins, removing the former overlap from 23.18 to midnight.
+	[[triggers.time]]
+		priority = "1"
+		start_hour = "22"
+		end_hour = "23.18"
+		fade_in = "50"
+		fade_out = "100"
+		identifier = "dawnbreaker"
+
+	[[triggers.time]]
+		priority = "1"
+		start_hour = "18"
+		end_hour = "22"
+		fade_in = "100"
+		fade_out = "100"
+		identifier = "midnight"
+
+	[[triggers.time]]
+		priority = "1"
+		start_hour = "14"
+		end_hour = "18"
+		fade_in = "100"
+		fade_out = "100"
+		persistence = "11"
+		identifier = "earlynight"
+
+	[[triggers.time]]
+		priority = "1"
+		start_hour = "9"
+		end_hour = "12"
+		fade_in = "100"
+		fade_out = "100"
+		identifier = "evening"
+
+	# Fixed: identifier was previously nested under an invalid link table, so this track could not activate correctly.
+	[[triggers.time]]
+		priority = "1"
+		start_hour = "12"
+		end_hour = "14"
+		fade_in = "100"
+		fade_out = "100"
+		identifier = "nightfall"
+
+	[triggers.menu]
+
+	[triggers.universal]
+		fade_out = "0"
+		persistence = "0"
+		trigger_delay = "0"
+		song_delay = "0"
+		start_delay = "0"
+		stop_delay = "0"
+		fade_in = "0"
+
+[songs]
+	[songs.parasite_overlay]
+		volume = "1"
+		triggers = [ "command-parasite_overlay" ]
+
+	[songs.parasitic]
+		volume = "1.5"
+		triggers = [ "mob-parasitic" ]
+
+	[songs.dispatchercombat]
+		volume = "1"
+		triggers = [ "mob-dispatchercombat" ]
+
+	# Reuses the existing revival1.ogg for the built-in death trigger.
+	[songs.revival1]
+		triggers = [ "dead" ]
+
+	[songs.lowhp1]
+		volume = "1"
+		triggers = [ "lowhp" ]
+
+	[songs.village1]
+		triggers = [ "structure-Village" ]
+
+	[songs.bossdragon1]
+		volume = "1.5"
+		triggers = [ "mob-Bossdragon" ]
+
+	[songs.bosswither1]
+		volume = "1.5"
+		triggers = [ "mob-bosswither1" ]
+
+	[songs.netherfortress]
+		volume = "1.5"
+		triggers = [ "structure-Netherfortress" ]
+
+	[songs.end1]
+		volume = "1.5"
+		triggers = [ "dimension-end" ]
+
+	[songs.simdragon1]
+		volume = "1.5"
+		triggers = [ "mob-simdragon1" ]
+
+	[songs.beckoncombat]
+		volume = "1"
+		triggers = [ "mob-beckoncombat" ]
+
+	[songs.parasiteboss1]
+		volume = "1"
+		triggers = [ "mob-parasiteboss" ]
+
+	[songs.adaptedcombat2]
+		volume = "2"
+		chance = "50"
+		triggers = [ "mob-adaptedcombat" ]
+
+	[songs.adaptedcombat1]
+		volume = "1.5"
+		chance = "50"
+		triggers = [ "mob-adaptedcombat" ]
+
+	[songs.generalcombat2]
+		volume = "1"
+		chance = "50"
+		triggers = [ "mob-generalcombat" ]
+
+	[songs.generalcombat1]
+		volume = "1"
+		chance = "50"
+		triggers = [ "mob-generalcombat" ]
+
+	[songs.assimilatedcombat2]
+		volume = "1.5"
+		chance = "50"
+		triggers = [ "mob-assimilatedcombat" ]
+
+	[songs.assimilatedcombat1]
+		volume = "1.5"
+		chance = "50"
+		triggers = [ "mob-assimilatedcombat" ]
+
+	[songs.primitivecombat2]
+		volume = "1.5"
+		chance = "50"
+		triggers = [ "mob-primitivecombat" ]
+
+	[songs.primitivecombat1]
+		volume = "1.5"
+		chance = "50"
+		triggers = [ "mob-primitivecombat" ]
+
+	[songs.parasitedawnbreaker]
+		volume = "2"
+		triggers = [ "time-parasitedawnbreaker" "biome-parasite" ]
+
+	[songs.parasitenightfall]
+		volume = "1"
+		triggers = [ "time-parasitenightfall" "biome-parasite" ]
+
+	[songs.parasiteevening]
+		volume = "1.5"
+		triggers = [ "time-parasiteevening" "biome-parasite" ]
+
+	[songs.parasiteearlynight]
+		volume = "1"
+		triggers = [ "time-parasiteearlynight" "biome-parasite" ]
+
+	[songs.parasitemorning]
+		volume = "1.5"
+		triggers = [ "time-parasitemorning" "biome-parasite" ]
+
+	[songs.parasiteday]
+		volume = "1.5"
+		triggers = [ "time-parasiteday" "biome-parasite" ]
+
+	[songs.pvp]
+		volume = "1.5"
+		triggers = [ "pvp-pvp" ]
+
+	[songs.day1]
+		chance = "50"
+		volume = "0.5"
+		triggers = [ "time-day" ]
+
+	[songs.mountains1]
+		volume = "1.5"
+		triggers = [ "height-mountains" ]
+
+	[songs.cave1]
+		volume = "1.5"
+		triggers = [ "height-underground" ]
+
+	[songs.newdawn1]
+		volume = "0.5"
+		triggers = [ "time-newdawn" ]
+
+	[songs.dawnbreaker1]
+		volume = "0.5"
+		triggers = [ "time-dawnbreaker" ]
+
+	[songs.midnight1]
+		volume = "0.5"
+		triggers = [ "time-midnight" ]
+
+	[songs.earlynight1]
+		volume = "1.5"
+		triggers = [ "time-earlynight" ]
+
+	[songs.evening1]
+		volume = "0.5"
+		triggers = [ "time-evening" ]
+
+	[songs.day2]
+		volume = "3.5"
+		chance = "50"
+		triggers = [ "time-day" ]
+
+	[songs.parasitemidnight]
+		volume = "1"
+		triggers = [ "time-parasitemidnight" "biome-parasite" ]
+
+	[songs.nether1]
+		volume = "1"
+		triggers = [ "dimension-nether" ]
+
+	[songs.nightfall1]
+		volume = "0.5"
+		triggers = [ "time-nightfall" ]
+
+	[songs.menu1]
+		volume = "1"
+		triggers = [ "menu" ]

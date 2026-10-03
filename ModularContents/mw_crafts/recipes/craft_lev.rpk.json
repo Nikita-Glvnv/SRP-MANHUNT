@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.rpk",
+  "category": "Weapons - Machine Guns",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.rpk",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 6,
+      "meta": 328
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 293
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 294
+    },
+    {
+      "item": "thermalfoundation:storage_alloy",
+      "count": 1,
+      "meta": 2
+    }
+  ]
+}

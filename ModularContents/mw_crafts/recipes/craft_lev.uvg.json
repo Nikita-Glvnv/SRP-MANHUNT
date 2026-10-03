@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.uvg",
+  "category": "Attachments - Grips",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.uvg",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 134
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 163
+    }
+  ]
+}

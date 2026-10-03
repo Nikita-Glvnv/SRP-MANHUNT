@@ -1,0 +1,180 @@
+key_key.attack:-100:NONE
+key_key.use:-99:NONE
+key_key.forward:17:NONE
+key_key.left:30:NONE
+key_key.back:31:NONE
+key_key.right:32:NONE
+key_key.jump:57:NONE
+key_key.sneak:42:NONE
+key_key.sprint:29:NONE
+key_key.drop:51:NONE
+key_key.inventory:36:NONE
+key_key.chat:20:NONE
+key_key.playerlist:15:NONE
+key_key.pickItem:-98:NONE
+key_key.command:53:NONE
+key_key.screenshot:60:NONE
+key_key.togglePerspective:63:NONE
+key_key.smoothCamera:0:NONE
+key_key.fullscreen:87:NONE
+key_key.spectatorOutlines:0:NONE
+key_key.swapHands:21:NONE
+key_key.saveToolbarActivator:0:NONE
+key_key.loadToolbarActivator:45:NONE
+key_key.advancements:38:NONE
+key_key.hotbar.1:2:NONE
+key_key.hotbar.2:3:NONE
+key_key.hotbar.3:4:NONE
+key_key.hotbar.4:5:NONE
+key_key.hotbar.5:6:NONE
+key_key.hotbar.6:7:NONE
+key_key.hotbar.7:8:NONE
+key_key.hotbar.8:9:NONE
+key_key.hotbar.9:10:NONE
+key_of.key.zoom:-96:NONE
+key_Reload Gun:19:NONE
+key_Reload Client:67:NONE
+key_Fire Mode:47:NONE
+key_Inspect:49:NONE
+key_Unload Key:22:NONE
+key_Attachment Mode:50:NONE
+key_Flashlight:35:NONE
+key_Laser Toggle:38:NONE
+key_Gun Transform:34:NONE
+key_Left (Attach mode):203:NONE
+key_Right (Attach mode):205:NONE
+key_Up (Attach mode):200:NONE
+key_Down (Attach mode):208:NONE
+key_Quick View Toggle:48:NONE
+key_Debug Mode:68:NONE
+key_Jetpack fire:45:NONE
+key_quark.keybind.dropoff:0:NONE
+key_quark.keybind.changeHotbar:78:NONE
+key_quark.keybind.chestSort:0:NONE
+key_quark.keybind.chestDropoff:0:NONE
+key_quark.keybind.chestMerge:0:NONE
+key_quark.keybind.chestRestock:0:NONE
+key_quark.keybind.chestExtract:0:NONE
+key_quark.keybind.playerSort:0:NONE
+key_key.fastEquip.desc:45:NONE
+key_key.betterquesting.quests:41:NONE
+key_keybind.hammercorerenderstack:77:NONE
+key_key.parasiteshud.edit:37:NONE
+key_key.betterfoliage.gui:66:NONE
+key_Toggle StepUp:74:NONE
+key_key.pickup.item:33:NONE
+key_great-scrollable-tooltips.key-binding.scroll-up:200:NONE
+key_great-scrollable-tooltips.key-binding.scroll-left:203:NONE
+key_great-scrollable-tooltips.key-binding.scroll-down:208:NONE
+key_great-scrollable-tooltips.key-binding.scroll-right:205:NONE
+key_Sit/Sliding:46:NONE
+key_Crawling:44:NONE
+key_Left Probe:16:NONE
+key_Right Probe:18:NONE
+key_key.jei.toggleOverlay:24:CONTROL
+key_key.jei.focusSearch:33:CONTROL
+key_key.jei.toggleCheatMode:0:NONE
+key_key.jei.toggleEditMode:0:NONE
+key_key.jei.showRecipe:19:NONE
+key_key.jei.showUses:22:NONE
+key_key.jei.recipeBack:14:NONE
+key_key.jei.previousPage:201:NONE
+key_key.jei.nextPage:209:NONE
+key_key.jei.bookmark:30:NONE
+key_key.jei.toggleBookmarkOverlay:0:NONE
+key_key.cofh.multimode:47:NONE
+key_key.freelook.desc:56:NONE
+key_key.togglemode.desc:184:NONE
+key_keybind.groovyscript.reload:0:NONE
+key_keybind.groovyscript.quick_reload:0:NONE
+key_keybind.groovyscript.copy:0:NONE
+key_Mo' Bends Menu:74:NONE
+key_Refresh Animations:68:NONE
+key_key.musictriggers.gui:74:NONE
+key_key.otghud.desc:74:NONE
+key_key.arms.desc:39:NONE
+key_key.mod.desc:40:NONE
+key_key.head.desc:201:NONE
+key_Camera left:203:NONE
+key_Camera right:205:NONE
+key_Camera closer:200:NONE
+key_Camera farther:208:NONE
+key_Camera up:201:NONE
+key_Camera down:209:NONE
+key_Swap shoulder:74:NONE
+key_Toggle perspective:0:NONE
+key_key.srpcotesia.togglehide:24:NONE
+key_key.srpcotesia.throwlatch:19:NONE
+key_key.srpcotesia.createfactory:44:NONE
+key_key.srpcotesia.mallmenu:21:NONE
+key_key.srpcotesia.orb:25:NONE
+key_key.srpcotesia.leap:45:NONE
+key_key.srpcotesia.leer:34:NONE
+key_key.srpcotesia.descend:45:NONE
+key_key.push_to_talk:0:NONE
+key_key.whisper:0:NONE
+key_key.mute_microphone:50:NONE
+key_key.disable_voice_chat:49:NONE
+key_key.hide_icons:35:NONE
+key_key.voice_chat:47:NONE
+key_key.voice_chat_settings:0:NONE
+key_key.voice_chat_group:34:NONE
+key_key.voice_chat_toggle_recording:0:NONE
+key_key.voice_chat_adjust_volumes:0:NONE
+key_key.weaponmaster_ydm.opengui:47:NONE
+key_gui.xaero_open_map:50:NONE
+key_gui.xaero_open_settings:27:NONE
+key_gui.xaero_world_map_server_settings:0:NONE
+key_gui.xaero_map_zoom_in:0:NONE
+key_gui.xaero_map_zoom_out:0:NONE
+key_gui.xaero_quick_confirm:54:NONE
+key_gui.xaero_toggle_dimension:0:NONE
+key_gui.xaero_minimap_settings:78:NONE
+key_gui.xaero_minimap_server_profiles:0:NONE
+key_gui.xaero_zoom_in:0:NONE
+key_gui.xaero_zoom_out:0:NONE
+key_gui.xaero_new_waypoint:0:NONE
+key_gui.xaero_waypoints_key:22:NONE
+key_gui.xaero_enlarge_map:78:NONE
+key_gui.xaero_toggle_map:0:NONE
+key_gui.xaero_toggle_waypoints:0:NONE
+key_gui.xaero_toggle_map_waypoints:0:NONE
+key_gui.xaero_toggle_slime:0:NONE
+key_gui.xaero_toggle_grid:0:NONE
+key_gui.xaero_instant_waypoint:78:NONE
+key_gui.xaero_switch_waypoint_set:0:NONE
+key_gui.xaero_display_all_sets:0:NONE
+key_gui.xaero_toggle_light_overlay:0:NONE
+key_gui.xaero_toggle_entity_radar:0:NONE
+key_gui.xaero_reverse_entity_radar:0:NONE
+key_gui.xaero_toggle_manual_cave_mode:0:NONE
+key_gui.xaero_alternative_list_players:0:NONE
+key_gui.xaero_toggle_tracked_players_on_map:0:NONE
+key_gui.xaero_toggle_tracked_players_in_world:0:NONE
+key_Baritone Goal Waypoint:0:NONE
+key_Skip Background Render:0:NONE
+key_Nether Cave Fix:0:NONE
+key_Switch to Overworld:0:NONE
+key_Transparent Background:0:NONE
+key_Save/Load NewChunks to Disk:0:NONE
+key_null OW Dim Dir:0:NONE
+key_Show Waypoint Distances:0:NONE
+key_Show Render Distance WorldMap:0:NONE
+key_Portal Highlights:0:NONE
+key_Switch to End:0:NONE
+key_PortalSkip Detection:0:NONE
+key_Switch to Nether:0:NONE
+key_NewChunks Highlighting:0:NONE
+key_Persist Dim Switch:0:NONE
+key_Waystones Dimension Sync:0:NONE
+key_WDL Highlight:0:NONE
+key_Always Render Player Name:0:NONE
+key_Show Render Distance:0:NONE
+key_Waypoint Beacons:0:NONE
+key_Fast Mapping:0:NONE
+key_Always Render Player Icon:0:NONE
+key_Fix Main Entity Dot:0:NONE
+key_Transparent Obsidian Roof:0:NONE
+key_Waystones Waypoint Sync:0:NONE
+key_toolbelt.binding.access:47:NONE
+key_toolbelt.binding.restock:47:SHIFT

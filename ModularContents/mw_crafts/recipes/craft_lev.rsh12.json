@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.rsh12",
+  "category": "Weapons - Pistols",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.rsh12",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 352
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 26
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

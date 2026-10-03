@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.m4comp",
+  "category": "Attachments - Muzzle Devices",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.m4comp",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 352
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

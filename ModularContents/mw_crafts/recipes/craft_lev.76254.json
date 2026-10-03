@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.76254",
+  "category": "Ammo - Tier 1",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.76254",
+    "count": 60,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 131
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 128
+    }
+  ]
+}

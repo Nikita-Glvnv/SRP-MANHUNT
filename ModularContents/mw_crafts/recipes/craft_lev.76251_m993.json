@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.76251_m993",
+  "category": "Ammo - Tier 5",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.76251_m993",
+    "count": 60,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 135
+    },
+    {
+      "item": "srparasites:lurecomponent6",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 161
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

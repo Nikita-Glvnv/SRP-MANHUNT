@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.m1911",
+  "category": "Weapons - Pistols",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.m1911",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 128
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 25
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 2,
+      "meta": 0
+    }
+  ]
+}

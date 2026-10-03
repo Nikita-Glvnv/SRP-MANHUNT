@@ -1,0 +1,251 @@
+key.categories.movement
+key.sprint
+key.left
+key.forward
+key.right
+key.sneak
+key.back
+key.jump
+
+key.categories.gameplay
+key.pickup.item
+key.attack
+key.pickItem
+key.use
+
+key.categories.inventory
+keybind.hammercorerenderstack
+key.drop
+key.inventory
+key.swapHands
+key.hotbar.1
+key.hotbar.2
+key.hotbar.3
+key.hotbar.4
+key.hotbar.5
+key.hotbar.6
+key.hotbar.7
+key.hotbar.8
+key.hotbar.9
+
+key.categories.creative
+key.loadToolbarActivator
+key.saveToolbarActivator
+
+key.categories.multiplayer
+key.command
+key.chat
+key.playerlist
+
+key.categories.misc
+key.fastEquip.desc
+of.key.zoom
+key.advancements
+key.smoothCamera
+key.togglePerspective
+key.spectatorOutlines
+key.fullscreen
+key.screenshot
+
+BetterQuesting
+key.betterquesting.quests
+
+key.categories.srpcotesia
+key.srpcotesia.orb
+key.srpcotesia.throwlatch
+key.srpcotesia.mallmenu
+key.srpcotesia.descend
+key.srpcotesia.leer
+key.srpcotesia.leap
+key.srpcotesia.togglehide
+key.srpcotesia.createfactory
+key.vagrantbalance.echolocation
+
+EntityCulling
+key.entityculling.toggle
+
+key.freelook.category
+key.togglemode.desc
+key.freelook.desc
+
+great-scrollable-tooltips.key-binding.category
+great-scrollable-tooltips.key-binding.scroll-down
+great-scrollable-tooltips.key-binding.scroll-left
+great-scrollable-tooltips.key-binding.scroll-right
+great-scrollable-tooltips.key-binding.scroll-up
+
+key.categories.groovyscript
+keybind.groovyscript.copy
+keybind.groovyscript.quick_reload
+keybind.groovyscript.reload
+
+Mo' Bends
+Mo' Bends Menu
+Refresh Animations
+
+ModularMovements
+Crawling
+Left Probe
+Right Probe
+Sit/Sliding
+
+ModularWarfare
+Attachment Mode
+Debug Mode
+Down (Attach mode)
+Fire Mode
+Flashlight
+Gun Transform
+Inspect
+Jetpack fire
+Laser Toggle
+Left (Attach mode)
+Quick View Toggle
+Reload Client
+Reload Gun
+Right (Attach mode)
+Unload Key
+Up (Attach mode)
+
+key.categories.musictriggers
+key.musictriggers.gui
+
+key.otg.category
+key.otghud.desc
+
+key.categories.parasiteshud
+key.parasiteshud.edit
+
+quark.gui.keygroupInv
+quark.keybind.chestDropoff
+quark.keybind.chestExtract
+quark.keybind.chestMerge
+quark.keybind.chestRestock
+quark.keybind.dropoff
+quark.keybind.playerSort
+quark.keybind.chestSort
+
+quark.gui.keygroupMisc
+quark.keybind.changeHotbar
+
+key.rfp2.category
+key.arms.desc
+key.head.desc
+key.mod.desc
+
+Shoulder Surfing
+Camera closer
+Camera down
+Camera farther
+Camera left
+Camera right
+Camera up
+Swap shoulder
+Toggle perspective
+
+StepUp
+Toggle StepUp
+
+Universal Tweaks
+keybind.universaltweaks.clear_toasts
+
+WorldEdit
+WorldEdit Reference
+
+Xaero's Minimap
+gui.xaero_minimap_server_profiles
+gui.xaero_toggle_tracked_players_in_world
+gui.xaero_toggle_tracked_players_on_map
+gui.xaero_alternative_list_players
+gui.xaero_instant_waypoint
+gui.xaero_toggle_waypoints
+gui.xaero_toggle_map_waypoints
+gui.xaero_toggle_map
+gui.xaero_toggle_light_overlay
+gui.xaero_toggle_manual_cave_mode
+gui.xaero_toggle_slime
+gui.xaero_toggle_grid
+gui.xaero_minimap_settings
+gui.xaero_new_waypoint
+gui.xaero_zoom_out
+gui.xaero_toggle_entity_radar
+gui.xaero_display_all_sets
+gui.xaero_zoom_in
+gui.xaero_reverse_entity_radar
+gui.xaero_switch_waypoint_set
+gui.xaero_waypoints_key
+gui.xaero_enlarge_map
+
+Xaero's World Map
+gui.xaero_world_map_server_settings
+gui.xaero_open_settings
+gui.xaero_open_map
+gui.xaero_quick_confirm
+gui.xaero_toggle_dimension
+gui.xaero_map_zoom_in
+gui.xaero_map_zoom_out
+
+XaeroPlus
+Always Render Player Icon
+Always Render Player Name
+Baritone Goal Waypoint
+Nether Cave Fix
+NewChunks Highlighting
+Persist Dim Switch
+Portal Highlights
+PortalSkip Detection
+Save/Load NewChunks to Disk
+Show Render Distance
+Show Render Distance WorldMap
+Show Waypoint Distances
+Switch to End
+Switch to Nether
+Switch to Overworld
+WDL Highlight
+Waypoint Beacons
+null OW Dim Dir
+
+key.weaponmaster_ydm.category
+key.weaponmaster_ydm.opengui
+
+flare.key.category
+flare.key.open_tick_tracking_menu
+flare.key.start_client_sampling
+flare.key.start_sampling
+flare.key.stop_client_sampling
+flare.key.stop_sampling
+
+jei (Just Enough Items)
+key.jei.toggleCheatMode
+key.jei.toggleEditMode
+key.jei.focusSearch
+key.jei.bookmark
+key.jei.showUses
+key.jei.showRecipe
+key.jei.toggleBookmarkOverlay
+key.jei.toggleOverlay
+key.jei.previousPage
+key.jei.recipeBack
+key.jei.nextPage
+
+key.categories.modularcontents
+key.modularcontents.open_creator
+
+key.categories.wingman
+key.wingman.panel
+
+key.categories.voicechat
+key.mute_microphone
+key.voice_chat
+key.voice_chat_group
+key.push_to_talk
+key.voice_chat_adjust_volumes
+key.voice_chat_settings
+key.disable_voice_chat
+key.voice_chat_toggle_recording
+key.hide_icons
+key.whisper
+
+key.cofh.category
+key.cofh.multimode
+

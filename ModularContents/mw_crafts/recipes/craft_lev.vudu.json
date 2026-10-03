@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.vudu",
+  "category": "Attachments - Optics",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.vudu",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "modularwarfare:lev.binlen",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 353
+    }
+  ]
+}

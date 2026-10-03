@@ -1,0 +1,22 @@
+{
+  "id": "armor_027_helmet_pasgt_m88",
+  "category": "Equipment - Armor Sets",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.pasgt_m88",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 5,
+      "meta": 160
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

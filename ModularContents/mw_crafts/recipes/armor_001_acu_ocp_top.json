@@ -1,0 +1,22 @@
+{
+  "id": "armor_001_acu_ocp_top",
+  "category": "Equipment - Armor Sets",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.acu_ocp",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 7,
+      "meta": 163
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 2,
+      "meta": 0
+    }
+  ]
+}

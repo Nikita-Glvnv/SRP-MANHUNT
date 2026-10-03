@@ -1,0 +1,22 @@
+{
+  "id": "armor_022_helmet_altyn_2",
+  "category": "Equipment - Armor Sets",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.altyn_2",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 5,
+      "meta": 166
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

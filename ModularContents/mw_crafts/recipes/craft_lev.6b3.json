@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.6b3",
+  "category": "Equipment - Body Armor",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.6b3",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 5,
+      "meta": 325
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

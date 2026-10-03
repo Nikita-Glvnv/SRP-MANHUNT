@@ -1,0 +1,37 @@
+{
+  "id": "craft_lev.50bmg_m21",
+  "category": "Ammo - Tier 5",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.50bmg_m21",
+    "count": 30,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:skull",
+      "count": 1,
+      "meta": 1
+    },
+    {
+      "item": "srparasites:lurecomponent6",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:end_crystal",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 161
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

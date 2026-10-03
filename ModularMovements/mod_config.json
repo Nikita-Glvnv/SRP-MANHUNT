@@ -1,0 +1,24 @@
+{
+  "lean": {
+    "autoHold": false,
+    "mouseCorrection": true,
+    "withGunsOnly": false
+  },
+  "slide": {
+    "enable": true,
+    "maxForce": 1.0
+  },
+  "sit": {
+    "autoHold": true
+  },
+  "crawl": {
+    "blockView": false,
+    "blockAngle": 190.0
+  },
+  "cooldown": {
+    "sitCooldown": 2.4,
+    "crawlCooldown": 2.75,
+    "leanCooldown": 0.3
+  },
+  "version": "1.0.0f"
+}

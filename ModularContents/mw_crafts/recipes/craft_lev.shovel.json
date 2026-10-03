@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.shovel",
+  "category": "Ammo - Launcher Rounds",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.shovel",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:iron_shovel",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 2,
+      "meta": 0
+    }
+  ]
+}

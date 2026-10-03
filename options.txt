@@ -1,0 +1,256 @@
+version:1343
+invertYMouse:false
+mouseSensitivity:0.5
+fov:0.0
+gamma:-0.7
+saturation:0.0
+renderDistance:8
+guiScale:9
+particles:0
+bobView:true
+anaglyph3d:false
+maxFps:260
+fboEnable:true
+difficulty:2
+fancyGraphics:false
+ao:2
+renderClouds:false
+resourcePacks:["FaithfulAppleSkin-mc1.15.2.zip","SRPCotesia Glomerata Russificator 1.1B.zip","SRParasites32X.zip","Srparasites+Minimap+Icons.zip","NoCubes_SRP_Russificator_1.2.zip","BDcraft Sounds Pack.zip","Faithful32_MC1.12.2_2026r4.zip","Faithful 32x - 1.12.2.zip","Dark Modern GUIs - 1.0.2.zip","AnimEmis_srparasites.zip","Vanilla Advancement.zip","police-shield.zip","Vagrant Arsenal 1.1.zip","ParasitePaladins.zip"]
+incompatibleResourcePacks:["FaithfulAppleSkin-mc1.15.2.zip","BDcraft Sounds Pack.zip","Vanilla Advancement.zip","Vagrant Arsenal 1.1.zip"]
+lastServer:srpmanhunt.ru:25563
+lang:ru_ru
+chatVisibility:0
+chatColors:true
+chatLinks:true
+chatLinksPrompt:true
+chatOpacity:1.0
+snooperEnabled:false
+fullscreen:true
+enableVsync:false
+useVbo:true
+hideServerAddress:false
+advancedItemTooltips:false
+pauseOnLostFocus:true
+touchscreen:false
+overrideWidth:0
+overrideHeight:0
+heldItemTooltips:false
+chatHeightFocused:1.0
+chatHeightUnfocused:0.44366196
+chatScale:1.0
+chatWidth:1.0
+mipmapLevels:0
+forceUnicodeFont:true
+reducedDebugInfo:false
+useNativeTransport:true
+entityShadows:true
+mainHand:right
+attackIndicator:1
+showSubtitles:false
+realmsNotifications:true
+enableWeakAttacks:false
+autoJump:false
+narrator:0
+tutorialStep:none
+key_key.attack:-100
+key_key.use:-99
+key_key.forward:17
+key_key.left:30
+key_key.back:31
+key_key.right:32
+key_key.jump:57
+key_key.sneak:42
+key_key.sprint:29
+key_key.drop:51
+key_key.inventory:36
+key_key.chat:20
+key_key.playerlist:15
+key_key.pickItem:-98
+key_key.command:53
+key_key.screenshot:60
+key_key.togglePerspective:63
+key_key.smoothCamera:0
+key_key.fullscreen:87
+key_key.spectatorOutlines:0
+key_key.swapHands:21
+key_key.saveToolbarActivator:0
+key_key.loadToolbarActivator:74
+key_key.advancements:38
+key_key.hotbar.1:2
+key_key.hotbar.2:3
+key_key.hotbar.3:4
+key_key.hotbar.4:5
+key_key.hotbar.5:6
+key_key.hotbar.6:7
+key_key.hotbar.7:8
+key_key.hotbar.8:9
+key_key.hotbar.9:10
+key_of.key.zoom:-96
+key_flare.key.start_sampling:0
+key_flare.key.stop_sampling:0
+key_flare.key.start_client_sampling:0
+key_flare.key.stop_client_sampling:0
+key_flare.key.open_tick_tracking_menu:0
+key_Reload Gun:19
+key_Reload Client:67
+key_Fire Mode:47
+key_Inspect:49
+key_Unload Key:22
+key_Attachment Mode:50
+key_Flashlight:35
+key_Laser Toggle:38
+key_Gun Transform:34
+key_Left (Attach mode):203
+key_Right (Attach mode):205
+key_Up (Attach mode):200
+key_Down (Attach mode):208
+key_Quick View Toggle:48
+key_Debug Mode:68
+key_Jetpack fire:45
+key_quark.keybind.dropoff:0
+key_quark.keybind.changeHotbar:78
+key_quark.keybind.chestSort:0
+key_quark.keybind.chestDropoff:0
+key_quark.keybind.chestMerge:0
+key_quark.keybind.chestRestock:0
+key_quark.keybind.chestExtract:0
+key_quark.keybind.playerSort:0
+key_key.fastEquip.desc:74
+key_key.betterquesting.quests:41
+key_keybind.hammercorerenderstack:77
+key_key.modularcontents.open_creator:66
+key_key.parasiteshud.edit:55
+key_Toggle StepUp:74
+key_key.wingman.panel:82
+key_key.pickup.item:33
+key_great-scrollable-tooltips.key-binding.scroll-up:200
+key_great-scrollable-tooltips.key-binding.scroll-left:203
+key_great-scrollable-tooltips.key-binding.scroll-down:208
+key_great-scrollable-tooltips.key-binding.scroll-right:205
+key_Sit/Sliding:46
+key_Crawling:44
+key_Left Probe:16
+key_Right Probe:18
+key_key.jei.toggleOverlay:76
+key_key.jei.focusSearch:33:CONTROL
+key_key.jei.toggleCheatMode:0
+key_key.jei.toggleEditMode:0
+key_key.jei.showRecipe:19
+key_key.jei.showUses:22
+key_key.jei.recipeBack:14
+key_key.jei.previousPage:201
+key_key.jei.nextPage:209
+key_key.jei.bookmark:30
+key_key.jei.toggleBookmarkOverlay:0
+key_key.cofh.multimode:47
+key_key.arms.desc:39
+key_key.mod.desc:40
+key_key.head.desc:201
+key_key.srpcotesia.togglehide:24
+key_key.srpcotesia.throwlatch:19
+key_key.srpcotesia.createfactory:44
+key_key.srpcotesia.mallmenu:21
+key_key.srpcotesia.orb:25
+key_key.srpcotesia.leap:45
+key_key.srpcotesia.leer:34
+key_key.srpcotesia.descend:45
+key_key.vagrantbalance.echolocation:47
+key_key.freelook.desc:56
+key_key.togglemode.desc:184
+key_keybind.groovyscript.reload:0
+key_keybind.groovyscript.quick_reload:0
+key_keybind.groovyscript.copy:0
+key_Mo' Bends Menu:74
+key_Refresh Animations:68
+key_key.musictriggers.gui:74
+key_key.otghud.desc:74
+key_Camera left:203
+key_Camera right:205
+key_Camera closer:200
+key_Camera farther:208
+key_Camera up:201
+key_Camera down:209
+key_Swap shoulder:74
+key_Toggle perspective:0
+key_keybind.universaltweaks.clear_toasts:11:CONTROL
+key_key.push_to_talk:0
+key_key.whisper:0
+key_key.mute_microphone:50
+key_key.disable_voice_chat:49
+key_key.hide_icons:35
+key_key.voice_chat:78
+key_key.voice_chat_settings:0
+key_key.voice_chat_group:74
+key_key.voice_chat_toggle_recording:0
+key_key.voice_chat_adjust_volumes:0
+key_key.weaponmaster_ydm.opengui:78
+key_WorldEdit Reference:38
+key_gui.xaero_open_map:15
+key_gui.xaero_open_settings:27
+key_gui.xaero_world_map_server_settings:0
+key_gui.xaero_map_zoom_in:0
+key_gui.xaero_map_zoom_out:0
+key_gui.xaero_quick_confirm:54
+key_gui.xaero_toggle_dimension:0
+key_gui.xaero_minimap_settings:78
+key_gui.xaero_minimap_server_profiles:0
+key_gui.xaero_zoom_in:0
+key_gui.xaero_zoom_out:0
+key_gui.xaero_new_waypoint:0
+key_gui.xaero_waypoints_key:74
+key_gui.xaero_enlarge_map:78
+key_gui.xaero_toggle_map:0
+key_gui.xaero_toggle_waypoints:0
+key_gui.xaero_toggle_map_waypoints:0
+key_gui.xaero_toggle_slime:0
+key_gui.xaero_toggle_grid:0
+key_gui.xaero_instant_waypoint:78
+key_gui.xaero_switch_waypoint_set:0
+key_gui.xaero_display_all_sets:0
+key_gui.xaero_toggle_light_overlay:0
+key_gui.xaero_toggle_entity_radar:0
+key_gui.xaero_reverse_entity_radar:0
+key_gui.xaero_toggle_manual_cave_mode:0
+key_gui.xaero_alternative_list_players:0
+key_gui.xaero_toggle_tracked_players_on_map:0
+key_gui.xaero_toggle_tracked_players_in_world:0
+key_Show Render Distance:0
+key_PortalSkip Detection:0
+key_Switch to Nether:0
+key_Switch to End:0
+key_Show Waypoint Distances:0
+key_Show Render Distance WorldMap:0
+key_Persist Dim Switch:0
+key_Always Render Player Icon:0
+key_Always Render Player Name:0
+key_NewChunks Highlighting:0
+key_Switch to Overworld:0
+key_null OW Dim Dir:0
+key_Nether Cave Fix:0
+key_WDL Highlight:0
+key_Portal Highlights:0
+key_Baritone Goal Waypoint:0
+key_Save/Load NewChunks to Disk:0
+key_Waypoint Beacons:0
+key_key.entityculling.toggle:-1
+key_toolbelt.binding.access:47
+key_toolbelt.binding.restock:47:SHIFT
+soundCategory_master:0.19536424
+soundCategory_music:0.5140845
+soundCategory_record:1.0
+soundCategory_weather:1.0
+soundCategory_block:1.0
+soundCategory_hostile:1.0
+soundCategory_neutral:1.0
+soundCategory_player:1.0
+soundCategory_ambient:1.0
+soundCategory_voice:1.0
+soundCategory_ds_footsteps:1.0
+soundCategory_ds_biome:1.0
+modelPart_cape:true
+modelPart_jacket:true
+modelPart_left_sleeve:true
+modelPart_right_sleeve:true
+modelPart_left_pants_leg:true
+modelPart_right_pants_leg:true
+modelPart_hat:true

@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.barska",
+  "category": "Attachments - Optics",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.barska",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "modularwarfare:lev.binlen",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 324
+    }
+  ]
+}

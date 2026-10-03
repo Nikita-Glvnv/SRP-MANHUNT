@@ -1,0 +1,22 @@
+{
+  "id": "armor_011_gorka_top",
+  "category": "Equipment - Armor Sets",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.gorka_chest",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 7,
+      "meta": 166
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 2,
+      "meta": 0
+    }
+  ]
+}

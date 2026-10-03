@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.6x4",
+  "category": "Weapons - Melee",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.6x4",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

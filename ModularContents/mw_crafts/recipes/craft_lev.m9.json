@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.m9",
+  "category": "Weapons - Melee",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.m9",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 129
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "armor_020_helmet_6b47_6b50_5",
+  "category": "Equipment - Armor Sets",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.6b47_6b50_5",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 5,
+      "meta": 167
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

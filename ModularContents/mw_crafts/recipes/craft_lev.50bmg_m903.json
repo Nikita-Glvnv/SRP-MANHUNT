@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.50bmg_m903",
+  "category": "Ammo - Tier 4",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.50bmg_m903",
+    "count": 30,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 167
+    },
+    {
+      "item": "srparasites:living_core",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 161
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

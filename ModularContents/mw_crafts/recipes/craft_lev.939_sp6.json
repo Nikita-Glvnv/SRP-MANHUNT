@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.939_sp6",
+  "category": "Ammo - Tier 4",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.939_sp6",
+    "count": 60,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 133
+    },
+    {
+      "item": "srparasites:lurecomponent4",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 164
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

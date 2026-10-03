@@ -1,0 +1,15 @@
+{
+  "stacks": [
+    {
+      "item": "starterkit:starterkit",
+      "count": 1
+    }
+  ],
+  "commands": [
+    "/gamemode 2 %PLAYER_NAME%",
+    "/tell %PLAYER_NAME% CHOOSE YOUR PATH",
+    "/effect %PLAYER_NAME% minecraft:slowness 10000 255",
+    "/effect %PLAYER_NAME% minecraft:blindness 10000 255",
+    "/effect %PLAYER_NAME% minecraft:rezistanse 10000 255"
+  ]
+}

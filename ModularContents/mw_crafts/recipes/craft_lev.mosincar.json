@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.mosincar",
+  "category": "Weapons - Sniper Rifles",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.mosincar",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 163
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 33
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 292
+    },
+    {
+      "item": "thermalfoundation:storage_alloy",
+      "count": 2,
+      "meta": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.556mag40",
+  "category": "Magazines - Assault Rifles",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.556mag40",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 293
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 353
+    }
+  ]
+}

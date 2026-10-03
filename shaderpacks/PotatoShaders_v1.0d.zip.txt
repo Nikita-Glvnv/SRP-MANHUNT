@@ -1,0 +1,6 @@
+#Sat Aug 01 14:34:33 MSK 2026
+ambientOcclusionToggle=true
+DoFQuality=2
+motionblurToggle=false
+normalmapEnabled=true
+outlineShimmerToggle=true

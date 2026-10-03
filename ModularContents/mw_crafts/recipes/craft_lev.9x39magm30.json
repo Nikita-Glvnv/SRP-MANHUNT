@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.9x39magm30",
+  "category": "Magazines - Assault Rifles",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.9x39magm30",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 293
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 353
+    }
+  ]
+}

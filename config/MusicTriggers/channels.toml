@@ -1,0 +1,5 @@
+# Only the active channel is registered. The empty example channel was removed to avoid an extra audio engine/tick pass.
+
+[srpmanhunt]
+	pause_overrides = false
+	explicit_overrides = false

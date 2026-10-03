@@ -1,0 +1,17 @@
+{
+  "id": "craft_lev.sr2_sup",
+  "category": "Attachments - Muzzle Devices",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.sr2_sup",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 133
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.556cmag100h",
+  "category": "Magazines - Assault Rifles",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.556cmag100h",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 294
+    },
+    {
+      "item": "thermalfoundation:storage_alloy",
+      "count": 2,
+      "meta": 2
+    }
+  ]
+}

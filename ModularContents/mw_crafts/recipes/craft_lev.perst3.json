@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.perst3",
+  "category": "Attachments - Lasers & Lights",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.perst3",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "modularwarfare:lev.binlen",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 134
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 33
+    }
+  ]
+}

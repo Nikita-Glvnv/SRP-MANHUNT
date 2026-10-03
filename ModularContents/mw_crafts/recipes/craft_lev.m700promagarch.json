@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.m700promagarch",
+  "category": "Attachments - Stocks",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.m700promagarch",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 160
+    },
+    {
+      "item": "minecraft:planks",
+      "count": 4,
+      "meta": 0
+    }
+  ]
+}

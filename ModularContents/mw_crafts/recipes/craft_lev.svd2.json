@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.svd2",
+  "category": "Attachments - Stocks",
+  "craftingTime": 200,
+  "output": {
+    "item": "modularwarfare:lev.svd2",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 324
+    }
+  ]
+}

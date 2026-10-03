@@ -1,0 +1,42 @@
+{
+  "id": "craft_lev.rpg7",
+  "category": "Weapons - Launchers",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.rpg7",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 163
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 135
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 292
+    },
+    {
+      "item": "thermalfoundation:storage",
+      "count": 2,
+      "meta": 5
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 134
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 136
+    }
+  ]
+}
