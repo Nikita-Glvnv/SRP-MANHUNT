@@ -1,17 +1,18 @@
 {
-    "internalName": "lev.groza1",
-    "displayName": "OTs-14-1",
-    "weaponType": "carbine",
-	"animationType": "enhanced",
-    "customFlashTexture": "lev.battlecraft.flash",
-	
-	  "transformations": {
+  "internalName": "lev.groza1",
+  "displayName": "OTs-14-1",
+  "weaponType": "carbine",
+  "animationType": "enhanced",
+  "customFlashTexture": "lev.battlecraft.flash",
+  "transformations": {
     "0": "lev.groza1",
     "1": "lev.groza1_gp25"
   },
-
   "transformAmmoOptions": {
-    "1": { "ammoRatio": false, "sameAmmo": false }
+    "1": {
+      "ammoRatio": false,
+      "sameAmmo": false
+    }
   },
   "transformationRequirements": {
     "1": {
@@ -19,204 +20,201 @@
     }
   },
   "customWheelTexture": "lev.m4a1icon",
- 
-    "gunDamage": 1.0,
-    "gunDamageHeadshotBonus": 0.5,
-    "gunPenetrateSize": 1.0,
-    "gunPenetrationDamageFalloff": true,
-    "gunMaxPenetrateBlockResistance": 0.5,
-    "gunPenetrateBlocksResistance": 1.0,
-    "roundsPerMin": 700,
-	"gunHoldLength": 0.7,
-	
-	"useNewRecoilSystem": true,
-	"useEnhancedAiming": true,
-	
-    "recoilPitch": 4.2,
-    "recoilYaw": 75.0,
-    "randomRecoilPitch": 0.01,
-    "randomRecoilYaw": 0.035,
-    "antiRecoilFactor": 10.0,
-    "antiRecoilStartTime": 50,
-    "bulletSpread": 1.8,
-    "accuracySneakFactor": 0.9,
-	"accuracyAimFactor": 0.2,
-    "weaponMaxRange": 160,
-    "weaponEffectiveRange": 80,
-	"allowSprintFiring": false,
-	"allowReloadFiring": false,
-	"allowReloadSprint": true,
-	"allowAimingSprint": false,
-	
-	"modifyUnloadBullets": 0,
-	
-    "moveSpeedModifier": 0.98,
-
-    "fireModes": [
-        "full",
-		"semi"
-    ],
-    "acceptedAmmo": [
-        "lev.76239mag",
-        "lev.76239magb",
-		"lev.76239magal",
-		"lev.76239mag15",
-		"lev.76239mag40",
-		"lev.76239mag75"
-    ],
-	"allowEmptyMagazines": true,
-	
-    "dropBulletCasing": true,
-    "shellEjectOffsetNormal": {
-        "x": 0,
-        "y": -20,
-        "z": -20
-    },
-    "shellEjectOffsetAiming": {
-        "x": -0.2,
-        "y": 0.12,
-        "z": 0.5
-    },
-     "weaponSoundMap": {
-        "weaponFire": [
-            {
-                "soundEvent": "weaponFire",
-                "soundName": "lev.ak15shoot",
-                "soundNameDistant": "lev.ak15shootfar",
-                "soundRange": 70,
-                "soundMaxRange": 120,
-                "soundFadeMultiplier": 1
-            }
-        ],
-        "weaponFireSuppressed": [
-            {
-                "soundEvent": "weaponFireSuppressed",
-                "soundName": "lev.ak15supshoot",
-                "soundRange": 30,
-                "soundMaxRange": 50,
-                "soundFadeMultiplier": 1
-                 }
-		 ],
-		"weaponTransform1": [
-            {
-                "soundEvent": "weaponTransform1",
-                "soundName": "lev.grozagp25on"
-            }
-        ],
-		"weaponTransform0": [
-            {
-                "soundEvent": "weaponTransform0",
-                "soundName": "lev.grozagp25off"
-            }
-        ],
-		"weaponDraw": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.draw"
-            }
-        ],
-		"weaponTakedown": [
-            {
-                "soundEvent": "weaponDraw",
-                "soundName": "lev.takedown"
-            }
-        ],
-		"weaponPreUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.grozaunload"
-            }
-        ],
-		"weaponUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.nothing"
-            }
-],
-		"inspect": [
-			{
-				"soundEvent": "inspect",
-				"soundName": "lev.grozainspect"
-			}
-        ],
-        "weaponPreLoad": [
-            {
-                "soundEvent": "weaponPreLoad",
-                "soundName": "lev.grozaload"
-            }
-        ],
-		"weaponDryFire": [
-            {
-                "soundEvent": "weaponDryFire",
-                "soundName": "lev.dryfire"
-            }
-        ],
-		"weaponLoad": [
-            {
-                "soundEvent": "weaponLoad",
-                "soundName": "lev.nothing"
-            }
-        ],
-		"weaponPreReload": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.grozaprerel"
-			}
-		],
-		"weaponReload": [
-			{
-				"soundEvent": "weaponReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponReloadSecond": [
-			{
-				"soundEvent": "weaponReloadSecond",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReload": [
-			{
-				"soundEvent": "weaponPostReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPreReloadEmpty": [
-			{
-				"soundEvent": "weaponPostReloadEmpty",
-				"soundName": "lev.grozafullrel"
-			}
-		]
-    },
-    "acceptedAttachments": {
-        "barrel": [
-	    "lev.ak762comp",
-		"lev.grozagrip",
-		"lev.grozasup",
-		"lev.grozagp25"
-        ],
-        "sight": [
-		"lev.4x34",
-	     "lev.rakurs",
-		 "lev.okplh",
-		 "lev.pso",
-		 "lev.pso11",
-		 "lev.pgo7v"
-        ],
-        "stock": [
-            "lev.grozablack"
-        ]
-    },
-  "defaultAttachments": {
-	"barrel": "lev.ak762comp",
-	"stock": "lev.grozablack"	
+  "gunDamage": 1.0,
+  "gunDamageHeadshotBonus": 0.5,
+  "gunPenetrateSize": 3.0,
+  "gunPenetrationDamageFalloff": true,
+  "gunMaxPenetrateBlockResistance": 0.5,
+  "gunPenetrateBlocksResistance": 1.0,
+  "roundsPerMin": 700,
+  "gunHoldLength": 0.7,
+  "useNewRecoilSystem": true,
+  "useEnhancedAiming": true,
+  "recoilPitch": 4.2,
+  "recoilYaw": 75.0,
+  "randomRecoilPitch": 0.01,
+  "randomRecoilYaw": 0.035,
+  "antiRecoilFactor": 10.0,
+  "antiRecoilStartTime": 50,
+  "bulletSpread": 1.8,
+  "accuracySneakFactor": 0.9,
+  "accuracyAimFactor": 0.2,
+  "weaponMaxRange": 160,
+  "weaponEffectiveRange": 80,
+  "allowSprintFiring": false,
+  "allowReloadFiring": false,
+  "allowReloadSprint": true,
+  "allowAimingSprint": false,
+  "modifyUnloadBullets": 0,
+  "moveSpeedModifier": 0.98,
+  "fireModes": [
+    "full",
+    "semi"
+  ],
+  "acceptedAmmo": [
+    "lev.76239mag",
+    "lev.76239magb",
+    "lev.76239magal",
+    "lev.76239mag15",
+    "lev.76239mag40",
+    "lev.76239mag75"
+  ],
+  "allowEmptyMagazines": true,
+  "dropBulletCasing": true,
+  "shellEjectOffsetNormal": {
+    "x": 0,
+    "y": -20,
+    "z": -20
   },
-    "modelSkins": [
-        {
-            "internalName": "lev.groza_new",
-            "skinAsset": "lev.groza_new",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "lev.ak15shoot",
+        "soundNameDistant": "lev.ak15shootfar",
+        "soundRange": 70,
+        "soundMaxRange": 120,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "lev.ak15supshoot",
+        "soundRange": 30,
+        "soundMaxRange": 50,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponTransform1": [
+      {
+        "soundEvent": "weaponTransform1",
+        "soundName": "lev.grozagp25on"
+      }
+    ],
+    "weaponTransform0": [
+      {
+        "soundEvent": "weaponTransform0",
+        "soundName": "lev.grozagp25off"
+      }
+    ],
+    "weaponDraw": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.draw"
+      }
+    ],
+    "weaponTakedown": [
+      {
+        "soundEvent": "weaponDraw",
+        "soundName": "lev.takedown"
+      }
+    ],
+    "weaponPreUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.grozaunload"
+      }
+    ],
+    "weaponUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "inspect": [
+      {
+        "soundEvent": "inspect",
+        "soundName": "lev.grozainspect"
+      }
+    ],
+    "weaponPreLoad": [
+      {
+        "soundEvent": "weaponPreLoad",
+        "soundName": "lev.grozaload"
+      }
+    ],
+    "weaponDryFire": [
+      {
+        "soundEvent": "weaponDryFire",
+        "soundName": "lev.dryfire"
+      }
+    ],
+    "weaponLoad": [
+      {
+        "soundEvent": "weaponLoad",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreReload": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.grozaprerel"
+      }
+    ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponReloadSecond": [
+      {
+        "soundEvent": "weaponReloadSecond",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReload": [
+      {
+        "soundEvent": "weaponPostReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreReloadEmpty": [
+      {
+        "soundEvent": "weaponPostReloadEmpty",
+        "soundName": "lev.grozafullrel"
+      }
     ]
+  },
+  "acceptedAttachments": {
+    "barrel": [
+      "lev.ak762comp",
+      "lev.grozagrip",
+      "lev.grozasup",
+      "lev.grozagp25"
+    ],
+    "sight": [
+      "lev.4x34",
+      "lev.rakurs",
+      "lev.okplh",
+      "lev.pso",
+      "lev.pso11",
+      "lev.pgo7v"
+    ],
+    "stock": [
+      "lev.grozablack"
+    ]
+  },
+  "defaultAttachments": {
+    "barrel": "lev.ak762comp",
+    "stock": "lev.grozablack"
+  },
+  "modelSkins": [
+    {
+      "internalName": "lev.groza_new",
+      "skinAsset": "lev.groza_new",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

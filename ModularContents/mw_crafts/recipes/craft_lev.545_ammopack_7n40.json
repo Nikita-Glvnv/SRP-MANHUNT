@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.545_ammopack_7n40",
+  "category": "Ammo - Packs",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.545_ammopack_7n40",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "modularwarfare:lev.545_7n40",
+      "count": 30,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:paper",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

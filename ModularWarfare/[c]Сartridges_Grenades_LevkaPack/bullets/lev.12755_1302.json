@@ -1,7 +1,7 @@
 {
   "internalName": "lev.12755_1302",
   "maxStackSize": 30,
-  "bulletDamageFactor": 15.2,
+  "bulletDamageFactor": 33.9,
   "displayName": "12.7x55 STs-130 PT2",
   "bulletAccuracyFactor": 0.9,
   "renderBulletModel": true,

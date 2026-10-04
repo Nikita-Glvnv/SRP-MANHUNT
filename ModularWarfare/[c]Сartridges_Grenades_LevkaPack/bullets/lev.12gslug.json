@@ -8,10 +8,8 @@
   "trailTex": "lev.trail1.png",
   "trailModel": "lev.trail1.obj",
   "trailGlow": true,
-  
-  "bulletDamageFactor": 9.0,
+  "bulletDamageFactor": 20.0,
   "bulletAccuracyFactor": 0.3,
-
   "isSlug": true,
   "shellSound": "casing_gauge",
   "shellModelFileName": "lev.12g_shell.obj",
@@ -25,5 +23,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 4
 }

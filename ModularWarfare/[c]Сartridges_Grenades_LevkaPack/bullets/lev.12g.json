@@ -1,7 +1,7 @@
 {
   "internalName": "lev.12g",
   "maxStackSize": 40,
-  "bulletDamageFactor": 1.8,
+  "bulletDamageFactor": 2.3,
   "bulletAccuracyFactor": 1.1,
   "displayName": "12/70 Buckshot 7mm",
   "renderBulletModel": true,

@@ -1,7 +1,7 @@
 {
   "internalName": "lev.919_rip",
   "maxStackSize": 60,
-  "bulletDamageFactor": 4.7,
+  "bulletDamageFactor": 33.4,
   "bulletAccuracyFactor": 1.15,
   "displayName": "9x19 RIP",
   "renderBulletModel": true,
@@ -21,5 +21,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 15
 }

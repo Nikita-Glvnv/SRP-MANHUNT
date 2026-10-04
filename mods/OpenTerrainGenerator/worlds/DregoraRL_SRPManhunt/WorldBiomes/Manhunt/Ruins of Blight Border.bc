@@ -1,0 +1,394 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 5
+
+BiomeRarity: 100
+
+BiomeColor: #1A781F
+
+ReplaceToBiomeName: minecraft:forest
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 7
+
+BiomeRarityWhenIsle: 97
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder: Ruins of Blight
+
+NotBorderNear: Nuclear Blight, Military Frontier, Northern Snow
+
+BiomeSizeWhenBorder: 5
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: 0.125
+
+BiomeVolatility: 0.05
+
+SmoothRadius: 12
+CustomHeightControlSmoothRadius: 10
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: 0.0
+
+Volatility2: 0.0
+
+VolatilityWeight1: 0.5
+
+VolatilityWeight2: 0.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: Nuclear Creek
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE
+
+SurfaceBlock: GRASS
+
+GroundBlock: DIRT
+
+SurfaceAndGroundControl: GRAVEL, STONE, -0.9
+
+ReplacedBlocks: (SAND,GRASS,79,256),(GRAVEL,GRASS,79,256),(SNOW,AIR,0,255)
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER
+
+IceBlock: ICE
+
+CooledLavaBlock: OBSIDIAN
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 1.4
+
+BiomeWetness: 1.0
+
+SkyColor: #7BA5FF
+
+WaterColor: #3F76E4
+
+GrassColor: #91BD59
+
+GrassColor2: #FFFFFF
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #77AB2F
+
+FoliageColor2: #ed2e0f
+
+FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+#OLD FogColor: #000000
+
+FogDensity: 0.0
+#OLD FogDensity: 0.0
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biomes O Plenty                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# Optimized 3.10.6: infected city and SRP organic overgrowth only
+
+# 3.10.49 sector-owned random structure pool
+
+Tree(1,BloodSpawner,100)
+Tree(1,CityDestructor01,20,CityDestructor02,20,CityDestructor03,20,CityDestructor04,20,CityDestructor05,20,CityDestructor06,20,CityDestructor07,20,CityDestructor08,20)
+Tree(1,CityCobWebs,20)
+Tree(1,cityvine_01,18,CityGrassLayer01,10,CityGrassLayer02,10,CitySewerGap,6)
+Tree(1,capillary_net_01,14,capillary_net_02,14,capillary_net_03,14,capillary_net_04,14,capillary_net_05,14)
+Tree(1,fortified_bone_01,15,fortified_bone_02,15,fortified_bone_03,15)
+Tree(1,parasitic_tree_01,14,parasitic_tree_02,14,parasitic_tree_03,14)
+Tree(1,veinwood_01,12,veinwood_02,12,veinwood_03,12,veinwood_04,12,veinwood_05,12,veinwood_06,12,veinwood_07,12)
+Tree(1,darkwood_01,14,darkwood_02,14,darkwood_03,14)
+Tree(1,Blight_CityChestFiller_top,55)
+Tree(1,Blight_CityChestFiller_higher,55)
+Tree(1,Blight_CityChestFiller_upper,55)
+Tree(1,Blight_CityChestFiller_lower,35)
+
+
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                     BiomesOplenty Resources                     | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+# 3.10.78: SmallLake excavates already placed CityGrid streets and foundations.
+# Keep surface gravel and authored ruins; do not carve craters after BO4 placement.
+
+Grass(minecraft:tallgrass:0,NotGrouped,5,100.0,GRASS)
+Grass(minecraft:tallgrass:1,NotGrouped,5,100.0,GRASS)
+Grass(minecraft:tallgrass:7,NotGrouped,5,100.0,GRASS)
+Grass(minecraft:tallgrass:8,NotGrouped,5,100.0,GRASS)
+
+Grass(minecraft:tallgrass:3,Grouped,1,70.0,GRASS)
+Grass(minecraft:tallgrass:11,NotGrouped,1,70.0,GRASS)
+Grass(minecraft:tallgrass:10,Grouped,1,70.0,GRASS)
+
+Grass(minecraft:tallgrass:8,NotGrouped,4,100.0,GRASS)
+Grass(minecraft:tallgrass:3,NotGrouped,3,100.0,GRASS)
+
+Reed(minecraft:tallgrass:4,4,100.0,60,70,GRASS)
+Reed(minecraft:tallgrass:5,4,100.0,60,70,GRASS)
+Reed(SUGAR_CANE_BLOCK,4,100.0,60,70,sand)
+
+AboveWaterRes(minecraft:water:3,1,20.0)
+AboveWaterRes(minecraft:water:0,1,50.0)
+AboveWaterRes(minecraft:water:1,1,70.0)
+AboveWaterRes(minecraft:water:2,1,70.0)
+AboveWaterRes(minecraft:waterlily,10,100.0)
+
+Ore(minecraft:stonebrick,33,10,100.0,50,60,STATIONARY_WATER)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Rustic Resources                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#RusticResourceUniqueLine
+Plant(minecraft:tallgrass:3,1,5.0,0,30,GRASS,minecraft:grass,STONE)
+Plant(minecraft:tallgrass:3,1,40.0,0,80,GRASS,minecraft:grass,STONE)
+Plant(minecraft:stonebrick:3,1,40.0,0,120,GRASS,minecraft:grass)
+Plant(minecraft:stonebrick:3,1,25.0,0,120,GRASS,minecraft:grass)
+Plant(minecraft:iron_ore:3,1,25.0,0,30,STONE)
+Plant(minecraft:stonebrick:3,3,100.0,0,120,GRASS,minecraft:grass)
+Plant(minecraft:stonebrick:3,5,100.0,0,120,GRASS)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Encounters                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#City Encounters
+#CustomStructure(Banisher,100.0,Corroder,100.0,Decayer,100.0,Dislocator,100.0,Dismounting_Raider,100.0,Relocator,100.0)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        NuclearCraft Ores                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+## Lead Ore
+Ore(minecraft:iron_ore:2,6,20,100.0,0,20,STONE,srparasites:parasiterubbledense)
+
+## Uranium Ore
+Ore(minecraft:iron_ore:4,8,15,100.0,0,30,STONE,srparasites:parasiterubbledense)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#StupidRandomBiome
+
+
+#RecurrentComplex
+
+#RuinsConversionQueue
+#Structure Canyon generic:
+
+#SpecialStructureQueue
+
+#TeleportQueue
+
+#GlobalStructureQueue
+
+UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+
+#Default Ore Resources
+Ore(DIRT,33,10,100.0,0,255,STONE)
+Ore(GRAVEL,33,8,100.0,0,255,STONE)
+Ore(STONE:1,33,10,100.0,0,79,STONE)
+Ore(STONE:3,33,10,100.0,0,79,STONE)
+Ore(STONE:5,33,10,100.0,0,79,STONE)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(WATER,20,100.0,8,60,STONE)
+Liquid(LAVA,10,100.0,8,60,STONE)
+
+
+
+Grass(Tallgrass,NotGrouped,10,100.0,GRASS,DIRT)
+Plant(DoubleTallgrass,10,80,0,150,GRASS)
+Plant(LargeFern,50,30,0,150,GRASS)
+Plant(Fern,50,15,0,150,GRASS)
+Plant(RedMushroom,30,10,0,150,GRASS)
+Vines(10,100.0,65,255)
+
+
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+InheritSaplingResource: false
+
+Sapling(Oak,Tree,20,TreeSwamp03,5,TreeSwamp04,5,TreeSwamp06,5,TreeSwamp07,5,TreeSwamp08,5,TreeSwamp10,5,80,5,81,5,82,5,83,5,84,5,85,5,BigTree,100)
+Sapling(Birch,TallBirch,20,SA2S,5,SA19S,5,SA11S,5,SA11L,5,NA7L,5,NA11S,5,EUR3S,5,Birch,100)
+Sapling(Redwood,Taiga1,20,pine04,5,pine05,5,pine06,5,pine07,5,pine08,5,pine09,5,pine10,5,ME1,5,ME2,5,ME3,5,ME4,5,52,5,53,5,Taiga2,100)
+Sapling(HugeRedwood,HugeTaiga1,20,SpookyTree1,5,SpookyTree3,5,SpookyTree4,5,ME5,5,51,5,HugeTaiga2,100)
+Sapling(SmallJungle,GroundBush,20,CocoaTree,20,tropicaltree_tiny_01,5,tropicaltree_tiny_02,5,tropicaltree_tiny_03,5,tropicaltree_tiny_04,5,tropicaltree_tiny_05,5,tropicaltree_tiny_06,5,tropicaltree_tiny_07,5,tropicaltree_tiny_08,5,tropicaltree_tiny_09,5,tropicaltree_tiny_10,5,CocoaTree,100)
+Sapling(BigJungle,JungleTree,50,RFGodTree01,1,RFGodTree02,1,RFMedTree01,2,RFMedTree02,2,RFMedTree03,2,RFTree01,4,RFTree05,4,RFTree10,4,RFTree15,4,RFTree20,4,RFTree25,4,RFTree30,4,RFTree35,4,JungleTree,100)
+Sapling(RedMushroom,MushroomRedWideTall,10,MushroomRedWide,10,MushroomRedSmall,10,MushroomRedMedium,10,MushroomRedDiagonal,10,HugeRedMushroom,100)
+Sapling(BrownMushroom,MushroomRedBrownSplit,10,MushroomBrownRedSingle,10,HugeMushroom,20,HugeBrownMushroom,100)
+Sapling(Acacia,Acacia,50,AFR3L,5,AFR3S,5,AFR5S,5,AFR6L,5,AFR8L,5,AFR8S,5,AFR9L,5,AFR9S,5,AFR10L,5,AFR10S,5,AFR11S,5,AFR11L,5,AFR12L,5,Acacia,100)
+Sapling(DarkOak,DarkOak,50,Dense01,5,Dense02,5,Dense03,5,Dense04,5,Dense05,5,Dense06,5,Dense07,5,Dense08,5,Dense09,5,Dense10,5,DarkOak,100)
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+StrongholdsEnabled: false
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: true
+VillageType: disabled
+
+MineshaftType: normal
+MineshaftRarity: 0.0
+RareBuildingType: disabled
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#SpawnMonsters: [{"mob": "lycanitesmobs:darkling", "weight":100, "min":1, "max":1},{"mob": "lycanitesmobs:triffid", "weight":100, "min":1, "max":1}]
+#SpawnCreatures: []
+#SpawnWaterCreatures: []
+#SpawnAmbientCreatures: []
+
+SpawnMonsters: [{"mob": "srparasites:sim_human", "weight":30, "min":1, "max":2},{"mob": "srparasites:sim_villager", "weight":18, "min":1, "max":2},{"mob": "srparasites:movingflesh", "weight":10, "min":1, "max":1},{"mob": "srparasites:incompleteform_medium", "weight":8, "min":1, "max":1}]
+SpawnCreatures: []
+SpawnWaterCreatures: []
+SpawnAmbientCreatures: []
+
+BiomeDictId: RARE, SWAMP, JUNGLE, CANYON, DEAD, CITY
+
+InheritMobsBiomeName: minecraft:plains
+# Captured military bunker variants that already contain parasite growth.
+
+# 3.10.65 finite CityGrid: allow existing branches without starting another city.
+CustomStructure(CityGrid,100.0)

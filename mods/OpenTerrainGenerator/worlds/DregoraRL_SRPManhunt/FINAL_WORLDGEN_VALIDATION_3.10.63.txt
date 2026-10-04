@@ -1,0 +1,41 @@
+DregoraRL SRP Manhunt 3.10.63 — ORIGINAL VANILLA VISTAS NORMAL GENERATION
+
+World generation
+- BiomeMode: Normal
+- Original Vanilla Vistas biome groups preserved: 8
+- Added rare Normal biome groups: ManhuntUrban, ManhuntMilitary, ManhuntNorthernEndgame, ManhuntWasteland
+- FromImage active: no
+- map.png present: False
+- GenerationDepth: 10
+- LandRarity / LandSize / LandFuzzy: 99 / 0 / 2
+- Rivers: rarity 0, size 4, random true
+- Height scale/cap bits: 7 / 8
+- Fracture horizontal/vertical: -5.0 / -10.0
+- WorldBorderRadius: 313 chunks; runtime Java keeps exact 10,000 block diameter
+
+Vanilla Vistas
+- Original biome configs: 65
+- Modified biome configs: 65
+- Terrain/resource mismatches after excluding appended CustomStructure resources: 0
+- Original Vanilla Vistas WorldObjects included: 183 filesystem entries
+
+Structures
+- CustomStructure resource lines: 156
+- Missing CustomStructure roots: 0
+- Branch targets checked: 1862
+- Missing branch targets: 0
+- BO4 files: 1655
+- BO4 without MustBeInsideWorldBorders:true: 0
+- Level-02 files: 0
+- Active PowerLineNew references: 0
+
+Data
+- JSON files checked: 544
+- JSON errors: 0
+
+Errors
+- none
+
+Runtime limitation
+- Full Forge/OTG chunk generation cannot be launched in this sandbox because the Gradle wrapper needs a network download.
+- A completely new world is required; old worlds retain biome IDs and OTG structure caches.

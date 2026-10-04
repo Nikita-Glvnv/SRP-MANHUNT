@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.ai32sp",
+  "category": "Equipment - Medical",
+  "craftingTime": 150,
+  "output": {
+    "item": "modularwarfare:lev.ai32sp",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "modularwarfare:lev.afak",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "modularwarfare:lev.immobilizingsplint",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "internalName": "lev.918_pstm",
   "maxStackSize": 60,
-  "bulletDamageFactor": 4.3,
+  "bulletDamageFactor": 16.5,
   "bulletAccuracyFactor": 0.8,
   "displayName": "9x18 PMM PstM",
   "renderBulletModel": true,
@@ -21,5 +21,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 15
 }

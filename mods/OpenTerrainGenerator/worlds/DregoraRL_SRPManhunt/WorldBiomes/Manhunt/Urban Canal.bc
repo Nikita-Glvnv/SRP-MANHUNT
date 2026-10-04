@@ -1,0 +1,129 @@
+#######################################################################
+# DregoraRL SRP Manhunt 3.10.29 - curated realistic biome
+#######################################################################
+
+BiomeExtends:
+ResourceInheritance: true
+
+BiomeSize: 8
+BiomeRarity: 95
+BiomeColor: #355a7a
+ReplaceToBiomeName: minecraft:river
+
+IsleInBiome: 
+BiomeSizeWhenIsle: 3
+BiomeRarityWhenIsle: 97
+BiomeIsBorder:
+NotBorderNear:
+BiomeSizeWhenBorder: 6
+
+BiomeHeight: -0.5
+BiomeVolatility: 0.0
+SmoothRadius: 2
+CustomHeightControlSmoothRadius: 2
+MaxAverageHeight: 0.0
+MaxAverageDepth: 0.0
+Volatility1: 0.0
+Volatility2: 0.0
+VolatilityWeight1: 0.5
+VolatilityWeight2: 0.45
+DisableBiomeHeight: false
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+RiverBiome: River
+RiverHeight: -1.0
+RiverVolatility: 0.3
+RiverWaterLevel: 63
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+StoneBlock: STONE:0
+SurfaceBlock: GRASS:0
+GroundBlock: DIRT:0
+SurfaceAndGroundControl: 
+
+# SRP Manhunt 3.10.38 sector-specific structure routing
+CustomStructure(CityBridge,100.0)
+
+ReplacedBlocks: (SNOW,AIR,0,255)
+
+UseWorldWaterLevel: true
+WaterLevelMax: 63
+WaterLevelMin: 0
+WaterBlock: STATIONARY_WATER:0
+IceBlock: ICE:0
+CooledLavaBlock: STATIONARY_LAVA
+
+BiomeTemperature: 0.65
+BiomeWetness: 0.5
+SkyColor: #7da8d8
+WaterColor: #455f65
+GrassColor: #8e9b50
+GrassColor2: #8e9b50
+GrassColorIsMultiplier: false
+FoliageColor: #798d48
+FoliageColor2: #798d48
+FoliageColorIsMultiplier: false
+FogColor: #6f7777
+FogDensity: 0.0
+FogTimeWeight: 0.1
+FogRainWeight: 0.25
+FogThunderWeight: 0.5
+
+# River corridor: no large structure roots.
+
+# Vanilla-compatible terrain decoration.
+Tree(1,Tree,80,BigTree,20)
+Grass(Tallgrass,NotGrouped,24,100.0,GRASS,DIRT)
+Plant(Dandelion,3,100.0,0,128,GRASS,DIRT)
+Plant(RED_ROSE,2,100.0,0,128,GRASS,DIRT)
+Plant(PUMPKIN,1,3.0,0,128,GRASS)
+
+# Common underground resources retained across the restored land biomes.
+Dungeon(8,100.0,0,128)
+Ore(DIRT,33,10,100.0,0,255,STONE)
+Ore(GRAVEL,33,8,100.0,0,255,STONE)
+Ore(STONE:1,33,10,100.0,0,79,STONE)
+Ore(STONE:3,33,10,100.0,0,79,STONE)
+Ore(STONE:5,33,10,100.0,0,79,STONE)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE)
+Ore(EMERALD_ORE,5,1,35.0,4,31,STONE)
+UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(WATER,20,100.0,8,60,STONE)
+Liquid(LAVA,10,100.0,8,60,STONE)
+
+InheritSaplingResource: false
+Sapling(Oak,Tree,100)
+Sapling(Birch,Birch,100)
+Sapling(Redwood,Taiga1,100)
+Sapling(HugeRedwood,HugeTaiga1,100)
+Sapling(Acacia,Acacia,100)
+
+BiomeObjects:
+
+StrongholdsEnabled: false
+WoodLandMansionsEnabled: false
+OceanMonumentsEnabled: false
+NetherFortressesEnabled: false
+VillageType: disabled
+MineshaftType: normal
+MineshaftRarity: 0.3
+RareBuildingType: disabled
+
+SpawnMonsters: [{"mob":"minecraft:zombie","weight":80,"min":1,"max":3},{"mob":"minecraft:skeleton","weight":80,"min":1,"max":3},{"mob":"minecraft:spider","weight":70,"min":1,"max":3},{"mob":"minecraft:creeper","weight":55,"min":1,"max":2},{"mob":"minecraft:enderman","weight":8,"min":1,"max":1}]
+SpawnCreatures: [{"mob":"minecraft:sheep","weight":10,"min":2,"max":4},{"mob":"minecraft:pig","weight":10,"min":2,"max":4},{"mob":"minecraft:chicken","weight":10,"min":2,"max":4},{"mob":"minecraft:cow","weight":8,"min":2,"max":4}]
+SpawnWaterCreatures: [{"mob":"minecraft:squid","weight":8,"min":1,"max":3}]
+SpawnAmbientCreatures: [{"mob":"minecraft:bat","weight":8,"min":1,"max":4}]
+
+BiomeDictId: RIVER, WATER
+InheritMobsBiomeName: minecraft:river
+
+# 3.10.65 finite CityGrid: allow existing branches without starting another city.
+CustomStructure(CityGrid,100.0)

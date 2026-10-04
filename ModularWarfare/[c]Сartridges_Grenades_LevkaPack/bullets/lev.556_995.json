@@ -1,9 +1,9 @@
 {
   "internalName": "lev.556_995",
   "maxStackSize": 60,
-  "bulletDamageFactor": 5.8,
-  "bulletAccuracyFactor": 1.30,
-  "bulletPenetrateFactor": 1.5,
+  "bulletDamageFactor": 34.6,
+  "bulletAccuracyFactor": 1.3,
+  "bulletPenetrateFactor": 15,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "5.56x45 995",
   "renderBulletModel": true,

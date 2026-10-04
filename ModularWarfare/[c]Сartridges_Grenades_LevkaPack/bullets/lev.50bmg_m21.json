@@ -1,7 +1,7 @@
 {
   "internalName": "lev.50bmg_m21",
   "maxStackSize": 30,
-  "bulletDamageFactor": 16.0,
+  "bulletDamageFactor": 80.0,
   "displayName": "50 BMG M21",
   "renderBulletModel": true,
   "isDynamicBullet": false,
@@ -20,5 +20,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 15
 }

@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.nl47",
+  "category": "Weapons - Assault Rifles",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.nl47",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 328
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 293
+    },
+    {
+      "item": "thermalfoundation:storage_alloy",
+      "count": 2,
+      "meta": 2
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 162
+    }
+  ]
+}

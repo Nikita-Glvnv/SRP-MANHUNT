@@ -4,7 +4,7 @@
   "displayName": "40x46 M381 HE",
   "renderBulletModel": true,
   "projectileVelocity": 5,
-  "impactDamage": 30,
+  "impactDamage": 27.3,
   "explosionDamage": 34,
   "explosionRange": 13,
   "gravity": -0.05,

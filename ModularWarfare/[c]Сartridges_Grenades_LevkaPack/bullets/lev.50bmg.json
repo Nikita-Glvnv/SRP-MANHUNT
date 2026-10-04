@@ -1,7 +1,7 @@
 {
   "internalName": "lev.50bmg",
   "maxStackSize": 30,
-  "bulletDamageFactor": 17.0,
+  "bulletDamageFactor": 35.0,
   "displayName": "50 BMG M33",
   "renderBulletModel": true,
   "isDynamicBullet": false,

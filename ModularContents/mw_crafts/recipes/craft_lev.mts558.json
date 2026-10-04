@@ -1,0 +1,37 @@
+{
+  "id": "craft_lev.mts558",
+  "category": "Weapons - Sniper Rifles",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.mts558",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 358
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 295
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 327
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 167
+    },
+    {
+      "item": "thermalfoundation:storage",
+      "count": 2,
+      "meta": 6
+    }
+  ]
+}

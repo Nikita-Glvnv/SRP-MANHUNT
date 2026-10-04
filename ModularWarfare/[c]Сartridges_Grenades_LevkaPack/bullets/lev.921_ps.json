@@ -1,7 +1,7 @@
 {
   "internalName": "lev.921_ps",
   "maxStackSize": 60,
-  "bulletDamageFactor": 5.0,
+  "bulletDamageFactor": 17.6,
   "bulletAccuracyFactor": 1.05,
   "displayName": "9x21 PS",
   "renderBulletModel": true,
@@ -21,5 +21,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 15
 }

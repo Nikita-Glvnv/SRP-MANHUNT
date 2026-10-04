@@ -1,7 +1,7 @@
 {
   "internalName": "lev.919_gt",
   "maxStackSize": 60,
-  "bulletDamageFactor": 3.5,
+  "bulletDamageFactor": 4.5,
   "bulletAccuracyFactor": 1.1,
   "displayName": "9x19 Green Tracer",
   "renderBulletModel": true,

@@ -1,0 +1,385 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        Biome Inheritance                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeExtends: 
+
+ResourceInheritance: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biome placement                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeSize: 3
+
+BiomeRarity: 100
+
+BiomeColor: #ced192
+
+ReplaceToBiomeName: minecraft:desert
+
+
+####################
+# Isle biomes only #
+####################
+
+IsleInBiome: 
+
+BiomeSizeWhenIsle: 7
+
+BiomeRarityWhenIsle: 97
+
+######################
+# Border biomes only #
+######################
+
+BiomeIsBorder:
+
+NotBorderNear:
+
+BiomeSizeWhenBorder: 9
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                  Terrain height and volatility                  | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeHeight: -1.4
+
+BiomeVolatility: 0.9
+
+SmoothRadius: 14
+
+MaxAverageHeight: 0.0
+
+MaxAverageDepth: 0.0
+
+Volatility1: -1.0
+
+Volatility2: 0.0
+
+VolatilityWeight1: 1.5
+
+VolatilityWeight2: 0.45
+
+DisableBiomeHeight: false
+
+CustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Rivers                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+########################
+# ImprovedRivers:false #
+########################
+
+RiverBiome: DesertRiver
+
+#######################
+# ImprovedRivers:true #
+#######################
+
+RiverHeight: -1.0
+
+RiverVolatility: 0.3
+
+RiverWaterLevel: 63
+
+RiverCustomHeightControl: 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StoneBlock: STONE
+
+SurfaceBlock: minecraft:sand:0
+
+GroundBlock: minecraft:sand:0
+
+SurfaceAndGroundControl: minecraft:sand:0, minecraft:dirt:1, -3.9, minecraft:grass, minecraft:dirt:1, -3.7, SAND, SANDSTONE, -2.0, SAND, SANDSTONE, -1.5, minecraft:sand:0, GRAVEL, -0.7, minecraft:sand:0, sand, -0.35, minecraft:grass, GRASS, 0.35, SAND, SANDSTONE, 0.7, SAND, SANDSTONE, 1.5
+
+
+# SRP Manhunt 3.10.38 sector-specific structure routing
+CustomStructure(Building,100.0,Building2,100.0,Building3,100.0,Building4,100.0,Building5,100.0,Building6,100.0,Building7,100.0)
+CustomStructure(SmallFactory,100.0,SmallFactory2,100.0,SmallFactory3,100.0,SmallFactory4,100.0)
+CustomStructure(Lab,100.0,STP,100.0,Tanks_Clean,100.0,Reservoir,100.0,WaterTower,100.0)
+CustomStructure(WindTurbine,100.0,WindTurbineBroken,100.0,SolarPanel,100.0,Billboard,100.0)
+CustomStructure(maintenance_shaft_bottom,100.0)
+
+ReplacedBlocks: (STATIONARY_WATER,AIR,20,55),(SNOW,AIR,0,255)
+
+################################
+# Water / Lava & Frozen States #
+################################
+
+UseWorldWaterLevel: true
+
+WaterLevelMax: 63
+
+WaterLevelMin: 0
+
+WaterBlock: STATIONARY_WATER
+
+IceBlock: ICE
+
+CooledLavaBlock: OBSIDIAN
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                       Visuals and weather                       | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeTemperature: 2.0
+
+BiomeWetness: 0.0
+
+SkyColor: #0d1b8a
+
+WaterColor: #817318
+
+GrassColor: #bfb46a
+
+Grasscolor2: #958b45
+
+GrassColorIsMultiplier: false
+
+FoliageColor: #268118
+
+FoliageColor2: #36672e
+
+FoliageColorIsMultiplier: false
+
+FogColor: #000000
+
+#OLD FogColor: #9a7b65
+
+FogDensity: 0.0
+#OLD FogDensity: 0.1
+
+FogTimeWeight: 0.1
+
+FogRainWeight: 0.25
+
+FogThunderWeight: 0.5
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                    PamHarvestCraft Resources                    | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#PamHarvestCraft Resources
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Biomes O Plenty                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Ore(minecraft:iron_ore:1,9,10,100.0,0,60,STONE)
+SmallLake(minecraft:sand,1,50,60,80)
+# Optimized 3.10.6: ruined housing, shelters and industry only
+# CustomStructure(Antenna,40.0,AdvancedAntenna,30.0,CellTower,40.0,RadioTelescope,20.0)  # removed: utility structures are City-Outskirts corridors only
+# CustomStructure(PowerLine,100.0,PowerLineSmall,100.0,PowerLineSmall,100.0)  # removed: utility structures are City-Outskirts corridors only
+# The defended NuclearPowerPlant belongs to the dedicated military Forest.
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Rustic Resources                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#RusticResourceUniqueLine
+Plant(minecraft:tallgrass:3,1,5.0,0,30,GRASS,minecraft:grass,STONE)
+Plant(minecraft:iron_ore:3,1,25.0,0,30,STONE)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                        NuclearCraft Ores                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+## Lead Ore
+Ore(minecraft:iron_ore:2,6,20,100.0,0,20,STONE,srparasites:parasiterubbledense)
+
+## Uranium Ore
+Ore(minecraft:iron_ore:4,8,10,100.0,0,30,STONE,srparasites:parasiterubbledense)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Resource queue                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#StupidRandomBiome
+
+
+
+#DesertWastelandStructureQueue
+
+#RecurrentComplex
+
+#RuinsConversionQueue
+#Structure desert:
+#CustomStructure(SandSpire,100.0)
+
+
+
+
+#SpecialStructureQueue
+
+#TeleportQueue
+
+#GlobalStructureQueue
+
+
+
+#RandomModeStructureQueue
+
+#MonsterQueue
+#Wastelands BiomeGroup
+
+UnderWaterOre(SAND,7,3,100.0,DIRT,GRASS)
+UnderWaterOre(GRAVEL,6,1,100.0,DIRT,GRASS)
+UnderWaterOre(CLAY,4,1,100.0,DIRT,CLAY)
+
+#Default Ore Resources
+Dungeon(8,100.0,0,128)
+Ore(DIRT,33,10,100.0,0,255,STONE)
+Ore(GRAVEL,33,8,100.0,0,255,STONE)
+Ore(STONE:1,33,10,100.0,0,79,STONE)
+Ore(STONE:3,33,10,100.0,0,79,STONE)
+Ore(STONE:5,33,10,100.0,0,79,STONE)
+Ore(COAL_ORE,17,20,100.0,0,127,STONE)
+Ore(IRON_ORE,9,20,100.0,0,63,STONE)
+Ore(GOLD_ORE,9,2,100.0,0,31,STONE)
+Ore(REDSTONE_ORE,8,8,100.0,0,15,STONE)
+Ore(DIAMOND_ORE,8,1,100.0,0,15,STONE)
+Ore(LAPIS_ORE,7,1,100.0,0,15,STONE)
+UnderGroundLake(25,60,2,5.0,0,49)
+Liquid(WATER,20,100.0,8,60,STONE)
+Liquid(LAVA,10,100.0,8,60,STONE)
+
+#ExtraOreResources
+
+
+
+
+
+
+Grass(Tallgrass,NotGrouped,10,100.0,GRASS)
+Grass(MELON_BLOCK,Grouped,5,10.0,GRASS)
+Plant(Dandelion,2,100.0,0,70,GRASS)
+Reed(SUGAR_CANE_BLOCK,10,100.0,0,70,GRASS)
+
+Plant(DoubleTallgrass,10,80,0,70,GRASS)
+Plant(LargeFern,50,30,0,70,GRASS)
+Plant(Fern,50,15,0,70,GRASS)
+
+
+Grass(DEAD_BUSH,NotGrouped,4,100.0,SAND,HARD_CLAY,STAINED_CLAY,DIRT)
+Plant(Dandelion,2,100.0,0,128,GRASS,DIRT)
+Plant(PUMPKIN,1,3.0,0,128,GRASS)
+Reed(SUGAR_CANE_BLOCK,10,100.0,0,128,GRASS,DIRT,SAND)
+Cactus(CACTUS,10,100.0,0,128,SAND)
+
+#MinesCrate Default
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                         Sapling resource                        | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+InheritSaplingResource: false
+
+Sapling(Oak,Tree,20,TreeSwamp03,5,TreeSwamp04,5,TreeSwamp06,5,TreeSwamp07,5,TreeSwamp08,5,TreeSwamp10,5,80,5,81,5,82,5,83,5,84,5,85,5,BigTree,100)
+Sapling(Birch,TallBirch,20,SA2S,5,SA19S,5,SA11S,5,SA11L,5,NA7L,5,NA11S,5,EUR3S,5,Birch,100)
+Sapling(Redwood,Taiga1,20,pine04,5,pine05,5,pine06,5,pine07,5,pine08,5,pine09,5,pine10,5,ME1,5,ME2,5,ME3,5,ME4,5,52,5,53,5,Taiga2,100)
+Sapling(HugeRedwood,HugeTaiga1,20,SpookyTree1,5,SpookyTree3,5,SpookyTree4,5,ME5,5,51,5,HugeTaiga2,100)
+Sapling(SmallJungle,GroundBush,20,CocoaTree,20,tropicaltree_tiny_01,5,tropicaltree_tiny_02,5,tropicaltree_tiny_03,5,tropicaltree_tiny_04,5,tropicaltree_tiny_05,5,tropicaltree_tiny_06,5,tropicaltree_tiny_07,5,tropicaltree_tiny_08,5,tropicaltree_tiny_09,5,tropicaltree_tiny_10,5,CocoaTree,100)
+Sapling(BigJungle,JungleTree,50,RFGodTree01,1,RFGodTree02,1,RFMedTree01,2,RFMedTree02,2,RFMedTree03,2,RFTree01,4,RFTree05,4,RFTree10,4,RFTree15,4,RFTree20,4,RFTree25,4,RFTree30,4,RFTree35,4,JungleTree,100)
+Sapling(RedMushroom,MushroomRedWideTall,10,MushroomRedWide,10,MushroomRedSmall,10,MushroomRedMedium,10,MushroomRedDiagonal,10,HugeRedMushroom,100)
+Sapling(BrownMushroom,MushroomRedBrownSplit,10,MushroomBrownRedSingle,10,HugeMushroom,20,HugeBrownMushroom,100)
+Sapling(Acacia,Acacia,50,AFR3L,5,AFR3S,5,AFR5S,5,AFR6L,5,AFR8L,5,AFR8S,5,AFR9L,5,AFR9S,5,AFR10L,5,AFR10S,5,AFR11S,5,AFR11L,5,AFR12L,5,Acacia,100)
+Sapling(DarkOak,DarkOak,50,Dense01,5,Dense02,5,Dense03,5,Dense04,5,Dense05,5,Dense06,5,Dense07,5,Dense08,5,Dense09,5,Dense10,5,DarkOak,100)
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Custom objects                         | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+BiomeObjects: 
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Structures                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+StrongholdsEnabled: false
+
+WoodLandMansionsEnabled: false
+
+OceanMonumentsEnabled: false
+
+NetherFortressesEnabled: false
+
+VillageType: disabled
+
+MineshaftType: Disabled
+
+MineshaftRarity: 0.0
+
+RareBuildingType: desertPyramid
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                           Mob spawning                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+#SpawnMonsters: [{"mob": "minecraft:husk", "weight": "min":0, "max":8},{"mob": "minecraft:spider", "weight": "min":0, "max":4},{"mob": "minecraft:husk", "weight":95, "min":0, "max":4},{"mob": "minecraft:zombie_villager", "weight":5, "min":0, "max":1},{"mob": "minecraft:skeleton", "weight": "min":0, "max":4},{"mob": "minecraft:creeper", "weight": "min":0, "max":4},{"mob": "minecraft:slime", "weight": "min":0, "max":4},{"mob": "minecraft:enderman", "weight":10, "min":0, "max":4},{"mob": "minecraft:witch", "weight":5, "min":0, "max":1}]
+#SpawnCreatures: [{"mob": "minecraft:sheep", "weight":12, "min":0, "max":1},{"mob": "minecraft:pig", "weight":10, "min":0, "max":4},{"mob": "minecraft:chicken", "weight":10, "min":0, "max":4},{"mob": "minecraft:cow", "weight":8, "min":0, "max":4},{"mob": "minecraft:horse", "weight":1, "min":0, "max":1},{"mob": "minecraft:donkey", "weight":1, "min":0, "max":1}]
+#SpawnWaterCreatures: [{"mob": "minecraft:squid", "weight":10, "min":0, "max":4}]
+#SpawnAmbientCreatures: [{"mob": "minecraft:bat", "weight":10, "min":8, "max":8}]
+
+SpawnMonsters: [{"mob": "minecraft:husk", "weight":80, "min":4, "max":4}]
+SpawnCreatures: []
+SpawnWaterCreatures: []
+SpawnAmbientCreatures: []
+
+
+BiomeDictId:
+
+InheritMobsBiomeName: minecraft:desert
+
+# 3.10.65 finite CityGrid: allow existing branches without starting another city.
+CustomStructure(CityGrid,100.0)
+
+# 3.10.76 neutral exploration: independent ruins and dungeon families.
+CustomStructure(Dungeon01,100.0,Dungeon03,100.0,DungeonSpawner02,100.0)

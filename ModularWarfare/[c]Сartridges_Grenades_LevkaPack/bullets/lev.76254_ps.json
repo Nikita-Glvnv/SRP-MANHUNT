@@ -1,7 +1,7 @@
 {
   "internalName": "lev.76254_ps",
   "maxStackSize": 40,
-  "bulletDamageFactor": 10.5,
+  "bulletDamageFactor": 12.9,
   "bulletAccuracyFactor": 0.9,
   "bulletPenetrateFactor": 1.5,
   "bulletBlockPenetrateFactor": 3,

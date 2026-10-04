@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.12g_flechette",
+  "category": "Ammo - Tier 3",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.12g_flechette",
+    "count": 60,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 160
+    },
+    {
+      "item": "srparasites:lurecomponent2",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 163
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

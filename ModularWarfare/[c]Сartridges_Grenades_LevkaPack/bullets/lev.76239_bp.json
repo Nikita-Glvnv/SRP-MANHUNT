@@ -1,8 +1,8 @@
 {
   "internalName": "lev.76239_bp",
   "maxStackSize": 50,
-  "bulletDamageFactor": 8.2,
-  "bulletPenetrateFactor": 1.5,
+  "bulletDamageFactor": 37.2,
+  "bulletPenetrateFactor": 15,
   "bulletBlockPenetrateFactor": 3,
   "bulletAccuracyFactor": 1.25,
   "displayName": "7.62x39 BP",

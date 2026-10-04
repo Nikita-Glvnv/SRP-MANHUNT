@@ -1,183 +1,178 @@
 {
-    "internalName": "lev.m1897",
-    "displayName": "Winchester M1897",
-    "weaponType": "shotgun",
-	"animationType": "enhanced",
-    "customFlashTexture": "lev.battlecraft.flash",
-	
-    "gunDamage": 1.0,
-    "gunDamageHeadshotBonus": 0.2,
-    "gunPenetrateSize": 1.0,
-    "gunPenetrationDamageFalloff": true,
-    "gunMaxPenetrateBlockResistance": 0.5,
-    "gunPenetrateBlocksResistance": 1.0,
-    "roundsPerMin": 110,
-	"gunHoldLength": 1.5,
-		
-	"numBullets": 8,
-    "internalAmmoStorage": 6,
-	
-	"useNewRecoilSystem": true,
-	"useEnhancedAiming": true,
-	"viewKickPitchScale": 0.15,
-	"viewKickYawScale": 0.1,
-	
-    "recoilPitch": 12.5,
-    "recoilYaw": 200,
-    "randomRecoilPitch": 0.1,
-    "randomRecoilYaw": 0.5,
-    "bulletSpread": 2.0,
-    "accuracySneakFactor": 0.9,
-	"accuracyAimFactor": 0.9,
-    "weaponMaxRange": 120,
-    "weaponEffectiveRange": 30,
-	"allowSprintFiring": false,
-	"allowReloadFiring": true,
-	"allowReloadSprint": true,
-	"allowAimingSprint": false,
-	
-	"modifyUnloadBullets": 0,
-	
-    "moveSpeedModifier": 0.96,
-
-    "fireModes": [
-		"full"
+  "internalName": "lev.m1897",
+  "displayName": "Winchester M1897",
+  "weaponType": "shotgun",
+  "animationType": "enhanced",
+  "customFlashTexture": "lev.battlecraft.flash",
+  "gunDamage": 1.0,
+  "gunDamageHeadshotBonus": 0.2,
+  "gunPenetrateSize": 3.0,
+  "gunPenetrationDamageFalloff": true,
+  "gunMaxPenetrateBlockResistance": 0.5,
+  "gunPenetrateBlocksResistance": 1.0,
+  "roundsPerMin": 110,
+  "gunHoldLength": 1.5,
+  "numBullets": 8,
+  "internalAmmoStorage": 6,
+  "useNewRecoilSystem": true,
+  "useEnhancedAiming": true,
+  "viewKickPitchScale": 0.15,
+  "viewKickYawScale": 0.1,
+  "recoilPitch": 12.5,
+  "recoilYaw": 200,
+  "randomRecoilPitch": 0.1,
+  "randomRecoilYaw": 0.5,
+  "bulletSpread": 2.0,
+  "accuracySneakFactor": 0.9,
+  "accuracyAimFactor": 0.9,
+  "weaponMaxRange": 120,
+  "weaponEffectiveRange": 30,
+  "allowSprintFiring": false,
+  "allowReloadFiring": true,
+  "allowReloadSprint": true,
+  "allowAimingSprint": false,
+  "modifyUnloadBullets": 0,
+  "moveSpeedModifier": 0.96,
+  "fireModes": [
+    "full"
+  ],
+  "acceptedBullets": [
+    "lev.12g",
+    "lev.12g_65mm",
+    "lev.12g_flechette",
+    "lev.12g_dragon",
+    "lev.12gslug",
+    "lev.12g_ap",
+    "lev.12g_rip"
+  ],
+  "allowEmptyMagazines": true,
+  "dropBulletCasing": true,
+  "shellEjectOffsetNormal": {
+    "x": 0,
+    "y": -20,
+    "z": -20
+  },
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "lev.mp133shoot",
+        "soundNameDistant": "lev.mp133shootfar",
+        "soundRange": 90,
+        "soundMaxRange": 180,
+        "soundFadeMultiplier": 1
+      }
     ],
-    "acceptedBullets": [
-        "lev.12g",
-		"lev.12g_65mm",
-		"lev.12g_flechette",
-		"lev.12g_dragon",
-		"lev.12gslug",
-		"lev.12g_ap",
-		"lev.12g_rip"
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "lev.sv98fire",
+        "soundRange": 30,
+        "soundMaxRange": 50,
+        "soundFadeMultiplier": 1
+      }
     ],
-	"allowEmptyMagazines": true,
-	
-    "dropBulletCasing": true,
-    "shellEjectOffsetNormal": {
-        "x": 0,
-        "y": -20,
-        "z": -20
-    },
-    "shellEjectOffsetAiming": {
-        "x": -0.2,
-        "y": 0.12,
-        "z": 0.5
-    },
-     "weaponSoundMap": {
-        "weaponFire": [
-            {
-                "soundEvent": "weaponFire",
-                "soundName": "lev.mp133shoot",
-                "soundNameDistant": "lev.mp133shootfar",
-                "soundRange": 90,
-                "soundMaxRange": 180,
-                "soundFadeMultiplier": 1
-            }
-        ],
-        "weaponFireSuppressed": [
-            {
-                "soundEvent": "weaponFireSuppressed",
-                "soundName": "lev.sv98fire",
-                "soundRange": 30,
-                "soundMaxRange": 50,
-                "soundFadeMultiplier": 1
-                 }
-		 ],
     "weaponBolt": [
       {
         "soundEvent": "weaponBolt",
         "soundName": "lev.m1897bolt"
       }
     ],
-		"weaponDraw": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.draw"
-            }
-        ],
-		"weaponTakedown": [
-            {
-                "soundEvent": "weaponDraw",
-                "soundName": "lev.takedown"
-            }
-        ],
-		"weaponPreUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.nothing"
-            }
-        ],
-		"weaponUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.m1897bolt"
-            }
-],
-		"inspect": [
-			{
-				"soundEvent": "inspect",
-				"soundName": "lev.inspect"
-			}
-        ],
-		"weaponDryFire": [
-            {
-                "soundEvent": "weaponDryFire",
-                "soundName": "lev.dryfire"
-            }
-        ],
-		"weaponLoad": [
-            {
-                "soundEvent": "weaponLoad",
-                "soundName": "lev.nothing"
-            }
-        ],
-		"weaponPreReload": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.m1897prerel"
-			}
-		],
-		"weaponPreReloadEmpty": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.m1897prerelempty"
-			}
-		],
-		"weaponReload": [
-			{
-				"soundEvent": "weaponReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponReloadSecond": [
-			{
-				"soundEvent": "weaponReloadSecond",
-				"soundName": "lev.mp133load"
-			}
-		],
-		"weaponPostReload": [
-			{
-				"soundEvent": "weaponPostReload",
-				"soundName": "lev.mp133postrel"
-			}
-		],
-		"weaponPostReloadEmpty": [
-			{
-				"soundEvent": "weaponPostReloadEmpty",
-				"soundName": "lev.mp133postrel"
-			}
-		]
-    },
-    "acceptedAttachments": {
-    },
-    "modelSkins": [
-        {
-            "internalName": "lev.m1897",
-            "skinAsset": "lev.m1897",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
+    "weaponDraw": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.draw"
+      }
+    ],
+    "weaponTakedown": [
+      {
+        "soundEvent": "weaponDraw",
+        "soundName": "lev.takedown"
+      }
+    ],
+    "weaponPreUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.m1897bolt"
+      }
+    ],
+    "inspect": [
+      {
+        "soundEvent": "inspect",
+        "soundName": "lev.inspect"
+      }
+    ],
+    "weaponDryFire": [
+      {
+        "soundEvent": "weaponDryFire",
+        "soundName": "lev.dryfire"
+      }
+    ],
+    "weaponLoad": [
+      {
+        "soundEvent": "weaponLoad",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreReload": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.m1897prerel"
+      }
+    ],
+    "weaponPreReloadEmpty": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.m1897prerelempty"
+      }
+    ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponReloadSecond": [
+      {
+        "soundEvent": "weaponReloadSecond",
+        "soundName": "lev.mp133load"
+      }
+    ],
+    "weaponPostReload": [
+      {
+        "soundEvent": "weaponPostReload",
+        "soundName": "lev.mp133postrel"
+      }
+    ],
+    "weaponPostReloadEmpty": [
+      {
+        "soundEvent": "weaponPostReloadEmpty",
+        "soundName": "lev.mp133postrel"
+      }
     ]
+  },
+  "acceptedAttachments": {},
+  "modelSkins": [
+    {
+      "internalName": "lev.m1897",
+      "skinAsset": "lev.m1897",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

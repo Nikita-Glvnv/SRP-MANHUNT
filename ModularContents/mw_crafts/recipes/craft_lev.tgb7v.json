@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.tgb7v",
+  "category": "Ammo - Launcher Rounds",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.tgb7v",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 162
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 353
+    },
+    {
+      "item": "minecraft:tnt",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

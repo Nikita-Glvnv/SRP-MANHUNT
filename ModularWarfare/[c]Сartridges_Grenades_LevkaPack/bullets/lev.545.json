@@ -1,7 +1,7 @@
 {
   "internalName": "lev.545",
   "maxStackSize": 60,
-  "bulletDamageFactor": 5.5,
+  "bulletDamageFactor": 7.15,
   "bulletAccuracyFactor": 1.0,
   "displayName": "5.45x39 PS",
   "renderBulletModel": true,

@@ -1,7 +1,7 @@
 {
   "internalName": "lev.12g_flechette",
   "maxStackSize": 40,
-  "bulletDamageFactor": 1.3,
+  "bulletDamageFactor": 1.7,
   "bulletAccuracyFactor": 1.3,
   "displayName": "12/70 Flechette",
   "renderBulletModel": true,

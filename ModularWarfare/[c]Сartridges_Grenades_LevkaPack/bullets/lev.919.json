@@ -1,7 +1,7 @@
 {
   "internalName": "lev.919",
   "maxStackSize": 60,
-  "bulletDamageFactor": 4.0,
+  "bulletDamageFactor": 6.0,
   "displayName": "9x19 M882",
   "renderBulletModel": true,
   "isDynamicBullet": false,

@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.vog25m",
+  "category": "Ammo - Launcher Rounds",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.vog25m",
+    "count": 3,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 4,
+      "meta": 132
+    },
+    {
+      "item": "minecraft:gunpowder",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

@@ -1,208 +1,204 @@
 {
-    "internalName": "lev.vssk",
-    "displayName": "VSSK Vyhlop",
-    "weaponType": "boltsniper",
-	"animationType": "enhanced",
-    "customFlashTexture": "lev.battlecraft.flash",
-	
-    "gunDamage": 1.0,
-    "gunDamageHeadshotBonus": 0.5,
-    "gunPenetrateSize": 1.0,
-    "gunPenetrationDamageFalloff": true,
-    "gunMaxPenetrateBlockResistance": 0.5,
-    "gunPenetrateBlocksResistance": 1.0,
-    "roundsPerMin": 65,
-	"gunHoldLength": 1.3,
-
-	"useNewRecoilSystem": true,
-	"useEnhancedAiming": true,
-	"viewKickPitchScale": 0.2,
-	"viewKickYawScale": 0.2,
-	
-    "recoilPitch": 18.0,
-    "recoilYaw": 450,
-    "randomRecoilPitch": 0.02,
-    "randomRecoilYaw": 0.04,
-    "bulletSpread": 5.8,
-    "accuracySneakFactor": 0.5,
-	"accuracyAimFactor": 0.05,
-	"recoilCrawlYawFactor": 0.8,
-    "recoilCrawlPitchFactor": 0.3,
-    "weaponMaxRange": 300,
-    "weaponEffectiveRange": 150,
-	"allowSprintFiring": false,
-	"allowReloadFiring": false,
-	"allowReloadSprint": true,
-	"allowAimingSprint": false,
-	
-	"modifyUnloadBullets": 0,
-	
-    "moveSpeedModifier": 0.94,
-	
-    "fireModes": [
-		"semi"
+  "internalName": "lev.vssk",
+  "displayName": "VSSK Vyhlop",
+  "weaponType": "boltsniper",
+  "animationType": "enhanced",
+  "customFlashTexture": "lev.battlecraft.flash",
+  "gunDamage": 1.0,
+  "gunDamageHeadshotBonus": 0.5,
+  "gunPenetrateSize": 3.0,
+  "gunPenetrationDamageFalloff": true,
+  "gunMaxPenetrateBlockResistance": 0.5,
+  "gunPenetrateBlocksResistance": 1.0,
+  "roundsPerMin": 65,
+  "gunHoldLength": 1.3,
+  "useNewRecoilSystem": true,
+  "useEnhancedAiming": true,
+  "viewKickPitchScale": 0.2,
+  "viewKickYawScale": 0.2,
+  "recoilPitch": 18.0,
+  "recoilYaw": 450,
+  "randomRecoilPitch": 0.02,
+  "randomRecoilYaw": 0.04,
+  "bulletSpread": 5.8,
+  "accuracySneakFactor": 0.5,
+  "accuracyAimFactor": 0.05,
+  "recoilCrawlYawFactor": 0.8,
+  "recoilCrawlPitchFactor": 0.3,
+  "weaponMaxRange": 300,
+  "weaponEffectiveRange": 150,
+  "allowSprintFiring": false,
+  "allowReloadFiring": false,
+  "allowReloadSprint": true,
+  "allowAimingSprint": false,
+  "modifyUnloadBullets": 0,
+  "moveSpeedModifier": 0.94,
+  "fireModes": [
+    "semi"
+  ],
+  "acceptedAmmo": [
+    "lev.vsskmag5"
+  ],
+  "allowEmptyMagazines": true,
+  "dropBulletCasing": true,
+  "shellEjectOffsetNormal": {
+    "x": 0,
+    "y": -20,
+    "z": -20
+  },
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "lev.vsskshoot",
+        "soundNameDistant": "lev.vsskshootfar",
+        "soundRange": 100,
+        "soundMaxRange": 200,
+        "soundFadeMultiplier": 1
+      }
     ],
-    "acceptedAmmo": [
-        "lev.vsskmag5"
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "lev.vssksupshoot",
+        "soundRange": 80,
+        "soundMaxRange": 80,
+        "soundFadeMultiplier": 1
+      }
     ],
-	"allowEmptyMagazines": true,
-	
-    "dropBulletCasing": true,
-    "shellEjectOffsetNormal": {
-        "x": 0,
-        "y": -20,
-        "z": -20
-    },
-    "shellEjectOffsetAiming": {
-        "x": -0.2,
-        "y": 0.12,
-        "z": 0.5
-    },
-     "weaponSoundMap": {
-        "weaponFire": [
-            {
-                "soundEvent": "weaponFire",
-                "soundName": "lev.vsskshoot",
-                "soundNameDistant": "lev.vsskshootfar",
-                "soundRange": 100,
-                "soundMaxRange": 200,
-                "soundFadeMultiplier": 1
-            }
-        ],
-        "weaponFireSuppressed": [
-            {
-                "soundEvent": "weaponFireSuppressed",
-                "soundName": "lev.vssksupshoot",
-                "soundRange": 80,
-                "soundMaxRange": 80,
-                "soundFadeMultiplier": 1
-                 }
-		 ],
     "weaponBolt": [
       {
         "soundEvent": "weaponBolt",
         "soundName": "lev.vsskbolt"
       }
     ],
-
-		"weaponDraw": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.draw"
-            }
-        ],
-		"weaponTakedown": [
-            {
-                "soundEvent": "weaponDraw",
-                "soundName": "lev.takedown"
-            }
-        ],
-		"weaponPreUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.vsskunload"
-            }
-        ],
-		"weaponUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.nothing"
-            }
-],
-		"inspect": [
-			{
-				"soundEvent": "inspect",
-				"soundName": "lev.inspect"
-			}
-        ],
-        "weaponPreLoad": [
-            {
-                "soundEvent": "weaponPreLoad",
-                "soundName": "lev.vsskload"
-            }
-        ],
-		"weaponDryFire": [
-            {
-                "soundEvent": "weaponDryFire",
-                "soundName": "lev.dryfire"
-            }
-        ],
-		"weaponLoad": [
-            {
-                "soundEvent": "weaponLoad",
-                "soundName": "lev.nothing"
-            }
-        ],
-		"weaponPreReload": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.vsskprerel"
-			}
-		],
-		"weaponPreReloadEmpty": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.vsskfullrel"
-			}
-		],
-		"weaponReload": [
-			{
-				"soundEvent": "weaponReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponReloadSecond": [
-			{
-				"soundEvent": "weaponReloadSecond",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReload": [
-			{
-				"soundEvent": "weaponPostReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReloadEmpty": [
-			{
-				"soundEvent": "weaponPostReloadEmpty",
-				"soundName": "lev.nothing"
-			}
-		]
-    },
-    "acceptedAttachments": {
-        "barrel": [
-		"lev.vssksup"
-        ],
-        "sight": [
-	     "lev.barska",
-		 "lev.deltapoint",
-	     "lev.okp",
-	     "lev.microh1",
-	     "lev.microh2",
-	     "lev.eotech",
-		 "lev.trijiconrmr",
-		 "lev.mtprism",
-		 "lev.valday",
-	     "lev.elcan",
-		 "lev.elcanb",
-		 "lev.vudu",
-		 "lev.nightforce",
-		 "lev.sbrpm",
-		 "lev.sbrpm_fde",
-		 "lev.dedal3x12"
-        ]
-    },
-  "defaultAttachments": {
-	"barrel": "lev.vssksup",
-	"sight": "lev.dedal3x12"
-  },
-    "modelSkins": [
-        {
-            "internalName": "lev.vssk",
-            "skinAsset": "lev.vssk",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
+    "weaponDraw": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.draw"
+      }
+    ],
+    "weaponTakedown": [
+      {
+        "soundEvent": "weaponDraw",
+        "soundName": "lev.takedown"
+      }
+    ],
+    "weaponPreUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.vsskunload"
+      }
+    ],
+    "weaponUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "inspect": [
+      {
+        "soundEvent": "inspect",
+        "soundName": "lev.inspect"
+      }
+    ],
+    "weaponPreLoad": [
+      {
+        "soundEvent": "weaponPreLoad",
+        "soundName": "lev.vsskload"
+      }
+    ],
+    "weaponDryFire": [
+      {
+        "soundEvent": "weaponDryFire",
+        "soundName": "lev.dryfire"
+      }
+    ],
+    "weaponLoad": [
+      {
+        "soundEvent": "weaponLoad",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreReload": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.vsskprerel"
+      }
+    ],
+    "weaponPreReloadEmpty": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.vsskfullrel"
+      }
+    ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponReloadSecond": [
+      {
+        "soundEvent": "weaponReloadSecond",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReload": [
+      {
+        "soundEvent": "weaponPostReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReloadEmpty": [
+      {
+        "soundEvent": "weaponPostReloadEmpty",
+        "soundName": "lev.nothing"
+      }
     ]
+  },
+  "acceptedAttachments": {
+    "barrel": [
+      "lev.vssksup"
+    ],
+    "sight": [
+      "lev.barska",
+      "lev.deltapoint",
+      "lev.okp",
+      "lev.microh1",
+      "lev.microh2",
+      "lev.eotech",
+      "lev.trijiconrmr",
+      "lev.mtprism",
+      "lev.valday",
+      "lev.elcan",
+      "lev.elcanb",
+      "lev.vudu",
+      "lev.nightforce",
+      "lev.sbrpm",
+      "lev.sbrpm_fde",
+      "lev.dedal3x12"
+    ]
+  },
+  "defaultAttachments": {
+    "barrel": "lev.vssksup",
+    "sight": "lev.dedal3x12"
+  },
+  "modelSkins": [
+    {
+      "internalName": "lev.vssk",
+      "skinAsset": "lev.vssk",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

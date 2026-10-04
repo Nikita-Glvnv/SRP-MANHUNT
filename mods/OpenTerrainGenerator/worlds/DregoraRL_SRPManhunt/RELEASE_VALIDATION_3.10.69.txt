@@ -1,0 +1,47 @@
+DregoraRL SRP Manhunt 3.10.69
+CITY / ROADS / OUTSKIRTS RELEASE VALIDATION
+
+RESULT: PASS (static validation)
+
+ROOT / INSTALL
+- Gradle, Java and preset version: 3.10.69.
+- Exactly one IsSpawnPoint BO4: CityGrid.
+- CityGrid is NORTH-oriented and unique at manhunt_city:313.
+- Installed 3.10.68 is replaced because the bundled preset patch version is 69.
+
+CITY SPAWN FIX
+- SpawnHeight highestBlock; valid range 0..255.
+- CanSpawnOnWater true; empty anchor can no longer abort on a liquid spawn chunk.
+- ReplaceWithBiomeBlocks false; child city palettes remain authoritative.
+- OverrideChildSettings true keeps one aligned authored elevation across the graph.
+
+COLLISION / ROLLBACK FIX
+- VillagesEnabled false and RareBuildingsEnabled false.
+- Stronghold, mineshaft, dungeon and ocean-monument generation preserved.
+- Outbound highway root is optional relative to the city gate.
+- Four service-road roots are optional relative to the bypass ring.
+
+GRAPH INTEGRITY
+- BO4 files: 1920.
+- Parsed branch targets: 2158.
+- Required branch targets: 2149; optional branch targets: 9.
+- Missing branch targets: 0.
+- City-reachable BO4 names: 702.
+- Core macro, bypass ring, gates, service roads and highways are reachable.
+- CityGrid positive owner: Ruins of Blight at 100%.
+- Cross-biome chance-zero CityGrid permissions: 77.
+- Stale BO4Data files: 0.
+
+WORLD CONTRACT
+- BiomeMode Normal and Vanilla Vistas terrain preserved.
+- OTG+ enabled; border 313 chunks; fixed spawn 0/0/0.
+- Stronghold contract remains count 1, distance 32, spread 1.
+- Ocean monuments remain enabled.
+
+DATA / PACKAGE
+- JSON parse errors: 0.
+- JAR files in source project: 0.
+
+RUNTIME NOTE
+- Full Forge/OTG chunk generation still requires the actual 1.12.2 modpack.
+- Test only in a completely new OTG world; old structure caches cannot be repaired retroactively.

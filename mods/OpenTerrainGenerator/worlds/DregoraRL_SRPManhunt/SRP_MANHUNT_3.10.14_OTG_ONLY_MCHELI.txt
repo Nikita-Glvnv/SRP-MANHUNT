@@ -1,0 +1,47 @@
+SRP Manhunt 3.10.14 — OTG-only MCHeli integration
+=================================================
+
+Rule
+----
+MCHeliCE is treated as an external stock dependency. No MCHeli Java/resource file is patched,
+replaced or bundled by this project. All encounter behaviour lives in Dregora/OTG.
+
+Generated aircraft initialization
+---------------------------------
+1. OTG creates the normal MCHeli entity and calls setTypeName/changeType.
+2. OTG copies AircraftInfo.getTextureName() into the entity TextureName.
+3. After MCHeli's first native update, OTG performs one final initialization pass because stock
+   MCHeli resets InfinityAmmo/InfinityFuel from global config in onFirstUpdate().
+4. Armed generated vehicles receive native CommonStatus bit 3 (InfinityAmmo) and bit 4
+   (InfinityFuel), full fuel and gunner status. The aircraft is then removed from the pending set.
+
+No ammo/fuel polling is used.
+
+Generated mounted gunners
+-------------------------
+- switchTargetCount is initialized to a very large value, disabling stock broad target AABB scans.
+- autoCountermeasureCooldown is initialized to a very large value, disabling the stock guided-
+  projectile AABB scan for encounter NPCs.
+- OTG selects a visible Vagrant from world.playerEntities once per second.
+- If no Vagrant/current target exists, a visible parasite/vanilla-hostile fallback is considered
+  at most once per three seconds.
+- MCHeli remains responsible for native weapon rotation and firing at the assigned target.
+
+Hunter helicopter
+-----------------
+Only tagged OTG hunter helicopters are tracked. Four times per second OTG performs constant-time
+steering toward the mounted gunner's already-selected Vagrant. The flight controller itself does
+not scan entities or raytrace visibility. When the gunner loses visibility on its next one-second
+target refresh, the target is cleared and the helicopter stops pursuing.
+
+Boss aircraft
+-------------
+MCHeli aircraft are not LivingEntity and expose no Forge LivingDeathEvent. OTG therefore checks
+only its weak set of tagged boss aircraft twice per second. This is not a world scan and replaces
+the old source-level destruction hook.
+
+Foot gunners
+------------
+Stock MCHeli normally despawns an unmounted gunner. OTG initializes despawnCount to a very
+negative value once, which keeps generated foot gunners alive without a per-tick reflection write.
+Their movement and lightweight projectile attack remain Dregora-side.

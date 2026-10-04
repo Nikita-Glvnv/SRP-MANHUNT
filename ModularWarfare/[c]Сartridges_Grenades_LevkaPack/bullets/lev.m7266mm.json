@@ -4,7 +4,7 @@
   "displayName": "66mm M72 Rocket HEAT",
   "renderBulletModel": true,
   "projectileVelocity": 6,
-  "impactDamage": 48,
+  "impactDamage": 100.0,
   "explosionDamage": 40,
   "explosionRange": 18,
   "gravity": -0.0087,

@@ -1,0 +1,29 @@
+DregoraRL SRP Manhunt 3.10.69
+FINITE CITY / ROADS / OUTSKIRTS SPAWN HOTFIX
+
+ROOT CAUSE
+- CityGrid became the mandatory IsSpawnPoint BO4 in 3.10.68 but retained its
+  legacy SpawnHeight randomY, MinHeight 50 and MaxHeight 50 settings.
+- Because CityGrid has OverrideChildSettings true and the finite graph inherits
+  its parent Y, the central city, bypass, roads, suburbs and highways were
+  plotted around Y=50 instead of the terrain surface.
+- CanSpawnOnWater false could cancel the empty root before FC-CityMacro was
+  reached.
+- The finite-city graph uses required branches. OTG checks villages and
+  scattered features within four chunks and can roll a failed required branch
+  back through every parent to CityGrid.
+
+FIX
+- CityGrid: highestBlock, height range 0..255, CanSpawnOnWater true,
+  ReplaceWithBiomeBlocks false.
+- VillagesEnabled false and RareBuildingsEnabled false prevent unrelated
+  vanilla land structures from deleting the mandatory city graph.
+- Strongholds, mineshafts, dungeons and ocean monuments are unchanged.
+- Outbound highway entry and four service-road entries are optional relative
+  to the ring, so distant branch failures no longer erase the city core.
+- Preset and mod version bumped to 3.10.69 so the installer replaces 3.10.68.
+
+REQUIRED TEST
+- Delete/recreate the OTG world (or use a clean instance) before testing.
+- Verify the city core, closed bypass, four gates, suburban/service parcels and
+  outbound roads from newly generated spawn chunks.

@@ -1,7 +1,7 @@
 {
   "internalName": "lev.76225_pst",
   "maxStackSize": 60,
-  "bulletDamageFactor": 3.9,
+  "bulletDamageFactor": 6.9,
   "displayName": "7.62x25 Pst",
   "renderBulletModel": true,
   "isDynamicBullet": false,
@@ -20,5 +20,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 4
 }

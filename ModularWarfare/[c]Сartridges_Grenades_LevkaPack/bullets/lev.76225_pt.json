@@ -1,7 +1,7 @@
 {
   "internalName": "lev.76225_pt",
   "maxStackSize": 60,
-  "bulletDamageFactor": 3.4,
+  "bulletDamageFactor": 4.4,
   "bulletAccuracyFactor": 1.06,
   "displayName": "7.62x25 PT",
   "renderBulletModel": true,

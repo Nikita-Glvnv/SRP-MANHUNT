@@ -1,0 +1,42 @@
+{
+  "id": "craft_lev.pkm",
+  "category": "Weapons - Machine Guns",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.pkm",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 328
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 293
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 294
+    },
+    {
+      "item": "thermalfoundation:storage",
+      "count": 1,
+      "meta": 5
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 353
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 327
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "internalName": "lev.939_sp6",
   "maxStackSize": 50,
-  "bulletDamageFactor": 7.6,
+  "bulletDamageFactor": 17.7,
   "bulletAccuracyFactor": 1.2,
   "displayName": "9x39 SP-6",
   "renderBulletModel": true,
@@ -21,5 +21,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 4
 }

@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.modulscorpion",
+  "category": "Magazines - Machine Guns",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.modulscorpion",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 5,
+      "meta": 294
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 5,
+      "meta": 328
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 353
+    }
+  ]
+}

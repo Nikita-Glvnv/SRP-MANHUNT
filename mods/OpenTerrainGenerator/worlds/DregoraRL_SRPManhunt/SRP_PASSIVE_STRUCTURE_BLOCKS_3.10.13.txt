@@ -1,0 +1,83 @@
+DregoraRL SRP Manhunt 3.10.13 - passive SRParasites authored-generation palette
+================================================================================
+
+Goal
+----
+Pre-generated infected/parasite structures keep the SRP visual language but must not
+advance evolution/phase, create beacons/lures, spawn parasites from authored blocks,
+start autonomous infection spread, or add avoidable always-ticking parasite tiles.
+
+The decisions below were checked against the supplied SRParasites 1.12.2 v1.9.21 JAR.
+
+Removed active/ticking authored registry ids
+--------------------------------------------
+srparasites:parasitestain      -> srparasites:parasiterubbledense:1
+srparasites:infestedstain      -> srparasites:parasiterubbledense:1
+srparasites:parasiterubble     -> srparasites:parasiterubbledense
+srparasites:infestedrubble     -> srparasites:parasiterubbledense
+srparasites:parasitetrunk      -> srparasites:parasiterubbledense:2
+srparasites:parasitesapling    -> srparasites:parasitethin
+srparasites:colonyheart        -> srparasites:parasiterubbledense:2
+srparasites:evolutionlure      -> srparasites:parasiterubbledense:2
+srparasites:infestremain       -> srparasites:parasitethin
+srparasites:biomepurifier      -> srparasites:parasiterubbledense
+srparasites:parasitecanister   -> srparasites:parasiterubbledense:2
+srparasites:canisteractive     -> srparasites:parasiterubbledense:2
+srparasites:parasitetendril    -> srparasites:parasitethin
+srparasites:gore               -> srparasites:parasitethin
+
+Why these were removed
+----------------------
+- Parasite/infested stain and rubble execute SRP spread/evolution logic.
+- Infested remains, colony hearts and evolution lures are gameplay-active SRP blocks.
+- Parasite trunks/saplings participate in growth/infection behaviour.
+- Biome purifier executes scheduled biome-processing logic and is not static decoration.
+- Parasite canisters create TileEntityCanister, which implements ITickable and contains
+  SRP item/cyst/evolution processing. Keeping hundreds of authored canisters would both add
+  tile ticks and leave an avoidable evolution path inside pre-generated zones.
+- Parasite tendril derives from BlockVine and therefore retains random-tick vine growth.
+- Gore has scheduled/random block-update behaviour and self-removal; it is unnecessary
+  simulation work for static authored scenery.
+
+Primary passive replacements
+----------------------------
+- srparasites:parasiterubbledense: BlockParasiteRubbleDense has an empty updateTick path.
+- srparasites:parasitethin: passive parasite decoration without infection/evolution/spawn logic.
+
+Retained SRP visual palette after conversion
+--------------------------------------------
+parasiterubbledense : 91859 authored references
+parasitethin        : 6702 authored references
+parasitebush        : 3494 authored references
+infestedbush        : 9497 authored references
+parasitemouth       : 429 authored references
+deadblood           : 18497 authored references
+
+`deadblood` is retained as visual fluid material. It is not an SRP evolution/phase block;
+normal fluid neighbour behaviour may still occur when terrain changes around it.
+
+Biome/decorator cleanup
+-----------------------
+The exact active registry ids were checked across the whole WorldPacker preset, not only
+WorldObjects. Nuclear Ruins / Nuclear Blight decorators and replacement masks were sanitized
+as well, so biome generation cannot reintroduce the removed active stain/rubble variants.
+
+Final full-preset exact-reference validation (excluding this documentation file)
+-------------------------------------------------------------------------------
+parasitestain=0
+infestedstain=0
+parasiterubble=0
+infestedrubble=0
+parasitetrunk=0
+parasitesapling=0
+colonyheart=0
+evolutionlure=0
+infestremain=0
+biomepurifier=0
+parasitecanister=0
+canisteractive=0
+parasitetendril=0
+gore=0
+
+This intentionally does NOT remove parasite mob spawn lists from infected Human PvE zones.
+It removes only the authored block-driven phase/evolution/spread/spawn/tile-tick hazards.

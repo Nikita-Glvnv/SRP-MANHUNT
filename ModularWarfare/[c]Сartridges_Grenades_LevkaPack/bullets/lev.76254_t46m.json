@@ -1,7 +1,7 @@
 {
   "internalName": "lev.76254_t46m",
   "maxStackSize": 40,
-  "bulletDamageFactor": 9.5,
+  "bulletDamageFactor": 11.5,
   "bulletAccuracyFactor": 1.05,
   "bulletPenetrateFactor": 1.5,
   "bulletBlockPenetrateFactor": 3,

@@ -1,0 +1,99 @@
+DregoraRL: SRP Manhunt Edition 3.10.10
+Foot-gunner spawners and faction clear rewards
+
+GENERATION SAFETY
+- The six-biome post-apocalyptic generation graph is unchanged from 3.10.9.
+- No biome, structure root, branch, vanilla-structure switch or structure
+  distance was removed or renamed.
+- All 417 fixed BO3/BO4 MOB_SPAWNER placements, all 384 RandomBlock spawner
+  records and their 489 weighted alternatives remain at previous coordinates.
+- The 162 defended-structure spawner references are retained: 78 in Brutal
+  Tower, 64 across Dungeons 01-03 and 20 in Nuclear Power Plant.
+- Existing encounter markers, vehicles, turrets, bosses, boss health,
+  equipment, effects and original boss loot tables remain in place.
+
+SPAWNER FOOT GUNNERS
+- The seven formerly dormant non-boss spawner payloads now use the registered
+  MCHeli CE entity mcheli:MCH.E.Gunner.
+- Every activation requests one ordinary gunner without armor/item/effect NBT
+  and without custom Health or Attribute values.
+- Brutal Tower spawners use 120-240 second delays; dungeon and nuclear
+  spawners use 90-180 second delays. All require a player within 16 blocks.
+- The runtime allows at most six spawner-created foot gunners in a configurable
+  48-block three-dimensional area. Extra spawn attempts are safely cancelled
+  and can retry later.
+- Spawner gunners join the existing autonomous patrol/target/fire controller.
+  They are forcibly dismounted and have the MCHeli seated/sneaking flag cleared
+  both when initialized and continuously during their server update.
+- A client-only renderer bridge removes MCHeli's normal "do not render without
+  an aircraft" gate for tagged foot gunners. It uses the same upright biped and
+  Steve texture while retaining the hideEntity rule for mounted vehicle crews.
+- Their projectiles remain non-pickup and expire after three seconds.
+
+VAGRANT REWARDS
+- Military common, military rare and strategic caches each make one restrained
+  salvage check.
+- Brutal Tower's 12 randomized processed-goods chests and 19 extracted-goods
+  treasure chests make the same restrained salvage check; the much more common
+  tier 1-6 crates are left untouched to prevent quantity inflation.
+- The check is 94% empty, 4% one Frayed Wires, 1% one Chip Fragment and 1% one
+  Ghastly Bandage.
+- High-tier SRPCotesia matter, full chips, boosters and unbound Remnants are
+  intentionally excluded.
+- Seven retained Dungeon 01-03 Wither Skeleton/Elder Guardian boss payloads are
+  tagged for a Vagrant clear reward. Their original HP, equipment, effects,
+  SpawnPotentials and loot remain unchanged.
+- Destruction of the generated MCHeli structure boss can arm a Vagrant reward
+  only while an actual SRPCotesia Vagrant is nearby.
+- A tagged living dungeon boss arms the same reward only when its direct killer
+  is an actual SRPCotesia Vagrant.
+- The reward waits until generated gunners, turrets, vehicles and ordinary
+  hostile vanilla defenders in the configured structure radius are gone.
+  Other tagged Vagrant-side bosses in that radius must also be dead.
+- A completed clear gives 1-2 Frayed Wires and one restrained bonus roll:
+  52% empty, 18% Chip Fragment, 14% Ghastly Bandage, 9% Brew Sac and
+  7% Sparse Chitin.
+
+HUMAN REWARDS
+- Infected caches and common laboratory caches receive one additional common
+  ammunition roll.
+- Common ammunition favors AK-74/AKM/M4/MP5 magazines; pistol magazines remain
+  lower-weight choices. The roll is still 28-weight empty.
+- Rare laboratory caches receive one advanced-ammunition roll containing
+  compatible extended/rifle magazines, very rare grenades and a 1-weight
+  ammunition box.
+- The same 12 randomized Brutal Tower chests receive a common-ammunition roll;
+  its 19 rarer treasure chests receive one advanced roll. The 244 ordinary
+  tier 1-6 crate placements are not given extra ammunition.
+- The five principal SRParasites Brutal Tower boss SpawnData records are tagged
+  for clear rewards without changing any original boss statistic or loot:
+  Crux, Bogle, Flying Carrier, Overseer and Adapted Yelloweye.
+- A reward is armed only when a non-Vagrant player kills the tagged boss. It
+  waits until nearby SRParasites and ordinary hostile vanilla mobs are gone.
+- A successful clear guarantees one compatible common magazine, then makes one
+  extra common-ammunition roll, one restrained advanced roll and a small
+  field-supply roll. Weapons are not added to this completion reward.
+
+ANTI-FARM AND PERSISTENCE
+- Pending clear checks use an invisible, invulnerable marker that survives
+  save/reload and does not alter the OTG structure files.
+- The first check occurs after a five-second grace period.
+- A completed marker blocks another reward in the same area for 72,000 loaded
+  ticks (one real-time hour at 20 TPS) before removing itself.
+- Default clear radius is 72 blocks horizontally and up to 48 blocks vertically.
+
+DEFAULT CONFIGURATION ADDITIONS
+military defenses.Spawner foot gunner area cap = 6
+military defenses.Spawner foot gunner cap radius = 48
+
+structure rewards.Full-clear reward radius = 72
+structure rewards.Full-clear reward grace ticks = 100
+structure rewards.Full-clear reward cooldown ticks = 72000
+structure rewards.Boss reward eligibility range = 128
+
+OPTIONAL INTEGRATIONS
+- SRPCotesia 1.3.4h1 remains authoritative for Vagrant state.
+- MCHeli CE 1.5 supplies the actual gunner, aircraft and ground-vehicle classes.
+- Turret Mod Rebirth beta 4.6 keeps the existing faction-aware four-turret map.
+- SRParasites supplies the parasite registry namespace and tagged structure
+  bosses.

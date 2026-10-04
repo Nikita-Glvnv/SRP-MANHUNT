@@ -1,7 +1,7 @@
 {
   "internalName": "lev.76254",
   "maxStackSize": 40,
-  "bulletDamageFactor": 9.5,
+  "bulletDamageFactor": 11.5,
   "bulletPenetrateFactor": 1.5,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "7.62x54R LPS",

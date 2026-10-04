@@ -4,7 +4,7 @@
   "displayName": "40mm VFG-25",
   "renderBulletModel": true,
   "projectileVelocity": 5,
-  "impactDamage": 38,
+  "impactDamage": 34.5,
   "explosionDamage": 33,
   "explosionRange": 10,
   "gravity": -0.05,
@@ -15,11 +15,15 @@
   "isDynamicBullet": true,
   "sameTextureAsGun": false,
   "modelSkins": [
-        {
-            "internalName": "lev.vfg25",
-            "skinAsset": "lev.vfg25",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
-    ]
+    {
+      "internalName": "lev.vfg25",
+      "skinAsset": "lev.vfg25",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

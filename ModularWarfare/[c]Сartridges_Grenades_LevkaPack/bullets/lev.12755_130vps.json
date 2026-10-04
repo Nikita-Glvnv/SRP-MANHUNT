@@ -1,8 +1,8 @@
 {
   "internalName": "lev.12755_130vps",
   "maxStackSize": 30,
-  "bulletDamageFactor": 17.8,
-  "bulletPenetrateFactor": 1.5,
+  "bulletDamageFactor": 61.3,
+  "bulletPenetrateFactor": 15,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "12.7x55 STs-130 VPS",
   "bulletAccuracyFactor": 1.3,

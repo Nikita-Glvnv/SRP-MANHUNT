@@ -1,0 +1,82 @@
+#######################################################################
+# DregoraRL SRP Manhunt 3.10.74 terrain-conforming outskirts object
+#######################################################################
+Author: SRP Manhunt
+Description: Terrain-conforming megacity-scale suburban belt using authentic Dregora settlements
+SettingsMode: WriteWithoutComments
+FixedRotation: 
+Frequency: 0
+SpawnHeight: highestBlock
+UseCenterForHighestBlock: true
+MinHeight: 0
+MaxHeight: 255
+InheritBO3: 
+InheritBO3Rotation: NORTH
+OverrideChildSettings: false
+OverrideParentHeight: false
+CanOverride: true
+BranchFrequency: 0
+BranchFrequencyGroup: 
+MustBeBelowOther: false
+MustBeInside: 
+CannotBeInside: 
+ReplacesBO3: 
+MustBeInsideWorldBorders: true
+CanSpawnOnWater: true
+SpawnOnWaterOnly: false
+SpawnUnderWater: false
+SpawnAtWaterLevel: false
+HeightOffset: 0
+RemoveAir: false
+ReplaceAbove: 
+ReplaceBelow: 
+ReplaceWithBiomeBlocks: false
+ReplaceWithSurfaceBlock: GRASS
+ReplaceWithGroundBlock: DIRT
+ReplaceWithStoneBlock: STONE
+SmoothRadius: 0
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock: 
+SmoothingGroundBlock: 
+BO3Group: 
+IsSpawnPoint: false
+DoReplaceBlocks: true
+
+#######################################################################
+# Blocks
+#######################################################################
+
+#######################################################################
+# Branches
+#######################################################################
+Branch(-704,0,-896,false,EO-OrbitalN000,EAST,100.0,1024)
+Branch(768,0,-880,false,EO-OrbitalE000,SOUTH,100.0,1024)
+Branch(752,0,848,false,EO-OrbitalS000,WEST,100.0,1024)
+Branch(-720,0,832,false,EO-OrbitalW000,NORTH,100.0,1024)
+Branch(-720,0,-896,false,EO-OrbitalCornerNW,NORTH,100.0,1024)
+Branch(768,0,-896,false,EO-OrbitalCornerNE,NORTH,100.0,1024)
+Branch(768,0,848,false,EO-OrbitalCornerSE,NORTH,100.0,1024)
+Branch(-720,0,848,false,EO-OrbitalCornerSW,NORTH,100.0,1024)
+Branch(0,0,-432,false,EO-RadialN0-00,NORTH,100.0,1024)
+Branch(-384,0,-432,false,EO-RadialN1-00,NORTH,100.0,1024)
+Branch(384,0,-432,false,EO-RadialN2-00,NORTH,100.0,1024)
+Branch(0,0,384,false,EO-RadialS0-00,SOUTH,100.0,1024)
+Branch(-384,0,384,false,EO-RadialS1-00,SOUTH,100.0,1024)
+Branch(384,0,384,false,EO-RadialS2-00,SOUTH,100.0,1024)
+Branch(-256,0,0,false,EO-RadialW0-00,WEST,100.0,1024)
+Branch(-256,0,-384,false,EO-RadialW1-00,WEST,100.0,1024)
+Branch(-256,0,384,false,EO-RadialW2-00,WEST,100.0,1024)
+Branch(304,0,0,false,EO-RadialE0-00,EAST,100.0,1024)
+Branch(304,0,-384,false,EO-RadialE1-00,EAST,100.0,1024)
+Branch(304,0,384,false,EO-RadialE2-00,EAST,100.0,1024)
+Branch(-192,0,-640,false,EO-DistrictNW,NORTH,100.0,1024)
+Branch(192,0,-640,false,EO-DistrictNE,NORTH,100.0,1024)
+Branch(-192,0,640,false,EO-DistrictSW,NORTH,100.0,1024)
+Branch(192,0,640,false,EO-DistrictSE,NORTH,100.0,1024)
+Branch(-560,0,-720,false,DaerocVillage,NORTH,100.0,1024)
+Branch(480,0,-704,false,AcaciaVillage,NORTH,100.0,1024)
+Branch(-520,0,624,false,PlainsFarm,NORTH,100.0,1024)
+Branch(448,0,624,false,JungleVillage,NORTH,100.0,1024)
+Branch(-320,0,752,false,WindMill,NORTH,100.0,1024)

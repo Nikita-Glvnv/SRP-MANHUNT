@@ -4,7 +4,7 @@
   "displayName": "40mm VOG-25",
   "renderBulletModel": true,
   "projectileVelocity": 5,
-  "impactDamage": 33,
+  "impactDamage": 30,
   "explosionDamage": 32,
   "explosionRange": 12,
   "gravity": -0.05,

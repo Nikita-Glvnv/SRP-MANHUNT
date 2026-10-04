@@ -1,7 +1,7 @@
 {
   "internalName": "lev.45",
   "maxStackSize": 60,
-  "bulletDamageFactor": 4.3,
+  "bulletDamageFactor": 7.5,
   "displayName": ".45ACP FMJ",
   "renderBulletModel": true,
   "isDynamicBullet": false,

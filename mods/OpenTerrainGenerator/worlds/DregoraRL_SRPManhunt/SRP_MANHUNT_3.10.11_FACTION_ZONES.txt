@@ -1,0 +1,32 @@
+DregoraRL: SRP Manhunt Edition 3.10.11
+Faction zones, neutral dungeons and Brutal Tower overhaul
+
+ZONE MODEL
+- Military territory (Bunkers, Radio Telescope, Nuclear Power Plant) is Vagrant PvE: generated gunners, turrets and MCHeli vehicles remain the defenders. Useful military storage now resolves to SRPCotesia/Cotesia salvage instead of human firearms and generic high-tier loot.
+- Radio Telescope is the Vagrant military boss-site: its former guard-helicopter marker is upgraded to the existing high-HP MCHeli boss helicopter. Destroying it can arm only a Vagrant-side clear reward, and the reward still waits for the defended site to be cleared.
+- Infected megacity territory is Human PvE: parasite spawners remain the threat. Military/strategic skyscraper caches are remapped to laboratory/human strategic tables, and infected caches no longer contain parasite materials that a Vagrant could farm from allied territory.
+- The principal infected 8x6 skyscraper now has one guaranteed Human-side parasite boss encounter. It randomly selects Crux, Bogle, Flying Carrier, Overseer or Adapted Yelloweye, marks it as a Human reward boss, and uses the existing full-clear logic so a Vagrant cannot claim the Human completion reward.
+- Dungeon 01-03 are neutral PvE: their defense markers and ordinary spawners now use tagged vanilla hostile mobs. Existing dungeon bosses are neutral reward bosses, so either faction can complete them.
+- Brutal Tower is a fully neutral endgame PvE structure. Every generated turret/gunner/aircraft marker in the tower is replaced by vanilla-hostile squads, and every tower mob-spawner payload referenced by the BO4s is replaced by vanilla enemies.
+
+BRUTAL TOWER
+- The central top-floor boss slot at Y=228 is now a persistent Wither boss. It is tagged as the neutral structure boss and can reward either faction.
+- The old SRParasites/custom Brutal Tower spawner payloads are no longer used by the tower; their referenced NBT files now spawn only Minecraft hostiles such as zombies, skeletons, spiders, cave spiders, husks, strays, witches, blazes, vexes and wither skeletons.
+- Tier 1-2 crates use neutral_common, tier 3-4 neutral_rare, tier 5-6 and treasure use neutral_epic. These tables contain broadly usable vanilla resources rather than faction-specific items.
+- Killing the final Wither arms a full-tower clear check (128 blocks horizontal / 192 vertical). The jackpot is awarded only after all tagged neutral tower mobs in that volume are gone.
+- Final jackpot is intentionally very rich: guaranteed 8-16 diamonds, 12-24 emeralds, 16-32 XP bottles, two high-value rolls (golden apple / totem / nether star / rare elytra) and 3-5 large vanilla-resource rolls.
+
+SPAWNER CONTROL
+- Removed DregoraRL's runtime area cap that cancelled MCHeli foot-gunner spawns at 6 entities / 48 blocks.
+- Removed the two related config options entirely.
+- Neutral dungeon/tower spawners and the retained Nuclear Power Plant gunner spawner use MaxNearbyEntities=32767, effectively removing this preset's local population limiter and leaving population control to the modpack's dedicated spawner-control mod.
+- Activation ranges and ordinary spawn delays remain so spawners still behave like actual Minecraft spawners rather than permanent always-loaded entity emitters.
+
+ANTI-FARM / CLEAR REWARDS
+- Human, Vagrant and neutral completion rewards remain kill-gated and full-clear-gated.
+- Neutral reward eligibility accepts either faction. Human and Vagrant rewards remain faction-specific.
+- The existing persistent anti-farm marker/cooldown remains in place.
+
+GENERATION SAFETY
+- Structure roots, branches, coordinates, biome graph and world-generation distances are retained.
+- Changes are limited to encounter-marker metadata, selected chest-table mappings, selected spawner NBT payloads and runtime faction/reward logic.

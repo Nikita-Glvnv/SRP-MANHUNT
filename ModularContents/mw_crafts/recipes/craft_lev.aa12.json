@@ -1,0 +1,37 @@
+{
+  "id": "craft_lev.aa12",
+  "category": "Weapons - Shotguns",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.aa12",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 3,
+      "meta": 324
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 26
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 163
+    },
+    {
+      "item": "thermalfoundation:storage",
+      "count": 1,
+      "meta": 3
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 133
+    }
+  ]
+}

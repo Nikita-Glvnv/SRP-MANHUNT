@@ -1,7 +1,7 @@
 {
   "internalName": "lev.556",
   "maxStackSize": 60,
-  "bulletDamageFactor": 4.3,
+  "bulletDamageFactor": 7.4,
   "displayName": "5.56x45 855",
   "renderBulletModel": true,
   "isDynamicBullet": false,

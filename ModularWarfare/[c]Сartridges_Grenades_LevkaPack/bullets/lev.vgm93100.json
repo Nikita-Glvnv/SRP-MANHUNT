@@ -4,7 +4,7 @@
   "displayName": "43mm VGM-93.100",
   "renderBulletModel": true,
   "projectileVelocity": 5,
-  "impactDamage": 25,
+  "impactDamage": 22.7,
   "explosionDamage": 20,
   "explosionRange": 3,
   "gravity": -0.05,

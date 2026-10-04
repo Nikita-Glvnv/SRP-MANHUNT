@@ -1,0 +1,77 @@
+SRP MANHUNT — FACTION ZONE AUDIT 3.10.28
+=========================================
+
+1) VAGRANT / MILITARY RAID ZONES
+---------------------------------
+Primary structures:
+- procedural military bunkers (f_bunker_* family)
+- Bunker / AdvancedShelter / UndergroundShelter / Piston-BunkerUnderground
+- NuclearPowerPlant
+- RadioTelescope military encounter
+
+Enemy layer:
+- MCHeli foot gunners (marker 13)
+- Turret Mod defenses (markers 0/1/10/11)
+- MCHeli ground vehicles / tanks / helicopters (2/3/12)
+- marker 4 resolves through the MCHeli garrison path; bow-skeleton fallback is disabled
+
+Targeting:
+- generated defenders prioritize Vagrant players
+- SRParasites and ordinary hostile vanilla mobs remain valid defensive fallback targets
+- non-Vagrant human players are never selected as military-defense targets
+
+Bunker sanitation:
+- every bunker family now contains/reaches at least one marker 13
+- marker 13 creates a persistent 48-block horizontal military-zone anchor
+- ambient vanilla hostile mobs and SRParasites are suppressed inside anchored bunker zones
+- this prevents biome husks/zombies/etc. from replacing the intended MCHeli defenders
+
+Foot gunner weapon:
+- old vanilla arrow surrogate removed
+- real MCHeli weapon instances are used through the reflection bridge
+- default weapon pool: mg7_62mm,m60_r
+- gunners pursue the selected Vagrant and fire real MCHeli bullets/sounds
+
+Biome placement cleanup:
+- Nuclear Blight no longer generates bunkers, NuclearPowerPlant or Quarry
+- military bunkers/NPP are concentrated in Wasteland / Rocky Plains
+- Rocky Plains no longer has ambient SRParasites natural spawn
+
+2) HUMAN / INFECTED RAID ZONES
+-------------------------------
+Primary zones:
+- Nuclear Ruins
+- Ruins of Blight
+- Nuclear Blight infected industrial region
+
+Enemy layer:
+- parasite structure spawners / SRParasites encounters
+- human parasite boss marker 9 remains in the infected megacity
+- human completion loot/reward side remains HUMAN
+
+Nuclear Blight is now kept free of the military bunker/NPP/Quarry encounter roots, so its
+natural SRParasites spawn is not mixed with Vagrant military-clear structures.
+
+3) NEUTRAL / COMMON RAID ZONES
+-------------------------------
+- Dungeon01 / DungeonSpawner02 / Dungeon03 use neutral hostile marker 14
+- Brutal Tower uses neutral hostiles and marker 15 Wither boss
+- Quarry keeps its restored vanilla skeleton / wither-skeleton population
+- neutral mobs target either player faction
+
+4) DELIBERATE CITY-ROAD EXCEPTION
+---------------------------------
+The infected megacity still contains the previously requested rare city patrol tank marker 6
+and parked-car marker 7 on roads. The parasite skyscraper/boss layer remains the HUMAN raid
+content, while the rare road tank is a Vagrant-targeting patrol. This is the only intentional
+cross-faction military presence retained inside the megacity.
+
+5) OCEAN / INITIAL SPAWN
+------------------------
+- Polluted Ocean was removed from normal BiomeGroup selection
+- Polluted Ocean remains only DefaultOceanBiome / DefaultFrozenOceanBiome
+- LandRarity is 99 (rare true ocean instead of fully disabling it)
+- server-side spawn guard relocates an ocean/water world spawn to solid non-ocean land
+  within an expanding search up to 2048 blocks
+- login backup guard moves only a player still at the initial spawn area if OTG finalized an
+  unsafe ocean spawn after WorldEvent.Load

@@ -1,0 +1,6 @@
+DregoraRL: SRP Manhunt Edition 3.10.3
+
+Fixes OTG 1.12.2 biome registry exhaustion.
+All 947 Dregora biome configs are now virtual biomes using valid installed registry targets (Minecraft or SRParasites).
+ReplaceToBiomeName and InheritMobsBiomeName no longer contain block registry names or references to absent RLCraft biome mods.
+Terrain, biome placement, BO3/BO4 structures and resources remain controlled by the individual Dregora configs.

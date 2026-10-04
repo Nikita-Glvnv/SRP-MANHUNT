@@ -1,9 +1,9 @@
 {
   "internalName": "lev.939_pab9",
   "maxStackSize": 50,
-  "bulletDamageFactor": 8.5,
+  "bulletDamageFactor": 38,
   "bulletAccuracyFactor": 1.4,
-  "bulletPenetrateFactor": 1.5,
+  "bulletPenetrateFactor": 15,
   "bulletBlockPenetrateFactor": 2,
   "displayName": "9x39 PAB-9",
   "renderBulletModel": true,

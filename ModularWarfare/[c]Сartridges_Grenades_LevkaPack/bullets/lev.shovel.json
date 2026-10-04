@@ -4,7 +4,7 @@
   "displayName": "Shovel",
   "renderBulletModel": true,
   "projectileVelocity": 3,
-  "impactDamage": 8,
+  "impactDamage": 10,
   "explosionStrength": 0.0,
   "gravity": -0.1,
   "isSmoke": false,
@@ -18,11 +18,15 @@
     }
   },
   "modelSkins": [
-        {
-            "internalName": "lev.shovel",
-            "skinAsset": "lev.shovel",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
-    ]
+    {
+      "internalName": "lev.shovel",
+      "skinAsset": "lev.shovel",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

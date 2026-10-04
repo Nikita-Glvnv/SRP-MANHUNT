@@ -1,0 +1,208 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: SRP Manhunt
+
+Description: 3.10.76 MG-UrbanMaster
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: randomY
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: false
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: true
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-512,0,-768,false,I79-Junction-0045,NORTH,100.0,32)
+Branch(-512,0,0,false,I79-Junction-0133,NORTH,100.0,32)
+Branch(-512,0,768,false,I79-Junction-0218,NORTH,100.0,32)
+Branch(0,0,-768,false,I79-Junction-0309,NORTH,100.0,32)
+Branch(0,0,0,false,I79-Junction-0394,NORTH,100.0,32)
+Branch(0,0,768,false,I79-Junction-0479,NORTH,100.0,32)
+Branch(512,0,-768,false,I79-Junction-0530,NORTH,100.0,32)
+Branch(512,0,0,false,I79-Junction-0615,NORTH,100.0,32)
+Branch(512,0,768,false,I79-Junction-0700,NORTH,100.0,32)
+Branch(-272,0,-816,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(-224,0,-816,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(240,0,-816,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(288,0,-816,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(-272,0,-48,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(-224,0,-48,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(240,0,-48,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(288,0,-48,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(-272,0,720,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(-224,0,720,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(240,0,720,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(288,0,720,false,MG-LinkC0R2,EAST,100.0,32)
+Branch(-464,0,-448,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(-464,0,-400,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(-464,0,320,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(-464,0,368,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(48,0,-448,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(48,0,-400,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(48,0,320,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(48,0,368,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(560,0,-448,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(560,0,-400,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(560,0,320,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(560,0,368,false,MG-LinkC0R2,SOUTH,100.0,32)
+Branch(-512,0,-1136,false,I79-Junction-0702,NORTH,100.0,32)
+Branch(-464,0,1088,false,I79-Junction-0706,SOUTH,100.0,32)
+Branch(0,0,-1136,false,I79-Junction-0708,NORTH,100.0,32)
+Branch(48,0,1088,false,I79-Junction-0710,SOUTH,100.0,32)
+Branch(512,0,-1136,false,I79-Junction-0714,NORTH,100.0,32)
+Branch(560,0,1088,false,I79-Junction-0716,SOUTH,100.0,32)
+Branch(-704,0,-768,false,I79-Junction-0720,WEST,100.0,32)
+Branch(752,0,-816,false,I79-Junction-0724,EAST,100.0,32)
+Branch(-704,0,0,false,I79-Junction-0728,WEST,100.0,32)
+Branch(752,0,-48,false,I79-Junction-0732,EAST,100.0,32)
+Branch(-704,0,768,false,I79-Junction-0736,WEST,100.0,32)
+Branch(752,0,720,false,I79-Junction-0740,EAST,100.0,32)
+Branch(-448,0,-1024,false,park_3x3_01,NORTH,100.0,32)
+Branch(64,0,-1024,false,park_3x3_01,NORTH,100.0,32)
+Branch(576,0,-1024,false,park_3x3_01,NORTH,100.0,32)
+Branch(-448,0,-944,false,park_3x3_01,NORTH,100.0,32)
+Branch(64,0,-944,false,park_3x3_01,NORTH,100.0,32)
+Branch(576,0,-944,false,park_3x3_01,NORTH,100.0,32)
+Branch(-560,0,-640,false,park_3x3_01,NORTH,100.0,32)
+Branch(-48,0,-640,false,park_3x3_01,NORTH,100.0,32)
+Branch(464,0,-640,false,park_3x3_01,NORTH,100.0,32)
+Branch(-560,0,-560,false,park_3x3_01,NORTH,100.0,32)
+Branch(-48,0,-560,false,park_3x3_01,NORTH,100.0,32)
+Branch(464,0,-560,false,park_3x3_01,NORTH,100.0,32)
+Branch(-448,0,-256,false,park_3x3_01,NORTH,100.0,32)
+Branch(64,0,-256,false,park_3x3_01,NORTH,100.0,32)
+Branch(576,0,-256,false,park_3x3_01,NORTH,100.0,32)
+Branch(-448,0,-176,false,park_3x3_01,NORTH,100.0,32)
+Branch(64,0,-192,false,park_2x2_01,NORTH,100.0,32)
+Branch(576,0,-192,false,park_2x2_01,NORTH,100.0,32)
+Branch(0,0,0,false,I79-Master,NORTH,100.0,32)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

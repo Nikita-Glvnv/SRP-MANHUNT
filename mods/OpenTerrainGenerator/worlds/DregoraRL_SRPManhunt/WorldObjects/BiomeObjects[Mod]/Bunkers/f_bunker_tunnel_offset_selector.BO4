@@ -1,0 +1,53 @@
+#######################################################################
+# BO4 compatibility shim for OTG 1.12.
+# Keeps the original visual branch at Z+48 while respecting the
+# BO4WeightedBranchFunction X/Z range of -32..32.
+#######################################################################
+
+Author: DregoraRL-SRPManhunt
+Description: Invisible OTG compatibility selector for f_bunker_tunnel
+SettingsMode: WriteDisable
+
+FixedRotation:
+Frequency: 0
+SpawnHeight: highestSolidBlock
+UseCenterForHighestBlock: false
+MinHeight: 0
+MaxHeight: 255
+InheritBO3:
+InheritBO3Rotation: NORTH
+OverrideChildSettings: false
+OverrideParentHeight: false
+CanOverride: false
+BranchFrequency: 0
+BranchFrequencyGroup:
+MustBeBelowOther: false
+MustBeInside:
+CannotBeInside:
+ReplacesBO3:
+MustBeInsideWorldBorders: true
+CanSpawnOnWater: true
+SpawnOnWaterOnly: false
+SpawnUnderWater: false
+SpawnAtWaterLevel: false
+HeightOffset: 0
+RemoveAir: false
+ReplaceAbove:
+ReplaceBelow:
+ReplaceWithBiomeBlocks: false
+ReplaceWithSurfaceBlock:
+ReplaceWithGroundBlock:
+ReplaceWithStoneBlock:
+SmoothRadius: 0
+SmoothHeightOffset: 0
+SmoothStartTop: false
+SmoothStartWood: false
+SmoothingSurfaceBlock:
+SmoothingGroundBlock:
+BO3Group:
+DoReplaceBlocks: true
+
+#######################################################################
+# Branches
+#######################################################################
+WeightedBranch(0,0,16,true,DeepTunnel_Straight_30,NORTH,38.0,0,DeepTunnel_Straight_50,NORTH,62.0,0,100.0)

@@ -1,0 +1,336 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: SRP Manhunt
+
+Description: Authentic Dregora industrial-edge satellite district
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: false
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: true
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(-176,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-160,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-144,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-128,0,-128,false,EO-CollectorES,NORTH,100.0,32)
+Branch(-128,0,-112,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,-96,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(-128,0,-80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,-64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,-48,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,-32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,-16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,0,false,EO-CollectorNESW,NORTH,100.0,32)
+Branch(-128,0,16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,48,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,96,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(-128,0,112,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-128,0,128,false,EO-CollectorNE,NORTH,100.0,32)
+Branch(-112,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-112,0,0,false,EO-CollectorEWLamp,NORTH,100.0,32)
+Branch(-112,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-96,0,-128,false,EO-CollectorEWLamp,NORTH,100.0,32)
+Branch(-96,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-96,0,128,false,EO-CollectorEWLamp,NORTH,100.0,32)
+Branch(-80,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-80,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-80,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-64,0,-128,false,EO-CollectorESW,NORTH,100.0,32)
+Branch(-64,0,-112,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,-96,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,-80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,-64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,-48,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(-64,0,-32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,-16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,0,false,EO-CollectorNESW,NORTH,100.0,32)
+Branch(-64,0,16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,48,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(-64,0,64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,96,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,112,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(-64,0,128,false,EO-CollectorNEW,NORTH,100.0,32)
+Branch(-48,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-48,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-48,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-32,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-32,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-32,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-16,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-16,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-16,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(0,0,-128,false,EO-CollectorNESW,NORTH,100.0,32)
+Branch(0,0,-112,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(0,0,-96,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,-80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,-64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,-48,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,-32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,-16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,0,false,EO-CollectorNESW,NORTH,100.0,32)
+Branch(0,0,16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,48,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,96,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(0,0,112,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(0,0,128,false,EO-CollectorNESW,NORTH,100.0,32)
+Branch(16,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(16,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(16,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(32,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(32,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(32,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(48,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(48,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(48,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(64,0,-128,false,EO-CollectorESW,NORTH,100.0,32)
+Branch(64,0,-112,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,-96,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,-80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,-64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,-48,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(64,0,-32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,-16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,0,false,EO-CollectorNESW,NORTH,100.0,32)
+Branch(64,0,16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,48,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(64,0,64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,96,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,112,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(64,0,128,false,EO-CollectorNEW,NORTH,100.0,32)
+Branch(80,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(80,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(80,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(96,0,-128,false,EO-CollectorEWLamp,NORTH,100.0,32)
+Branch(96,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(96,0,128,false,EO-CollectorEWLamp,NORTH,100.0,32)
+Branch(112,0,-128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(112,0,0,false,EO-CollectorEWLamp,NORTH,100.0,32)
+Branch(112,0,128,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(128,0,-128,false,EO-CollectorSW,NORTH,100.0,32)
+Branch(128,0,-112,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,-96,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(128,0,-80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,-64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,-48,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,-32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,-16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,0,false,EO-CollectorNESW,NORTH,100.0,32)
+Branch(128,0,16,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,32,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,48,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,64,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,80,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,96,false,EO-CollectorNSLamp,NORTH,100.0,32)
+Branch(128,0,112,false,EO-CollectorNS,NORTH,100.0,32)
+Branch(128,0,128,false,EO-CollectorNW,NORTH,100.0,32)
+Branch(144,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(160,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(176,0,0,false,EO-CollectorEW,NORTH,100.0,32)
+Branch(-112,0,-112,false,SUB-Barn,NORTH,100.0,32)
+Branch(-80,0,-112,false,SUB-Barn-ruined,WEST,100.0,32)
+Branch(-48,0,-112,false,SUB-MinersHut,SOUTH,100.0,32)
+Branch(-16,0,-112,false,SUB-LargeStoneTwoStoryHouse,EAST,100.0,32)
+Branch(16,0,-112,false,SUB-ThrownHouse2,NORTH,100.0,32)
+Branch(48,0,-112,false,SUB-Barn,WEST,100.0,32)
+Branch(80,0,-112,false,SUB-Barn-ruined,SOUTH,100.0,32)
+Branch(112,0,-112,false,SUB-MinersHut,EAST,100.0,32)
+Branch(-112,0,-80,false,SUB-LargeStoneTwoStoryHouse,SOUTH,100.0,32)
+Branch(-80,0,-80,false,SUB-ThrownHouse2,EAST,100.0,32)
+Branch(-48,0,-80,false,SUB-Barn,NORTH,100.0,32)
+Branch(-16,0,-80,false,SUB-Barn-ruined,WEST,100.0,32)
+Branch(16,0,-80,false,SUB-MinersHut,SOUTH,100.0,32)
+Branch(48,0,-80,false,SUB-LargeStoneTwoStoryHouse,EAST,100.0,32)
+Branch(80,0,-80,false,SUB-ThrownHouse2,NORTH,100.0,32)
+Branch(112,0,-80,false,SUB-Barn,WEST,100.0,32)
+Branch(-112,0,-48,false,SUB-Barn-ruined,NORTH,100.0,32)
+Branch(-80,0,-48,false,SUB-MinersHut,WEST,100.0,32)
+Branch(-48,0,-48,false,SUB-LargeStoneTwoStoryHouse,SOUTH,100.0,32)
+Branch(-16,0,-48,false,SUB-ThrownHouse2,EAST,100.0,32)
+Branch(16,0,-48,false,SUB-Barn,NORTH,100.0,32)
+Branch(48,0,-48,false,SUB-Barn-ruined,WEST,100.0,32)
+Branch(80,0,-48,false,SUB-MinersHut,SOUTH,100.0,32)
+Branch(112,0,-48,false,SUB-LargeStoneTwoStoryHouse,EAST,100.0,32)
+Branch(-112,0,-16,false,SUB-ThrownHouse2,SOUTH,100.0,32)
+Branch(-80,0,-16,false,SUB-Barn,EAST,100.0,32)
+Branch(-48,0,-16,false,SUB-Barn-ruined,NORTH,100.0,32)
+Branch(-16,0,-16,false,SUB-MinersHut,WEST,100.0,32)
+Branch(16,0,-16,false,SUB-LargeStoneTwoStoryHouse,SOUTH,100.0,32)
+Branch(48,0,-16,false,SUB-ThrownHouse2,EAST,100.0,32)
+Branch(80,0,-16,false,SUB-Barn,NORTH,100.0,32)
+Branch(112,0,-16,false,SUB-Barn-ruined,WEST,100.0,32)
+Branch(-112,0,16,false,SUB-MinersHut,NORTH,100.0,32)
+Branch(-80,0,16,false,SUB-LargeStoneTwoStoryHouse,WEST,100.0,32)
+Branch(-48,0,16,false,SUB-ThrownHouse2,SOUTH,100.0,32)
+Branch(-16,0,16,false,SUB-Barn,EAST,100.0,32)
+Branch(16,0,16,false,SUB-Barn-ruined,NORTH,100.0,32)
+Branch(48,0,16,false,SUB-MinersHut,WEST,100.0,32)
+Branch(80,0,16,false,SUB-LargeStoneTwoStoryHouse,SOUTH,100.0,32)
+Branch(112,0,16,false,SUB-ThrownHouse2,EAST,100.0,32)
+Branch(-112,0,48,false,SUB-Barn,SOUTH,100.0,32)
+Branch(-80,0,48,false,SUB-Barn-ruined,EAST,100.0,32)
+Branch(-48,0,48,false,SUB-MinersHut,NORTH,100.0,32)
+Branch(-16,0,48,false,SUB-LargeStoneTwoStoryHouse,WEST,100.0,32)
+Branch(16,0,48,false,SUB-ThrownHouse2,SOUTH,100.0,32)
+Branch(48,0,48,false,SUB-Barn,EAST,100.0,32)
+Branch(80,0,48,false,SUB-Barn-ruined,NORTH,100.0,32)
+Branch(112,0,48,false,SUB-MinersHut,WEST,100.0,32)
+Branch(-112,0,80,false,SUB-LargeStoneTwoStoryHouse,NORTH,100.0,32)
+Branch(-80,0,80,false,SUB-ThrownHouse2,WEST,100.0,32)
+Branch(-48,0,80,false,SUB-Barn,SOUTH,100.0,32)
+Branch(-16,0,80,false,SUB-Barn-ruined,EAST,100.0,32)
+Branch(16,0,80,false,SUB-MinersHut,NORTH,100.0,32)
+Branch(48,0,80,false,SUB-LargeStoneTwoStoryHouse,WEST,100.0,32)
+Branch(80,0,80,false,SUB-ThrownHouse2,SOUTH,100.0,32)
+Branch(112,0,80,false,SUB-Barn,EAST,100.0,32)
+Branch(-112,0,112,false,SUB-Barn-ruined,SOUTH,100.0,32)
+Branch(-80,0,112,false,SUB-MinersHut,EAST,100.0,32)
+Branch(-48,0,112,false,SUB-LargeStoneTwoStoryHouse,NORTH,100.0,32)
+Branch(-16,0,112,false,SUB-ThrownHouse2,WEST,100.0,32)
+Branch(16,0,112,false,SUB-Barn,SOUTH,100.0,32)
+Branch(48,0,112,false,SUB-Barn-ruined,EAST,100.0,32)
+Branch(80,0,112,false,SUB-MinersHut,NORTH,100.0,32)
+Branch(112,0,112,false,SUB-LargeStoneTwoStoryHouse,WEST,100.0,32)
+Branch(80,0,80,false,WindMill,NORTH,100.0,32)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

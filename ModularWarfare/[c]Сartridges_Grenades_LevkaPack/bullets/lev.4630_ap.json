@@ -1,9 +1,9 @@
 {
   "internalName": "lev.4630_ap",
   "maxStackSize": 60,
-  "bulletDamageFactor": 4.0,
+  "bulletDamageFactor": 7.5,
   "bulletAccuracyFactor": 1.18,
-  "bulletPenetrateFactor": 1.5,
+  "bulletPenetrateFactor": 4,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "4.6x30 AP SX",
   "renderBulletModel": true,

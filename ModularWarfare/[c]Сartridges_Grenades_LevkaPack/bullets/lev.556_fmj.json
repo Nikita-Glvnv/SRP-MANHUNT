@@ -1,7 +1,7 @@
 {
   "internalName": "lev.556_fmj",
   "maxStackSize": 60,
-  "bulletDamageFactor": 3.8,
+  "bulletDamageFactor": 4.8,
   "bulletAccuracyFactor": 1.1,
   "displayName": "5.56x45 FMJ",
   "renderBulletModel": true,

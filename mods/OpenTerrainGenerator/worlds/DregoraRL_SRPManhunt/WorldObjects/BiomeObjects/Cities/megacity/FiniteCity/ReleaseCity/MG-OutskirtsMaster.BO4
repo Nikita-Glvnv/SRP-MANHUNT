@@ -1,0 +1,459 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: SRP Manhunt
+
+Description: 3.10.76 MG-OutskirtsMaster
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: randomY
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: false
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: true
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: 
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Branch(0,0,0,false,MG-OuterRegion--16--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--15--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--14--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--13--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--12--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+00,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--11-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--10--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--10--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--10--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--10--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--10-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--10-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--10-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+00,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--09-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+00,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--08-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--07-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--06--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--06--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--06--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--06-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--06-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--06-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--05--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--05--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--05--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--05-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--05-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--05-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04--13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04-+12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--04-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--03--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--03--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--03--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--03-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--03-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--03-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--02--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--02--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--02--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--02-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--02-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--02-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--01--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--01--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--01--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--01-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--01-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion--01-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--26,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--25,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--24,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--23,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--22,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--21,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--20,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--19,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--18,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--17,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--16,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--15,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+15,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+16,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+17,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+18,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+19,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+20,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+21,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+22,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+23,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+24,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+00-+25,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+01--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+01--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+01--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+01-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+01-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+01-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+02--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+02--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+02--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+02-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+02-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+02-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+03--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+03--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+03--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+03-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+03-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+03-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04--13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04-+12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+04-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+05--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+05--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+05--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+05-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+05-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+05-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+06-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+00,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+07-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+00,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+08-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+09--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+09--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+09--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+09--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+09-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+09-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+09-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--14,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+00,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+02,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+03,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+04,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+05,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+06,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+07,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+08,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+09,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+10,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+11,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+12,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+10-+13,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+11--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+12--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+13--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+14--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+15--01,NORTH,100.0,32)
+Branch(0,0,0,false,MG-OuterRegion-+16--01,NORTH,100.0,32)
+Branch(-1040,0,-1504,false,EO-DistrictNW,NORTH,100.0,32)
+Branch(1040,0,-1504,false,EO-DistrictNE,NORTH,100.0,32)
+Branch(-1040,0,1504,false,EO-DistrictSW,NORTH,100.0,32)
+Branch(1040,0,1504,false,EO-DistrictSE,NORTH,100.0,32)
+Branch(32,0,-1600,false,EO-GasStation,WEST,100.0,32)
+Branch(16,0,1600,false,EO-GasStation,EAST,100.0,32)
+Branch(-1536,0,0,false,EO-GasStation,NORTH,100.0,32)
+Branch(1536,0,-48,false,EO-GasStation,SOUTH,100.0,32)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

@@ -1,0 +1,24 @@
+DregoraRL SRP Manhunt 3.10.66
+OTG biome/stronghold startup hotfix
+
+The 3.10.65 clean-world crash was caused by four RiverBiome settings pointing
+to removed configs. OTG's standard river layer emitted biome ID -1, and the
+single-threaded stronghold biome search dereferenced that missing biome during
+spawn preparation.
+
+Fixed mappings:
+- Military Frontier -> River
+- Urban Canal -> River
+- Wasteland -> DesertRiver
+- Ruins of Blight Border -> Nuclear Creek
+
+The arena now generates exactly one stronghold:
+- StrongholdCount: 1
+- StrongholdDistance: 32.0
+- StrongholdSpread: 1
+
+Malformed ReplacedBlocks syntax in Nuclear Creek and Urban Canal and the stale
+Stone Beach "Jungle Edge" reference were also corrected. CityGrid, metro,
+roads, structures, loot and encounters are unchanged from 3.10.65.
+
+A completely new OTG world is required.

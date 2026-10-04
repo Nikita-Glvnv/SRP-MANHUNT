@@ -1,7 +1,7 @@
 {
   "internalName": "lev.76251_m82",
   "maxStackSize": 50,
-  "bulletDamageFactor": 8.7,
+  "bulletDamageFactor": 12.6,
   "bulletAccuracyFactor": 1.07,
   "bulletPenetrateFactor": 1.5,
   "bulletBlockPenetrateFactor": 3,

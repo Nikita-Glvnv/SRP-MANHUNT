@@ -1,7 +1,7 @@
 {
   "internalName": "lev.76239_t45m1",
   "maxStackSize": 50,
-  "bulletDamageFactor": 7.0,
+  "bulletDamageFactor": 9.0,
   "bulletAccuracyFactor": 1.08,
   "displayName": "7.62x39 T-45M1",
   "renderBulletModel": true,

@@ -1,9 +1,9 @@
 {
   "internalName": "lev.76251_m80",
   "maxStackSize": 50,
-  "bulletDamageFactor": 9.3,
+  "bulletDamageFactor": 20.5,
   "bulletAccuracyFactor": 1.05,
-  "bulletPenetrateFactor": 1.5,
+  "bulletPenetrateFactor": 8,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "7.62x51 M80",
   "renderBulletModel": true,

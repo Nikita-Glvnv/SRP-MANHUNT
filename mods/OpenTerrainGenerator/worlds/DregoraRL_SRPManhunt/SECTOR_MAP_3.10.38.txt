@@ -1,0 +1,36 @@
+DregoraRL SRP Manhunt 3.10.38 - FACTION-ISOLATED DENSE WORLDGEN
+
+Coverage: 20000 x 20000 blocks; WorldBorderRadius 625 chunks (10,000 nominal blocks from center).
+Natural terrain: DregoraRL 3.6 height/volatility/smoothing restored for Forest/Desert/Taiga/Savanna/Snow/Hills/River.
+East: dedicated Military Frontier -> mixed military terrain -> Military Core progression.
+West: single large infected metro; Industrial Outskirts inner belt; civilian City Outskirts outer belt; Urban Canal bridge biome.
+World spawn safety disk: 64 chunks (~1024 blocks) contains only Forest, Hills, Plains.
+Infected city-biome chunks: 129448; conservative CityGrid 8x8 capacity >= 2022.
+East audit window military-biome share: 95.51%.
+Swamp transition coverage: 0.81%; Urban Canal: 0.16%.
+
+Biome coverage:
+  Nuclear Ruins               67865 chunks   4.34%
+  Ruins of Blight             61583 chunks   3.94%
+  City Outskirts              31360 chunks   2.01%
+  Industrial Outskirts        27767 chunks   1.78%
+  Urban Canal                  2428 chunks   0.16%
+  Forest                      22417 chunks   1.43%
+  Plains                      71820 chunks   4.60%
+  Taiga                      167280 chunks  10.71%
+  Hills                       92450 chunks   5.92%
+  Snow                       244779 chunks  15.67%
+  Military Frontier           68711 chunks   4.40%
+  Military Forest             55971 chunks   3.58%
+  Military Plains             34615 chunks   2.22%
+  Military Taiga              21779 chunks   1.39%
+  Military Hills              27276 chunks   1.75%
+  Military Core               51811 chunks   3.32%
+  Wasteland                   76473 chunks   4.89%
+  Nuclear Blight              44189 chunks   2.83%
+  Desert                     220409 chunks  14.11%
+  Savanna                    113633 chunks   7.27%
+  Swamp                       12652 chunks   0.81%
+  Polluted Ocean              33999 chunks   2.18%
+  Deep Polluted Ocean          3613 chunks   0.23%
+  River                        7620 chunks   0.49%

@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.m203a1",
+  "category": "Attachments - Underbarrel Launchers",
+  "craftingTime": 300,
+  "output": {
+    "item": "modularwarfare:lev.m203a1",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 163
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 135
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 258
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

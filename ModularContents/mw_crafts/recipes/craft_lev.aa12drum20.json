@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.aa12drum20",
+  "category": "Magazines - Shotguns",
+  "craftingTime": 100,
+  "output": {
+    "item": "modularwarfare:lev.aa12drum20",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:gold_ingot",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 352
+    }
+  ]
+}

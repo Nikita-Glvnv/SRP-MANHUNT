@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.ai2",
+  "category": "Equipment - Medical",
+  "craftingTime": 150,
+  "output": {
+    "item": "modularwarfare:lev.ai2",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "modularwarfare:lev.promedol",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "modularwarfare:lev.sulfadimethoxine",
+      "count": 1,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:leather",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

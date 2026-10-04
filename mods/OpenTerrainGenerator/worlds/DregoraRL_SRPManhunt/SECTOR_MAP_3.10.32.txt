@@ -1,0 +1,54 @@
+DregoraRL SRP Manhunt 3.10.32 - FINAL SECTOR MAP
+
+Coverage: 5000 x 5000 image pixels = 20000 x 20000 blocks.
+Image offsets: -2500 / -2500 unzoomed OTG cells.
+Configured OTG border: 625 chunks (~9992 blocks from center).
+Every map cell is aligned to a complete 16 x 16 chunk.
+
+Macro centers (block coordinates):
+  infected city       -5440, -4800
+  military forest      5120, -5120
+  ocean                5760,  5440
+  wasteland           -5760,  5440
+  dungeon sector        320,  1280
+  oil-rig ocean         6720,  5760
+
+Sector counters:
+  city_core_chunks: 113063
+  city_sector_chunks: 396113
+  city_suburb_chunks: 104932
+  dungeon_sector_chunks: 137886
+  military_sector_chunks: 381685
+  ocean_sector_chunks: 328873
+  oil_patch_chunks: 4053
+  river_chunks: 16368
+  snow_core_chunks: 10557
+  wasteland_sector_chunks: 336795
+
+Final biome coverage:
+  Nuclear Ruins               58926 chunks    3.77%
+  Ruins of Blight             54137 chunks    3.46%
+  City Outskirts             104932 chunks    6.72%
+  Forest                     266499 chunks   17.06%
+  Plains                     293631 chunks   18.79%
+  Taiga                       70178 chunks    4.49%
+  Hills                       55080 chunks    3.53%
+  Snow                        10557 chunks    0.68%
+  Wasteland                  156249 chunks   10.00%
+  Nuclear Blight              64705 chunks    4.14%
+  Desert                      53415 chunks    3.42%
+  Savanna                     35676 chunks    2.28%
+  Swamp                        6331 chunks    0.41%
+  Polluted Ocean             311763 chunks   19.95%
+  Deep Polluted Ocean          4053 chunks    0.26%
+  River                       16368 chunks    1.05%
+
+Placement rules:
+  - CityGrid roots are restricted to one large infected core.
+  - City Outskirts forms suburbs and four utility corridors.
+  - Military roots live in Forest; open Plains remain neutral.
+  - Custom dungeons live in Taiga/Hills around the Snow tower core.
+  - Wasteland/Desert/Savanna/Nuclear Blight share the wasteland sector.
+  - Polluted Ocean owns monuments and underwater bases.
+  - Deep Polluted Ocean is the only OilRig biome patch.
+  - Rivers are explicit continuous image corridors.

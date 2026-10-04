@@ -1,7 +1,7 @@
 {
   "internalName": "lev.918_pst",
   "maxStackSize": 60,
-  "bulletDamageFactor": 3.8,
+  "bulletDamageFactor": 7.2,
   "displayName": "9x18 PM Pst",
   "renderBulletModel": true,
   "isDynamicBullet": false,
@@ -20,5 +20,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 8
 }

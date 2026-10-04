@@ -1,9 +1,9 @@
 {
   "internalName": "lev.79257_smkl",
   "maxStackSize": 50,
-  "bulletDamageFactor": 8.8,
+  "bulletDamageFactor": 13.7,
   "bulletAccuracyFactor": 1.07,
-  "bulletPenetrateFactor": 1.5,
+  "bulletPenetrateFactor": 4,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "7.92x57 S.m.K.L'spur",
   "renderBulletModel": true,

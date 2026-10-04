@@ -1,0 +1,13 @@
+DregoraRL SRP Manhunt 3.10.74 - terrain roads + authentic Dregora suburbs
+
+- All ExpandedOutskirts road surfaces moved from local Y=16 to Y=0.
+- Every road chunk uses highestSolidBlock + OverrideParentHeight:true.
+- SmoothRadius 5 and ReplaceBelow:STONE provide cut/fill terrain blending and support.
+- Artificial five-block radial ramps removed; roads now follow local terrain chunk-by-chunk.
+- Collector marking rebuilt: white edges, dashed yellow centre, exact L/T/X topology.
+- District corners and T-junctions no longer paint unused road stubs.
+- Outer orbital corners are real L bends, not four-way intersections.
+- Temporary EO suburban houses/apartments/factories/motels removed from generation.
+- Authentic DregoraRL 3.6 DaerocVillage, AcaciaVillage, JungleVillage, PlainsFarm, WindMill and curated original one-chunk houses/farm buildings imported.
+- Gas station rebuilt with road-facing forecourt and MCHeli CE fuel_truck marker.
+- MCHeli reflection bridge now supports plane content fuel_truck without a hard MCHeli dependency.

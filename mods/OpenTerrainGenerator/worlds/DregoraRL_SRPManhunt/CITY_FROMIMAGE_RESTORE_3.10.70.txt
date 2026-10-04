@@ -1,0 +1,34 @@
+DregoraRL SRP Manhunt 3.10.70 — CITY / ROADS / OUTSKIRTS RUNTIME RESTORE
+
+ROOT CAUSE
+- WorldConfig used BiomeMode: Normal although the project was authored as a
+  bounded FromImage sector preset.
+- The bundled preset did not contain map.png.
+- Only Coast, DesertCoast and DesertRiver were registered in CustomBiomes;
+  Ruins of Blight and the other 15 Manhunt biomes were therefore unavailable.
+- CityGrid is selected only by Ruins of Blight, so OTG never reached the city
+  root, its roads, metro, highways or outskirts branches.
+- SpawnPointSet=true and Java code then forced the player toward (0,0), hiding
+  the western city sector even if a stale installation still contained a map.
+
+FIX
+- Restored a 2504x2504 exact-colour indexed map.png for the 10K world.
+- Restored FromImage / North / -1252,-1252 configuration.
+- Registered all Manhunt virtual biomes at OTG generation IDs 256-271.
+- Made all BiomeColor values unique for FromImage lookup.
+- Restored OTG ownership of spawn and removed the hard-coded zero-coordinate
+  city assumption.
+- CityGrid Frequency=1 plus manhunt_city:313 guarantees one root inside the
+  single Ruins of Blight region without recurring cities.
+
+EXPECTED LOCATION
+- The infected city sector is in the west, centred approximately around
+  X=-2960, Z=-192.
+- On a completely new world OTG should set the initial spawn at the CityGrid
+  root; first-login safety logic searches road columns relative to that real
+  root rather than relative to (0,0).
+
+IMPORTANT
+- Existing worlds and existing OTG preset folders retain generated chunks and
+  structure caches. Delete the old world and allow version 3.10.70 to replace
+  mods/OpenTerrainGenerator/worlds/DregoraRL_SRPManhunt before testing.

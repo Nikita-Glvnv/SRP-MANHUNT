@@ -1,7 +1,7 @@
 {
   "internalName": "lev.12g76_62mm",
   "maxStackSize": 40,
-  "bulletDamageFactor": 1.9,
+  "bulletDamageFactor": 2.4,
   "bulletAccuracyFactor": 0.7,
   "displayName": "12/76 Buckshot Magnum 6.2mm",
   "renderBulletModel": true,
@@ -22,5 +22,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 4
 }

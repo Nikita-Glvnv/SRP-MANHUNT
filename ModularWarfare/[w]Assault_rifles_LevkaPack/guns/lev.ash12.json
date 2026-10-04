@@ -1,217 +1,214 @@
 {
-    "internalName": "lev.ash12",
-    "displayName": "ASh-12",
-    "weaponType": "carbine",
-	"animationType": "enhanced",
-    "customFlashTexture": "lev.battlecraft.flash",
-	
-    "gunDamage": 1.0,
-    "gunDamageHeadshotBonus": 0.5,
-    "gunPenetrateSize": 1.0,
-    "gunPenetrationDamageFalloff": true,
-    "gunMaxPenetrateBlockResistance": 0.5,
-    "gunPenetrateBlocksResistance": 1.0,
-    "roundsPerMin": 500,
-	"gunHoldLength": 1.0,
-	
-	"useNewRecoilSystem": true,
-	"useEnhancedAiming": true,
-
-	"viewKickPitchScale": 0.25,
-    "recoilPitch": 15.7,
-    "recoilYaw": 165.0,
-    "randomRecoilPitch": 0.02,
-    "randomRecoilYaw": 0.055,
-    "antiRecoilFactor": 15.0,
-    "antiRecoilStartTime": 50,
-    "bulletSpread": 1.8,
-    "accuracySneakFactor": 0.9,
-	"accuracyAimFactor": 0.2,
-    "weaponMaxRange": 120,
-    "weaponEffectiveRange": 65,
-	"allowSprintFiring": false,
-	"allowReloadFiring": false,
-	"allowReloadSprint": true,
-	"allowAimingSprint": false,
-	
-	"modifyUnloadBullets": 0,
-	
-    "moveSpeedModifier": 0.97,
-
-    "fireModes": [
-        "full",
-		"semi"
-    ],
-    "acceptedAmmo": [
-        "lev.127ashmag10",
-		"lev.127ashmag20"
-    ],
-	"allowEmptyMagazines": true,
-	
-    "dropBulletCasing": true,
-    "shellEjectOffsetNormal": {
-        "x": 0,
-        "y": -20,
-        "z": -20
-    },
-    "shellEjectOffsetAiming": {
-        "x": -0.2,
-        "y": 0.12,
-        "z": 0.5
-    },
-     "weaponSoundMap": {
-        "weaponFire": [
-            {
-                "soundEvent": "weaponFire",
-                "soundName": "lev.ash12shoot",
-                "soundNameDistant": "lev.ash12shootfar",
-                "soundRange": 100,
-                "soundMaxRange": 180,
-                "soundFadeMultiplier": 1
-            }
-        ],
-        "weaponFireSuppressed": [
-            {
-                "soundEvent": "weaponFireSuppressed",
-                "soundName": "lev.ash12supshoot",
-                "soundRange": 50,
-                "soundMaxRange": 80,
-                "soundFadeMultiplier": 1
-                 }
-		 ],
-		"weaponDraw": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.draw"
-            }
-        ],
-		"weaponTakedown": [
-            {
-                "soundEvent": "weaponDraw",
-                "soundName": "lev.takedown"
-            }
-        ],
-		"weaponPreUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.ash12unload"
-            }
-        ],
-		"weaponUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.nothing"
-            }
-],
-		"inspect": [
-			{
-				"soundEvent": "inspect",
-				"soundName": "lev.grozainspect"
-			}
-        ],
-        "weaponPreLoad": [
-            {
-                "soundEvent": "weaponPreLoad",
-                "soundName": "lev.ash12load"
-            }
-        ],
-		"weaponDryFire": [
-            {
-                "soundEvent": "weaponDryFire",
-                "soundName": "lev.dryfire"
-            }
-        ],
-		"weaponLoad": [
-            {
-                "soundEvent": "weaponLoad",
-                "soundName": "lev.nothing"
-            }
-        ],
-		"weaponPreReload": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.ash12prerel"
-			}
-		],
-		"weaponReload": [
-			{
-				"soundEvent": "weaponReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponReloadSecond": [
-			{
-				"soundEvent": "weaponReloadSecond",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReload": [
-			{
-				"soundEvent": "weaponPostReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPreReloadEmpty": [
-			{
-				"soundEvent": "weaponPreReloadEmpty",
-				"soundName": "lev.ash12fullrel"
-			}
-		]
-    },
-    "acceptedAttachments": {
-        "barrel": [
-		"lev.ashcomp",
-		"lev.ashsup"
-        ],
-        "sight": [
-	     "lev.barska",
-		 "lev.deltapoint",
-	     "lev.okp",
-	     "lev.microh1",
-	     "lev.microh2",
-	     "lev.eotech",
-		 "lev.trijiconrmr",
-		 "lev.mtprism",
-		 "lev.valday",
-	     "lev.elcan",
-		 "lev.elcanb",
-		 "lev.vudu",
-		 "lev.nightforce",
-		 "lev.sbrpm",
-		 "lev.sbrpm_fde",
-		 "lev.dedal3x12"
-        ],
-        "grip": [
-            "lev.afg",
-            "lev.afg_fde",
-            "lev.fortis_shift",
-			"lev.uvg",
-			"lev.se5",
-            "lev.rk0",
-            "lev.rk2",
-            "lev.rk6",
-			"lev.sturmgriff",
-			"lev.sturmgriff_fde"
-        ],
-        "laser": [
-            "lev.perst3",
-            "lev.anpeq",
-            "lev.la5bpeq",
-            "lev.ogl",
-			"lev.klesh",
-			"lev.gtl21",
-			"lev.ncstarbluelaser"
-        ]
-    },
-  "defaultAttachments": {
-	  "barrel": "lev.ashcomp"
+  "internalName": "lev.ash12",
+  "displayName": "ASh-12",
+  "weaponType": "carbine",
+  "animationType": "enhanced",
+  "customFlashTexture": "lev.battlecraft.flash",
+  "gunDamage": 1.0,
+  "gunDamageHeadshotBonus": 0.5,
+  "gunPenetrateSize": 3.0,
+  "gunPenetrationDamageFalloff": true,
+  "gunMaxPenetrateBlockResistance": 0.5,
+  "gunPenetrateBlocksResistance": 1.0,
+  "roundsPerMin": 500,
+  "gunHoldLength": 1.0,
+  "useNewRecoilSystem": true,
+  "useEnhancedAiming": true,
+  "viewKickPitchScale": 0.25,
+  "recoilPitch": 15.7,
+  "recoilYaw": 165.0,
+  "randomRecoilPitch": 0.02,
+  "randomRecoilYaw": 0.055,
+  "antiRecoilFactor": 15.0,
+  "antiRecoilStartTime": 50,
+  "bulletSpread": 1.8,
+  "accuracySneakFactor": 0.9,
+  "accuracyAimFactor": 0.2,
+  "weaponMaxRange": 120,
+  "weaponEffectiveRange": 65,
+  "allowSprintFiring": false,
+  "allowReloadFiring": false,
+  "allowReloadSprint": true,
+  "allowAimingSprint": false,
+  "modifyUnloadBullets": 0,
+  "moveSpeedModifier": 0.97,
+  "fireModes": [
+    "full",
+    "semi"
+  ],
+  "acceptedAmmo": [
+    "lev.127ashmag10",
+    "lev.127ashmag20"
+  ],
+  "allowEmptyMagazines": true,
+  "dropBulletCasing": true,
+  "shellEjectOffsetNormal": {
+    "x": 0,
+    "y": -20,
+    "z": -20
   },
-    "modelSkins": [
-        {
-            "internalName": "lev.ash12",
-            "skinAsset": "lev.ash12",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "lev.ash12shoot",
+        "soundNameDistant": "lev.ash12shootfar",
+        "soundRange": 100,
+        "soundMaxRange": 180,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "lev.ash12supshoot",
+        "soundRange": 50,
+        "soundMaxRange": 80,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponDraw": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.draw"
+      }
+    ],
+    "weaponTakedown": [
+      {
+        "soundEvent": "weaponDraw",
+        "soundName": "lev.takedown"
+      }
+    ],
+    "weaponPreUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.ash12unload"
+      }
+    ],
+    "weaponUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "inspect": [
+      {
+        "soundEvent": "inspect",
+        "soundName": "lev.grozainspect"
+      }
+    ],
+    "weaponPreLoad": [
+      {
+        "soundEvent": "weaponPreLoad",
+        "soundName": "lev.ash12load"
+      }
+    ],
+    "weaponDryFire": [
+      {
+        "soundEvent": "weaponDryFire",
+        "soundName": "lev.dryfire"
+      }
+    ],
+    "weaponLoad": [
+      {
+        "soundEvent": "weaponLoad",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreReload": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.ash12prerel"
+      }
+    ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponReloadSecond": [
+      {
+        "soundEvent": "weaponReloadSecond",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReload": [
+      {
+        "soundEvent": "weaponPostReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreReloadEmpty": [
+      {
+        "soundEvent": "weaponPreReloadEmpty",
+        "soundName": "lev.ash12fullrel"
+      }
     ]
+  },
+  "acceptedAttachments": {
+    "barrel": [
+      "lev.ashcomp",
+      "lev.ashsup"
+    ],
+    "sight": [
+      "lev.barska",
+      "lev.deltapoint",
+      "lev.okp",
+      "lev.microh1",
+      "lev.microh2",
+      "lev.eotech",
+      "lev.trijiconrmr",
+      "lev.mtprism",
+      "lev.valday",
+      "lev.elcan",
+      "lev.elcanb",
+      "lev.vudu",
+      "lev.nightforce",
+      "lev.sbrpm",
+      "lev.sbrpm_fde",
+      "lev.dedal3x12"
+    ],
+    "grip": [
+      "lev.afg",
+      "lev.afg_fde",
+      "lev.fortis_shift",
+      "lev.uvg",
+      "lev.se5",
+      "lev.rk0",
+      "lev.rk2",
+      "lev.rk6",
+      "lev.sturmgriff",
+      "lev.sturmgriff_fde"
+    ],
+    "laser": [
+      "lev.perst3",
+      "lev.anpeq",
+      "lev.la5bpeq",
+      "lev.ogl",
+      "lev.klesh",
+      "lev.gtl21",
+      "lev.ncstarbluelaser"
+    ]
+  },
+  "defaultAttachments": {
+    "barrel": "lev.ashcomp"
+  },
+  "modelSkins": [
+    {
+      "internalName": "lev.ash12",
+      "skinAsset": "lev.ash12",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

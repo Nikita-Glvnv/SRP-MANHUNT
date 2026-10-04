@@ -1,0 +1,32 @@
+{
+  "id": "craft_lev.gm94",
+  "category": "Weapons - Launchers",
+  "craftingTime": 400,
+  "output": {
+    "item": "modularwarfare:lev.gm94",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "thermalfoundation:material",
+      "count": 2,
+      "meta": 163
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 135
+    },
+    {
+      "item": "thermalfoundation:material",
+      "count": 1,
+      "meta": 258
+    },
+    {
+      "item": "thermalfoundation:storage_alloy",
+      "count": 2,
+      "meta": 0
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+{
+  "id": "craft_lev.aluminumsplint",
+  "category": "Equipment - Medical",
+  "craftingTime": 150,
+  "output": {
+    "item": "modularwarfare:lev.aluminumsplint",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:stick",
+      "count": 2,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

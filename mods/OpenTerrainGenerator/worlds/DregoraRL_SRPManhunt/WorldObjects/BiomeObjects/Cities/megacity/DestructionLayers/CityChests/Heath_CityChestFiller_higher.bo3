@@ -1,0 +1,98 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO3 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+Author: NLBlackEagle
+
+Description: No description given
+
+Version: 3
+
+SettingsMode: WriteDisable
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Tree: true
+
+Frequency: 100
+
+Rarity: 100.0
+
+RotateRandomly: false
+
+SpawnHeight: randomY
+
+SpawnHeightOffset: 0
+
+SpawnHeightVariance: 0
+
+##############################
+# Height Limits for the BO3. #
+##############################
+
+MinHeight: 150
+
+MaxHeight: 200
+
+######################
+######################
+
+ExtrudeMode: None
+
+ExtrudeThroughBlocks: AIR
+
+MaxBranchDepth: 10
+
+ExcludedBiomes: All
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                      Source block settings                      | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+SourceBlocks: AIR
+
+MaxPercentageOutsideSourceBlock: 0
+
+OutsideSourceBlock: placeAnyway
+
+DoReplaceBlocks: false
+
+IsOTGPlus: false
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+LightCheck(0,2,0,0,10)
+RandomBlock(0,2,0,minecraft:planks:5,../../../../../Chests/Loot/manhunt_residential_useful.nbt,2,minecraft:planks:5,../../../../../Chests/Loot/manhunt_laboratory_rare.nbt,2,minecraft:planks:5,../../../../../Chests/Loot/manhunt_human_strategic_cache.nbt,2,minecraft:planks:2,../../../../../Chests/Loot/manhunt_industrial_common.nbt,2,minecraft:planks:2,../../../../../Chests/Loot/manhunt_laboratory_common.nbt,2,CHEST:2,../../../../../Chests/Loot/manhunt_urban_junk.nbt,2,CHEST:2,../../../../../Chests/Loot/manhunt_infected_cache.nbt,15,CHEST:2,../../../../../Chests/Loot/manhunt_infected_cache.nbt,5,CHEST:2,../../../../../Chests/Loot/manhunt_residential_useful.nbt,10,CHEST:2,../../../../../Chests/Loot/manhunt_residential_common.nbt,15,CHEST:2,../../../../../Chests/Loot/manhunt_human_strategic_cache.nbt,10,CHEST:2,../../../../../Chests/Loot/manhunt_residential_useful.nbt,30,CHEST:2,../../../../../Chests/Loot/manhunt_human_strategic_cache.nbt,10,CHEST:2,../../../../../Chests/Loot/manhunt_laboratory_common.nbt,10,CHEST:2,../../../../../Chests/Loot/manhunt_human_strategic_cache.nbt,50,CHEST:2,../../../../../Chests/Loot/manhunt_residential_common.nbt,100)
+
+RandomBlock(0,1,0,MOB_SPAWNER:0,zombie_multi.nbt,5,MOB_SPAWNER:0,zombie_multi.nbt,10,MOB_SPAWNER:0,rupter.nbt,10,MOB_SPAWNER:0,abberation.nbt,10,MOB_SPAWNER:0,srp_maintenance_heath.nbt,30,MOB_SPAWNER:0,P_Heath.nbt,100)
+BlockCheck(0,0,0,CONCRETE,STEP:8,STEP:15)
+
+#Removed blockchecks for performance:  96:8,96:9,96:10,96:11,167:8,167:9,167:10,167:11
+
+
+
+
+
+
+
+
+
+
+

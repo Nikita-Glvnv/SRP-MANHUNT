@@ -1,8 +1,8 @@
 {
   "internalName": "lev.50bmg_m903",
   "maxStackSize": 30,
-  "bulletDamageFactor": 21.0,
-  "bulletPenetrateFactor": 1.5,
+  "bulletDamageFactor": 50.0,
+  "bulletPenetrateFactor": 4,
   "bulletBlockPenetrateFactor": 3,
   "bulletAccuracyFactor": 1.15,
   "displayName": "50 BMG M903 SLAP",

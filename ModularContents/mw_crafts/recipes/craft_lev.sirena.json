@@ -1,0 +1,27 @@
+{
+  "id": "craft_lev.sirena",
+  "category": "Equipment - Special",
+  "craftingTime": 250,
+  "output": {
+    "item": "modularwarfare:lev.sirena",
+    "count": 1,
+    "meta": 0
+  },
+  "inputs": [
+    {
+      "item": "minecraft:iron_ingot",
+      "count": 3,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:redstone",
+      "count": 3,
+      "meta": 0
+    },
+    {
+      "item": "minecraft:noteblock",
+      "count": 1,
+      "meta": 0
+    }
+  ]
+}

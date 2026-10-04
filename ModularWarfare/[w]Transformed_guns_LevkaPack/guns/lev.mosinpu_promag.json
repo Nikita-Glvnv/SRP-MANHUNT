@@ -1,19 +1,23 @@
 {
-    "internalName": "lev.mosinpu_promag",
-    "displayName": "Mosin Rifle PU (ProMag)",
-    "weaponType": "boltsniper",
-	"animationType": "enhanced",
-    "customFlashTexture": "lev.battlecraft.flash",
-	
-	  "transformations": {
+  "internalName": "lev.mosinpu_promag",
+  "displayName": "Mosin Rifle PU (ProMag)",
+  "weaponType": "boltsniper",
+  "animationType": "enhanced",
+  "customFlashTexture": "lev.battlecraft.flash",
+  "transformations": {
     "0": "lev.mosinpu",
     "1": "lev.mosinpu_clip",
     "2": "lev.mosinpu_promag"
   },
-
   "transformAmmoOptions": {
-    "0": { "ammoRatio": false, "sameAmmo": false },
-	"1": { "ammoRatio": false, "sameAmmo": false }
+    "0": {
+      "ammoRatio": false,
+      "sameAmmo": false
+    },
+    "1": {
+      "ammoRatio": false,
+      "sameAmmo": false
+    }
   },
   "transformationRequirements": {
     "2": {
@@ -21,184 +25,180 @@
     }
   },
   "customWheelTexture": "lev.m4a1icon",
- 
-    "gunDamage": 1.5,
-    "gunDamageHeadshotBonus": 0.5,
-    "gunPenetrateSize": 1.0,
-    "gunPenetrationDamageFalloff": true,
-    "gunMaxPenetrateBlockResistance": 0.5,
-    "gunPenetrateBlocksResistance": 1.0,
-    "roundsPerMin": 50,
-	"gunHoldLength": 1.8,
-	
-	"useNewRecoilSystem": true,
-	"useEnhancedAiming": true,
-	"viewKickPitchScale": 0.1,
-	"viewKickYawScale": 0.1,
-	
-	
-    "recoilPitch": 15.5,
-    "recoilYaw": 418,
-    "randomRecoilPitch": 0.02,
-    "randomRecoilYaw": 0.04,
-    "bulletSpread": 5.8,
-    "accuracySneakFactor": 0.9,
-	"accuracyAimFactor": 0.05,
-    "weaponMaxRange": 500,
-    "weaponEffectiveRange": 400,
-	"allowSprintFiring": false,
-	"allowReloadFiring": true,
-	"allowReloadSprint": true,
-	"allowAimingSprint": false,
-	
-	"modifyUnloadBullets": 0,
-	
-    "moveSpeedModifier": 0.93,
-	
-    "fireModes": [
-		"semi"
+  "gunDamage": 1.5,
+  "gunDamageHeadshotBonus": 0.5,
+  "gunPenetrateSize": 3.0,
+  "gunPenetrationDamageFalloff": true,
+  "gunMaxPenetrateBlockResistance": 0.5,
+  "gunPenetrateBlocksResistance": 1.0,
+  "roundsPerMin": 50,
+  "gunHoldLength": 1.8,
+  "useNewRecoilSystem": true,
+  "useEnhancedAiming": true,
+  "viewKickPitchScale": 0.1,
+  "viewKickYawScale": 0.1,
+  "recoilPitch": 15.5,
+  "recoilYaw": 418,
+  "randomRecoilPitch": 0.02,
+  "randomRecoilYaw": 0.04,
+  "bulletSpread": 5.8,
+  "accuracySneakFactor": 0.9,
+  "accuracyAimFactor": 0.05,
+  "weaponMaxRange": 500,
+  "weaponEffectiveRange": 400,
+  "allowSprintFiring": false,
+  "allowReloadFiring": true,
+  "allowReloadSprint": true,
+  "allowAimingSprint": false,
+  "modifyUnloadBullets": 0,
+  "moveSpeedModifier": 0.93,
+  "fireModes": [
+    "semi"
+  ],
+  "acceptedAmmo": [
+    "lev.promagmosin5",
+    "lev.promagmosin10"
+  ],
+  "allowEmptyMagazines": true,
+  "dropBulletCasing": true,
+  "shellEjectOffsetNormal": {
+    "x": 0,
+    "y": -20,
+    "z": -20
+  },
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "lev.sv98fire",
+        "soundNameDistant": "lev.sv98firefar",
+        "soundRange": 90,
+        "soundMaxRange": 180,
+        "soundFadeMultiplier": 1
+      }
     ],
-    "acceptedAmmo": [
-        "lev.promagmosin5",
-        "lev.promagmosin10"
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "lev.sv98supshoot",
+        "soundRange": 100,
+        "soundMaxRange": 100,
+        "soundFadeMultiplier": 1
+      }
     ],
-	"allowEmptyMagazines": true,
-	
-    "dropBulletCasing": true,
-    "shellEjectOffsetNormal": {
-        "x": 0,
-        "y": -20,
-        "z": -20
-    },
-    "shellEjectOffsetAiming": {
-        "x": -0.2,
-        "y": 0.12,
-        "z": 0.5
-    },
-     "weaponSoundMap": {
-        "weaponFire": [
-            {
-                "soundEvent": "weaponFire",
-                "soundName": "lev.sv98fire",
-                "soundNameDistant": "lev.sv98firefar",
-                "soundRange": 90,
-                "soundMaxRange": 180,
-                "soundFadeMultiplier": 1
-            }
-        ],
-        "weaponFireSuppressed": [
-            {
-                "soundEvent": "weaponFireSuppressed",
-                "soundName": "lev.sv98supshoot",
-                "soundRange": 100,
-                "soundMaxRange": 100,
-                "soundFadeMultiplier": 1
-                 }
-		 ],
     "weaponBolt": [
       {
         "soundEvent": "weaponBolt",
         "soundName": "lev.mosinbolt"
       }
     ],
-		"weaponDraw": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.draw"
-            }
-        ],
-		"weaponTakedown": [
-            {
-                "soundEvent": "weaponDraw",
-                "soundName": "lev.takedown"
-            }
-        ],
-		"weaponPreUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.mosinunloadpromag"
-            }
-        ],
-		"weaponUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.nothing"
-            }
-],
-		"inspect": [
-			{
-				"soundEvent": "inspect",
-				"soundName": "lev.inspect"
-			}
-        ],
-		"weaponDryFire": [
-            {
-                "soundEvent": "weaponDryFire",
-                "soundName": "lev.dryfire"
-            }
-        ],
-		"weaponLoad": [
-            {
-                "soundEvent": "weaponLoad",
-                "soundName": "lev.mosinloadpromag"
-            }
-        ],
-		"weaponPreReload": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.mosinprerelpromag"
-			}
-		],
-		"weaponPreReloadEmpty": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.mosinfullrelpromag"
-			}
-		],
-		"weaponReload": [
-			{
-				"soundEvent": "weaponReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponReloadSecond": [
-			{
-				"soundEvent": "weaponReloadSecond",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReload": [
-			{
-				"soundEvent": "weaponPostReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReloadEmpty": [
-			{
-				"soundEvent": "weaponPostReloadEmpty",
-				"soundName": "lev.nothing"
-			}
-		]
-    },
-    "acceptedAttachments": {
-        "barrel": [
-		"lev.bramit",
-		"lev.tppmosin"
-        ],
-        "sight": [
-		"lev.pu",
-		"lev.hortkvm30"
-        ]
-    },
+    "weaponDraw": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.draw"
+      }
+    ],
+    "weaponTakedown": [
+      {
+        "soundEvent": "weaponDraw",
+        "soundName": "lev.takedown"
+      }
+    ],
+    "weaponPreUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.mosinunloadpromag"
+      }
+    ],
+    "weaponUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "inspect": [
+      {
+        "soundEvent": "inspect",
+        "soundName": "lev.inspect"
+      }
+    ],
+    "weaponDryFire": [
+      {
+        "soundEvent": "weaponDryFire",
+        "soundName": "lev.dryfire"
+      }
+    ],
+    "weaponLoad": [
+      {
+        "soundEvent": "weaponLoad",
+        "soundName": "lev.mosinloadpromag"
+      }
+    ],
+    "weaponPreReload": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.mosinprerelpromag"
+      }
+    ],
+    "weaponPreReloadEmpty": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.mosinfullrelpromag"
+      }
+    ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponReloadSecond": [
+      {
+        "soundEvent": "weaponReloadSecond",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReload": [
+      {
+        "soundEvent": "weaponPostReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReloadEmpty": [
+      {
+        "soundEvent": "weaponPostReloadEmpty",
+        "soundName": "lev.nothing"
+      }
+    ]
+  },
+  "acceptedAttachments": {
+    "barrel": [
+      "lev.bramit",
+      "lev.tppmosin"
+    ],
+    "sight": [
+      "lev.pu",
+      "lev.hortkvm30"
+    ]
+  },
   "defaultAttachments": {
     "stock": "lev.mosinpromag"
   },
-    "modelSkins": [
-        {
-            "internalName": "lev.mosin",
-            "skinAsset": "lev.mosin",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
-    ]
+  "modelSkins": [
+    {
+      "internalName": "lev.mosin",
+      "skinAsset": "lev.mosin",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

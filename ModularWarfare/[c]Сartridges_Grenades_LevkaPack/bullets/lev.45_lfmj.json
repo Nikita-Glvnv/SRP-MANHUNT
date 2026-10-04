@@ -1,7 +1,7 @@
 {
   "internalName": "lev.45_lfmj",
   "maxStackSize": 60,
-  "bulletDamageFactor": 4.0,
+  "bulletDamageFactor": 5.0,
   "displayName": ".45ACP Lasermatch FMJ",
   "renderBulletModel": true,
   "isDynamicBullet": false,

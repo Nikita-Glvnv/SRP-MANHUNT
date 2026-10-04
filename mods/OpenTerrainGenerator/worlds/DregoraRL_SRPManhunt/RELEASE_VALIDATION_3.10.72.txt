@@ -1,0 +1,34 @@
+DregoraRL SRP Manhunt 3.10.72 — RELEASE VALIDATION
+
+CITY BOOTSTRAP
+- CityGrid registrations: 78/78 active biome configs, all chance 100.
+- IsSpawnPoint: true.
+- Unique radius: Frequency 1024; BO3Group manhunt_city:1024.
+- Priority reservation: 21x21 chunks, OTG sort area 400.
+- Largest competing required start: Quarry, 11x10 chunks, sort area 110.
+- Required reservation leaves: 4, empty, CanOverride true.
+- Real top-level systems: 5 optional isolated arms, maxDepth 256.
+- Optional normal/weighted city branches with maxDepth 0: 0.
+
+GRAPH
+- BO4 files: 1921.
+- BO4 branch targets: 2162.
+- Missing targets: 0.
+- Reachable CityGrid objects: 703.
+- Stale BO4Data: 0.
+
+FROMIMAGE
+- map.png: 2504x2504.
+- Map colors: 22; unknown colors: 0.
+- Registered Manhunt custom biomes: 16.
+- Duplicate BiomeColor values: 0.
+- World border radius: 313 chunks.
+
+BLOCKERS / SOURCE POLICY
+- Villages, rare buildings, woodland mansions, ocean monuments and Nether fortresses: disabled.
+- Strongholds and mineshafts: retained.
+- JAR files: 0.
+- __pycache__/pyc files: 0.
+
+LIMITATION
+This is a static source and graph audit. Forge/OTG runtime chunk generation was not executed in this environment. Test only with a completely new OTG world because existing worlds keep plotted-structure caches.

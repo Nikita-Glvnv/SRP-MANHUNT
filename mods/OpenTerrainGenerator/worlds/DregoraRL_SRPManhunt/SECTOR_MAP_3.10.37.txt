@@ -1,0 +1,26 @@
+DregoraRL SRP Manhunt 3.10.37 - ORIGINAL 3.6 PLAINS + DENSE CARDINAL SECTOR MAP
+
+Coverage: 20000 x 20000 blocks; WorldBorderRadius 625 chunks (10,000 nominal blocks from center).
+Layout: neutral mixed center; winter north; arid south; large infected metro west; mixed military east; rare polluted ocean south-east.
+World spawn safety disk: 64 chunks (~1024 blocks) contains only Forest, Hills, Plains.
+City utility corridors use City Outskirts; antennas/power lines are not assigned to open Forest/Plains.
+Infected inner metro contains 100005 city-biome chunks; conservative 8x8-grid capacity >=1562 (CityGrid Frequency 8).
+East-sector Forest share in fixed audit window: 45.63% (not an endless forest macro-zone).
+
+Biome coverage:
+  Nuclear Ruins               64992 chunks   4.16%
+  Ruins of Blight             59347 chunks   3.80%
+  City Outskirts              85169 chunks   5.45%
+  Forest                     142521 chunks   9.12%
+  Plains                     102665 chunks   6.57%
+  Taiga                      219797 chunks  14.07%
+  Hills                      141331 chunks   9.05%
+  Snow                       244000 chunks  15.62%
+  Wasteland                   75023 chunks   4.80%
+  Nuclear Blight              40896 chunks   2.62%
+  Desert                     217760 chunks  13.94%
+  Savanna                    119759 chunks   7.66%
+  Swamp                           0 chunks   0.00%
+  Polluted Ocean              35579 chunks   2.28%
+  Deep Polluted Ocean          3613 chunks   0.23%
+  River                       10048 chunks   0.64%

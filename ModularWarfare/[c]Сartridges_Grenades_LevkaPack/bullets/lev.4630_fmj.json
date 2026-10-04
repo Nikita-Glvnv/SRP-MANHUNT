@@ -1,7 +1,7 @@
 {
   "internalName": "lev.4630_fmj",
   "maxStackSize": 60,
-  "bulletDamageFactor": 3.6,
+  "bulletDamageFactor": 16.6,
   "displayName": "4.6x30 FMJ SX",
   "renderBulletModel": true,
   "isDynamicBullet": false,
@@ -20,5 +20,6 @@
         }
       ]
     }
-  }
+  },
+  "bulletPenetrateFactor": 15
 }

@@ -4,7 +4,7 @@
   "displayName": "40mm VOG-25M",
   "renderBulletModel": true,
   "projectileVelocity": 5,
-  "impactDamage": 34,
+  "impactDamage": 30.9,
   "explosionDamage": 35,
   "explosionRange": 15,
   "gravity": -0.05,
@@ -15,11 +15,15 @@
   "isDynamicBullet": true,
   "sameTextureAsGun": false,
   "modelSkins": [
-        {
-            "internalName": "lev.vog25m",
-            "skinAsset": "lev.vog25m",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
-    ]
+    {
+      "internalName": "lev.vog25m",
+      "skinAsset": "lev.vog25m",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

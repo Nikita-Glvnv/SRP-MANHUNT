@@ -1,7 +1,7 @@
 {
   "internalName": "lev.4630",
   "maxStackSize": 60,
-  "bulletDamageFactor": 3.2,
+  "bulletDamageFactor": 4.2,
   "displayName": "4.6x30 JSP SX",
   "renderBulletModel": true,
   "isDynamicBullet": false,

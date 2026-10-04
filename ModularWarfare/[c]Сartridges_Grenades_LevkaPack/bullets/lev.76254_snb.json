@@ -1,8 +1,8 @@
 {
   "internalName": "lev.76254_snb",
   "maxStackSize": 40,
-  "bulletDamageFactor": 11.2,
-  "bulletPenetrateFactor": 1.5,
+  "bulletDamageFactor": 24.4,
+  "bulletPenetrateFactor": 8,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "7.62x54R SNB",
   "renderBulletModel": true,

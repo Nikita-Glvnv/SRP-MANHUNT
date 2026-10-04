@@ -1,179 +1,174 @@
 {
-    "internalName": "lev.m1911",
-    "displayName": "M1911",
-    "weaponType": "carbine",
-	"animationType": "enhanced",
-    "customFlashTexture": "lev.battlecraft.flash",
-	
-    "gunDamage": 1.0,
-    "gunDamageHeadshotBonus": 0.6,
-	"gunPenetrateSize": 1.0,
-    "gunPenetrationDamageFalloff": true,
-    "gunMaxPenetrateBlockResistance": 0.5,
-    "gunPenetrateBlocksResistance": 1.0,
-    "roundsPerMin": 550,
-	"gunHoldLength": 0.5,
-	
-	"useNewRecoilSystem": true,
-	"useEnhancedAiming": true,
-
-    "recoilPitch": 10.7,
-    "recoilYaw": 240,
-    "randomRecoilPitch": 0.02,
-    "randomRecoilYaw": 0.04,
-    "bulletSpread": 2.8,
-    "accuracySneakFactor": 0.9,
-	"accuracyAimFactor": 0.4,
-    "weaponMaxRange": 80,
-    "weaponEffectiveRange": 30,
-	
-	"modifyUnloadBullets": 0,
-	
-    "moveSpeedModifier": 1,
-    "allowSprintFiring": true,
-	
-	"allowReloadFiring": false,
-	"allowReloadSprint": true,
-	"allowAimingSprint": false,
-	
-    "fireModes": [
-        "semi"
+  "internalName": "lev.m1911",
+  "displayName": "M1911",
+  "weaponType": "carbine",
+  "animationType": "enhanced",
+  "customFlashTexture": "lev.battlecraft.flash",
+  "gunDamage": 1.0,
+  "gunDamageHeadshotBonus": 0.6,
+  "gunPenetrateSize": 3.0,
+  "gunPenetrationDamageFalloff": true,
+  "gunMaxPenetrateBlockResistance": 0.5,
+  "gunPenetrateBlocksResistance": 1.0,
+  "roundsPerMin": 550,
+  "gunHoldLength": 0.5,
+  "useNewRecoilSystem": true,
+  "useEnhancedAiming": true,
+  "recoilPitch": 10.7,
+  "recoilYaw": 240,
+  "randomRecoilPitch": 0.02,
+  "randomRecoilYaw": 0.04,
+  "bulletSpread": 2.8,
+  "accuracySneakFactor": 0.9,
+  "accuracyAimFactor": 0.4,
+  "weaponMaxRange": 80,
+  "weaponEffectiveRange": 30,
+  "modifyUnloadBullets": 0,
+  "moveSpeedModifier": 1,
+  "allowSprintFiring": true,
+  "allowReloadFiring": false,
+  "allowReloadSprint": true,
+  "allowAimingSprint": false,
+  "fireModes": [
+    "semi"
+  ],
+  "acceptedAmmo": [
+    "lev.m1911mag"
+  ],
+  "allowEmptyMagazines": true,
+  "dropBulletCasing": true,
+  "shellEjectOffsetNormal": {
+    "x": 0,
+    "y": -20,
+    "z": -20
+  },
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "lev.m1911shoot",
+        "soundNameDistant": "lev.m1911shootfar",
+        "soundRange": 40,
+        "soundMaxRange": 90,
+        "soundFadeMultiplier": 1
+      }
     ],
-    "acceptedAmmo": [
-        "lev.m1911mag"
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "lev.sr1supshoot",
+        "soundRange": 20,
+        "soundMaxRange": 35,
+        "soundFadeMultiplier": 1
+      }
     ],
-	"allowEmptyMagazines": true,
-	
-    "dropBulletCasing": true,
-    "shellEjectOffsetNormal": {
-        "x": 0,
-        "y": -20,
-        "z": -20
-    },
-    "shellEjectOffsetAiming": {
-        "x": -0.2,
-        "y": 0.12,
-        "z": 0.5
-    },
-    "weaponSoundMap": {
-        "weaponFire": [
-            {
-                "soundEvent": "weaponFire",
-                "soundName": "lev.m1911shoot",
-                "soundNameDistant": "lev.m1911shootfar",
-                "soundRange": 40,
-                "soundMaxRange": 90,
-                "soundFadeMultiplier": 1
-            }
-        ],
-        "weaponFireSuppressed": [
-            {
-                "soundEvent": "weaponFireSuppressed",
-                "soundName": "lev.sr1supshoot",
-                "soundRange": 20,
-                "soundMaxRange": 35,
-                "soundFadeMultiplier": 1
-            }
-        ],
-        "weaponDraw": [
-            {
-                "soundEvent": "weaponDraw",
-                "soundName": "lev.draw_p"
-            }
-        ],
-		"weaponTakedown": [
-            {
-                "soundEvent": "weaponDraw",
-                "soundName": "lev.takedown_p"
-            }
-        ],
-		"weaponPreUnload": [
-            {
-                "soundEvent": "weaponPreUnload",
-                "soundName": "lev.m1911unload"
-            }
-        ],
-		"weaponUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.nothing"
-            }
-        ],
-        "weaponPreLoad": [
-            {
-                "soundEvent": "weaponPreLoad",
-                "soundName": "lev.m1911load"
-            }
-        ],
-		"weaponDryFire": [
-            {
-                "soundEvent": "weaponDryFire",
-                "soundName": "lev.pistoldry"
-            }
-        ],
-		"weaponLoad": [
-            {
-                "soundEvent": "weaponLoad",
-                "soundName": "lev.nothing"
-            }
-        ],
-		"inspect": [
-            {
-                "soundEvent": "inspect",
-                "soundName": "lev.inspect_p"
-            }
-        ],
-		"inspectEmpty": [
-			{
-				"soundEvent": "inspectEmpty",
-				"soundName": "lev.inspect_p"
-			}
-        ],
-		"weaponPreReload": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.m1911prerel"
-			}
-		],
-		"weaponPreReloadEmpty": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.m1911fullrel"
-			}
-		],
-		"weaponReload": [
-			{
-				"soundEvent": "weaponReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponReloadSecond": [
-			{
-				"soundEvent": "weaponReloadSecond",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReload": [
-			{
-				"soundEvent": "weaponPostReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReloadEmpty": [
-			{
-				"soundEvent": "weaponPostReloadEmpty",
-				"soundName": "lev.nothing"
-			}
-		]
-    },
-    "acceptedAttachments": {
-    },
-    "modelSkins": [
-        {
-            "internalName": "lev.m1911",
-            "skinAsset": "lev.m1911",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
+    "weaponDraw": [
+      {
+        "soundEvent": "weaponDraw",
+        "soundName": "lev.draw_p"
+      }
+    ],
+    "weaponTakedown": [
+      {
+        "soundEvent": "weaponDraw",
+        "soundName": "lev.takedown_p"
+      }
+    ],
+    "weaponPreUnload": [
+      {
+        "soundEvent": "weaponPreUnload",
+        "soundName": "lev.m1911unload"
+      }
+    ],
+    "weaponUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreLoad": [
+      {
+        "soundEvent": "weaponPreLoad",
+        "soundName": "lev.m1911load"
+      }
+    ],
+    "weaponDryFire": [
+      {
+        "soundEvent": "weaponDryFire",
+        "soundName": "lev.pistoldry"
+      }
+    ],
+    "weaponLoad": [
+      {
+        "soundEvent": "weaponLoad",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "inspect": [
+      {
+        "soundEvent": "inspect",
+        "soundName": "lev.inspect_p"
+      }
+    ],
+    "inspectEmpty": [
+      {
+        "soundEvent": "inspectEmpty",
+        "soundName": "lev.inspect_p"
+      }
+    ],
+    "weaponPreReload": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.m1911prerel"
+      }
+    ],
+    "weaponPreReloadEmpty": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.m1911fullrel"
+      }
+    ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponReloadSecond": [
+      {
+        "soundEvent": "weaponReloadSecond",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReload": [
+      {
+        "soundEvent": "weaponPostReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReloadEmpty": [
+      {
+        "soundEvent": "weaponPostReloadEmpty",
+        "soundName": "lev.nothing"
+      }
     ]
+  },
+  "acceptedAttachments": {},
+  "modelSkins": [
+    {
+      "internalName": "lev.m1911",
+      "skinAsset": "lev.m1911",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

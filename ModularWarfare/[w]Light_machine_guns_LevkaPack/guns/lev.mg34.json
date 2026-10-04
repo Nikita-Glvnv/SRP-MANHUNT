@@ -1,215 +1,211 @@
 {
-    "internalName": "lev.mg34",
-    "displayName": "MG34",
-    "weaponType": "carbine",
-	"animationType": "enhanced",
-    "customFlashTexture": "lev.battlecraft.flash",
-	
-	  "transformations": {
+  "internalName": "lev.mg34",
+  "displayName": "MG34",
+  "weaponType": "carbine",
+  "animationType": "enhanced",
+  "customFlashTexture": "lev.battlecraft.flash",
+  "transformations": {
     "0": "lev.mg34",
     "1": "lev.mg34_patronentrommel"
   },
-
   "transformAmmoOptions": {
-    "1": { "ammoRatio": false, "sameAmmo": false }
+    "1": {
+      "ammoRatio": false,
+      "sameAmmo": false
+    }
   },
   "transformationRequirements": {
     "1": {
       "charm": "lev.mg34patronentrommel"
     }
   },
-	
-    "gunDamage": 1.0,
-    "gunDamageHeadshotBonus": 0.5,
-    "gunPenetrateSize": 1.0,
-    "gunPenetrationDamageFalloff": true,
-    "gunMaxPenetrateBlockResistance": 0.5,
-    "gunPenetrateBlocksResistance": 1.0,
-    "roundsPerMin": 900,
-	"gunHoldLength": 1.8,
-	
-	"useNewRecoilSystem": true,
-	"useEnhancedAiming": true,
-
-	
-    "recoilPitch": 8.8,
-    "recoilYaw": 235.0,
-    "randomRecoilPitch": 0.01,
-    "randomRecoilYaw": 0.03,
-    "antiRecoilFactor": 15.0,
-    "antiRecoilStartTime": 10,
-    "bulletSpread": 2.4,
-    "accuracySneakFactor": 0.5,
-	"accuracyAimFactor": 0.1,
-	"accuracyCrawlFactor": 0.5,
-	"recoilCrawlYawFactor": 0.5,
-    "recoilCrawlPitchFactor": 0.2,
-    "weaponMaxRange": 300,
-    "weaponEffectiveRange": 160,
-	"allowSprintFiring": false,
-	"allowReloadFiring": false,
-	"allowReloadSprint": true,
-	"allowAimingSprint": false,
-	
-	"modifyUnloadBullets": 0,
-	
-    "moveSpeedModifier": 0.90,
-
-    "fireModes": [
-        "full"
-    ],
-    "acceptedAmmo": [
-        "lev.gurttrommel34"
-    ],
-	"allowEmptyMagazines": true,
-	
-    "dropBulletCasing": true,
-    "shellEjectOffsetNormal": {
-        "x": 0,
-        "y": -20,
-        "z": -20
-    },
-    "shellEjectOffsetAiming": {
-        "x": -0.2,
-        "y": 0.12,
-        "z": 0.5
-    },
-     "weaponSoundMap": {
-        "weaponFire": [
-            {
-                "soundEvent": "weaponFire",
-                "soundName": "lev.mg42shoot",
-                "soundNameDistant": "lev.mg42shootfar",
-                "soundRange": 100,
-                "soundMaxRange": 160,
-                "soundFadeMultiplier": 1
-            }
-        ],
-        "weaponFireSuppressed": [
-            {
-                "soundEvent": "weaponFireSuppressed",
-                "soundName": "lev.pkpsupshoot",
-                "soundRange": 70,
-                "soundMaxRange": 70,
-                "soundFadeMultiplier": 1
-                 }
-		 ],
-		"weaponDraw": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.mg42draw"
-            }
-        ],
-		"weaponDrawEmpty": [
-            {
-                "soundEvent": "weaponDrawEmpty",
-                "soundName": "lev.mg42drawempty"
-            }
-        ],
-		"weaponTakedown": [
-            {
-                "soundEvent": "weaponDraw",
-                "soundName": "lev.mg42takedown"
-            }
-        ],
-		"weaponPreUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.mg42unload"
-            }
-        ],
-		"weaponUnload": [
-            {
-                "soundEvent": "weaponUnload",
-                "soundName": "lev.nothing"
-            }
-],
-		"inspect": [
-			{
-				"soundEvent": "inspect",
-				"soundName": "lev.mg42inspect"
-			}
-        ],
-		"inspectEmpty": [
-			{
-				"soundEvent": "inspectEmpty",
-				"soundName": "lev.mg42inspectempty"
-			}
-        ],
-        "weaponPreLoad": [
-            {
-                "soundEvent": "weaponPreLoad",
-                "soundName": "lev.mg42load"
-            }
-        ],
-		"weaponDryFire": [
-            {
-                "soundEvent": "weaponDryFire",
-                "soundName": "lev.dryfire"
-            }
-        ],
-		"weaponLoad": [
-            {
-                "soundEvent": "weaponLoad",
-                "soundName": "lev.nothing"
-            }
-        ],
-		"weaponInspect": [
-            {
-                "soundEvent": "weaponInspect",
-                "soundName": "lev.nothing"
-            }
-        ],
-		"weaponPreReload": [
-			{
-				"soundEvent": "weaponPreReload",
-				"soundName": "lev.mp42prerel"
-			}
-		],
-		"weaponReload": [
-			{
-				"soundEvent": "weaponReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponReloadSecond": [
-			{
-				"soundEvent": "weaponReloadSecond",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPostReload": [
-			{
-				"soundEvent": "weaponPostReload",
-				"soundName": "lev.nothing"
-			}
-		],
-		"weaponPreReloadEmpty": [
-			{
-				"soundEvent": "weaponPreReloadEmpty",
-				"soundName": "lev.mg42fullrel"
-			}
-		],
-		"weaponPostReloadEmpty": [
-			{
-				"soundEvent": "weaponPostReloadEmpty",
-				"soundName": "lev.nothing"
-			}
-		]
-    },
-    "acceptedAttachments": {
-        "charm": [
-		"lev.mg34patronentrommel"
-        ]
-    },
-  "defaultAttachments": {
+  "gunDamage": 1.0,
+  "gunDamageHeadshotBonus": 0.5,
+  "gunPenetrateSize": 3.0,
+  "gunPenetrationDamageFalloff": true,
+  "gunMaxPenetrateBlockResistance": 0.5,
+  "gunPenetrateBlocksResistance": 1.0,
+  "roundsPerMin": 900,
+  "gunHoldLength": 1.8,
+  "useNewRecoilSystem": true,
+  "useEnhancedAiming": true,
+  "recoilPitch": 8.8,
+  "recoilYaw": 235.0,
+  "randomRecoilPitch": 0.01,
+  "randomRecoilYaw": 0.03,
+  "antiRecoilFactor": 15.0,
+  "antiRecoilStartTime": 10,
+  "bulletSpread": 2.4,
+  "accuracySneakFactor": 0.5,
+  "accuracyAimFactor": 0.1,
+  "accuracyCrawlFactor": 0.5,
+  "recoilCrawlYawFactor": 0.5,
+  "recoilCrawlPitchFactor": 0.2,
+  "weaponMaxRange": 300,
+  "weaponEffectiveRange": 160,
+  "allowSprintFiring": false,
+  "allowReloadFiring": false,
+  "allowReloadSprint": true,
+  "allowAimingSprint": false,
+  "modifyUnloadBullets": 0,
+  "moveSpeedModifier": 0.9,
+  "fireModes": [
+    "full"
+  ],
+  "acceptedAmmo": [
+    "lev.gurttrommel34"
+  ],
+  "allowEmptyMagazines": true,
+  "dropBulletCasing": true,
+  "shellEjectOffsetNormal": {
+    "x": 0,
+    "y": -20,
+    "z": -20
   },
-    "modelSkins": [
-        {
-            "internalName": "lev.mg42",
-            "skinAsset": "lev.mg42",
-            "displayName": "Default",
-            "textures": ["basic","specular","normal"]
-        }
+  "shellEjectOffsetAiming": {
+    "x": -0.2,
+    "y": 0.12,
+    "z": 0.5
+  },
+  "weaponSoundMap": {
+    "weaponFire": [
+      {
+        "soundEvent": "weaponFire",
+        "soundName": "lev.mg42shoot",
+        "soundNameDistant": "lev.mg42shootfar",
+        "soundRange": 100,
+        "soundMaxRange": 160,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponFireSuppressed": [
+      {
+        "soundEvent": "weaponFireSuppressed",
+        "soundName": "lev.pkpsupshoot",
+        "soundRange": 70,
+        "soundMaxRange": 70,
+        "soundFadeMultiplier": 1
+      }
+    ],
+    "weaponDraw": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.mg42draw"
+      }
+    ],
+    "weaponDrawEmpty": [
+      {
+        "soundEvent": "weaponDrawEmpty",
+        "soundName": "lev.mg42drawempty"
+      }
+    ],
+    "weaponTakedown": [
+      {
+        "soundEvent": "weaponDraw",
+        "soundName": "lev.mg42takedown"
+      }
+    ],
+    "weaponPreUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.mg42unload"
+      }
+    ],
+    "weaponUnload": [
+      {
+        "soundEvent": "weaponUnload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "inspect": [
+      {
+        "soundEvent": "inspect",
+        "soundName": "lev.mg42inspect"
+      }
+    ],
+    "inspectEmpty": [
+      {
+        "soundEvent": "inspectEmpty",
+        "soundName": "lev.mg42inspectempty"
+      }
+    ],
+    "weaponPreLoad": [
+      {
+        "soundEvent": "weaponPreLoad",
+        "soundName": "lev.mg42load"
+      }
+    ],
+    "weaponDryFire": [
+      {
+        "soundEvent": "weaponDryFire",
+        "soundName": "lev.dryfire"
+      }
+    ],
+    "weaponLoad": [
+      {
+        "soundEvent": "weaponLoad",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponInspect": [
+      {
+        "soundEvent": "weaponInspect",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreReload": [
+      {
+        "soundEvent": "weaponPreReload",
+        "soundName": "lev.mp42prerel"
+      }
+    ],
+    "weaponReload": [
+      {
+        "soundEvent": "weaponReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponReloadSecond": [
+      {
+        "soundEvent": "weaponReloadSecond",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPostReload": [
+      {
+        "soundEvent": "weaponPostReload",
+        "soundName": "lev.nothing"
+      }
+    ],
+    "weaponPreReloadEmpty": [
+      {
+        "soundEvent": "weaponPreReloadEmpty",
+        "soundName": "lev.mg42fullrel"
+      }
+    ],
+    "weaponPostReloadEmpty": [
+      {
+        "soundEvent": "weaponPostReloadEmpty",
+        "soundName": "lev.nothing"
+      }
     ]
+  },
+  "acceptedAttachments": {
+    "charm": [
+      "lev.mg34patronentrommel"
+    ]
+  },
+  "defaultAttachments": {},
+  "modelSkins": [
+    {
+      "internalName": "lev.mg42",
+      "skinAsset": "lev.mg42",
+      "displayName": "Default",
+      "textures": [
+        "basic",
+        "specular",
+        "normal"
+      ]
+    }
+  ]
 }

@@ -1,0 +1,47 @@
+DregoraRL SRP Manhunt 3.10.70 — RELEASE VALIDATION
+
+RESULT: PASS (static source/preset validation)
+
+ROOT CAUSE FIXED
+- Restored missing bundled map.png.
+- Restored BiomeMode: FromImage.
+- Registered all 16 Manhunt custom biomes.
+- Restored unique FromImage colors.
+- Removed SpawnPointSet / Java override of OTG IsSpawnPoint.
+- CityGrid is guaranteed by Frequency 1 and manhunt_city:313 uniqueness.
+
+FROMIMAGE
+- map.png: 2504 x 2504 indexed PNG.
+- exact known colors: 22; unknown colors: 0.
+- duplicate BiomeColor values across 81 biome configs: 0.
+- image orientation: North.
+- image offsets: -1252 / -1252.
+- playable border: 10,000-block diameter.
+- Ruins of Blight city-core pixels: 439,376.
+
+CITY
+- positive CityGrid owner: Ruins of Blight only, chance 100.
+- all other overworld CityGrid references remain chance 0 for branch crossing.
+- CityGrid: Frequency 1; BO3Group manhunt_city:313; IsSpawnPoint true.
+- mandatory FC-CityMacro NORTH branch present.
+- reachable CityGrid graph objects: 702.
+- roads, bypass, highways, service spurs, outskirts and metro remain in the graph.
+
+INTEGRITY
+- BO4 files: 1,920.
+- parsed branch targets: 2,158.
+- missing branch targets: 0.
+- stale BO4Data files: 0.
+- JAR files in full source: 0.
+- Python map generator and release validator compile successfully.
+- Java source brace/signature checks: PASS.
+
+BUILD LIMITATION
+- A Forge/OTG runtime launch and Gradle compile cannot be completed in this
+  environment because the project intentionally contains no Gradle wrapper JAR
+  and no system Gradle/Forge dependency cache is available.
+
+TEST REQUIREMENT
+- Version 3.10.70 replaces the installed preset directory on update.
+- Create a completely new OTG world. Existing chunks and OTG structure caches
+  cannot receive the restored map or CityGrid placement retroactively.

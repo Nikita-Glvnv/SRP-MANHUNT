@@ -1,0 +1,12 @@
+3.10.28
+- audited faction encounter separation
+- moved military bunker/NPP roots out of Nuclear Blight infected territory
+- removed ambient SRParasites spawn from Rocky Plains military territory
+- added persistent bunker military-zone anchors that suppress ambient husks/zombies/parasites
+- ensured every procedural and classic bunker family reaches an MCHeli foot-garrison marker
+- removed vanilla skeleton fallback for generated military garrisons
+- replaced foot-gunner arrow surrogate with real MCHeli mg7_62mm / m60_r weapon fire
+- added safe floor/air-volume placement for foot gunners
+- removed Polluted Ocean from normal biome-group selection
+- added ocean-spawn relocation guard and login backup guard
+- preserved Quarry skeleton/wither-skeleton restoration from 3.10.27

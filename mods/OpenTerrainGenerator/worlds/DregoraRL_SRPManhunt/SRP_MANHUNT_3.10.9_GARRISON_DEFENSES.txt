@@ -1,0 +1,154 @@
+DregoraRL: SRP Manhunt Edition 3.10.9
+Autonomous garrisons and defended-structure cleanup
+
+ACTIVE RANDOM BIOMES
+- Nuclear Ruins: infected megacity and skyscrapers.
+- Ruins of Blight: infected megacity with SRParasites overgrowth.
+- Nuclear Blight: bunkers, factories, power infrastructure and nuclear sites.
+- Wasteland: ruined buildings, shelters, antennas and industry.
+- Rocky Plains: radio telescope, laboratories, protected dungeons and Brutal Tower.
+- Polluted Ocean: oil rigs and underwater industrial bases.
+
+GENERATION SAFETY
+- The six-biome post-apocalyptic generation graph is unchanged from 3.10.8.
+- Every vanilla structure setting, WorldConfig switch and structure distance is
+  unchanged from 3.10.8.
+- CustomStructure and Branch references still resolve to the retained objects;
+  no structure root, branch, biome or vanilla structure was removed.
+- All 417 fixed BO3/BO4 MOB_SPAWNER placements and all 384 RandomBlock
+  spawner alternatives remain present at their original coordinates.
+- All structure-specific loot tables and active chest-NBT mappings are unchanged.
+
+DEFENDED-STRUCTURE MOB CLEANUP
+- Protected areas are military bunkers, Radio Telescope, Nuclear Power Plant,
+  Dungeons 01-03 and Brutal Tower.
+- The 78 ordinary Brutal Tower spawners, 64 ordinary dungeon spawners and
+  20 Nuclear Power Plant spawners remain physically present.
+- Those 162 non-boss placements now point to dormant ordinary-vanilla spawner
+  payloads: SpawnCount is zero, all delays are 32767 ticks, and the inert
+  SpawnData fallback is minecraft:pig without equipment, effects, attributes or
+  modified health.
+- Thirteen plain wither-skeleton Entity(...) encounters in Dungeons 01-02 were
+  removed from generation and replaced with supported turret or foot-garrison
+  markers.
+- Parasite encounter marker kinds 8 and 9 no longer occur in the preset. Their
+  runtime handlers are also converted to defenders so an unconsumed legacy
+  marker in an already-generated chunk cannot recreate an infected squad.
+- Forty protected Dungeon and Brutal Tower boss NBT files remain byte-for-byte
+  identical to 3.10.8. Boss spawners, boss Entity(...) records, boss health and
+  boss loot are not changed.
+
+AUTONOMOUS MCHeli FOOT GARRISON
+- Marker kind 13 creates a configurable squad of actual MCHeli CE 1.5
+  MCH_EntityGunner entities without mounting them in a vehicle.
+- MCHeli's native gunner is seat-bound and has no navigator. The generated role
+  therefore supplies a lightweight server AI for persistence, local
+  floor-aware patrol movement, obstacle jumping, pursuit/spacing, target
+  visibility, aiming and ranged attacks.
+- Foot gunners patrol around their structure marker, move toward distant targets,
+  back away at very close range and fire only with direct line of sight.
+- Their non-pickup vanilla projectiles are capped at a three-second lifetime so
+  missed shots cannot accumulate around a loaded garrison.
+- They have no generated armor, held-item NBT, potion effects, attribute
+  modifiers or changed maximum health.
+- If MCHeli is absent or a gunner cannot spawn, the existing lightweight vanilla
+  ranged-guard fallback remains available.
+
+EXPANDED DEFENSE MAP
+- 50 encounter markers now exist across the retained structures and city roads.
+- 16 marker-kind-13 foot-garrison positions were added or converted.
+- Military bunkers have 18 positions covering tanks, four turret types and
+  mobile foot garrisons.
+- Brutal Tower has eight defense positions: its protected boss helicopter,
+  guard helicopter, minigun, laser, shotgun, flamethrower and two foot squads.
+- Dungeons 01-03 have 15 defense positions replacing their ordinary hostile
+  encounters while preserving their bosses and dormant spawner blocks.
+- Nuclear Power Plant replaces its infected squads with an M1A2 defense vehicle,
+  a minigun turret and a mobile foot squad.
+- Radio Telescope retains its tank, helicopter and turret and now resolves its
+  guard marker to actual MCHeli foot gunners when MCHeli is present.
+- Existing city patrol tanks and rare parked/fueled cars remain unchanged.
+
+UNIFIED DEFENSE TARGET POLICY
+- SRPCotesia remains authoritative for Vagrant state through
+  ParasitePlayer.isParasite; there is no scoreboard or team-name fallback.
+- Generated turrets, all mounted vehicle/helicopter gunners, city patrol gunners,
+  vanilla fallback guards and foot garrisons share the same target policy.
+- Valid targets are:
+  * SRPCotesia Vagrant players.
+  * Living entities registered in the srparasites namespace.
+  * Ordinary hostile minecraft entities whose class implements IMob.
+- Ordinary human players, passive mobs, neutral Endermen/Zombie Pigmen,
+  generated defenders and every entity reporting vanilla/modded boss status
+  are excluded.
+- Elder Guardians and Wither Skeletons are also excluded so the retained
+  dungeon and Brutal Tower boss encounters cannot be mistaken for ordinary
+  hostile vanilla mobs.
+- Turret Mod receives a static registry whitelist for SRParasites and hostile
+  vanilla entity IDs, plus a dynamically refreshed Vagrant-player whitelist.
+- Generated-defender tags are denied during Turret Mod target checks, checked
+  again by the common living-target guard, and protected by a final
+  non-approved-damage cancellation layer to prevent garrison friendly fire.
+
+TURRET MOD REBIRTH BETA 4.6
+- Minigun ammunition: MGSHELL.
+- Laser ammunition: FLUXCELL.
+- Shotgun ammunition: SGSHELL.
+- Flamethrower ammunition: FUELTANK.
+- Generated turrets remain whitelisted and automatically supplied with their
+  matching ammunition.
+
+MCHeli CE 1.5 VEHICLES
+- Military and city M1A2 tanks retain generated mounted gunners.
+- Guard and boss helicopters retain generated mounted gunners.
+- Loaded military vehicles keep the existing chance/spacing controls.
+- Parked bnr32/growler cars remain rare; only the configured fraction receives
+  20-70 percent fuel.
+
+CONTEXTUAL LOOT
+- Megacity homes and ordinary floors retain urban/residential loot.
+- Infected city caches retain infected loot.
+- Laboratories, military sites and strategic structures retain their matching
+  Manhunt tiers.
+- Underwater Base and Deep Tunnels retain their contextual table mappings.
+- Boss and protected dungeon loot is unchanged.
+
+OPTIONAL INTEGRATIONS
+- SRPCotesia 1.3.4h1: authoritative Vagrant state.
+- Turret Mod Rebirth beta 4.6: four generated turret variants.
+- MCHeli CE 1.5: tanks, cars, helicopters and actual foot-gunner entities.
+- SRParasites: hostile entity registry namespace and world theming.
+
+The runtime bridges remain reflection-safe for optional vehicle and turret mods.
+A missing integration uses the existing safe fallback and never broadens the
+human-player target list.
+
+CONFIGURATION
+Generated after first launch:
+config/dregorarl_srpmanhunt.cfg
+
+encounters.Enable generated encounters = true
+encounters.Vagrant boss helicopter health = 1400
+encounters.Vagrant boss helicopter type = mi28
+encounters.Vagrant guard helicopter type = mi-24
+encounters.Vagrant guard tank type = m1a2
+
+military defenses.Military vehicle marker chance percent = 65
+military defenses.Minimum military vehicle spacing = 72
+military defenses.Foot gunners per marker = 2
+military defenses.Foot gunner target range = 96
+military defenses.Foot gunner firing range = 48
+military defenses.Foot gunner shot cooldown ticks = 24
+military defenses.Foot gunner shot damage = 6
+military defenses.Foot gunner patrol radius = 18
+military defenses.Foot gunner move speed percent = 100
+
+city vehicles.City patrol tank type = m1a2
+city vehicles.Parked car types = bnr32,growler
+city vehicles.City patrol marker chance percent = 12
+city vehicles.Minimum city patrol spacing = 144
+city vehicles.City patrol route radius = 28
+city vehicles.City patrol throttle percent = 32
+city vehicles.Parked car marker chance percent = 24
+city vehicles.Minimum parked car spacing = 64
+city vehicles.Fueled parked car chance percent = 20

@@ -1,0 +1,408 @@
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            BO4 object                           | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Author: NLBlackEagle
+
+Description: No description given
+
+SettingsMode: WriteWithoutComments
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                          Main settings                          | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+FixedRotation: 
+
+Frequency: 0
+
+SpawnHeight: highestBlock
+
+UseCenterForHighestBlock: true
+
+##############################
+# Height Limits for the BO4. #
+##############################
+
+MinHeight: 0
+
+MaxHeight: 255
+
+InheritBO3: 
+
+InheritBO3Rotation: NORTH
+
+OverrideChildSettings: true
+
+OverrideParentHeight: false
+
+CanOverride: true
+
+BranchFrequency: 0
+
+BranchFrequencyGroup: 
+
+MustBeBelowOther: false
+
+MustBeInside: 
+
+CannotBeInside: 
+
+ReplacesBO3: 
+
+MustBeInsideWorldBorders: true
+
+CanSpawnOnWater: true
+
+SpawnOnWaterOnly: false
+
+SpawnUnderWater: false
+
+SpawnAtWaterLevel: false
+
+HeightOffset: 0
+
+RemoveAir: false
+
+ReplaceAbove: 
+
+ReplaceBelow: STONE:6
+
+ReplaceWithBiomeBlocks: false
+
+ReplaceWithSurfaceBlock: GRASS
+
+ReplaceWithGroundBlock: DIRT
+
+ReplaceWithStoneBlock: STONE
+
+SmoothRadius: 0
+
+SmoothHeightOffset: 0
+
+SmoothStartTop: false
+
+SmoothStartWood: false
+
+SmoothingSurfaceBlock: 
+
+SmoothingGroundBlock: 
+
+BO3Group: 
+
+IsSpawnPoint: false
+
+DoReplaceBlocks: true
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                              Blocks                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+Block(-8,14,-2,SMOOTH_STAIRS:4)
+Block(-8,14,5,SMOOTH_STAIRS:4)
+Block(-8,15,-2,SMOOTH_STAIRS:0)
+Block(-8,15,5,SMOOTH_STAIRS:0)
+Block(-8,18,-2,CONCRETE:7)
+Block(-8,18,5,CONCRETE:7)
+Block(-8,21,-1,IRON_FENCE:0)
+Block(-8,21,0,STEP:8)
+Block(-8,21,3,STEP:0)
+Block(-8,21,4,IRON_FENCE:0)
+Block(-8,23,0,STEP:0)
+Block(-8,23,3,STEP:8)
+Block(-8,25,0,STEP:8)
+Block(-8,25,3,STEP:0)
+Block(-8,26,0,CONCRETE:7)
+Block(-8,26,3,CONCRETE:7)
+Block(-8,28,0,STEP:0)
+Block(-8,28,3,STEP:8)
+Block(-8,30,0,CONCRETE:7)
+Block(-8,30,3,CONCRETE:7)
+Block(-8,31,0,IRON_FENCE)
+Block(-8,31,1,CONCRETE:7)
+Block(-8,31,2,CONCRETE:7)
+Block(-8,31,3,IRON_FENCE)
+Block(-8,32,0,IRON_FENCE:0)
+Block(-8,32,1,IRON_FENCE)
+Block(-8,32,2,IRON_FENCE)
+Block(-8,32,3,IRON_FENCE:0)
+Block(-8,33,1,CONCRETE:7)
+Block(-8,33,2,CONCRETE:7)
+Block(-8,34,0,IRON_FENCE:0)
+Block(-8,34,1,IRON_FENCE)
+Block(-8,34,2,IRON_FENCE)
+Block(-8,34,3,IRON_FENCE:0)
+Block(-8,35,1,CONCRETE:7)
+Block(-8,35,2,CONCRETE:7)
+Block(-8,36,1,CONCRETE:7)
+Block(-8,36,2,CONCRETE:7)
+Block(-8,37,0,IRON_FENCE:0)
+Block(-8,37,1,IRON_FENCE)
+Block(-8,37,2,IRON_FENCE)
+Block(-8,37,3,IRON_FENCE:0)
+Block(-8,38,1,CONCRETE:7)
+Block(-8,38,2,CONCRETE:7)
+Block(-8,39,0,IRON_FENCE:0)
+Block(-8,39,1,IRON_FENCE)
+Block(-8,39,2,IRON_FENCE)
+Block(-8,39,3,IRON_FENCE:0)
+Block(-8,40,1,CONCRETE:7)
+Block(-8,40,2,CONCRETE:7)
+Block(-8,41,0,IRON_FENCE:0)
+Block(-8,41,1,IRON_FENCE)
+Block(-8,41,2,IRON_FENCE)
+Block(-8,42,1,CONCRETE:7)
+Block(-8,42,2,CONCRETE:7)
+Block(-8,43,0,IRON_FENCE:0)
+Block(-8,43,1,IRON_FENCE)
+Block(-8,43,2,IRON_FENCE)
+Block(-8,43,3,IRON_FENCE:0)
+Block(-8,44,1,CONCRETE:7)
+Block(-8,44,2,CONCRETE:7)
+Block(-8,45,1,CONCRETE:7)
+Block(-8,45,2,CONCRETE:7)
+Block(-8,46,1,COBBLE_WALL:0)
+Block(-8,46,2,COBBLE_WALL:0)
+Block(-8,47,2,COBBLE_WALL:0)
+Block(-8,48,1,IRON_FENCE:0)
+Block(-8,48,2,IRON_FENCE:0)
+Block(-8,49,1,IRON_FENCE:0)
+Block(-8,49,2,IRON_FENCE:0)
+Block(-7,13,-2,STEP:8)
+Block(-7,13,5,STEP:8)
+Block(-7,14,-2,STEP:0)
+Block(-7,14,5,STEP:0)
+Block(-7,15,-2,STEP:8)
+Block(-7,15,5,STEP:8)
+Block(-7,16,-2,STEP:0)
+Block(-7,16,5,STEP:0)
+Block(-7,18,-2,CONCRETE:7)
+Block(-7,18,5,CONCRETE:7)
+Block(-7,21,-1,IRON_FENCE:0)
+Block(-7,21,0,CONCRETE:7)
+Block(-7,21,1,STEP:0)
+Block(-7,21,2,STEP:8)
+Block(-7,21,3,CONCRETE:7)
+Block(-7,21,4,IRON_FENCE:0)
+Block(-7,22,0,CONCRETE:7)
+Block(-7,22,3,CONCRETE:7)
+Block(-7,23,0,CONCRETE:7)
+Block(-7,23,1,STEP:8)
+Block(-7,23,2,STEP:0)
+Block(-7,23,3,CONCRETE:7)
+Block(-7,24,0,CONCRETE:7)
+Block(-7,24,3,CONCRETE:7)
+Block(-7,25,0,CONCRETE:7)
+Block(-7,25,1,STEP:0)
+Block(-7,25,2,STEP:8)
+Block(-7,25,3,CONCRETE:7)
+Block(-7,26,0,CONCRETE:7)
+Block(-7,26,1,CONCRETE:7)
+Block(-7,26,3,CONCRETE:7)
+Block(-7,27,0,CONCRETE:7)
+Block(-7,27,3,CONCRETE:7)
+Block(-7,28,0,CONCRETE:7)
+Block(-7,28,1,STEP:8)
+Block(-7,28,2,STEP:0)
+Block(-7,28,3,CONCRETE:7)
+Block(-7,29,0,CONCRETE:7)
+Block(-7,29,3,CONCRETE:7)
+Block(-7,30,0,IRON_FENCE)
+Block(-7,30,1,CONCRETE:7)
+Block(-7,30,2,CONCRETE:7)
+Block(-7,30,3,IRON_FENCE)
+Block(-7,31,0,IRON_FENCE)
+Block(-7,31,1,IRON_FENCE)
+Block(-7,31,2,IRON_FENCE)
+Block(-7,31,3,IRON_FENCE)
+Block(-7,32,1,STEP:8)
+Block(-7,32,2,STEP:8)
+Block(-7,33,1,IRON_FENCE)
+Block(-7,33,2,IRON_FENCE)
+Block(-7,34,1,STEP:8)
+Block(-7,34,2,STEP:8)
+Block(-7,35,1,IRON_FENCE)
+Block(-7,35,2,IRON_FENCE)
+Block(-7,37,1,STEP:8)
+Block(-7,37,2,STEP:8)
+Block(-7,38,1,IRON_FENCE)
+Block(-7,38,2,IRON_FENCE)
+Block(-7,39,1,STEP:8)
+Block(-7,39,2,STEP:8)
+Block(-7,40,1,IRON_FENCE)
+Block(-7,40,2,IRON_FENCE)
+Block(-7,41,1,STEP:8)
+Block(-7,41,2,STEP:8)
+Block(-7,42,1,IRON_FENCE)
+Block(-7,42,2,IRON_FENCE)
+Block(-7,43,1,STEP:8)
+Block(-7,43,2,STEP:8)
+Block(-7,44,1,IRON_FENCE)
+Block(-7,44,2,IRON_FENCE)
+Block(-6,13,-2,SMOOTH_STAIRS:4)
+Block(-6,13,5,SMOOTH_STAIRS:4)
+Block(-6,16,-2,SMOOTH_STAIRS:0)
+Block(-6,16,5,SMOOTH_STAIRS:0)
+Block(-6,18,-2,CONCRETE:7)
+Block(-6,18,5,CONCRETE:7)
+Block(-6,19,-1,CONCRETE:7)
+Block(-6,19,4,CONCRETE:7)
+Block(-6,20,-1,CONCRETE:7)
+Block(-6,20,4,CONCRETE:7)
+Block(-6,21,-1,CONCRETE:7)
+Block(-6,21,0,IRON_FENCE:0)
+Block(-6,21,1,IRON_FENCE:0)
+Block(-6,21,2,IRON_FENCE:0)
+Block(-6,21,4,CONCRETE:7)
+Block(-6,33,1,STEP:0)
+Block(-6,33,2,STEP:0)
+Block(-6,34,1,STEP:0)
+Block(-6,34,2,STEP:0)
+Block(-6,38,1,STEP:0)
+Block(-6,38,2,STEP:0)
+Block(-6,39,1,STEP:0)
+Block(-6,39,2,STEP:0)
+Block(-6,42,1,STEP:0)
+Block(-6,42,2,STEP:0)
+Block(-6,43,1,STEP:0)
+Block(-6,43,2,STEP:0)
+Block(-5,2,-2,CONCRETE:7)
+Block(-5,2,5,CONCRETE:7)
+Block(-5,3,-2,CONCRETE:7)
+Block(-5,3,5,CONCRETE:7)
+Block(-5,4,-2,CONCRETE:7)
+Block(-5,4,5,CONCRETE:7)
+Block(-5,5,-2,CONCRETE:7)
+Block(-5,5,5,CONCRETE:7)
+Block(-5,6,-2,CONCRETE:7)
+Block(-5,6,5,CONCRETE:7)
+Block(-5,7,-2,CONCRETE:7)
+Block(-5,7,5,CONCRETE:7)
+Block(-5,8,-2,CONCRETE:7)
+Block(-5,8,5,CONCRETE:7)
+Block(-5,9,-2,CONCRETE:7)
+Block(-5,9,5,CONCRETE:7)
+Block(-5,10,-2,CONCRETE:7)
+Block(-5,10,5,CONCRETE:7)
+Block(-5,11,-2,CONCRETE:7)
+Block(-5,11,5,CONCRETE:7)
+Block(-5,12,-2,CONCRETE:7)
+Block(-5,12,5,CONCRETE:7)
+Block(-5,13,-2,CONCRETE:7)
+Block(-5,13,-1,SMOOTH_STAIRS:7)
+Block(-5,13,0,STEP:8)
+Block(-5,13,3,STEP:8)
+Block(-5,13,4,SMOOTH_STAIRS:6)
+Block(-5,13,5,CONCRETE:7)
+Block(-5,14,-2,CONCRETE:7)
+Block(-5,14,0,STEP:0)
+Block(-5,14,1,SMOOTH_STAIRS:7)
+Block(-5,14,2,SMOOTH_STAIRS:6)
+Block(-5,14,3,STEP:0)
+Block(-5,14,5,CONCRETE:7)
+Block(-5,15,-2,CONCRETE:7)
+Block(-5,15,0,STEP:8)
+Block(-5,15,1,SMOOTH_STAIRS:3)
+Block(-5,15,2,SMOOTH_STAIRS:2)
+Block(-5,15,3,STEP:8)
+Block(-5,15,5,CONCRETE:7)
+Block(-5,16,-2,CONCRETE:7)
+Block(-5,16,-1,SMOOTH_STAIRS:3)
+Block(-5,16,0,STEP:0)
+Block(-5,16,3,STEP:0)
+Block(-5,16,4,SMOOTH_STAIRS:2)
+Block(-5,16,5,CONCRETE:7)
+Block(-5,17,-2,CONCRETE:7)
+Block(-5,17,5,CONCRETE:7)
+Block(-5,18,-2,IRON_FENCE:0)
+Block(-5,18,-1,CONCRETE:7)
+Block(-5,18,0,CONCRETE:7)
+Block(-5,18,1,CONCRETE:7)
+Block(-5,18,2,CONCRETE:7)
+Block(-5,18,3,CONCRETE:7)
+Block(-5,18,4,CONCRETE:7)
+Block(-5,18,5,IRON_FENCE:0)
+Block(-5,33,1,STEP:8)
+Block(-5,33,2,STEP:8)
+Block(-5,38,1,STEP:8)
+Block(-5,38,2,STEP:8)
+Block(-5,42,1,STEP:8)
+Block(-5,42,2,STEP:8)
+Block(-4,33,1,STEP:8)
+Block(-4,33,2,STEP:8)
+Block(-4,38,1,STEP:8)
+Block(-4,38,2,STEP:8)
+Block(-4,42,1,STEP:8)
+Block(-4,42,2,STEP:8)
+Block(-3,31,1,COBBLE_WALL:0)
+Block(-3,31,2,COBBLE_WALL:0)
+Block(-3,32,1,IRON_FENCE:0)
+Block(-3,32,2,IRON_FENCE:0)
+Block(-3,33,1,SMOOTH_STAIRS:4)
+Block(-3,33,2,SMOOTH_STAIRS:4)
+Block(-3,38,1,STEP:8)
+Block(-3,38,2,STEP:8)
+Block(-3,40,1,COBBLE_WALL:0)
+Block(-3,40,2,COBBLE_WALL:0)
+Block(-3,41,1,IRON_FENCE:0)
+Block(-3,41,2,IRON_FENCE:0)
+Block(-3,42,1,SMOOTH_STAIRS:4)
+Block(-3,42,2,SMOOTH_STAIRS:4)
+Block(-2,33,1,STEP:8)
+Block(-2,33,2,STEP:8)
+Block(-2,38,1,STEP:8)
+Block(-2,38,2,STEP:8)
+Block(-2,42,1,STEP:8)
+Block(-2,42,2,STEP:8)
+Block(-1,36,1,COBBLE_WALL:0)
+Block(-1,36,2,COBBLE_WALL:0)
+Block(-1,37,1,IRON_FENCE:0)
+Block(-1,37,2,IRON_FENCE:0)
+Block(-1,38,1,SMOOTH_STAIRS:4)
+Block(-1,38,2,SMOOTH_STAIRS:4)
+Block(0,38,1,STEP:8)
+Block(0,38,2,STEP:8)
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Branches                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Entities                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                            Particles                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             Spawners                            | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+
+
+#######################################################################
+# +-----------------------------------------------------------------+ #
+# |                             ModData                             | #
+# +-----------------------------------------------------------------+ #
+#######################################################################
+

@@ -1,9 +1,9 @@
 {
   "internalName": "lev.76251_m993",
   "maxStackSize": 50,
-  "bulletDamageFactor": 10.2,
+  "bulletDamageFactor": 42.4,
   "bulletAccuracyFactor": 1.13,
-  "bulletPenetrateFactor": 1.5,
+  "bulletPenetrateFactor": 15,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "7.62x51 M993",
   "renderBulletModel": true,

@@ -1,0 +1,87 @@
+DregoraRL SRP Manhunt 3.10.11 — faction clear-zone matrix
+
+CORE RULE
+A structure's valuable loot follows the faction that actually has to fight there.
+Friendly territory is not a profitable free-loot route. Low-value ambient junk may stay universal,
+but progression loot, boss rewards and high-tier caches follow the raid side.
+
+1) VAGRANT RAID ZONES — HUMAN/MILITARY DEFENDERS
+Structures:
+- Military Bunkers (both bunker structure sets)
+- Nuclear Power Plant
+- Radio Telescope
+
+Enemies:
+- MCHeli foot gunners / generated garrisons
+- Turret Mod defenses where markers exist
+- Guard tanks / military vehicles / helicopters where markers exist
+- Vanilla fallback guards only when optional military integrations cannot spawn
+
+Loot:
+- manhunt_vagrant_scrap: low-value Cotesia salvage
+- manhunt_military_common: Vagrant common Cotesia salvage
+- manhunt_military_rare: Vagrant rare Cotesia salvage
+- manhunt_strategic_cache: Vagrant strategic Cotesia cache
+- Human firearms/police-armory/industrial/generic high-value storage is removed from defended military sites.
+
+Boss:
+- Radio Telescope = MCHeli boss helicopter.
+- Boss/clear reward side = VAGRANT only.
+
+2) HUMAN RAID ZONES — PARASITE DEFENDERS
+Structures:
+- Infected megacity skyscrapers / parasite destruction-layer areas
+
+Enemies:
+- Existing SRParasites spawners remain the primary threat.
+- Principal 8x6 infected skyscraper contains one guaranteed Human-side parasite boss marker.
+
+Loot:
+- manhunt_infected_cache: human field supplies + compatible ammunition
+- manhunt_laboratory_common / laboratory_rare: human progression supplies + ammunition
+- manhunt_human_strategic_cache: human weapons/armor/ammunition strategic reward
+- Military/strategic Vagrant caches are removed from infected skyscrapers.
+- Ambient residential/junk/toilet/city-potion rolls may remain low-value universal scavenging; they are not the progression reward.
+
+Boss:
+- One of: Crux, Bogle, Flying Carrier, Overseer, Adapted Yelloweye.
+- Spawned once from the consumed encounter marker, not from an endlessly reusable boss spawner.
+- Boss/clear reward side = HUMAN only.
+
+3) NEUTRAL / COMMON RAID ZONES — ENEMIES OF BOTH FACTIONS
+Structures:
+- Dungeon 01
+- Dungeon 02
+- Dungeon 03
+- Brutal Tower
+
+Enemies:
+- Ordinary encounter markers/spawners use tagged vanilla hostile mobs.
+- Tagged neutral mobs actively reacquire the nearest player regardless of Human/Vagrant side.
+- Dungeon bosses are vanilla Wither Skeleton / Elder Guardian variants and count as neutral reward bosses.
+
+Loot:
+- neutral_common / neutral_rare / neutral_epic = vanilla resources usable by either faction.
+- No Human-only gun progression and no Vagrant-only Cotesia progression is required to make the zone worthwhile.
+
+Brutal Tower boss and completion:
+- Final boss = persistent Wither at the top-floor boss position.
+- Full-clear volume = 128 blocks horizontal / 192 blocks vertical.
+- Jackpot appears only after the Wither is killed and all tagged neutral tower mobs in the volume are gone.
+- Jackpot: guaranteed diamonds, emeralds and XP plus high-value vanilla rolls (Totem / Nether Star / Golden Apple / rare Elytra) and bulk resources.
+
+4) ORDINARY WORLD / LOW-VALUE COMMON SCAVENGING
+Structures not explicitly promoted to a faction raid remain normal exploration content.
+Their low-value generic loot does not grant a faction completion reward and is intentionally not treated as a replacement for military/infected raid progression.
+
+BOSS REWARD RULES
+- Human boss: direct killer must be non-Vagrant; remaining nearby parasites/hostile vanilla mobs block completion.
+- Vagrant boss: Vagrant eligibility is required; remaining generated defenders/hostile vanilla mobs block completion.
+- Neutral boss: either faction is eligible; remaining tagged neutral mobs block completion.
+- Existing persistent clear-marker/cooldown prevents repeated reward farming in the same cleared area.
+
+SPAWNER CONTROL
+- DregoraRL's 6-gunner / 48-block runtime area cap is removed.
+- The associated two config options are removed.
+- Reworked neutral spawners and retained garrison spawner payloads use MaxNearbyEntities=32767.
+- Population limiting is delegated to the modpack's dedicated spawner-control mod.

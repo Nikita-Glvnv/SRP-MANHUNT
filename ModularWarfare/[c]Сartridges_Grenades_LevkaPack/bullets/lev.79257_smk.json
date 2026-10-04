@@ -1,9 +1,9 @@
 {
   "internalName": "lev.79257_smk",
   "maxStackSize": 50,
-  "bulletDamageFactor": 9.1,
+  "bulletDamageFactor": 19.8,
   "bulletAccuracyFactor": 1.05,
-  "bulletPenetrateFactor": 1.5,
+  "bulletPenetrateFactor": 8,
   "bulletBlockPenetrateFactor": 3,
   "displayName": "7.92x57 S.m.K",
   "renderBulletModel": true,
